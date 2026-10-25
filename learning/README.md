@@ -10,6 +10,7 @@ Neon account progress through `integration.py`. One server runs the whole app.
 | `routes/lessons.py` | Lesson pages, answers and progression |
 | `routes/course.py` | Daily Dose, practice and final tests |
 | `routes/word_shooter.py` | Required missed-word support |
+| `routes/arcade.py` | Free shooter, independent of lesson completion |
 | `routes/word_match.py` | Matching boards and flips |
 | `routes/study.py` | Study time and daily goals |
 | `routes/shortcuts.py` | Existing activity shortcut URLs |
@@ -25,3 +26,6 @@ Neon account progress through `integration.py`. One server runs the whole app.
 Page URLs remain the same; Flask endpoint names begin with learning.
 Feature routes read content through repositories, not directly from JSON paths.
 See [integration](docs/INTEGRATION.md) and [debugging](docs/DEBUGGING.md).
+
+The public learning map shows guest levels 1–3, free-account levels 4–6, and
+membership levels 7–40. All 40 vocabulary sets are shared across es/fr/tl.

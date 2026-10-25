@@ -16,7 +16,7 @@
 <div class="game-page {{ 'game-page--menu' if shooter_level is none else 'game-page--playing' }}">
 
   <header class="game-header">
-    <a href="/menu" class="back-link">← Levels</a>
+    <a href="{{ '/games' if arcade else '/menu' }}" class="back-link">← {{ 'Free arcade' if arcade else 'Levels' }}</a>
     <div class="game-title">WORD SHOOTER</div>
     <div class="score-box">
       Score: <span id="score">0</span>
@@ -72,7 +72,7 @@
       {{ shooter_levels[shooter_level - 1].mastered }}
     </span>/{{ shooter_levels[shooter_level - 1].total }}
     PRACTICED
-    {% if course_return is defined %}<span>Required practice · Daily Dose resumes automatically</span>{% else %}<a href="{{ url_for('learning.word_shooter') }}">All Levels</a>{% endif %}
+    {% if course_return is defined %}<span>Required practice · Daily Dose resumes automatically</span>{% else %}<a href="{{ '/games' if arcade else url_for('learning.word_shooter') }}">{{ 'All word sets' if arcade else 'All Levels' }}</a>{% endif %}
   </div>
 
   <main id="gameArea" class="game-area">
@@ -128,7 +128,7 @@
         </button>
 
         {% if course_return is not defined %}
-        <a href="{{ url_for('learning.word_shooter') }}" class="menu-button">BACK TO LEVELS</a>
+        <a href="{{ '/games' if arcade else url_for('learning.word_shooter') }}" class="menu-button">{{ 'BACK TO ARCADE' if arcade else 'BACK TO LEVELS' }}</a>
         {% endif %}
 
         <a id="nextLevelButton"
@@ -166,8 +166,9 @@
         "level": shooter_level,
         "mastery": shooter_mastery,
         "total": game_words | length,
-        "answerUrl": course_answer if course_answer is defined else url_for("learning.word_shooter_answer"),
-        "levelsUrl": course_return if course_return is defined else url_for("learning.word_shooter"),
+        "arcade": arcade | default(false),
+        "answerUrl": url_for('learning.arcade_shooter_answer') if arcade else (course_answer if course_answer is defined else url_for("learning.word_shooter_answer")),
+        "levelsUrl": url_for('learning.arcade_shooter') if arcade else (course_return if course_return is defined else url_for("learning.word_shooter")),
         "returnUrl": course_return if course_return is defined else none,
         "hasNextLevel": shooter_level < (shooter_levels | length)
       } | tojson

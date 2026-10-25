@@ -1,4 +1,3 @@
-
 {
   "concept-0001": {
     "label": "house",
@@ -500,8 +499,6 @@
     "category": "kitchen_items",
     "image": "drinking-glass.png"
   },
-
-  
   "concept-0101": {
     "label": "soup",
     "category": "food_drink",
@@ -752,9 +749,6 @@
     "category": "actions",
     "image": "swim.png"
   },
-
-
-  
   "concept-0151": {
     "label": "jump",
     "category": "actions",
@@ -1004,7 +998,305 @@
     "label": "battery",
     "category": "objects",
     "image": "battery.png"
+  },
+  "concept-0201": {
+    "label": "one",
+    "category": "numbers",
+    "image": ""
+  },
+  "concept-0202": {
+    "label": "two",
+    "category": "numbers",
+    "image": ""
+  },
+  "concept-0203": {
+    "label": "three",
+    "category": "numbers",
+    "image": ""
+  },
+  "concept-0204": {
+    "label": "four",
+    "category": "numbers",
+    "image": ""
+  },
+  "concept-0205": {
+    "label": "five",
+    "category": "numbers",
+    "image": ""
+  },
+  "concept-0206": {
+    "label": "six",
+    "category": "numbers",
+    "image": ""
+  },
+  "concept-0207": {
+    "label": "seven",
+    "category": "numbers",
+    "image": ""
+  },
+  "concept-0208": {
+    "label": "eight",
+    "category": "numbers",
+    "image": ""
+  },
+  "concept-0209": {
+    "label": "nine",
+    "category": "numbers",
+    "image": ""
+  },
+  "concept-0210": {
+    "label": "ten",
+    "category": "numbers",
+    "image": ""
+  },
+  "concept-0211": {
+    "label": "hello",
+    "category": "greetings",
+    "image": ""
+  },
+  "concept-0212": {
+    "label": "goodbye",
+    "category": "greetings",
+    "image": ""
+  },
+  "concept-0213": {
+    "label": "thank you",
+    "category": "greetings",
+    "image": ""
+  },
+  "concept-0214": {
+    "label": "please",
+    "category": "greetings",
+    "image": ""
+  },
+  "concept-0215": {
+    "label": "yes",
+    "category": "greetings",
+    "image": ""
+  },
+  "concept-0216": {
+    "label": "no",
+    "category": "greetings",
+    "image": ""
+  },
+  "concept-0217": {
+    "label": "good morning",
+    "category": "greetings",
+    "image": ""
+  },
+  "concept-0218": {
+    "label": "good evening",
+    "category": "greetings",
+    "image": ""
+  },
+  "concept-0219": {
+    "label": "excuse me",
+    "category": "greetings",
+    "image": ""
+  },
+  "concept-0220": {
+    "label": "see you later",
+    "category": "greetings",
+    "image": ""
+  },
+  "concept-0221": {
+    "label": "happy",
+    "category": "feelings",
+    "image": ""
+  },
+  "concept-0222": {
+    "label": "sad",
+    "category": "feelings",
+    "image": ""
+  },
+  "concept-0223": {
+    "label": "tired",
+    "category": "feelings",
+    "image": ""
+  },
+  "concept-0224": {
+    "label": "hungry",
+    "category": "feelings",
+    "image": ""
+  },
+  "concept-0225": {
+    "label": "thirsty",
+    "category": "feelings",
+    "image": ""
+  },
+  "concept-0226": {
+    "label": "angry",
+    "category": "feelings",
+    "image": ""
+  },
+  "concept-0227": {
+    "label": "worried",
+    "category": "feelings",
+    "image": ""
+  },
+  "concept-0228": {
+    "label": "excited",
+    "category": "feelings",
+    "image": ""
+  },
+  "concept-0229": {
+    "label": "calm",
+    "category": "feelings",
+    "image": ""
+  },
+  "concept-0230": {
+    "label": "sick",
+    "category": "feelings",
+    "image": ""
+  },
+  "concept-0231": {
+    "label": "today",
+    "category": "time",
+    "image": ""
+  },
+  "concept-0232": {
+    "label": "tomorrow",
+    "category": "time",
+    "image": ""
+  },
+  "concept-0233": {
+    "label": "yesterday",
+    "category": "time",
+    "image": ""
+  },
+  "concept-0234": {
+    "label": "morning",
+    "category": "time",
+    "image": ""
+  },
+  "concept-0235": {
+    "label": "afternoon",
+    "category": "time",
+    "image": ""
+  },
+  "concept-0236": {
+    "label": "evening",
+    "category": "time",
+    "image": ""
+  },
+  "concept-0237": {
+    "label": "now",
+    "category": "time",
+    "image": ""
+  },
+  "concept-0238": {
+    "label": "later",
+    "category": "time",
+    "image": ""
+  },
+  "concept-0239": {
+    "label": "always",
+    "category": "time",
+    "image": ""
+  },
+  "concept-0240": {
+    "label": "sometimes",
+    "category": "time",
+    "image": ""
+  },
+  "concept-0241": {
+    "label": "and",
+    "category": "connectors",
+    "image": ""
+  },
+  "concept-0242": {
+    "label": "but",
+    "category": "connectors",
+    "image": ""
+  },
+  "concept-0243": {
+    "label": "because",
+    "category": "connectors",
+    "image": ""
+  },
+  "concept-0244": {
+    "label": "or",
+    "category": "connectors",
+    "image": ""
+  },
+  "concept-0245": {
+    "label": "also",
+    "category": "connectors",
+    "image": ""
+  },
+  "concept-0246": {
+    "label": "then",
+    "category": "connectors",
+    "image": ""
+  },
+  "concept-0247": {
+    "label": "before",
+    "category": "connectors",
+    "image": ""
+  },
+  "concept-0248": {
+    "label": "after",
+    "category": "connectors",
+    "image": ""
+  },
+  "concept-0249": {
+    "label": "with",
+    "category": "connectors",
+    "image": ""
+  },
+  "concept-0250": {
+    "label": "without",
+    "category": "connectors",
+    "image": ""
+  },
+  "concept-0251": {
+    "label": "where",
+    "category": "conversation",
+    "image": ""
+  },
+  "concept-0252": {
+    "label": "when",
+    "category": "conversation",
+    "image": ""
+  },
+  "concept-0253": {
+    "label": "why",
+    "category": "conversation",
+    "image": ""
+  },
+  "concept-0254": {
+    "label": "how",
+    "category": "conversation",
+    "image": ""
+  },
+  "concept-0255": {
+    "label": "who",
+    "category": "conversation",
+    "image": ""
+  },
+  "concept-0256": {
+    "label": "what",
+    "category": "conversation",
+    "image": ""
+  },
+  "concept-0257": {
+    "label": "I understand",
+    "category": "conversation",
+    "image": ""
+  },
+  "concept-0258": {
+    "label": "I don't understand",
+    "category": "conversation",
+    "image": ""
+  },
+  "concept-0259": {
+    "label": "more slowly",
+    "category": "conversation",
+    "image": ""
+  },
+  "concept-0260": {
+    "label": "again",
+    "category": "conversation",
+    "image": ""
   }
 }
-
-

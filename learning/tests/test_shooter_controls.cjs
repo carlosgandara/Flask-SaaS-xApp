@@ -8,6 +8,7 @@ class Element {
   setPointerCapture() {}
   getBoundingClientRect() {return {left:0,top:300,width:40,height:40};}
   appendChild(child) {this.children.push(child);}
+  remove() {}
 }
 const ids={};
 const document=new Element();
@@ -72,4 +73,14 @@ console.log('Shooter pointer controls: movement, firing, simultaneous touch, can
   assert.equal(vm.runInContext('starts',introContext),1);
   assert.equal(vm.runInContext('gameRunning',introContext),true);
   console.log('Required shooter: intro transition, no game-over after wrong shots, and automatic Daily Dose return passed.');
+  // Arcade rounds track their own streaks while the server stores cumulative history.
+  context.fetch=async(_url,options)=>({ok:true,async json(){return {ok:true,correct:JSON.parse(options.body).answer==='kape',stats:{correct:4,wrong:0}};}});
+  vm.runInContext('CONFIG.arcade=true; CONFIG.mastery=3; CONFIG.returnUrl=null; var arcadeWord={id:"coffee",answer:"kape",recall_streak:0,mastered:false}; WORDS.push(arcadeWord);',context);
+  for(let i=0;i<3;i++) await vm.runInContext('saveWordResult(arcadeWord,"kape")',context);
+  assert.equal(vm.runInContext('arcadeWord.mastered',context),true);
+  await vm.runInContext('saveWordResult(arcadeWord,"wrong")',context);
+  assert.equal(vm.runInContext('arcadeWord.recall_streak',context),0);
+  vm.runInContext('arcadeWord.mastered=true; arcadeWord.recall_streak=3; startRound=()=>{}; restartGame();',context);
+  assert.equal(vm.runInContext('arcadeWord.mastered',context),false);
+  console.log('Free arcade: three correct recalls, missed-answer streak reset, and replay reset passed.');
 })().catch(error=>{console.error(error);process.exitCode=1;});

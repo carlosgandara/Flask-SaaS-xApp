@@ -36,7 +36,8 @@ def init_diagnostics(app):
         g.request_id = secrets.token_hex(12)
         if app.config["APP_ENV"] == "production" and app.debug:
             return jsonify(error="Unsafe deployment configuration"), 503
-        if app.config["SCHEMA_CHECK"] and not app.extensions.get("schema_ready") and request.endpoint != "auth.static":
+        public_endpoint = (request.endpoint or '').startswith('site.') or request.endpoint in {'static', 'auth.static', 'auth.home'}
+        if app.config["SCHEMA_CHECK"] and not app.extensions.get("schema_ready") and not public_endpoint:
             if schema_problems():
                 return jsonify(error="Database schema needs an upgrade. Run flask --app app db-upgrade.", reference=g.request_id), 503
             app.extensions["schema_ready"] = True

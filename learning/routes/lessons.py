@@ -1,5 +1,5 @@
 """Lesson pages and answer submission."""
-from flask import render_template, redirect, url_for, request, jsonify
+from flask import render_template, redirect, url_for, request, jsonify, current_app
 from ..services.content import get_levels, get_all_lesson_words
 from ..services.progress import default_progress, get_progress, save_progress, progress_lock, progress_transaction
 from ..services.lesson_helpers import get_level, get_level_index, is_level_unlocked, pick_drill_words, find_first_step_for_word
@@ -133,6 +133,11 @@ def register_routes(bp):
         if not p.get("course", {}).get(p["level_id"], {}).get("passed", False):
             return redirect(url_for("learning.course.overview", level_id=p["level_id"]))
         next_id = levels[i + 1]["id"]
+        gate = current_app.config.get('LEARNING_LEVEL_GATE')
+        if gate:
+            response = gate(next_id)
+            if response is not None:
+                return response
         p["level_id"] = next_id
         p["step_index"] = 0
         save_progress(p)

@@ -25,7 +25,7 @@ def languages():
 
 
 def discover_languages(store=None):
-    return {code:langcodes.Language.get(code).display_name("en")
+    return {code:("Tagalog" if code == "tl" else langcodes.Language.get(code).display_name("en"))
             for code in (store or JsonContentStore(DATA_DIR)).list_languages()}
 
 

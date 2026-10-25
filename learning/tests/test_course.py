@@ -222,7 +222,7 @@ class CourseTests(unittest.TestCase):
             "part_of_speech":None, "pronunciation":None, "audio":None,
             "usage_notes":[], "forms":[]})
         self.assertEqual(vocabulary_entry({"translation":" kape ","accepted_answers":["kape", "alternate", "", None]})["accepted_answers"], ["kape", "alternate"])
-        for language, count in [("tl",200),("es",200),("fr",200)]:
+        for language, count in [("tl",260),("es",260),("fr",260)]:
             records=json.loads((content.DATA_DIR / f"languages/vocabulary/{language}.json").read_text(encoding="utf-8"))
             self.assertEqual(len(records),count)
             shared=json.loads((content.DATA_DIR / "concepts.json").read_text(encoding="utf-8"))
@@ -231,12 +231,14 @@ class CourseTests(unittest.TestCase):
                 self.assertEqual(set(item),{"translation","accepted_answers","example",
                                             "part_of_speech","pronunciation","audio","usage_notes","forms"})
                 self.assertIn(item["translation"], item["accepted_answers"])
-                self.assertEqual(set(item["example"]),{"text","translation"})
-                self.assertTrue(item["example"]["text"].strip())
-                self.assertTrue(item["example"]["translation"].strip())
-                self.assertTrue(item["audio"].startswith(f"audio/vocabulary/{language}/"))
-                self.assertTrue(item["audio"].endswith(".mp3"))
-                self.assertIn(item["part_of_speech"],{"noun","verb","adjective"})
+                if item['example'] is not None:
+                    self.assertEqual(set(item["example"]),{"text","translation"})
+                    self.assertTrue(item["example"]["text"].strip())
+                    self.assertTrue(item["example"]["translation"].strip())
+                if item['audio'] is not None:
+                    self.assertTrue(item["audio"].startswith(f"audio/vocabulary/{language}/"))
+                    self.assertTrue(item["audio"].endswith(".mp3"))
+                self.assertIn(item["part_of_speech"],{"noun","verb","adjective","number","phrase","adverb","connector"})
                 self.assertIsInstance(item["usage_notes"],list)
                 self.assertIsInstance(item["forms"],list)
             self.assertIsNotNone(records["concept-0011"]["example"])

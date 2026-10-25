@@ -224,6 +224,10 @@ async function saveWordResult(word, selectedAnswer) {
   }
 
   Object.assign(word, data.stats);
+  if (CONFIG.arcade) {
+    word.recall_streak = data.correct ? (word.recall_streak || 0) + 1 : 0;
+    word.mastered = word.recall_streak >= CONFIG.mastery;
+  }
 
   updateMasteredCount();
 
@@ -602,6 +606,9 @@ function finishLevel() {
 // RESTART
 
 function restartGame() {
+  if (CONFIG.arcade) {
+    WORDS.forEach(word => { word.recall_streak = 0; word.mastered = false; });
+  }
   score = 0;
   lives = 3;
   round = 1;

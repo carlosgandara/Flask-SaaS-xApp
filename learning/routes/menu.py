@@ -1,6 +1,6 @@
 """Language selection, menu and landing pages."""
 from datetime import date
-from flask import render_template, redirect, url_for, current_app
+from flask import render_template, redirect, url_for, current_app, request
 from ..services.content import current_language, language_name, languages, get_levels
 from ..services.progress import get_progress
 from ..services.lesson_helpers import level_status
@@ -20,13 +20,14 @@ def register_routes(bp, include_home=True):
     def select_language(language):
         if language not in languages():
             return "Unsupported language", 404
-        response = redirect(url_for("learning.menu"))
+        response = redirect('/games' if request.args.get('next') == 'games' else url_for("learning.menu"))
         response.set_cookie(
             "language",
             language,
             max_age=31536000,
             httponly=True,
-            samesite="Lax"
+            samesite="Lax",
+            secure=current_app.config.get('SESSION_COOKIE_SECURE', False),
         )
         return response
 
@@ -88,9 +89,16 @@ def register_routes(bp, include_home=True):
                                          "Start / continue lesson")
         today = date.today().isoformat()
         study = p["study"]
+        access = current_app.config.get('LEARNING_ACCESS_SUMMARY')
+        summary = access() if access else {'account':False, 'member':False}
+        for number, card in enumerate(levels_view, 1):
+            card['number'] = number
+            card['tier'] = 'Free to explore' if number <= 3 else 'Free account' if number <= 6 else 'Membership'
+            card['gate'] = 'account' if number >= 4 and not summary['account'] else 'member' if number >= 7 and not summary['member'] else None
         return render_template(
-            "learning/menu.html",
+            "learning/map.html" if current_app.config.get('LEARNING_PUBLIC_EXPERIENCE') else "learning/menu.html",
             levels=levels_view,
+            access=summary,
             study=study,
             today_seconds=study["days"].get(
                 today, 0

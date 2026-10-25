@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{% block title %}Despacio.ai — Little words. Big adventures.{% endblock %}</title>
+<meta name="description" content="Turn everyday phrases into little adventures. Explore 40 language quests in Spanish, French and Tagalog. Start three levels free; play games anytime.">
+<link rel="icon" href="{{ url_for('static',filename='site/favicon.svg') }}" type="image/svg+xml">
+<meta name="theme-color" content="#f8f3e8">
+<link rel="stylesheet" href="{{ url_for('static', filename='site/site.css') }}">
+{% block head %}{% endblock %}</head><body>
+<a class="skip-link" href="#main">Skip to content</a>
+{% include 'site/nav.html' %}
+<main id="main">{% block content %}{% endblock %}</main>
+<footer class="site-footer"><a class="logo" href="/">despacio.ai</a><p>Small steps. Real-world words. A little more adventure.</p><div><a href="/about">Our story</a><a href="/pricing">Free & membership</a><a href="/games">Free arcade</a></div><small>Learn at your pace. Progress, not instant fluency.</small></footer>
+</body></html>

@@ -1,5 +1,5 @@
 """Compatibility URLs for existing Daily Dose and Word Shooter links."""
-from flask import redirect, url_for, jsonify
+from flask import redirect, url_for, jsonify, request
 from ..services.progress import get_progress
 
 
@@ -16,7 +16,7 @@ def register_routes(bp):
 
     @bp.route("/word-shooter")
     def word_shooter():
-        return redirect(url_for("learning.course.shooter", level_id=get_progress()["level_id"]))
+        return redirect(url_for("learning.arcade_shooter", level=request.args.get('level', 1)))
 
 
     @bp.route("/word-shooter-answer", methods=["POST"])

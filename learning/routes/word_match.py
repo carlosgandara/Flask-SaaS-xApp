@@ -2,7 +2,7 @@
 import random
 import time
 from uuid import uuid4
-from flask import Blueprint, abort, jsonify, render_template, request
+from flask import Blueprint, abort, jsonify, render_template, request, current_app
 from ..services.matching import select_words
 
 
@@ -18,6 +18,8 @@ def register_word_match(app, services):
                 break
             allowed.append(level)
         level_id = request.args.get("level", progress.get("level_id"))
+        if current_app.config.get('LEARNING_ARCADE_OPEN'):
+            allowed = levels
         level = next((item for item in allowed if item["id"] == level_id), allowed[-1])
         return level, progress
 

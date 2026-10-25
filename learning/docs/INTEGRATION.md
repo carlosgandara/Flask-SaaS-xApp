@@ -19,11 +19,22 @@ reject concurrent overwrites. Content stays in versioned `learning/data` JSON by
 default; the content database adapter is available for a future explicit import.
 No local-user progress is automatically assigned to registered accounts.
 
-Verified users can learn when billing is disabled. With billing enabled, all
-learning pages and APIs require server-confirmed active membership. HTML requests
-recover expired sessions or redirect to pricing; APIs return 401/403. Static assets
-remain public. All learning mutations require the existing CSRF token and Origin.
-Learning clients share the account client's coordinated refresh and retry behavior.
+The integrated experience allows guest levels 1–3, verified-account levels 1–6,
+and membership levels 7–40. Lesson completion still controls sequential unlocking.
+Free Word Match and arcade Word Shooter use independent game history and cannot
+advance course mastery. Course-specific required shooter practice remains part of
+the lesson path.
+
+`AccountAndGuestProgress` routes verified integer user IDs to Neon, and server-issued
+signed-session guest IDs to temporary storage. Guests use shared Redis in production
+and bounded process memory locally (six-hour rolling expiry). A first-time account
+can import trial history for a language; existing account progress is never replaced.
+All guest and account mutations use the same CSRF and Origin checks.
+
+All 40 curriculum IDs map to ten distinct concepts with translations for es/fr/tl.
+The shared catalog contains 260 concepts per language. Newly added abstract concepts
+have no invented image or audio asset; the UI provides a text prompt instead.
+Practice and final question banks are checked for all 120 language-level combinations.
 
 The separate billing worker is required to apply signed webhook updates:
 

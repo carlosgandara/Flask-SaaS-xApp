@@ -3008,5 +3008,855 @@
       "Refers to an individual battery cell."
     ],
     "forms": []
+  },
+  "concept-0201": {
+    "translation": "uno",
+    "accepted_answers": [
+      "uno",
+      "una",
+      "un"
+    ],
+    "example": null,
+    "part_of_speech": "number",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0202": {
+    "translation": "dos",
+    "accepted_answers": [
+      "dos"
+    ],
+    "example": null,
+    "part_of_speech": "number",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0203": {
+    "translation": "tres",
+    "accepted_answers": [
+      "tres"
+    ],
+    "example": null,
+    "part_of_speech": "number",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0204": {
+    "translation": "cuatro",
+    "accepted_answers": [
+      "cuatro"
+    ],
+    "example": null,
+    "part_of_speech": "number",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0205": {
+    "translation": "cinco",
+    "accepted_answers": [
+      "cinco"
+    ],
+    "example": null,
+    "part_of_speech": "number",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0206": {
+    "translation": "seis",
+    "accepted_answers": [
+      "seis"
+    ],
+    "example": null,
+    "part_of_speech": "number",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0207": {
+    "translation": "siete",
+    "accepted_answers": [
+      "siete"
+    ],
+    "example": null,
+    "part_of_speech": "number",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0208": {
+    "translation": "ocho",
+    "accepted_answers": [
+      "ocho"
+    ],
+    "example": null,
+    "part_of_speech": "number",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0209": {
+    "translation": "nueve",
+    "accepted_answers": [
+      "nueve"
+    ],
+    "example": null,
+    "part_of_speech": "number",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0210": {
+    "translation": "diez",
+    "accepted_answers": [
+      "diez"
+    ],
+    "example": null,
+    "part_of_speech": "number",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0211": {
+    "translation": "hola",
+    "accepted_answers": [
+      "hola"
+    ],
+    "example": null,
+    "part_of_speech": "phrase",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0212": {
+    "translation": "adiós",
+    "accepted_answers": [
+      "adiós"
+    ],
+    "example": null,
+    "part_of_speech": "phrase",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0213": {
+    "translation": "gracias",
+    "accepted_answers": [
+      "gracias"
+    ],
+    "example": null,
+    "part_of_speech": "phrase",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0214": {
+    "translation": "por favor",
+    "accepted_answers": [
+      "por favor"
+    ],
+    "example": null,
+    "part_of_speech": "phrase",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0215": {
+    "translation": "sí",
+    "accepted_answers": [
+      "sí"
+    ],
+    "example": null,
+    "part_of_speech": "phrase",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0216": {
+    "translation": "no",
+    "accepted_answers": [
+      "no"
+    ],
+    "example": null,
+    "part_of_speech": "phrase",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0217": {
+    "translation": "buenos días",
+    "accepted_answers": [
+      "buenos días"
+    ],
+    "example": null,
+    "part_of_speech": "phrase",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0218": {
+    "translation": "buenas noches",
+    "accepted_answers": [
+      "buenas noches"
+    ],
+    "example": null,
+    "part_of_speech": "phrase",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0219": {
+    "translation": "disculpe",
+    "accepted_answers": [
+      "disculpe"
+    ],
+    "example": null,
+    "part_of_speech": "phrase",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0220": {
+    "translation": "hasta luego",
+    "accepted_answers": [
+      "hasta luego"
+    ],
+    "example": null,
+    "part_of_speech": "phrase",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0221": {
+    "translation": "feliz",
+    "accepted_answers": [
+      "feliz"
+    ],
+    "example": null,
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0222": {
+    "translation": "triste",
+    "accepted_answers": [
+      "triste"
+    ],
+    "example": null,
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0223": {
+    "translation": "cansado",
+    "accepted_answers": [
+      "cansado",
+      "cansada"
+    ],
+    "example": null,
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0224": {
+    "translation": "hambriento",
+    "accepted_answers": [
+      "hambriento",
+      "hambrienta"
+    ],
+    "example": null,
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0225": {
+    "translation": "sediento",
+    "accepted_answers": [
+      "sediento",
+      "sedienta"
+    ],
+    "example": null,
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0226": {
+    "translation": "enfadado",
+    "accepted_answers": [
+      "enfadado",
+      "enfadada"
+    ],
+    "example": null,
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0227": {
+    "translation": "preocupado",
+    "accepted_answers": [
+      "preocupado",
+      "preocupada"
+    ],
+    "example": null,
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0228": {
+    "translation": "emocionado",
+    "accepted_answers": [
+      "emocionado",
+      "emocionada"
+    ],
+    "example": null,
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0229": {
+    "translation": "tranquilo",
+    "accepted_answers": [
+      "tranquilo",
+      "tranquila"
+    ],
+    "example": null,
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0230": {
+    "translation": "enfermo",
+    "accepted_answers": [
+      "enfermo",
+      "enferma"
+    ],
+    "example": null,
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0231": {
+    "translation": "hoy",
+    "accepted_answers": [
+      "hoy"
+    ],
+    "example": null,
+    "part_of_speech": "adverb",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0232": {
+    "translation": "mañana",
+    "accepted_answers": [
+      "mañana"
+    ],
+    "example": null,
+    "part_of_speech": "adverb",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0233": {
+    "translation": "ayer",
+    "accepted_answers": [
+      "ayer"
+    ],
+    "example": null,
+    "part_of_speech": "adverb",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0234": {
+    "translation": "mañana",
+    "accepted_answers": [
+      "mañana"
+    ],
+    "example": null,
+    "part_of_speech": "adverb",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0235": {
+    "translation": "tarde",
+    "accepted_answers": [
+      "tarde"
+    ],
+    "example": null,
+    "part_of_speech": "adverb",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0236": {
+    "translation": "noche",
+    "accepted_answers": [
+      "noche"
+    ],
+    "example": null,
+    "part_of_speech": "adverb",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0237": {
+    "translation": "ahora",
+    "accepted_answers": [
+      "ahora"
+    ],
+    "example": null,
+    "part_of_speech": "adverb",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0238": {
+    "translation": "más tarde",
+    "accepted_answers": [
+      "más tarde"
+    ],
+    "example": null,
+    "part_of_speech": "adverb",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0239": {
+    "translation": "siempre",
+    "accepted_answers": [
+      "siempre"
+    ],
+    "example": null,
+    "part_of_speech": "adverb",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0240": {
+    "translation": "a veces",
+    "accepted_answers": [
+      "a veces"
+    ],
+    "example": null,
+    "part_of_speech": "adverb",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0241": {
+    "translation": "y",
+    "accepted_answers": [
+      "y"
+    ],
+    "example": null,
+    "part_of_speech": "connector",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0242": {
+    "translation": "pero",
+    "accepted_answers": [
+      "pero"
+    ],
+    "example": null,
+    "part_of_speech": "connector",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0243": {
+    "translation": "porque",
+    "accepted_answers": [
+      "porque"
+    ],
+    "example": null,
+    "part_of_speech": "connector",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0244": {
+    "translation": "o",
+    "accepted_answers": [
+      "o"
+    ],
+    "example": null,
+    "part_of_speech": "connector",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0245": {
+    "translation": "también",
+    "accepted_answers": [
+      "también"
+    ],
+    "example": null,
+    "part_of_speech": "connector",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0246": {
+    "translation": "entonces",
+    "accepted_answers": [
+      "entonces"
+    ],
+    "example": null,
+    "part_of_speech": "connector",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0247": {
+    "translation": "antes",
+    "accepted_answers": [
+      "antes"
+    ],
+    "example": null,
+    "part_of_speech": "connector",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0248": {
+    "translation": "después",
+    "accepted_answers": [
+      "después"
+    ],
+    "example": null,
+    "part_of_speech": "connector",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0249": {
+    "translation": "con",
+    "accepted_answers": [
+      "con"
+    ],
+    "example": null,
+    "part_of_speech": "connector",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0250": {
+    "translation": "sin",
+    "accepted_answers": [
+      "sin"
+    ],
+    "example": null,
+    "part_of_speech": "connector",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0251": {
+    "translation": "dónde",
+    "accepted_answers": [
+      "dónde"
+    ],
+    "example": null,
+    "part_of_speech": "phrase",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0252": {
+    "translation": "cuándo",
+    "accepted_answers": [
+      "cuándo"
+    ],
+    "example": null,
+    "part_of_speech": "phrase",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0253": {
+    "translation": "por qué",
+    "accepted_answers": [
+      "por qué"
+    ],
+    "example": null,
+    "part_of_speech": "phrase",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0254": {
+    "translation": "cómo",
+    "accepted_answers": [
+      "cómo"
+    ],
+    "example": null,
+    "part_of_speech": "phrase",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0255": {
+    "translation": "quién",
+    "accepted_answers": [
+      "quién"
+    ],
+    "example": null,
+    "part_of_speech": "phrase",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0256": {
+    "translation": "qué",
+    "accepted_answers": [
+      "qué"
+    ],
+    "example": null,
+    "part_of_speech": "phrase",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0257": {
+    "translation": "entiendo",
+    "accepted_answers": [
+      "entiendo"
+    ],
+    "example": null,
+    "part_of_speech": "phrase",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0258": {
+    "translation": "no entiendo",
+    "accepted_answers": [
+      "no entiendo"
+    ],
+    "example": null,
+    "part_of_speech": "phrase",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0259": {
+    "translation": "más despacio",
+    "accepted_answers": [
+      "más despacio"
+    ],
+    "example": null,
+    "part_of_speech": "phrase",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
+  },
+  "concept-0260": {
+    "translation": "otra vez",
+    "accepted_answers": [
+      "otra vez"
+    ],
+    "example": null,
+    "part_of_speech": "phrase",
+    "pronunciation": null,
+    "audio": null,
+    "usage_notes": [
+      "Forms can change with grammatical context. Practice them with the lesson phrases."
+    ],
+    "forms": []
   }
 }

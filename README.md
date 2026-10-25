@@ -3,18 +3,31 @@
 One Flask app combines language learning, verified accounts and subscription billing
 through Lemon Squeezy or Stripe. Accounts, subscriptions and per-account learning
 progress share the configured Neon/PostgreSQL database (`DATABASE_URL`). Lesson
-content remains versioned in `learning/data`; progress never uses local-user files
-in the integrated app.
+content remains versioned in `learning/data`. All 40 levels have shared ten-word
+vocabulary sets in Spanish, French and Tagalog (260 concepts per language).
+Account progress never uses local-user JSON files in the integrated app.
 
-After signing in, open `/dashboard` or `/menu`. When billing is enabled, a verified
-account needs an active membership to use learning pages and APIs. Without billing,
-verified accounts can learn for free. Membership is checked on the server; checkout
-return URLs never grant access. The billing worker must run for payment updates.
+Open `/` for the public landing page, `/menu` for the learning map, `/games` for
+the free arcade, `/pricing` for the access overview, or `/about` for the project story.
+The supplied hero image is stored at `static/site/indexmainpage.png`.
+
+- Guests can complete levels 1–3 and play every arcade word set without login.
+- Verified free accounts can complete levels 1–6 and save progress in Neon.
+- Active membership unlocks levels 7–40; passing each final still unlocks the next level.
+- Both arcade games remain free independently of lesson access and completion.
+- Guest progress is temporary (rolling six-hour expiry). Production uses the configured
+  shared Redis service; local memory storage is bounded and resets with the server.
+- On a new account's first progress load, trial history in that browser can be imported
+  for that language. Existing account progress is never replaced.
+
+Membership is checked on the server for both lesson pages and APIs. Checkout return
+URLs never grant access. Keep the billing worker running to apply signed updates.
+Disabling billing leaves the first six account levels free but keeps paid levels closed.
 
 `app.py` is the single application launcher.
 Run `db-upgrade` after updating: revision `0002_learning` adds learning tables without
-changing existing accounts or subscriptions. Existing anonymous/local progress is
-not assigned to any account automatically.
+changing existing accounts or subscriptions. Historical local JSON profiles are not imported. Current temporary trial progress
+can carry into a new account as described above.
 
 ## Boundaries
 

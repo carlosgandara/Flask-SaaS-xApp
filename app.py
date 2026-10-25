@@ -26,6 +26,8 @@ def create_app(config=None):
     init_billing(app)
     from integration import init_language_app
     init_language_app(app)
+    from public_site import init_public_site
+    init_public_site(app)
     from database_migrations import init_migrations
     init_migrations(app)
     return app

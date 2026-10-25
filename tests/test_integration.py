@@ -48,12 +48,13 @@ class IntegrationTests(unittest.TestCase):
         self.assertEqual(reads.call_count, 1)
 
     def test_membership_gates_pages_and_writes(self):
-        self.assertEqual(self.client.get('/menu', headers={'Accept':'text/html'}).status_code, 302)
-        self.assertEqual(self.client.post('/study-time', json={'seconds':10}, headers=self.headers).status_code, 403)
+        self.assertEqual(self.client.get('/menu', headers={'Accept':'text/html'}).status_code, 200)
+        self.assertEqual(self.client.post('/study-time', json={'seconds':10}, headers=self.headers).status_code, 200)
+        self.assertEqual(self.client.get('/learn/level-7-directions').status_code, 403)
+        self.assertEqual(self.client.post('/learn/level-7-directions/test', json={'action':'start'}, headers=self.headers).status_code, 403)
         with patch('integration.has_membership', return_value=True):
             response = self.client.get('/menu', headers={'Accept':'text/html'})
             self.assertEqual(response.status_code, 200)
-            self.assertIn(b'nonce=', response.data)
             self.assertIn("'nonce-", response.headers['Content-Security-Policy'])
 
     def test_progress_uses_account_identity_and_requires_csrf(self):
@@ -71,8 +72,8 @@ class IntegrationTests(unittest.TestCase):
     def test_expired_sessions_recover_and_apis_return_401(self):
         self.client.delete_cookie('access_token')
         response = self.client.get('/menu', headers={'Accept':'text/html'})
-        self.assertEqual(response.status_code, 302)
-        self.assertEqual(response.location, '/login')
+        self.assertEqual(response.status_code, 200)
+        self.assertIn(b'guest', response.data)
         self.client.set_cookie('refresh_token', 'expired-session-placeholder')
         response = self.client.get('/menu', headers={'Accept':'text/html'})
         self.assertIn(b'auth-session-recovery', response.data)

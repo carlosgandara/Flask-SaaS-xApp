@@ -13,9 +13,14 @@
 
     <script src="{{ url_for('auth.static', filename='js/app.js', v='session-recovery-2') }}"
             defer></script>
+<link rel="stylesheet" href="{{ url_for('static', filename='site/site.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='site/account.css') }}">
 </head>
 <body>
+{% include "site/nav.html" %}
+<main class="account-content">
     <p id="auth-message" role="status" aria-live="polite"></p>
     {% block content %}{% endblock %}
+</main>
 </body>
 </html>

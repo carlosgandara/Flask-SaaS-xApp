@@ -102,7 +102,7 @@ def health():
 
 @auth_bp.get("/")
 def home():
-    return redirect("/menu" if is_authenticated() else "/login")
+    return render_template("site/index.html")
 
 
 @auth_bp.get("/login")
