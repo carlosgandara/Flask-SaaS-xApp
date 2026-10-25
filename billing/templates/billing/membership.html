@@ -1,0 +1,21 @@
+{% extends "billing/base.html" %}
+{% block title %}Your membership{% endblock %}
+{% block billing_content %}
+<h1>Your membership</h1>
+{% if request.args.get('checkout') == 'returned' %}
+<p>Your payment is being confirmed. Refresh this page shortly to see your membership status.</p>
+{% endif %}
+{% for subscription in subscriptions %}
+<article class="card">
+    <h2>{{ subscription.plan_name }}</h2>
+    <p>Status: {{ subscription.status }}</p>
+    <p>Paid features: {{ 'Available' if subscription.has_access else 'Unavailable' }}</p>
+    {% if subscription.access_until %}<p>Current access ends: {{ subscription.access_until.strftime('%Y-%m-%d %H:%M') }} UTC</p>{% endif %}
+    {% if subscription.cancel_at_period_end %}<p>Your subscription will not renew.</p>{% endif %}
+    {% if subscription.blocked %}<p>This membership needs support review following a refund or dispute.</p>{% endif %}
+    <button type="button" data-portal-subscription="{{ subscription.id }}">Manage billing</button>
+</article>
+{% else %}
+<p>You have no subscriptions yet. <a href="{{ url_for('billing.pricing') }}">View plans</a>.</p>
+{% endfor %}
+{% endblock %}

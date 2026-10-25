@@ -1,0 +1,1010 @@
+
+{
+  "concept-0001": {
+    "label": "house",
+    "category": "home",
+    "image": "house.png"
+  },
+  "concept-0002": {
+    "label": "table",
+    "category": "home",
+    "image": "table.png"
+  },
+  "concept-0003": {
+    "label": "chair",
+    "category": "home",
+    "image": "chair.png"
+  },
+  "concept-0004": {
+    "label": "door",
+    "category": "home",
+    "image": "door.png"
+  },
+  "concept-0005": {
+    "label": "bed",
+    "category": "home",
+    "image": "bed.png"
+  },
+  "concept-0006": {
+    "label": "window",
+    "category": "home",
+    "image": "window.png"
+  },
+  "concept-0007": {
+    "label": "kitchen",
+    "category": "home",
+    "image": "kitchen.png"
+  },
+  "concept-0008": {
+    "label": "bathroom",
+    "category": "home",
+    "image": "bathroom.png"
+  },
+  "concept-0009": {
+    "label": "sofa",
+    "category": "home",
+    "image": "sofa.png"
+  },
+  "concept-0010": {
+    "label": "lamp",
+    "category": "home",
+    "image": "lamp.png"
+  },
+  "concept-0011": {
+    "label": "coffee",
+    "category": "food_drink",
+    "image": "coffee.png"
+  },
+  "concept-0012": {
+    "label": "water",
+    "category": "food_drink",
+    "image": "water.png"
+  },
+  "concept-0013": {
+    "label": "bread",
+    "category": "food_drink",
+    "image": "bread.png"
+  },
+  "concept-0014": {
+    "label": "cooked rice",
+    "category": "food_drink",
+    "image": "cooked-rice.png"
+  },
+  "concept-0015": {
+    "label": "apple",
+    "category": "food_drink",
+    "image": "apple.png"
+  },
+  "concept-0016": {
+    "label": "banana",
+    "category": "food_drink",
+    "image": "banana.png"
+  },
+  "concept-0017": {
+    "label": "egg",
+    "category": "food_drink",
+    "image": "egg.png"
+  },
+  "concept-0018": {
+    "label": "milk",
+    "category": "food_drink",
+    "image": "milk.png"
+  },
+  "concept-0019": {
+    "label": "cheese",
+    "category": "food_drink",
+    "image": "cheese.png"
+  },
+  "concept-0020": {
+    "label": "carrot",
+    "category": "food_drink",
+    "image": "carrot.png"
+  },
+  "concept-0021": {
+    "label": "dog",
+    "category": "animals",
+    "image": "dog.png"
+  },
+  "concept-0022": {
+    "label": "cat",
+    "category": "animals",
+    "image": "cat.png"
+  },
+  "concept-0023": {
+    "label": "bird",
+    "category": "animals",
+    "image": "bird.png"
+  },
+  "concept-0024": {
+    "label": "fish",
+    "category": "animals",
+    "image": "fish-animal.png"
+  },
+  "concept-0025": {
+    "label": "horse",
+    "category": "animals",
+    "image": "horse.png"
+  },
+  "concept-0026": {
+    "label": "cow",
+    "category": "animals",
+    "image": "cow.png"
+  },
+  "concept-0027": {
+    "label": "pig",
+    "category": "animals",
+    "image": "pig.png"
+  },
+  "concept-0028": {
+    "label": "chicken (animal)",
+    "category": "animals",
+    "image": "chicken-animal.png"
+  },
+  "concept-0029": {
+    "label": "butterfly",
+    "category": "animals",
+    "image": "butterfly.png"
+  },
+  "concept-0030": {
+    "label": "elephant",
+    "category": "animals",
+    "image": "elephant.png"
+  },
+  "concept-0031": {
+    "label": "head",
+    "category": "body",
+    "image": "head.png"
+  },
+  "concept-0032": {
+    "label": "hand",
+    "category": "body",
+    "image": "hand.png"
+  },
+  "concept-0033": {
+    "label": "foot",
+    "category": "body",
+    "image": "foot.png"
+  },
+  "concept-0034": {
+    "label": "eye",
+    "category": "body",
+    "image": "eye.png"
+  },
+  "concept-0035": {
+    "label": "nose",
+    "category": "body",
+    "image": "nose.png"
+  },
+  "concept-0036": {
+    "label": "mouth",
+    "category": "body",
+    "image": "mouth.png"
+  },
+  "concept-0037": {
+    "label": "ear",
+    "category": "body",
+    "image": "ear.png"
+  },
+  "concept-0038": {
+    "label": "arm",
+    "category": "body",
+    "image": "arm.png"
+  },
+  "concept-0039": {
+    "label": "leg",
+    "category": "body",
+    "image": "leg.png"
+  },
+  "concept-0040": {
+    "label": "tooth",
+    "category": "body",
+    "image": "tooth.png"
+  },
+  "concept-0041": {
+    "label": "sun",
+    "category": "nature",
+    "image": "sun.png"
+  },
+  "concept-0042": {
+    "label": "moon",
+    "category": "nature",
+    "image": "moon.png"
+  },
+  "concept-0043": {
+    "label": "tree",
+    "category": "nature",
+    "image": "tree.png"
+  },
+  "concept-0044": {
+    "label": "mountain",
+    "category": "nature",
+    "image": "mountain.png"
+  },
+  "concept-0045": {
+    "label": "ocean",
+    "category": "nature",
+    "image": "ocean.png"
+  },
+  "concept-0046": {
+    "label": "river",
+    "category": "nature",
+    "image": "river.png"
+  },
+  "concept-0047": {
+    "label": "flower",
+    "category": "nature",
+    "image": "flower.png"
+  },
+  "concept-0048": {
+    "label": "rock",
+    "category": "nature",
+    "image": "rock.png"
+  },
+  "concept-0049": {
+    "label": "cloud",
+    "category": "nature",
+    "image": "cloud.png"
+  },
+  "concept-0050": {
+    "label": "star",
+    "category": "nature",
+    "image": "star.png"
+  },
+  "concept-0051": {
+    "label": "car",
+    "category": "transportation",
+    "image": "car.png"
+  },
+  "concept-0052": {
+    "label": "bus",
+    "category": "transportation",
+    "image": "bus.png"
+  },
+  "concept-0053": {
+    "label": "bicycle",
+    "category": "transportation",
+    "image": "bicycle.png"
+  },
+  "concept-0054": {
+    "label": "airplane",
+    "category": "transportation",
+    "image": "airplane.png"
+  },
+  "concept-0055": {
+    "label": "train",
+    "category": "transportation",
+    "image": "train.png"
+  },
+  "concept-0056": {
+    "label": "boat",
+    "category": "transportation",
+    "image": "boat.png"
+  },
+  "concept-0057": {
+    "label": "motorcycle",
+    "category": "transportation",
+    "image": "motorcycle.png"
+  },
+  "concept-0058": {
+    "label": "truck",
+    "category": "transportation",
+    "image": "truck.png"
+  },
+  "concept-0059": {
+    "label": "helicopter",
+    "category": "transportation",
+    "image": "helicopter.png"
+  },
+  "concept-0060": {
+    "label": "taxi",
+    "category": "transportation",
+    "image": "taxi.png"
+  },
+  "concept-0061": {
+    "label": "shirt",
+    "category": "clothing",
+    "image": "shirt.png"
+  },
+  "concept-0062": {
+    "label": "shoes",
+    "category": "clothing",
+    "image": "shoes.png"
+  },
+  "concept-0063": {
+    "label": "pants",
+    "category": "clothing",
+    "image": "pants.png"
+  },
+  "concept-0064": {
+    "label": "hat",
+    "category": "clothing",
+    "image": "hat.png"
+  },
+  "concept-0065": {
+    "label": "dress",
+    "category": "clothing",
+    "image": "dress.png"
+  },
+  "concept-0066": {
+    "label": "jacket",
+    "category": "clothing",
+    "image": "jacket.png"
+  },
+  "concept-0067": {
+    "label": "socks",
+    "category": "clothing",
+    "image": "socks.png"
+  },
+  "concept-0068": {
+    "label": "skirt",
+    "category": "clothing",
+    "image": "skirt.png"
+  },
+  "concept-0069": {
+    "label": "belt",
+    "category": "clothing",
+    "image": "belt.png"
+  },
+  "concept-0070": {
+    "label": "gloves",
+    "category": "clothing",
+    "image": "gloves.png"
+  },
+  "concept-0071": {
+    "label": "red",
+    "category": "colors",
+    "image": "red.png"
+  },
+  "concept-0072": {
+    "label": "blue",
+    "category": "colors",
+    "image": "blue.png"
+  },
+  "concept-0073": {
+    "label": "green",
+    "category": "colors",
+    "image": "green.png"
+  },
+  "concept-0074": {
+    "label": "yellow",
+    "category": "colors",
+    "image": "yellow.png"
+  },
+  "concept-0075": {
+    "label": "black",
+    "category": "colors",
+    "image": "black.png"
+  },
+  "concept-0076": {
+    "label": "white",
+    "category": "colors",
+    "image": "white.png"
+  },
+  "concept-0077": {
+    "label": "orange (color)",
+    "category": "colors",
+    "image": "orange-color.png"
+  },
+  "concept-0078": {
+    "label": "purple",
+    "category": "colors",
+    "image": "purple.png"
+  },
+  "concept-0079": {
+    "label": "pink",
+    "category": "colors",
+    "image": "pink.png"
+  },
+  "concept-0080": {
+    "label": "brown",
+    "category": "colors",
+    "image": "brown.png"
+  },
+  "concept-0081": {
+    "label": "phone",
+    "category": "objects",
+    "image": "phone.png"
+  },
+  "concept-0082": {
+    "label": "book",
+    "category": "objects",
+    "image": "book.png"
+  },
+  "concept-0083": {
+    "label": "pen",
+    "category": "objects",
+    "image": "pen.png"
+  },
+  "concept-0084": {
+    "label": "key",
+    "category": "objects",
+    "image": "key.png"
+  },
+  "concept-0085": {
+    "label": "computer",
+    "category": "objects",
+    "image": "computer.png"
+  },
+  "concept-0086": {
+    "label": "bag",
+    "category": "objects",
+    "image": "bag.png"
+  },
+  "concept-0087": {
+    "label": "clock",
+    "category": "objects",
+    "image": "clock.png"
+  },
+  "concept-0088": {
+    "label": "bottle",
+    "category": "objects",
+    "image": "bottle.png"
+  },
+  "concept-0089": {
+    "label": "cup",
+    "category": "objects",
+    "image": "cup.png"
+  },
+  "concept-0090": {
+    "label": "umbrella",
+    "category": "objects",
+    "image": "umbrella.png"
+  },
+  "concept-0091": {
+    "label": "plate",
+    "category": "kitchen_items",
+    "image": "plate.png"
+  },
+  "concept-0092": {
+    "label": "spoon",
+    "category": "kitchen_items",
+    "image": "spoon.png"
+  },
+  "concept-0093": {
+    "label": "fork",
+    "category": "kitchen_items",
+    "image": "fork.png"
+  },
+  "concept-0094": {
+    "label": "knife (kitchen utensil)",
+    "category": "kitchen_items",
+    "image": "kitchen-knife.png"
+  },
+  "concept-0095": {
+    "label": "bowl",
+    "category": "kitchen_items",
+    "image": "bowl.png"
+  },
+  "concept-0096": {
+    "label": "pot (cooking)",
+    "category": "kitchen_items",
+    "image": "cooking-pot.png"
+  },
+  "concept-0097": {
+    "label": "frying pan",
+    "category": "kitchen_items",
+    "image": "frying-pan.png"
+  },
+  "concept-0098": {
+    "label": "refrigerator",
+    "category": "kitchen_items",
+    "image": "refrigerator.png"
+  },
+  "concept-0099": {
+    "label": "stove",
+    "category": "kitchen_items",
+    "image": "stove.png"
+  },
+  "concept-0100": {
+    "label": "glass (drinking vessel)",
+    "category": "kitchen_items",
+    "image": "drinking-glass.png"
+  },
+
+  
+  "concept-0101": {
+    "label": "soup",
+    "category": "food_drink",
+    "image": "soup.png"
+  },
+  "concept-0102": {
+    "label": "meat",
+    "category": "food_drink",
+    "image": "meat.png"
+  },
+  "concept-0103": {
+    "label": "sandwich",
+    "category": "food_drink",
+    "image": "sandwich.png"
+  },
+  "concept-0104": {
+    "label": "salad",
+    "category": "food_drink",
+    "image": "salad.png"
+  },
+  "concept-0105": {
+    "label": "cake",
+    "category": "food_drink",
+    "image": "cake.png"
+  },
+  "concept-0106": {
+    "label": "butter",
+    "category": "food_drink",
+    "image": "butter.png"
+  },
+  "concept-0107": {
+    "label": "salt",
+    "category": "food_drink",
+    "image": "salt.png"
+  },
+  "concept-0108": {
+    "label": "sugar",
+    "category": "food_drink",
+    "image": "sugar.png"
+  },
+  "concept-0109": {
+    "label": "honey",
+    "category": "food_drink",
+    "image": "honey.png"
+  },
+  "concept-0110": {
+    "label": "flour",
+    "category": "food_drink",
+    "image": "flour.png"
+  },
+  "concept-0111": {
+    "label": "mango",
+    "category": "fruits_vegetables",
+    "image": "mango.png"
+  },
+  "concept-0112": {
+    "label": "pineapple",
+    "category": "fruits_vegetables",
+    "image": "pineapple.png"
+  },
+  "concept-0113": {
+    "label": "grapes",
+    "category": "fruits_vegetables",
+    "image": "grapes.png"
+  },
+  "concept-0114": {
+    "label": "watermelon",
+    "category": "fruits_vegetables",
+    "image": "watermelon.png"
+  },
+  "concept-0115": {
+    "label": "lemon",
+    "category": "fruits_vegetables",
+    "image": "lemon.png"
+  },
+  "concept-0116": {
+    "label": "tomato",
+    "category": "fruits_vegetables",
+    "image": "tomato.png"
+  },
+  "concept-0117": {
+    "label": "potato",
+    "category": "fruits_vegetables",
+    "image": "potato.png"
+  },
+  "concept-0118": {
+    "label": "onion",
+    "category": "fruits_vegetables",
+    "image": "onion.png"
+  },
+  "concept-0119": {
+    "label": "cucumber",
+    "category": "fruits_vegetables",
+    "image": "cucumber.png"
+  },
+  "concept-0120": {
+    "label": "cabbage",
+    "category": "fruits_vegetables",
+    "image": "cabbage.png"
+  },
+  "concept-0121": {
+    "label": "school",
+    "category": "places",
+    "image": "school.png"
+  },
+  "concept-0122": {
+    "label": "hospital",
+    "category": "places",
+    "image": "hospital.png"
+  },
+  "concept-0123": {
+    "label": "restaurant",
+    "category": "places",
+    "image": "restaurant.png"
+  },
+  "concept-0124": {
+    "label": "supermarket",
+    "category": "places",
+    "image": "supermarket.png"
+  },
+  "concept-0125": {
+    "label": "pharmacy",
+    "category": "places",
+    "image": "pharmacy.png"
+  },
+  "concept-0126": {
+    "label": "bank",
+    "category": "places",
+    "image": "bank.png"
+  },
+  "concept-0127": {
+    "label": "park",
+    "category": "places",
+    "image": "park.png"
+  },
+  "concept-0128": {
+    "label": "beach",
+    "category": "places",
+    "image": "beach.png"
+  },
+  "concept-0129": {
+    "label": "library",
+    "category": "places",
+    "image": "library.png"
+  },
+  "concept-0130": {
+    "label": "airport",
+    "category": "places",
+    "image": "airport.png"
+  },
+  "concept-0131": {
+    "label": "mother",
+    "category": "people",
+    "image": "mother.png"
+  },
+  "concept-0132": {
+    "label": "father",
+    "category": "people",
+    "image": "father.png"
+  },
+  "concept-0133": {
+    "label": "sister",
+    "category": "people",
+    "image": "sister.png"
+  },
+  "concept-0134": {
+    "label": "brother",
+    "category": "people",
+    "image": "brother.png"
+  },
+  "concept-0135": {
+    "label": "grandmother",
+    "category": "people",
+    "image": "grandmother.png"
+  },
+  "concept-0136": {
+    "label": "grandfather",
+    "category": "people",
+    "image": "grandfather.png"
+  },
+  "concept-0137": {
+    "label": "baby",
+    "category": "people",
+    "image": "baby.png"
+  },
+  "concept-0138": {
+    "label": "child",
+    "category": "people",
+    "image": "child.png"
+  },
+  "concept-0139": {
+    "label": "woman",
+    "category": "people",
+    "image": "woman.png"
+  },
+  "concept-0140": {
+    "label": "man",
+    "category": "people",
+    "image": "man.png"
+  },
+  "concept-0141": {
+    "label": "eat",
+    "category": "actions",
+    "image": "eat.png"
+  },
+  "concept-0142": {
+    "label": "drink",
+    "category": "actions",
+    "image": "drink.png"
+  },
+  "concept-0143": {
+    "label": "sleep",
+    "category": "actions",
+    "image": "sleep.png"
+  },
+  "concept-0144": {
+    "label": "walk",
+    "category": "actions",
+    "image": "walk.png"
+  },
+  "concept-0145": {
+    "label": "run",
+    "category": "actions",
+    "image": "run.png"
+  },
+  "concept-0146": {
+    "label": "sit",
+    "category": "actions",
+    "image": "sit.png"
+  },
+  "concept-0147": {
+    "label": "stand",
+    "category": "actions",
+    "image": "stand.png"
+  },
+  "concept-0148": {
+    "label": "read",
+    "category": "actions",
+    "image": "read.png"
+  },
+  "concept-0149": {
+    "label": "write",
+    "category": "actions",
+    "image": "write.png"
+  },
+  "concept-0150": {
+    "label": "swim",
+    "category": "actions",
+    "image": "swim.png"
+  },
+
+
+  
+  "concept-0151": {
+    "label": "jump",
+    "category": "actions",
+    "image": "jump.png"
+  },
+  "concept-0152": {
+    "label": "dance",
+    "category": "actions",
+    "image": "dance.png"
+  },
+  "concept-0153": {
+    "label": "sing",
+    "category": "actions",
+    "image": "sing.png"
+  },
+  "concept-0154": {
+    "label": "cook",
+    "category": "actions",
+    "image": "cook.png"
+  },
+  "concept-0155": {
+    "label": "wash",
+    "category": "actions",
+    "image": "wash.png"
+  },
+  "concept-0156": {
+    "label": "clean",
+    "category": "actions",
+    "image": "clean.png"
+  },
+  "concept-0157": {
+    "label": "open",
+    "category": "actions",
+    "image": "open.png"
+  },
+  "concept-0158": {
+    "label": "close",
+    "category": "actions",
+    "image": "close.png"
+  },
+  "concept-0159": {
+    "label": "push",
+    "category": "actions",
+    "image": "push.png"
+  },
+  "concept-0160": {
+    "label": "pull",
+    "category": "actions",
+    "image": "pull.png"
+  },
+  "concept-0161": {
+    "label": "pillow",
+    "category": "home",
+    "image": "pillow.png"
+  },
+  "concept-0162": {
+    "label": "blanket",
+    "category": "home",
+    "image": "blanket.png"
+  },
+  "concept-0163": {
+    "label": "mirror",
+    "category": "home",
+    "image": "mirror.png"
+  },
+  "concept-0164": {
+    "label": "towel",
+    "category": "home",
+    "image": "towel.png"
+  },
+  "concept-0165": {
+    "label": "soap",
+    "category": "home",
+    "image": "soap.png"
+  },
+  "concept-0166": {
+    "label": "toothbrush",
+    "category": "home",
+    "image": "toothbrush.png"
+  },
+  "concept-0167": {
+    "label": "toothpaste",
+    "category": "home",
+    "image": "toothpaste.png"
+  },
+  "concept-0168": {
+    "label": "comb",
+    "category": "home",
+    "image": "comb.png"
+  },
+  "concept-0169": {
+    "label": "broom",
+    "category": "home",
+    "image": "broom.png"
+  },
+  "concept-0170": {
+    "label": "bucket",
+    "category": "home",
+    "image": "bucket.png"
+  },
+  "concept-0171": {
+    "label": "rabbit",
+    "category": "animals",
+    "image": "rabbit.png"
+  },
+  "concept-0172": {
+    "label": "duck",
+    "category": "animals",
+    "image": "duck.png"
+  },
+  "concept-0173": {
+    "label": "goat",
+    "category": "animals",
+    "image": "goat.png"
+  },
+  "concept-0174": {
+    "label": "sheep",
+    "category": "animals",
+    "image": "sheep.png"
+  },
+  "concept-0175": {
+    "label": "mouse",
+    "category": "animals",
+    "image": "mouse.png"
+  },
+  "concept-0176": {
+    "label": "lion",
+    "category": "animals",
+    "image": "lion.png"
+  },
+  "concept-0177": {
+    "label": "tiger",
+    "category": "animals",
+    "image": "tiger.png"
+  },
+  "concept-0178": {
+    "label": "bear",
+    "category": "animals",
+    "image": "bear.png"
+  },
+  "concept-0179": {
+    "label": "monkey",
+    "category": "animals",
+    "image": "monkey.png"
+  },
+  "concept-0180": {
+    "label": "snake",
+    "category": "animals",
+    "image": "snake.png"
+  },
+  "concept-0181": {
+    "label": "strawberry",
+    "category": "fruits_vegetables",
+    "image": "strawberry.png"
+  },
+  "concept-0182": {
+    "label": "pear",
+    "category": "fruits_vegetables",
+    "image": "pear.png"
+  },
+  "concept-0183": {
+    "label": "peach",
+    "category": "fruits_vegetables",
+    "image": "peach.png"
+  },
+  "concept-0184": {
+    "label": "avocado",
+    "category": "fruits_vegetables",
+    "image": "avocado.png"
+  },
+  "concept-0185": {
+    "label": "coconut",
+    "category": "fruits_vegetables",
+    "image": "coconut.png"
+  },
+  "concept-0186": {
+    "label": "corn",
+    "category": "fruits_vegetables",
+    "image": "corn.png"
+  },
+  "concept-0187": {
+    "label": "garlic",
+    "category": "fruits_vegetables",
+    "image": "garlic.png"
+  },
+  "concept-0188": {
+    "label": "mushroom",
+    "category": "fruits_vegetables",
+    "image": "mushroom.png"
+  },
+  "concept-0189": {
+    "label": "lettuce",
+    "category": "fruits_vegetables",
+    "image": "lettuce.png"
+  },
+  "concept-0190": {
+    "label": "pepper",
+    "category": "fruits_vegetables",
+    "image": "pepper.png"
+  },
+  "concept-0191": {
+    "label": "scissors",
+    "category": "objects",
+    "image": "scissors.png"
+  },
+  "concept-0192": {
+    "label": "pencil",
+    "category": "objects",
+    "image": "pencil.png"
+  },
+  "concept-0193": {
+    "label": "notebook",
+    "category": "objects",
+    "image": "notebook.png"
+  },
+  "concept-0194": {
+    "label": "envelope",
+    "category": "objects",
+    "image": "envelope.png"
+  },
+  "concept-0195": {
+    "label": "wallet",
+    "category": "objects",
+    "image": "wallet.png"
+  },
+  "concept-0196": {
+    "label": "camera",
+    "category": "objects",
+    "image": "camera.png"
+  },
+  "concept-0197": {
+    "label": "television",
+    "category": "objects",
+    "image": "television.png"
+  },
+  "concept-0198": {
+    "label": "radio",
+    "category": "objects",
+    "image": "radio.png"
+  },
+  "concept-0199": {
+    "label": "fan",
+    "category": "objects",
+    "image": "fan.png"
+  },
+  "concept-0200": {
+    "label": "battery",
+    "category": "objects",
+    "image": "battery.png"
+  }
+}
+
+

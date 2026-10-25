@@ -1,0 +1,3724 @@
+{
+  "levels": [
+    {
+      "id": "level-1-cafe",
+      "title": "Level 1 — Café",
+      "description": "Order a coffee in Tagalog",
+      "win_message": "You can now order coffee in Tagalog.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/cafe.png",
+          "caption": "You walk into a café in Manila."
+        },
+        {
+          "type": "teach",
+          "phrase": "Gusto ko ng kape.",
+          "translation": "I want coffee.",
+          "new_words": [
+            "gusto",
+            "kape"
+          ],
+          "word_definitions": {
+            "gusto": "want",
+            "kape": "coffee"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Isang kape, please.",
+          "translation": "One coffee, please.",
+          "new_words": [
+            "isang",
+            "please"
+          ],
+          "word_definitions": {
+            "isang": "one",
+            "please": "please"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "May asukal ba?",
+          "translation": "Is there sugar?",
+          "new_words": [
+            "may",
+            "asukal",
+            "ba"
+          ],
+          "word_definitions": {
+            "may": "there is / have",
+            "asukal": "sugar",
+            "ba": "question marker"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Barista",
+              "text": "Magandang umaga po."
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Gusto ko ng kape.",
+              "hint": "I want coffee."
+            },
+            {
+              "speaker": "Barista",
+              "text": "Isang kape?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Isang kape, please.",
+              "hint": "One coffee, please."
+            },
+            {
+              "speaker": "Barista",
+              "text": "Salamat po."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now order coffee in Tagalog.",
+          "next_level": "level-2-restaurant"
+        }
+      ]
+    },
+    {
+      "id": "level-2-restaurant",
+      "title": "Level 2 — Restaurant",
+      "description": "Order a meal in Tagalog",
+      "win_message": "You can now order food in Tagalog.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/restaurant.png",
+          "caption": "You sit down at a restaurant in Manila."
+        },
+        {
+          "type": "teach",
+          "phrase": "Gusto ko ng kanin.",
+          "translation": "I want rice.",
+          "new_words": [
+            "kanin"
+          ],
+          "word_definitions": {
+            "kanin": "cooked rice"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Gusto ko ng tubig.",
+          "translation": "I want water.",
+          "new_words": [
+            "tubig"
+          ],
+          "word_definitions": {
+            "tubig": "water"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Puwede ba ang menu?",
+          "translation": "Can I have the menu?",
+          "new_words": [
+            "puwede",
+            "menu"
+          ],
+          "word_definitions": {
+            "puwede": "can / may",
+            "menu": "menu"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "May mesa ba?",
+          "translation": "Is there a table?",
+          "new_words": [
+            "mesa"
+          ],
+          "word_definitions": {
+            "mesa": "table"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Waiter",
+              "text": "Magandang gabi po."
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Puwede ba ang menu?",
+              "hint": "Can I have the menu?"
+            },
+            {
+              "speaker": "Waiter",
+              "text": "Opo. Ano ang gusto ninyo?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Gusto ko ng kanin.",
+              "hint": "I want rice."
+            },
+            {
+              "speaker": "Waiter",
+              "text": "Isang kanin?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Isang kanin, please.",
+              "hint": "One rice, please."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now order food in Tagalog.",
+          "next_level": "level-3-market"
+        }
+      ]
+    },
+    {
+      "id": "level-3-market",
+      "title": "Level 3 — Market",
+      "description": "Buy food at the market",
+      "win_message": "You can now buy food in Tagalog.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/market.png",
+          "caption": "You walk through a busy market in Manila."
+        },
+        {
+          "type": "teach",
+          "phrase": "Magkano ang prutas?",
+          "translation": "How much is the fruit?",
+          "new_words": [
+            "magkano",
+            "prutas"
+          ],
+          "word_definitions": {
+            "magkano": "how much",
+            "prutas": "fruit"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Magkano ang isda?",
+          "translation": "How much is the fish?",
+          "new_words": [
+            "isda"
+          ],
+          "word_definitions": {
+            "isda": "fish"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Gusto ko ng gulay.",
+          "translation": "I want vegetables.",
+          "new_words": [
+            "gulay"
+          ],
+          "word_definitions": {
+            "gulay": "vegetables"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "May pera ako.",
+          "translation": "I have money.",
+          "new_words": [
+            "pera"
+          ],
+          "word_definitions": {
+            "pera": "money"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Vendor",
+              "text": "Magandang umaga po."
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Magkano ang isda?",
+              "hint": "How much is the fish?"
+            },
+            {
+              "speaker": "Vendor",
+              "text": "Ah, isda!"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Gusto ko ng isda.",
+              "hint": "I want fish."
+            },
+            {
+              "speaker": "Vendor",
+              "text": "Isang isda?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Isang isda, please.",
+              "hint": "One fish, please."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now buy food in Tagalog.",
+          "next_level": "level-4-meeting"
+        }
+      ]
+    },
+    {
+      "id": "level-4-meeting",
+      "title": "Level 4 — Meeting Someone",
+      "description": "Introduce yourself in Tagalog",
+      "win_message": "You can now introduce yourself in Tagalog.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/meeting.png",
+          "caption": "You meet someone new at a gathering."
+        },
+        {
+          "type": "teach",
+          "phrase": "Ako si Maria.",
+          "translation": "I am Maria.",
+          "new_words": [
+            "ako"
+          ],
+          "word_definitions": {
+            "ako": "I / me"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Kumusta ka?",
+          "translation": "How are you?",
+          "new_words": [
+            "kumusta"
+          ],
+          "word_definitions": {
+            "kumusta": "how are you"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Mabuti naman.",
+          "translation": "I'm fine.",
+          "new_words": [
+            "mabuti"
+          ],
+          "word_definitions": {
+            "mabuti": "fine / good"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Taga-Maynila ako.",
+          "translation": "I am from Manila.",
+          "new_words": [
+            "taga"
+          ],
+          "word_definitions": {
+            "taga": "from (a place)"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Maria",
+              "text": "Kumusta ka?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Mabuti naman.",
+              "hint": "I'm fine."
+            },
+            {
+              "speaker": "Maria",
+              "text": "Ako si Maria."
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Ako si Alex.",
+              "hint": "I am Alex."
+            },
+            {
+              "speaker": "Maria",
+              "text": "Taga-Maynila ako."
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Taga-Maynila ako.",
+              "hint": "I am from Manila."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now introduce yourself in Tagalog.",
+          "next_level": "level-5-family"
+        }
+      ]
+    },
+    {
+      "id": "level-5-family",
+      "title": "Level 5 — Family",
+      "description": "Talk about your family in Tagalog",
+      "win_message": "You can now talk about your family in Tagalog.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/family.png",
+          "caption": "You're at a family gathering. Someone points at a photo."
+        },
+        {
+          "type": "teach",
+          "phrase": "Ito ang tatay ko.",
+          "translation": "This is my father.",
+          "new_words": [
+            "ito",
+            "tatay"
+          ],
+          "word_definitions": {
+            "ito": "this",
+            "tatay": "father"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Ito ang nanay ko.",
+          "translation": "This is my mother.",
+          "new_words": [
+            "nanay"
+          ],
+          "word_definitions": {
+            "nanay": "mother"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "May kuya ako.",
+          "translation": "I have an older brother.",
+          "new_words": [
+            "kuya"
+          ],
+          "word_definitions": {
+            "kuya": "older brother"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "May ate ako.",
+          "translation": "I have an older sister.",
+          "new_words": [
+            "ate"
+          ],
+          "word_definitions": {
+            "ate": "older sister"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Maria",
+              "text": "Ito ang tatay ko."
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Ito ang nanay ko.",
+              "hint": "This is my mother."
+            },
+            {
+              "speaker": "Maria",
+              "text": "May kuya ka ba?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "May kuya ako.",
+              "hint": "I have an older brother."
+            },
+            {
+              "speaker": "Maria",
+              "text": "May ate ka ba?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "May ate ako.",
+              "hint": "I have an older sister."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about your family in Tagalog.",
+          "next_level": "level-6-numbers"
+        }
+      ]
+    },
+    {
+      "id": "level-6-numbers",
+      "title": "Level 6 — Numbers",
+      "description": "Count and order multiple items",
+      "win_message": "You can now count in Tagalog.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/numbers.png",
+          "caption": "You're ordering for a group of friends."
+        },
+        {
+          "type": "teach",
+          "phrase": "Ilang kape?",
+          "translation": "How many coffees?",
+          "new_words": [
+            "ilang"
+          ],
+          "word_definitions": {
+            "ilang": "how many"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Dalawang kape.",
+          "translation": "Two coffees.",
+          "new_words": [
+            "dalawa"
+          ],
+          "word_definitions": {
+            "dalawa": "two"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Tatlong kape.",
+          "translation": "Three coffees.",
+          "new_words": [
+            "tatlo"
+          ],
+          "word_definitions": {
+            "tatlo": "three"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Apat na kape.",
+          "translation": "Four coffees.",
+          "new_words": [
+            "apat"
+          ],
+          "word_definitions": {
+            "apat": "four"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Limang kape.",
+          "translation": "Five coffees.",
+          "new_words": [
+            "lima"
+          ],
+          "word_definitions": {
+            "lima": "five"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Barista",
+              "text": "Magandang umaga po."
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Dalawang kape, please.",
+              "hint": "Two coffees, please."
+            },
+            {
+              "speaker": "Barista",
+              "text": "Opo."
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Tatlong kanin, please.",
+              "hint": "Three rice, please."
+            },
+            {
+              "speaker": "Barista",
+              "text": "Salamat po."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now count in Tagalog.",
+          "next_level": "level-7-directions"
+        }
+      ]
+    },
+    {
+      "id": "level-7-directions",
+      "title": "Level 7 — Getting Around",
+      "description": "Ask for and understand directions",
+      "win_message": "You can now ask for directions in Tagalog.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/directions.png",
+          "caption": "You're lost in an unfamiliar part of the city."
+        },
+        {
+          "type": "teach",
+          "phrase": "Saan ang banyo?",
+          "translation": "Where is the bathroom?",
+          "new_words": [
+            "saan"
+          ],
+          "word_definitions": {
+            "saan": "where"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Sa kaliwa.",
+          "translation": "On the left.",
+          "new_words": [
+            "kaliwa"
+          ],
+          "word_definitions": {
+            "kaliwa": "left"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Sa kanan.",
+          "translation": "On the right.",
+          "new_words": [
+            "kanan"
+          ],
+          "word_definitions": {
+            "kanan": "right"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Diretso lang.",
+          "translation": "Just go straight.",
+          "new_words": [
+            "diretso"
+          ],
+          "word_definitions": {
+            "diretso": "straight"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Malayo ba?",
+          "translation": "Is it far?",
+          "new_words": [
+            "malayo"
+          ],
+          "word_definitions": {
+            "malayo": "far"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Stranger",
+              "text": "Kumusta ka?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Mabuti naman.",
+              "hint": "I'm fine."
+            },
+            {
+              "speaker": "Stranger",
+              "text": "Ano?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Saan ang banyo?",
+              "hint": "Where is the bathroom?"
+            },
+            {
+              "speaker": "Stranger",
+              "text": "Sa kanan."
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Malayo ba?",
+              "hint": "Is it far?"
+            },
+            {
+              "speaker": "Stranger",
+              "text": "Hindi. Diretso lang."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now ask for directions in Tagalog.",
+          "next_level": "level-8-colors"
+        }
+      ]
+    },
+    {
+      "id": "level-8-colors",
+      "title": "Level 8 — Colors & Clothes",
+      "description": "Shop for clothes by color",
+      "win_message": "You can now shop for clothes in Tagalog.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/colors.png",
+          "caption": "You're at a clothing stall in a market."
+        },
+        {
+          "type": "teach",
+          "phrase": "Puting damit.",
+          "translation": "White clothes.",
+          "new_words": [
+            "puti",
+            "damit"
+          ],
+          "word_definitions": {
+            "puti": "white",
+            "damit": "clothes"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Itim na damit.",
+          "translation": "Black clothes.",
+          "new_words": [
+            "itim"
+          ],
+          "word_definitions": {
+            "itim": "black"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Pulang damit.",
+          "translation": "Red clothes.",
+          "new_words": [
+            "pula"
+          ],
+          "word_definitions": {
+            "pula": "red"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Asul na damit.",
+          "translation": "Blue clothes.",
+          "new_words": [
+            "asul"
+          ],
+          "word_definitions": {
+            "asul": "blue"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Vendor",
+              "text": "Magandang umaga po."
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Magkano ang pulang damit?",
+              "hint": "How much are the red clothes?"
+            },
+            {
+              "speaker": "Vendor",
+              "text": "Opo."
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "May asul ba?",
+              "hint": "Is there blue?"
+            },
+            {
+              "speaker": "Vendor",
+              "text": "Opo."
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Salamat po.",
+              "hint": "Thank you."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now shop for clothes in Tagalog.",
+          "next_level": "level-9-doctor"
+        }
+      ]
+    },
+    {
+      "id": "level-9-doctor",
+      "title": "Level 9 — At the Doctor",
+      "description": "Describe how you feel when sick",
+      "win_message": "You can now describe symptoms in Tagalog.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/doctor.png",
+          "caption": "You wake up feeling sick and go to a clinic."
+        },
+        {
+          "type": "teach",
+          "phrase": "Masakit ang ulo ko.",
+          "translation": "My head hurts.",
+          "new_words": [
+            "sakit",
+            "ulo"
+          ],
+          "word_definitions": {
+            "sakit": "pain / hurt",
+            "ulo": "head"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Masakit ang tiyan ko.",
+          "translation": "My stomach hurts.",
+          "new_words": [
+            "tiyan"
+          ],
+          "word_definitions": {
+            "tiyan": "stomach"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "May lagnat ako.",
+          "translation": "I have a fever.",
+          "new_words": [
+            "lagnat"
+          ],
+          "word_definitions": {
+            "lagnat": "fever"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Kailangan ko ng gamot.",
+          "translation": "I need medicine.",
+          "new_words": [
+            "gamot"
+          ],
+          "word_definitions": {
+            "gamot": "medicine"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Doctor",
+              "text": "Kumusta ka?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Masakit ang ulo ko.",
+              "hint": "My head hurts."
+            },
+            {
+              "speaker": "Doctor",
+              "text": "May lagnat ka ba?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Opo. May lagnat ako.",
+              "hint": "Yes. I have a fever."
+            },
+            {
+              "speaker": "Doctor",
+              "text": "Sige."
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Kailangan ko ng gamot.",
+              "hint": "I need medicine."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now describe symptoms in Tagalog.",
+          "next_level": "level-10-plans"
+        }
+      ]
+    },
+    {
+      "id": "level-10-plans",
+      "title": "Level 10 — Making Plans",
+      "description": "Talk about what you'll do and when",
+      "win_message": "You can now make plans in Tagalog.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/plans.png",
+          "caption": "A friend wants to make plans with you."
+        },
+        {
+          "type": "teach",
+          "phrase": "Punta tayo.",
+          "translation": "Let's go.",
+          "new_words": [
+            "punta",
+            "tayo"
+          ],
+          "word_definitions": {
+            "punta": "go",
+            "tayo": "we / us (including listener)"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Ngayon na.",
+          "translation": "Right now.",
+          "new_words": [
+            "ngayon"
+          ],
+          "word_definitions": {
+            "ngayon": "now / today"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Bukas na.",
+          "translation": "Tomorrow then.",
+          "new_words": [
+            "bukas"
+          ],
+          "word_definitions": {
+            "bukas": "tomorrow"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Mamaya na.",
+          "translation": "Later then.",
+          "new_words": [
+            "mamaya"
+          ],
+          "word_definitions": {
+            "mamaya": "later"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Friend",
+              "text": "Punta tayo."
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Ngayon na?",
+              "hint": "Right now?"
+            },
+            {
+              "speaker": "Friend",
+              "text": "Hindi. Bukas."
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Mabuti.",
+              "hint": "Good."
+            },
+            {
+              "speaker": "Friend",
+              "text": "Salamat."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now make plans in Tagalog.",
+          "next_level": "level-11-transportation"
+        }
+      ]
+    },
+    {
+      "id": "level-11-transportation",
+      "title": "Level 11 — Transportation",
+      "description": "Use Tagalog when taking transportation",
+      "win_message": "You can now talk about transportation in Tagalog.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/transportation.png",
+          "caption": "You're trying to get across Manila."
+        },
+        {
+          "type": "teach",
+          "phrase": "Saan ang sakayan?",
+          "translation": "Where is the place to catch transportation?",
+          "new_words": [
+            "sakayan"
+          ],
+          "word_definitions": {
+            "sakayan": "transport pickup point"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Sakay ako ng jeep.",
+          "translation": "I'm riding a jeepney.",
+          "new_words": [
+            "sakay",
+            "jeep"
+          ],
+          "word_definitions": {
+            "sakay": "ride / board",
+            "jeep": "jeepney"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Magkano ang pamasahe?",
+          "translation": "How much is the fare?",
+          "new_words": [
+            "pamasahe"
+          ],
+          "word_definitions": {
+            "pamasahe": "fare"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Dito lang.",
+          "translation": "Just here.",
+          "new_words": [
+            "dito"
+          ],
+          "word_definitions": {
+            "dito": "here"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Driver",
+              "text": "Saan ka?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Sakay ako ng jeep.",
+              "hint": "I'm riding a jeepney."
+            },
+            {
+              "speaker": "Driver",
+              "text": "Sige."
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Magkano ang pamasahe?",
+              "hint": "How much is the fare?"
+            },
+            {
+              "speaker": "Driver",
+              "text": "Dalawampung piso."
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Salamat po.",
+              "hint": "Thank you."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about transportation in Tagalog.",
+          "next_level": "level-12-shopping"
+        }
+      ]
+    },
+    {
+      "id": "level-12-shopping",
+      "title": "Level 12 — Shopping",
+      "description": "Buy things and ask about prices",
+      "win_message": "You can now shop in Tagalog.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/shopping.png",
+          "caption": "You're shopping at a busy store."
+        },
+        {
+          "type": "teach",
+          "phrase": "Magkano ito?",
+          "translation": "How much is this?",
+          "new_words": [
+            "magkano",
+            "ito"
+          ],
+          "word_definitions": {
+            "magkano": "how much",
+            "ito": "this"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Mahal ito.",
+          "translation": "This is expensive.",
+          "new_words": [
+            "mahal"
+          ],
+          "word_definitions": {
+            "mahal": "expensive"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Mura ito.",
+          "translation": "This is cheap.",
+          "new_words": [
+            "mura"
+          ],
+          "word_definitions": {
+            "mura": "cheap"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Gusto ko ito.",
+          "translation": "I like/want this.",
+          "new_words": []
+        },
+        {
+          "type": "teach",
+          "phrase": "May iba pa ba?",
+          "translation": "Is there another one?",
+          "new_words": [
+            "iba",
+            "pa"
+          ],
+          "word_definitions": {
+            "iba": "other / different",
+            "pa": "still / more"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Vendor",
+              "text": "Magandang umaga po."
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Magkano ito?",
+              "hint": "How much is this?"
+            },
+            {
+              "speaker": "Vendor",
+              "text": "Limang daang piso."
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Mahal ito.",
+              "hint": "This is expensive."
+            },
+            {
+              "speaker": "Vendor",
+              "text": "May iba pa."
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Gusto ko ito.",
+              "hint": "I like/want this."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now shop in Tagalog.",
+          "next_level": "level-13-home"
+        }
+      ]
+    },
+    {
+      "id": "level-13-home",
+      "title": "Level 13 — Home",
+      "description": "Talk about your home and things around you",
+      "win_message": "You can now talk about your home in Tagalog.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/home.png",
+          "caption": "You're showing a friend around your home."
+        },
+        {
+          "type": "teach",
+          "phrase": "Ito ang bahay ko.",
+          "translation": "This is my house.",
+          "new_words": [
+            "bahay"
+          ],
+          "word_definitions": {
+            "bahay": "house / home"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Nasa bahay ako.",
+          "translation": "I am at home.",
+          "new_words": [
+            "nasa"
+          ],
+          "word_definitions": {
+            "nasa": "at / in (a location)"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "May kusina dito.",
+          "translation": "There is a kitchen here.",
+          "new_words": [
+            "kusina"
+          ],
+          "word_definitions": {
+            "kusina": "kitchen"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "May kuwarto dito.",
+          "translation": "There is a room here.",
+          "new_words": [
+            "kuwarto"
+          ],
+          "word_definitions": {
+            "kuwarto": "room"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Malaki ang bahay.",
+          "translation": "The house is big.",
+          "new_words": [
+            "malaki"
+          ],
+          "word_definitions": {
+            "malaki": "big"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Friend",
+              "text": "Nasaan ka?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Nasa bahay ako.",
+              "hint": "I am at home."
+            },
+            {
+              "speaker": "Friend",
+              "text": "May kusina ba?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "May kusina dito.",
+              "hint": "There is a kitchen here."
+            },
+            {
+              "speaker": "Friend",
+              "text": "Malaki ba ang bahay?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Malaki ang bahay.",
+              "hint": "The house is big."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about your home in Tagalog.",
+          "next_level": "level-14-weather"
+        }
+      ]
+    },
+    {
+      "id": "level-14-weather",
+      "title": "Level 14 — Weather",
+      "description": "Talk about the weather",
+      "win_message": "You can now talk about the weather in Tagalog.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/weather.png",
+          "caption": "You step outside and notice the weather."
+        },
+        {
+          "type": "teach",
+          "phrase": "Mainit ngayon.",
+          "translation": "It's hot today.",
+          "new_words": [
+            "mainit"
+          ],
+          "word_definitions": {
+            "mainit": "hot"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Malamig ngayon.",
+          "translation": "It's cold today.",
+          "new_words": [
+            "malamig"
+          ],
+          "word_definitions": {
+            "malamig": "cold"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Umuulan.",
+          "translation": "It's raining.",
+          "new_words": [
+            "umuulan"
+          ],
+          "word_definitions": {
+            "umuulan": "it is raining"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Maaraw ngayon.",
+          "translation": "It's sunny today.",
+          "new_words": [
+            "maaraw"
+          ],
+          "word_definitions": {
+            "maaraw": "sunny"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Masama ang panahon.",
+          "translation": "The weather is bad.",
+          "new_words": [
+            "masama",
+            "panahon"
+          ],
+          "word_definitions": {
+            "masama": "bad",
+            "panahon": "weather"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Friend",
+              "text": "Kumusta ang panahon?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Mainit ngayon.",
+              "hint": "It's hot today."
+            },
+            {
+              "speaker": "Friend",
+              "text": "Umuulan ba?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Hindi. Maaraw ngayon.",
+              "hint": "No. It's sunny today."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about the weather in Tagalog.",
+          "next_level": "level-15-daily-routine"
+        }
+      ]
+    },
+    {
+      "id": "level-15-daily-routine",
+      "title": "Level 15 — Daily Routine",
+      "description": "Talk about what you do every day",
+      "win_message": "You can now talk about your daily routine in Tagalog.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/daily-routine.png",
+          "caption": "You describe your normal day to a friend."
+        },
+        {
+          "type": "teach",
+          "phrase": "Gumigising ako ng umaga.",
+          "translation": "I wake up in the morning.",
+          "new_words": [
+            "gumigising",
+            "umaga"
+          ],
+          "word_definitions": {
+            "gumigising": "wake up",
+            "umaga": "morning"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Kumakain ako.",
+          "translation": "I eat.",
+          "new_words": [
+            "kumakain"
+          ],
+          "word_definitions": {
+            "kumakain": "eating / eat"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Nagtatrabaho ako.",
+          "translation": "I work.",
+          "new_words": [
+            "nagtatrabaho"
+          ],
+          "word_definitions": {
+            "nagtatrabaho": "working / work"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Umuwi ako sa gabi.",
+          "translation": "I went home at night.",
+          "new_words": [
+            "umuwi",
+            "gabi"
+          ],
+          "word_definitions": {
+            "umuwi": "went home",
+            "gabi": "night"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Natutulog ako.",
+          "translation": "I sleep.",
+          "new_words": [
+            "natutulog"
+          ],
+          "word_definitions": {
+            "natutulog": "sleeping / sleep"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Friend",
+              "text": "Ano ang ginagawa mo?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Nagtatrabaho ako.",
+              "hint": "I work."
+            },
+            {
+              "speaker": "Friend",
+              "text": "Kumakain ka ba?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Kumakain ako.",
+              "hint": "I eat."
+            },
+            {
+              "speaker": "Friend",
+              "text": "At sa gabi?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Natutulog ako.",
+              "hint": "I sleep."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about your daily routine in Tagalog.",
+          "next_level": "level-16-work"
+        }
+      ]
+    },
+    {
+      "id": "level-16-work",
+      "title": "Level 16 — Work",
+      "description": "Talk about work and your job",
+      "win_message": "You can now talk about work in Tagalog.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/work.png",
+          "caption": "Someone asks you about your work."
+        },
+        {
+          "type": "teach",
+          "phrase": "Nagtatrabaho ako dito.",
+          "translation": "I work here.",
+          "new_words": []
+        },
+        {
+          "type": "teach",
+          "phrase": "Ano ang trabaho mo?",
+          "translation": "What is your job?",
+          "new_words": [
+            "trabaho"
+          ],
+          "word_definitions": {
+            "trabaho": "work / job"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Nars ako.",
+          "translation": "I am a nurse.",
+          "new_words": [
+            "nars"
+          ],
+          "word_definitions": {
+            "nars": "nurse"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Mahirap ang trabaho.",
+          "translation": "The work is difficult.",
+          "new_words": [
+            "mahirap"
+          ],
+          "word_definitions": {
+            "mahirap": "difficult"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Pagod ako.",
+          "translation": "I am tired.",
+          "new_words": [
+            "pagod"
+          ],
+          "word_definitions": {
+            "pagod": "tired"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Friend",
+              "text": "Ano ang trabaho mo?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Nars ako.",
+              "hint": "I am a nurse."
+            },
+            {
+              "speaker": "Friend",
+              "text": "Nagtatrabaho ka dito?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Oo. Nagtatrabaho ako dito.",
+              "hint": "Yes. I work here."
+            },
+            {
+              "speaker": "Friend",
+              "text": "Pagod ka?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Oo. Pagod ako.",
+              "hint": "Yes. I am tired."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about work in Tagalog.",
+          "next_level": "level-17-hobbies"
+        }
+      ]
+    },
+    {
+      "id": "level-17-hobbies",
+      "title": "Level 17 — Hobbies",
+      "description": "Talk about things you enjoy doing",
+      "win_message": "You can now talk about your hobbies in Tagalog.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/hobbies.png",
+          "caption": "A new friend asks what you like to do."
+        },
+        {
+          "type": "teach",
+          "phrase": "Mahilig ako sa musika.",
+          "translation": "I like music.",
+          "new_words": [
+            "mahilig",
+            "musika"
+          ],
+          "word_definitions": {
+            "mahilig": "fond of / like",
+            "musika": "music"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Mahilig ako sa sayaw.",
+          "translation": "I like dancing.",
+          "new_words": [
+            "sayaw"
+          ],
+          "word_definitions": {
+            "sayaw": "dance / dancing"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Mahilig ako sa pelikula.",
+          "translation": "I like movies.",
+          "new_words": [
+            "pelikula"
+          ],
+          "word_definitions": {
+            "pelikula": "movie"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Gusto kong maglakad.",
+          "translation": "I like to walk.",
+          "new_words": [
+            "maglakad"
+          ],
+          "word_definitions": {
+            "maglakad": "to walk"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Ano ang gusto mong gawin?",
+          "translation": "What do you like to do?",
+          "new_words": [
+            "gawin"
+          ],
+          "word_definitions": {
+            "gawin": "to do"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Friend",
+              "text": "Ano ang gusto mong gawin?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Mahilig ako sa sayaw.",
+              "hint": "I like dancing."
+            },
+            {
+              "speaker": "Friend",
+              "text": "Mahilig ka sa musika?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Oo. Mahilig ako sa musika.",
+              "hint": "Yes. I like music."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about your hobbies in Tagalog.",
+          "next_level": "level-18-feelings"
+        }
+      ]
+    },
+    {
+      "id": "level-18-feelings",
+      "title": "Level 18 — Feelings",
+      "description": "Describe how you feel",
+      "win_message": "You can now describe your feelings in Tagalog.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/feelings.png",
+          "caption": "A friend asks how you're feeling."
+        },
+        {
+          "type": "teach",
+          "phrase": "Masaya ako.",
+          "translation": "I am happy.",
+          "new_words": [
+            "masaya"
+          ],
+          "word_definitions": {
+            "masaya": "happy"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Malungkot ako.",
+          "translation": "I am sad.",
+          "new_words": [
+            "malungkot"
+          ],
+          "word_definitions": {
+            "malungkot": "sad"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Pagod ako.",
+          "translation": "I am tired.",
+          "new_words": []
+        },
+        {
+          "type": "teach",
+          "phrase": "Galit ako.",
+          "translation": "I am angry.",
+          "new_words": [
+            "galit"
+          ],
+          "word_definitions": {
+            "galit": "angry"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Kinakabahan ako.",
+          "translation": "I am nervous.",
+          "new_words": [
+            "kinakabahan"
+          ],
+          "word_definitions": {
+            "kinakabahan": "nervous"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Friend",
+              "text": "Kumusta ka?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Masaya ako.",
+              "hint": "I am happy."
+            },
+            {
+              "speaker": "Friend",
+              "text": "Pagod ka ba?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Oo. Pagod ako.",
+              "hint": "Yes. I am tired."
+            },
+            {
+              "speaker": "Friend",
+              "text": "Kinakabahan ka?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Hindi. Masaya ako.",
+              "hint": "No. I am happy."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now describe your feelings in Tagalog.",
+          "next_level": "level-19-communication"
+        }
+      ]
+    },
+    {
+      "id": "level-19-communication",
+      "title": "Level 19 — Communication",
+      "description": "Ask someone to repeat, explain, or speak slowly",
+      "win_message": "You can now handle simple communication problems in Tagalog.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/communication.png",
+          "caption": "Someone speaks Tagalog quickly and you need help."
+        },
+        {
+          "type": "teach",
+          "phrase": "Hindi ko alam.",
+          "translation": "I don't know.",
+          "new_words": [
+            "hindi",
+            "alam"
+          ],
+          "word_definitions": {
+            "hindi": "not / no",
+            "alam": "know"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Hindi ko maintindihan.",
+          "translation": "I don't understand.",
+          "new_words": [
+            "maintindihan"
+          ],
+          "word_definitions": {
+            "maintindihan": "understand"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Pakiulit.",
+          "translation": "Please repeat.",
+          "new_words": [
+            "pakiulit"
+          ],
+          "word_definitions": {
+            "pakiulit": "please repeat"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Dahan-dahan lang.",
+          "translation": "Slowly, please.",
+          "new_words": [
+            "dahan-dahan"
+          ],
+          "word_definitions": {
+            "dahan-dahan": "slowly"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Ano ang ibig sabihin?",
+          "translation": "What does it mean?",
+          "new_words": [
+            "ibig",
+            "ibig sabihin"
+          ],
+          "word_definitions": {
+            "ibig": "meaning / intent (in expressions)",
+            "ibig sabihin": "mean / meaning"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Friend",
+              "text": "Mahaba ang sasabihin ko."
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Dahan-dahan lang.",
+              "hint": "Slowly, please."
+            },
+            {
+              "speaker": "Friend",
+              "text": "Sige."
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Hindi ko maintindihan.",
+              "hint": "I don't understand."
+            },
+            {
+              "speaker": "Friend",
+              "text": "Uulitin ko."
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Salamat.",
+              "hint": "Thank you."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now handle simple communication problems in Tagalog.",
+          "next_level": "level-20-social"
+        }
+      ]
+    },
+    {
+      "id": "level-20-social",
+      "title": "Level 20 — Social Conversation",
+      "description": "Have a simple conversation with someone new",
+      "win_message": "You can now have a basic social conversation in Tagalog.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/social.png",
+          "caption": "You meet someone new at a gathering."
+        },
+        {
+          "type": "teach",
+          "phrase": "Ano ang pangalan mo?",
+          "translation": "What is your name?",
+          "new_words": [
+            "pangalan"
+          ],
+          "word_definitions": {
+            "pangalan": "name"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Saan ka nakatira?",
+          "translation": "Where do you live?",
+          "new_words": [
+            "nakatira"
+          ],
+          "word_definitions": {
+            "nakatira": "live / reside"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Ano ang ginagawa mo?",
+          "translation": "What are you doing?",
+          "new_words": [
+            "ginagawa"
+          ],
+          "word_definitions": {
+            "ginagawa": "doing"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Masaya akong makilala ka.",
+          "translation": "I'm happy to meet you.",
+          "new_words": [
+            "makilala"
+          ],
+          "word_definitions": {
+            "makilala": "to meet / get to know"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Kita tayo ulit.",
+          "translation": "See you again.",
+          "new_words": [
+            "kita",
+            "ulit"
+          ],
+          "word_definitions": {
+            "kita": "see you (in this phrase)",
+            "ulit": "again"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Maria",
+              "text": "Kumusta! Ano ang pangalan mo?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Ako si Alex.",
+              "hint": "I am Alex."
+            },
+            {
+              "speaker": "Maria",
+              "text": "Saan ka nakatira?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Nakatira ako sa Maynila.",
+              "hint": "I live in Manila."
+            },
+            {
+              "speaker": "Maria",
+              "text": "Masaya akong makilala ka."
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Masaya rin akong makilala ka.",
+              "hint": "I'm also happy to meet you."
+            },
+            {
+              "speaker": "Maria",
+              "text": "Kita tayo ulit."
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Kita tayo ulit.",
+              "hint": "See you again."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now have a basic social conversation in Tagalog.",
+          "next_level": "level-21-needs"
+        }
+      ]
+    },
+    {
+      "id": "level-21-needs",
+      "title": "Level 21 — Needs & Wants",
+      "description": "Express what you need and don't want",
+      "win_message": "You can now say what you need and don't want.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/needs.png",
+          "caption": "Level 21: Needs & Wants."
+        },
+        {
+          "type": "teach",
+          "phrase": "Kailangan ko ng tubig.",
+          "translation": "I need water.",
+          "new_words": [
+            "kailangan"
+          ],
+          "word_definitions": {
+            "kailangan": "need"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Kailangan ko ng kape.",
+          "translation": "I need coffee.",
+          "new_words": []
+        },
+        {
+          "type": "teach",
+          "phrase": "Ayaw ko ng asukal.",
+          "translation": "I don't want sugar.",
+          "new_words": [
+            "ayaw"
+          ],
+          "word_definitions": {
+            "ayaw": "do not want"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Ano ang kailangan mo?",
+          "translation": "What do you need?",
+          "new_words": []
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Friend",
+              "text": "Ano ang kailangan mo?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Kailangan ko ng tubig.",
+              "hint": "I need water."
+            },
+            {
+              "speaker": "Friend",
+              "text": "Gusto mo ng kape?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Oo, pero ayaw ko ng asukal.",
+              "hint": "Yes, but I don't want sugar."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now say what you need and don't want.",
+          "next_level": "level-22-ability"
+        }
+      ]
+    },
+    {
+      "id": "level-22-ability",
+      "title": "Level 22 — Can & Can't",
+      "description": "Talk about what you can and cannot do",
+      "win_message": "You can now talk about what you can and cannot do.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/ability.png",
+          "caption": "Level 22: Can & Can't."
+        },
+        {
+          "type": "teach",
+          "phrase": "Kaya ko.",
+          "translation": "I can do it.",
+          "new_words": [
+            "kaya"
+          ],
+          "word_definitions": {
+            "kaya": "can / able"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Hindi ko kaya.",
+          "translation": "I can't do it.",
+          "new_words": []
+        },
+        {
+          "type": "teach",
+          "phrase": "Kaya mo ba?",
+          "translation": "Can you do it?",
+          "new_words": []
+        },
+        {
+          "type": "teach",
+          "phrase": "Kaya kong maglakad.",
+          "translation": "I can walk.",
+          "new_words": []
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Friend",
+              "text": "Kaya mo ba?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Kaya ko.",
+              "hint": "I can do it."
+            },
+            {
+              "speaker": "Friend",
+              "text": "Kaya mong maglakad?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Oo. Kaya kong maglakad.",
+              "hint": "Yes. I can walk."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about what you can and cannot do.",
+          "next_level": "level-23-going-places"
+        }
+      ]
+    },
+    {
+      "id": "level-23-going-places",
+      "title": "Level 23 — Going Places",
+      "description": "Say where you are going",
+      "win_message": "You can now say where you are going.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/going-places.png",
+          "caption": "Level 23: Going Places."
+        },
+        {
+          "type": "teach",
+          "phrase": "Pupunta ako sa bahay.",
+          "translation": "I'm going home.",
+          "new_words": [
+            "pupunta"
+          ],
+          "word_definitions": {
+            "pupunta": "going to go"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Pupunta ako sa trabaho.",
+          "translation": "I'm going to work.",
+          "new_words": []
+        },
+        {
+          "type": "teach",
+          "phrase": "Pupunta ako doon.",
+          "translation": "I'm going there.",
+          "new_words": [
+            "doon"
+          ],
+          "word_definitions": {
+            "doon": "there"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Saan ka pupunta?",
+          "translation": "Where are you going?",
+          "new_words": []
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Friend",
+              "text": "Saan ka pupunta?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Pupunta ako sa trabaho.",
+              "hint": "I'm going to work."
+            },
+            {
+              "speaker": "Friend",
+              "text": "Ngayon?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Oo. Pupunta ako doon ngayon.",
+              "hint": "Yes. I'm going there now."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now say where you are going.",
+          "next_level": "level-24-coming-leaving"
+        }
+      ]
+    },
+    {
+      "id": "level-24-coming-leaving",
+      "title": "Level 24 — Coming & Leaving",
+      "description": "Talk about arriving and leaving",
+      "win_message": "You can now talk about arriving and leaving.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/coming-leaving.png",
+          "caption": "Level 24: Coming & Leaving."
+        },
+        {
+          "type": "teach",
+          "phrase": "Aalis ako mamaya.",
+          "translation": "I'm leaving later.",
+          "new_words": [
+            "aalis"
+          ],
+          "word_definitions": {
+            "aalis": "leaving"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Darating ako mamaya.",
+          "translation": "I'll arrive later.",
+          "new_words": [
+            "darating"
+          ],
+          "word_definitions": {
+            "darating": "arriving / will arrive"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Kailan ka aalis?",
+          "translation": "When are you leaving?",
+          "new_words": [
+            "kailan"
+          ],
+          "word_definitions": {
+            "kailan": "when"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Kailan ka darating?",
+          "translation": "When will you arrive?",
+          "new_words": []
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Friend",
+              "text": "Kailan ka aalis?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Aalis ako mamaya.",
+              "hint": "I'm leaving later."
+            },
+            {
+              "speaker": "Friend",
+              "text": "Kailan ka darating?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Darating ako bukas.",
+              "hint": "I'll arrive tomorrow."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about arriving and leaving.",
+          "next_level": "level-25-past-actions"
+        }
+      ]
+    },
+    {
+      "id": "level-25-past-actions",
+      "title": "Level 25 — Past Actions",
+      "description": "Talk about things you already did",
+      "win_message": "You can now talk about simple past actions.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/past-actions.png",
+          "caption": "Level 25: Past Actions."
+        },
+        {
+          "type": "teach",
+          "phrase": "Kumain ako ng kanin.",
+          "translation": "I ate rice.",
+          "new_words": [
+            "kumain"
+          ],
+          "word_definitions": {
+            "kumain": "ate"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Uminom ako ng tubig.",
+          "translation": "I drank water.",
+          "new_words": [
+            "uminom"
+          ],
+          "word_definitions": {
+            "uminom": "drank"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Pumunta ako sa bahay.",
+          "translation": "I went home.",
+          "new_words": [
+            "pumunta"
+          ],
+          "word_definitions": {
+            "pumunta": "went"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Ano ang ginawa mo?",
+          "translation": "What did you do?",
+          "new_words": [
+            "ginawa"
+          ],
+          "word_definitions": {
+            "ginawa": "did"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Friend",
+              "text": "Ano ang ginawa mo?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Kumain ako ng kanin.",
+              "hint": "I ate rice."
+            },
+            {
+              "speaker": "Friend",
+              "text": "Uminom ka ba ng tubig?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Oo. Uminom ako ng tubig.",
+              "hint": "Yes. I drank water."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about simple past actions.",
+          "next_level": "level-26-future-actions"
+        }
+      ]
+    },
+    {
+      "id": "level-26-future-actions",
+      "title": "Level 26 — Future Actions",
+      "description": "Talk about things you will do",
+      "win_message": "You can now talk about simple future actions.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/future-actions.png",
+          "caption": "Level 26: Future Actions."
+        },
+        {
+          "type": "teach",
+          "phrase": "Kakain ako mamaya.",
+          "translation": "I'll eat later.",
+          "new_words": [
+            "kakain"
+          ],
+          "word_definitions": {
+            "kakain": "will eat"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Iinom ako ng tubig.",
+          "translation": "I'll drink water.",
+          "new_words": [
+            "iinom"
+          ],
+          "word_definitions": {
+            "iinom": "will drink"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Gagawin ko bukas.",
+          "translation": "I'll do it tomorrow.",
+          "new_words": [
+            "gagawin"
+          ],
+          "word_definitions": {
+            "gagawin": "will do"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Ano ang gagawin mo?",
+          "translation": "What will you do?",
+          "new_words": []
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Friend",
+              "text": "Ano ang gagawin mo?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Kakain ako mamaya.",
+              "hint": "I'll eat later."
+            },
+            {
+              "speaker": "Friend",
+              "text": "Iinom ka ba ng tubig?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Oo. Iinom ako ng tubig.",
+              "hint": "Yes. I'll drink water."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about simple future actions.",
+          "next_level": "level-27-what-happened"
+        }
+      ]
+    },
+    {
+      "id": "level-27-what-happened",
+      "title": "Level 27 — What Happened?",
+      "description": "Ask what happened and give a reason",
+      "win_message": "You can now ask what happened and give a reason.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/what-happened.png",
+          "caption": "Level 27: What Happened?."
+        },
+        {
+          "type": "teach",
+          "phrase": "Ano ang nangyari?",
+          "translation": "What happened?",
+          "new_words": [
+            "nangyari"
+          ],
+          "word_definitions": {
+            "nangyari": "happened"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Bakit?",
+          "translation": "Why?",
+          "new_words": [
+            "bakit"
+          ],
+          "word_definitions": {
+            "bakit": "why"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Dahil pagod ako.",
+          "translation": "Because I'm tired.",
+          "new_words": [
+            "dahil"
+          ],
+          "word_definitions": {
+            "dahil": "because"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Bakit ka umuwi?",
+          "translation": "Why did you go home?",
+          "new_words": []
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Friend",
+              "text": "Bakit ka umuwi?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Dahil pagod ako.",
+              "hint": "Because I'm tired."
+            },
+            {
+              "speaker": "Friend",
+              "text": "Ano ang nangyari?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Mahirap ang trabaho.",
+              "hint": "The work was difficult."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now ask what happened and give a reason.",
+          "next_level": "level-28-opinions"
+        }
+      ]
+    },
+    {
+      "id": "level-28-opinions",
+      "title": "Level 28 — Opinions",
+      "description": "Give simple opinions",
+      "win_message": "You can now give a simple opinion.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/opinions.png",
+          "caption": "Level 28: Opinions."
+        },
+        {
+          "type": "teach",
+          "phrase": "Sa tingin ko, mahal ito.",
+          "translation": "I think this is expensive.",
+          "new_words": [
+            "tingin"
+          ],
+          "word_definitions": {
+            "tingin": "opinion / think (in phrase)"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Sa tingin ko, mabuti ito.",
+          "translation": "I think this is good.",
+          "new_words": []
+        },
+        {
+          "type": "teach",
+          "phrase": "Ano sa tingin mo?",
+          "translation": "What do you think?",
+          "new_words": []
+        },
+        {
+          "type": "teach",
+          "phrase": "Tama ka.",
+          "translation": "You're right.",
+          "new_words": [
+            "tama"
+          ],
+          "word_definitions": {
+            "tama": "correct / right"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Friend",
+              "text": "Ano sa tingin mo?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Sa tingin ko, mahal ito.",
+              "hint": "I think this is expensive."
+            },
+            {
+              "speaker": "Friend",
+              "text": "Mahal talaga."
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Tama ka.",
+              "hint": "You're right."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now give a simple opinion.",
+          "next_level": "level-29-preferences"
+        }
+      ]
+    },
+    {
+      "id": "level-29-preferences",
+      "title": "Level 29 — Preferences",
+      "description": "Compare what you prefer",
+      "win_message": "You can now express preferences.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/preferences.png",
+          "caption": "Level 29: Preferences."
+        },
+        {
+          "type": "teach",
+          "phrase": "Mas gusto ko ang kape.",
+          "translation": "I prefer coffee.",
+          "new_words": [
+            "mas"
+          ],
+          "word_definitions": {
+            "mas": "more"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Mas gusto ko ang tubig.",
+          "translation": "I prefer water.",
+          "new_words": []
+        },
+        {
+          "type": "teach",
+          "phrase": "Kape o tubig?",
+          "translation": "Coffee or water?",
+          "new_words": [
+            "o"
+          ],
+          "word_definitions": {
+            "o": "or"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Mas gusto ko ang kape kaysa tubig.",
+          "translation": "I prefer coffee to water.",
+          "new_words": [
+            "kaysa"
+          ],
+          "word_definitions": {
+            "kaysa": "than"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Friend",
+              "text": "Kape o tubig?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Mas gusto ko ang kape.",
+              "hint": "I prefer coffee."
+            },
+            {
+              "speaker": "Friend",
+              "text": "Bakit?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Mas gusto ko ang kape kaysa tubig.",
+              "hint": "I prefer coffee to water."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now express preferences.",
+          "next_level": "level-30-know-how"
+        }
+      ]
+    },
+    {
+      "id": "level-30-know-how",
+      "title": "Level 30 — Knowing How",
+      "description": "Say what you know how to do",
+      "win_message": "You can now say what you know how to do.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/know-how.png",
+          "caption": "Level 30: Knowing How."
+        },
+        {
+          "type": "teach",
+          "phrase": "Marunong akong sumayaw.",
+          "translation": "I know how to dance.",
+          "new_words": [
+            "marunong",
+            "sumayaw"
+          ],
+          "word_definitions": {
+            "marunong": "know how to",
+            "sumayaw": "to dance"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Marunong akong magluto.",
+          "translation": "I know how to cook.",
+          "new_words": [
+            "magluto"
+          ],
+          "word_definitions": {
+            "magluto": "to cook"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Marunong ka bang sumayaw?",
+          "translation": "Do you know how to dance?",
+          "new_words": []
+        },
+        {
+          "type": "teach",
+          "phrase": "Hindi ako marunong magluto.",
+          "translation": "I don't know how to cook.",
+          "new_words": []
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Friend",
+              "text": "Marunong ka bang sumayaw?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Oo. Marunong akong sumayaw.",
+              "hint": "Yes. I know how to dance."
+            },
+            {
+              "speaker": "Friend",
+              "text": "Marunong ka bang magluto?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Hindi ako marunong magluto.",
+              "hint": "I don't know how to cook."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now say what you know how to do.",
+          "next_level": "level-31-requests"
+        }
+      ]
+    },
+    {
+      "id": "level-31-requests",
+      "title": "Level 31 — Requests",
+      "description": "Make useful everyday requests",
+      "win_message": "You can now make everyday requests.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/requests.png",
+          "caption": "Level 31: Requests."
+        },
+        {
+          "type": "teach",
+          "phrase": "Pakibigay ang tubig.",
+          "translation": "Please give me the water.",
+          "new_words": [
+            "pakibigay"
+          ],
+          "word_definitions": {
+            "pakibigay": "please give"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Tulungan mo ako.",
+          "translation": "Help me.",
+          "new_words": [
+            "tulungan"
+          ],
+          "word_definitions": {
+            "tulungan": "help (someone)"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Puwede mo ba akong tulungan?",
+          "translation": "Can you help me?",
+          "new_words": [
+            "akong"
+          ],
+          "word_definitions": {
+            "akong": "me / I (linked form)"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Pakiulit, please.",
+          "translation": "Please repeat.",
+          "new_words": []
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Friend",
+              "text": "Ano ang kailangan mo?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Puwede mo ba akong tulungan?",
+              "hint": "Can you help me?"
+            },
+            {
+              "speaker": "Friend",
+              "text": "Oo."
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Pakibigay ang tubig.",
+              "hint": "Please give me the water."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now make everyday requests.",
+          "next_level": "level-32-permission"
+        }
+      ]
+    },
+    {
+      "id": "level-32-permission",
+      "title": "Level 32 — Permission & Rules",
+      "description": "Ask permission and understand restrictions",
+      "win_message": "You can now ask permission and understand simple rules.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/permission.png",
+          "caption": "Level 32: Permission & Rules."
+        },
+        {
+          "type": "teach",
+          "phrase": "Puwede ba akong pumasok?",
+          "translation": "May I enter?",
+          "new_words": [
+            "pumasok"
+          ],
+          "word_definitions": {
+            "pumasok": "to enter"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Puwede ba akong umupo?",
+          "translation": "May I sit down?",
+          "new_words": [
+            "umupo"
+          ],
+          "word_definitions": {
+            "umupo": "to sit down"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Bawal dito.",
+          "translation": "It's not allowed here.",
+          "new_words": [
+            "bawal"
+          ],
+          "word_definitions": {
+            "bawal": "not allowed"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Puwede dito.",
+          "translation": "It's allowed here.",
+          "new_words": []
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Ikaw",
+              "answer": "Puwede ba akong pumasok?",
+              "hint": "May I enter?"
+            },
+            {
+              "speaker": "Staff",
+              "text": "Oo, puwede."
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Puwede ba akong umupo dito?",
+              "hint": "May I sit here?"
+            },
+            {
+              "speaker": "Staff",
+              "text": "Hindi. Bawal dito."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now ask permission and understand simple rules.",
+          "next_level": "level-33-possession"
+        }
+      ]
+    },
+    {
+      "id": "level-33-possession",
+      "title": "Level 33 — Mine, Yours & Theirs",
+      "description": "Talk about ownership",
+      "win_message": "You can now talk about who owns something.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/possession.png",
+          "caption": "Level 33: Mine, Yours & Theirs."
+        },
+        {
+          "type": "teach",
+          "phrase": "Akin ito.",
+          "translation": "This is mine.",
+          "new_words": [
+            "akin"
+          ],
+          "word_definitions": {
+            "akin": "mine"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Iyo ito.",
+          "translation": "This is yours.",
+          "new_words": [
+            "iyo"
+          ],
+          "word_definitions": {
+            "iyo": "yours"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Kanya ito.",
+          "translation": "This is his/hers.",
+          "new_words": [
+            "kanya"
+          ],
+          "word_definitions": {
+            "kanya": "his / hers"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Kanino ito?",
+          "translation": "Whose is this?",
+          "new_words": [
+            "kanino"
+          ],
+          "word_definitions": {
+            "kanino": "whose"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Friend",
+              "text": "Kanino ito?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Akin ito.",
+              "hint": "This is mine."
+            },
+            {
+              "speaker": "Friend",
+              "text": "At ito?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Kanya ito.",
+              "hint": "This is his/hers."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about who owns something.",
+          "next_level": "level-34-location"
+        }
+      ]
+    },
+    {
+      "id": "level-34-location",
+      "title": "Level 34 — Location Relationships",
+      "description": "Describe where things are",
+      "win_message": "You can now describe locations more precisely.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/location.png",
+          "caption": "Level 34: Location Relationships."
+        },
+        {
+          "type": "teach",
+          "phrase": "Malapit sa bahay.",
+          "translation": "Near the house.",
+          "new_words": [
+            "malapit"
+          ],
+          "word_definitions": {
+            "malapit": "near"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Nasa tabi ng bahay.",
+          "translation": "It's beside the house.",
+          "new_words": [
+            "tabi"
+          ],
+          "word_definitions": {
+            "tabi": "beside / side"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Nasa harap ng bahay.",
+          "translation": "It's in front of the house.",
+          "new_words": [
+            "harap"
+          ],
+          "word_definitions": {
+            "harap": "front"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Nasa likod ng bahay.",
+          "translation": "It's behind the house.",
+          "new_words": [
+            "likod"
+          ],
+          "word_definitions": {
+            "likod": "back / behind"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Friend",
+              "text": "Nasaan ito?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Nasa tabi ng bahay.",
+              "hint": "It's beside the house."
+            },
+            {
+              "speaker": "Friend",
+              "text": "Malayo ba?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Hindi. Malapit sa bahay.",
+              "hint": "No. It's near the house."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now describe locations more precisely.",
+          "next_level": "level-35-time"
+        }
+      ]
+    },
+    {
+      "id": "level-35-time",
+      "title": "Level 35 — Time & Sequence",
+      "description": "Ask when and talk about sequence",
+      "win_message": "You can now talk about time and sequence.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/time.png",
+          "caption": "Level 35: Time & Sequence."
+        },
+        {
+          "type": "teach",
+          "phrase": "Anong oras na?",
+          "translation": "What time is it?",
+          "new_words": [
+            "oras"
+          ],
+          "word_definitions": {
+            "oras": "time / hour"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Anong oras ka pupunta?",
+          "translation": "What time are you going?",
+          "new_words": []
+        },
+        {
+          "type": "teach",
+          "phrase": "Bago magtrabaho.",
+          "translation": "Before working.",
+          "new_words": [
+            "bago"
+          ],
+          "word_definitions": {
+            "bago": "before"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Pagkatapos ng trabaho.",
+          "translation": "After work.",
+          "new_words": [
+            "pagkatapos"
+          ],
+          "word_definitions": {
+            "pagkatapos": "after"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Friend",
+              "text": "Anong oras ka pupunta?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Pagkatapos ng trabaho.",
+              "hint": "After work."
+            },
+            {
+              "speaker": "Friend",
+              "text": "Kakain ka ba bago magtrabaho?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Oo. Kakain ako bago magtrabaho.",
+              "hint": "Yes. I'll eat before work."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about time and sequence.",
+          "next_level": "level-36-frequency"
+        }
+      ]
+    },
+    {
+      "id": "level-36-frequency",
+      "title": "Level 36 — Frequency",
+      "description": "Say how often you do things",
+      "win_message": "You can now say how often you do things.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/frequency.png",
+          "caption": "Level 36: Frequency."
+        },
+        {
+          "type": "teach",
+          "phrase": "Lagi akong umiinom ng tubig.",
+          "translation": "I always drink water.",
+          "new_words": [
+            "lagi",
+            "umiinom"
+          ],
+          "word_definitions": {
+            "lagi": "always",
+            "umiinom": "drinking / drink"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Madalas akong magkape.",
+          "translation": "I often drink coffee.",
+          "new_words": [
+            "madalas",
+            "magkape"
+          ],
+          "word_definitions": {
+            "madalas": "often",
+            "magkape": "to drink coffee"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Minsan akong maglakad.",
+          "translation": "Sometimes I walk.",
+          "new_words": [
+            "minsan"
+          ],
+          "word_definitions": {
+            "minsan": "sometimes"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Bihira akong magkape.",
+          "translation": "I rarely drink coffee.",
+          "new_words": [
+            "bihira"
+          ],
+          "word_definitions": {
+            "bihira": "rarely"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Friend",
+              "text": "Madalas ka bang magkape?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Oo. Madalas akong magkape.",
+              "hint": "Yes. I often drink coffee."
+            },
+            {
+              "speaker": "Friend",
+              "text": "Lagi ka bang umiinom ng tubig?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Oo. Lagi akong umiinom ng tubig.",
+              "hint": "Yes. I always drink water."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now say how often you do things.",
+          "next_level": "level-37-comparisons"
+        }
+      ]
+    },
+    {
+      "id": "level-37-comparisons",
+      "title": "Level 37 — Comparisons",
+      "description": "Compare people and things",
+      "win_message": "You can now make simple comparisons.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/comparisons.png",
+          "caption": "Level 37: Comparisons."
+        },
+        {
+          "type": "teach",
+          "phrase": "Mas mahal ito.",
+          "translation": "This is more expensive.",
+          "new_words": []
+        },
+        {
+          "type": "teach",
+          "phrase": "Mas mura ito.",
+          "translation": "This is cheaper.",
+          "new_words": []
+        },
+        {
+          "type": "teach",
+          "phrase": "Mas malaki ang bahay.",
+          "translation": "The house is bigger.",
+          "new_words": []
+        },
+        {
+          "type": "teach",
+          "phrase": "Mas mahal ito kaysa doon.",
+          "translation": "This is more expensive than that one.",
+          "new_words": [
+            "doon"
+          ],
+          "word_definitions": {
+            "doon": "there"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Vendor",
+              "text": "Alin ang gusto mo?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Mas mura ito.",
+              "hint": "This is cheaper."
+            },
+            {
+              "speaker": "Vendor",
+              "text": "Mas malaki iyon."
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Oo, pero mas mahal iyon.",
+              "hint": "Yes, but that one is more expensive."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now make simple comparisons.",
+          "next_level": "level-38-connectors"
+        }
+      ]
+    },
+    {
+      "id": "level-38-connectors",
+      "title": "Level 38 — Connecting Ideas",
+      "description": "Connect thoughts with because, but, and so",
+      "win_message": "You can now connect ideas into longer sentences.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/connectors.png",
+          "caption": "Level 38: Connecting Ideas."
+        },
+        {
+          "type": "teach",
+          "phrase": "Pagod ako kasi nagtatrabaho ako.",
+          "translation": "I'm tired because I'm working.",
+          "new_words": [
+            "kasi"
+          ],
+          "word_definitions": {
+            "kasi": "because"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Gusto ko ng kape pero malamig ito.",
+          "translation": "I want coffee, but it's cold.",
+          "new_words": [
+            "pero"
+          ],
+          "word_definitions": {
+            "pero": "but"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Umuulan, kaya nasa bahay ako.",
+          "translation": "It's raining, so I'm at home.",
+          "new_words": [
+            "kaya"
+          ],
+          "word_definitions": {
+            "kaya": "can / able"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Masaya ako dahil nandito ka.",
+          "translation": "I'm happy because you're here.",
+          "new_words": [
+            "nandito"
+          ],
+          "word_definitions": {
+            "nandito": "here / present"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Friend",
+              "text": "Bakit nasa bahay ka?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Umuulan, kaya nasa bahay ako.",
+              "hint": "It's raining, so I'm at home."
+            },
+            {
+              "speaker": "Friend",
+              "text": "Pagod ka ba?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Oo, pagod ako kasi nagtatrabaho ako.",
+              "hint": "Yes, I'm tired because I'm working."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now connect ideas into longer sentences.",
+          "next_level": "level-39-conversation-tools"
+        }
+      ]
+    },
+    {
+      "id": "level-39-conversation-tools",
+      "title": "Level 39 — Natural Conversation",
+      "description": "Use common words that keep conversation moving",
+      "win_message": "You can now keep a basic conversation moving naturally.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/conversation-tools.png",
+          "caption": "Level 39: Natural Conversation."
+        },
+        {
+          "type": "teach",
+          "phrase": "Talaga?",
+          "translation": "Really?",
+          "new_words": [
+            "talaga"
+          ],
+          "word_definitions": {
+            "talaga": "really"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Siguro bukas.",
+          "translation": "Maybe tomorrow.",
+          "new_words": [
+            "siguro"
+          ],
+          "word_definitions": {
+            "siguro": "maybe"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Depende.",
+          "translation": "It depends.",
+          "new_words": [
+            "depende"
+          ],
+          "word_definitions": {
+            "depende": "it depends"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Tama.",
+          "translation": "Correct / right.",
+          "new_words": []
+        },
+        {
+          "type": "teach",
+          "phrase": "Sige.",
+          "translation": "Okay / go ahead.",
+          "new_words": [
+            "sige"
+          ],
+          "word_definitions": {
+            "sige": "okay / go ahead"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Friend",
+              "text": "Punta tayo bukas."
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Siguro. Depende.",
+              "hint": "Maybe. It depends."
+            },
+            {
+              "speaker": "Friend",
+              "text": "Mainit daw bukas."
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Talaga? Sige, tingnan natin.",
+              "hint": "Really? Okay, let's see."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now keep a basic conversation moving naturally.",
+          "next_level": "level-40-real-conversation"
+        }
+      ]
+    },
+    {
+      "id": "level-40-real-conversation",
+      "title": "Level 40 — Real Conversation",
+      "description": "Combine what you know in a longer conversation",
+      "win_message": "You can now combine your Tagalog into a longer real-world conversation.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/real-conversation.png",
+          "caption": "Level 40: Real Conversation."
+        },
+        {
+          "type": "teach",
+          "phrase": "Kumusta? Ano ang ginagawa mo?",
+          "translation": "How are you? What are you doing?",
+          "new_words": []
+        },
+        {
+          "type": "teach",
+          "phrase": "Nagtatrabaho ako, pero pupunta ako sa bahay mamaya.",
+          "translation": "I'm working, but I'm going home later.",
+          "new_words": []
+        },
+        {
+          "type": "teach",
+          "phrase": "Ano ang gagawin mo bukas?",
+          "translation": "What will you do tomorrow?",
+          "new_words": []
+        },
+        {
+          "type": "teach",
+          "phrase": "Siguro pupunta ako sa Maynila.",
+          "translation": "Maybe I'll go to Manila.",
+          "new_words": []
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Maria",
+              "text": "Kumusta? Ano ang ginagawa mo?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Nagtatrabaho ako, pero pupunta ako sa bahay mamaya.",
+              "hint": "I'm working, but I'm going home later."
+            },
+            {
+              "speaker": "Maria",
+              "text": "Pagod ka ba?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Oo, pagod ako kasi mahirap ang trabaho.",
+              "hint": "Yes, I'm tired because the work is difficult."
+            },
+            {
+              "speaker": "Maria",
+              "text": "Ano ang gagawin mo bukas?"
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Siguro pupunta ako sa Maynila.",
+              "hint": "Maybe I'll go to Manila."
+            },
+            {
+              "speaker": "Maria",
+              "text": "Sige. Kita tayo ulit."
+            },
+            {
+              "speaker": "Ikaw",
+              "answer": "Oo. Kita tayo ulit.",
+              "hint": "Yes. See you again."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now have a basic social conversation in Tagalog.",
+          "next_level": null
+        }
+      ]
+    }
+  ]
+}

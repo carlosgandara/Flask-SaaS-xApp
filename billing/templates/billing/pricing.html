@@ -1,0 +1,35 @@
+{% extends "billing/base.html" %}
+{% block title %}Membership plans{% endblock %}
+{% block billing_content %}
+<h1>Membership plans</h1>
+<p id="billing-plan-status">Checking your membership…</p>
+<a id="billing-plan-login" href="{{ url_for('auth.login_page') }}" hidden>Log in</a>
+<button type="button" id="billing-manage-current" hidden>Manage billing</button>
+<noscript><p>Open <a href="{{ url_for('billing.membership') }}">Membership</a> to check your subscription.</p></noscript>
+{% for key, plan in plans.items() %}
+<article class="card">
+    <h2>{{ plan.name }}</h2>
+    <p data-current-plan="{{ key }}" hidden><strong>Your current plan</strong></p>
+    <p>{{ plan.description }}</p>
+    <p><strong>{{ plan.price_label }}</strong></p>
+    <p>Final pricing, taxes, and renewal terms are shown at checkout.</p>
+    <button type="button" data-checkout-plan="{{ key }}" hidden disabled>Subscribe</button>
+</article>
+{% endfor %}
+<p id="billing-checkout-fallback" hidden>
+    Checkout not displaying?
+    <a id="billing-checkout-link" referrerpolicy="no-referrer">Open secure checkout in the full page</a>.
+    <button type="button" id="billing-close-checkout">Close checkout</button>
+</p>
+<p id="billing-confirmation" hidden>
+    <span id="billing-confirmation-status" role="status" aria-live="polite"></span>
+    <a href="{{ url_for('billing.membership') }}">View membership</a>
+</p>
+{% endblock %}
+{% block payment_assets %}
+{% if lemon_overlay %}
+<link rel="stylesheet" href="{{ url_for('billing.static', filename='css/checkout.css') }}">
+<script src="https://app.lemonsqueezy.com/js/lemon.js" defer></script>
+<script src="{{ url_for('billing.static', filename='js/checkout-overlay.js') }}" defer></script>
+{% endif %}
+{% endblock %}

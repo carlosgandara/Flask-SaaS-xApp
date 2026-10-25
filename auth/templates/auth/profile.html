@@ -1,0 +1,34 @@
+{% extends "auth/base.html" %}
+
+{% block title %}Profile{% endblock %}
+
+{% block content %}
+<div class="nav">
+    <span><strong>🔒 MyApp</strong></span>
+    <a href="/dashboard">Dashboard</a>
+    <a href="/profile">Profile</a>
+    {% if config.BILLING_ENABLED %}<a href="{{ url_for('billing.membership') }}">Membership</a>{% endif %}
+    <button type="button" data-action="logout">🚪 Logout</button>
+</div>
+
+<h1>👤 Your Profile</h1>
+<p class="status">✅ You are viewing a protected page.</p>
+
+<div class="card">
+    <div class="avatar">👨‍💻</div>
+    <div class="user-info" id="user-email">Loading user email...</div>
+    <p><strong>Session Info:</strong></p>
+    <ul>
+        <li>🔑 Access Token: Valid (stored in HttpOnly cookie - safe from XSS)</li>
+        <li>🔄 Refresh Token: Valid (stored in HttpOnly cookie)</li>
+        <li>🍪 Cookies are sent automatically with every request.</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h3>🧪 Test Page Refresh</h3>
+    <p><strong>Refresh this page (F5).</strong></p>
+    <p>Because your token is stored in an <code>HttpOnly</code> cookie, it survives page refreshes automatically. The server validates the cookie on each request.</p>
+    <p>If your Access Token has expired, the server will redirect you to the login page (since there's no valid token to serve the HTML page). To prevent this, your frontend should handle API 401s gracefully (as seen on the Dashboard).</p>
+</div>
+{% endblock %}

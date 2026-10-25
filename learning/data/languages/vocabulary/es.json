@@ -1,0 +1,3012 @@
+{
+  "concept-0001": {
+    "translation": "casa",
+    "accepted_answers": [
+      "casa"
+    ],
+    "example": {
+      "text": "Mi casa es pequeña.",
+      "translation": "My house is small."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/casa.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0002": {
+    "translation": "mesa",
+    "accepted_answers": [
+      "mesa"
+    ],
+    "example": {
+      "text": "El libro está sobre la mesa.",
+      "translation": "The book is on the table."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/mesa.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0003": {
+    "translation": "silla",
+    "accepted_answers": [
+      "silla"
+    ],
+    "example": {
+      "text": "La silla está junto a la mesa.",
+      "translation": "The chair is next to the table."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/silla.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0004": {
+    "translation": "puerta",
+    "accepted_answers": [
+      "puerta"
+    ],
+    "example": {
+      "text": "La puerta está abierta.",
+      "translation": "The door is open."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/puerta.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0005": {
+    "translation": "cama",
+    "accepted_answers": [
+      "cama"
+    ],
+    "example": {
+      "text": "La cama está en mi habitación.",
+      "translation": "The bed is in my room."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/cama.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0006": {
+    "translation": "ventana",
+    "accepted_answers": [
+      "ventana"
+    ],
+    "example": {
+      "text": "Abre la ventana, por favor.",
+      "translation": "Open the window, please."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/ventana.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0007": {
+    "translation": "cocina",
+    "accepted_answers": [
+      "cocina"
+    ],
+    "example": {
+      "text": "Estoy en la cocina.",
+      "translation": "I am in the kitchen."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/cocina.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0008": {
+    "translation": "baño",
+    "accepted_answers": [
+      "baño"
+    ],
+    "example": {
+      "text": "¿Dónde está el baño?",
+      "translation": "Where is the bathroom?"
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/bano.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0009": {
+    "translation": "sofá",
+    "accepted_answers": [
+      "sofá"
+    ],
+    "example": {
+      "text": "El gato está en el sofá.",
+      "translation": "The cat is on the sofa."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/sofa.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0010": {
+    "translation": "lámpara",
+    "accepted_answers": [
+      "lámpara"
+    ],
+    "example": {
+      "text": "Enciende la lámpara, por favor.",
+      "translation": "Turn on the lamp, please."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/lampara.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0011": {
+    "translation": "café",
+    "accepted_answers": [
+      "café"
+    ],
+    "example": {
+      "text": "Quiero café.",
+      "translation": "I want coffee."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/cafe.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0012": {
+    "translation": "agua",
+    "accepted_answers": [
+      "agua"
+    ],
+    "example": {
+      "text": "Necesito el agua.",
+      "translation": "I need the water."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/agua.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0013": {
+    "translation": "pan",
+    "accepted_answers": [
+      "pan"
+    ],
+    "example": {
+      "text": "Necesito el pan.",
+      "translation": "I need the bread."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/pan.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0014": {
+    "translation": "arroz cocido",
+    "accepted_answers": [
+      "arroz cocido"
+    ],
+    "example": {
+      "text": "Necesito el arroz cocido.",
+      "translation": "I need the cooked rice."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/arroz-cocido.mp3",
+    "usage_notes": [
+      "Refers to rice that has been cooked."
+    ],
+    "forms": []
+  },
+  "concept-0015": {
+    "translation": "manzana",
+    "accepted_answers": [
+      "manzana"
+    ],
+    "example": {
+      "text": "Necesito la manzana.",
+      "translation": "I need the apple."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/manzana.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0016": {
+    "translation": "plátano",
+    "accepted_answers": [
+      "plátano"
+    ],
+    "example": {
+      "text": "Necesito el plátano.",
+      "translation": "I need the banana."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/platano.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0017": {
+    "translation": "huevo",
+    "accepted_answers": [
+      "huevo"
+    ],
+    "example": {
+      "text": "Necesito el huevo.",
+      "translation": "I need the egg."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/huevo.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0018": {
+    "translation": "leche",
+    "accepted_answers": [
+      "leche"
+    ],
+    "example": {
+      "text": "Necesito la leche.",
+      "translation": "I need the milk."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/leche.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0019": {
+    "translation": "queso",
+    "accepted_answers": [
+      "queso"
+    ],
+    "example": {
+      "text": "Necesito el queso.",
+      "translation": "I need the cheese."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/queso.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0020": {
+    "translation": "zanahoria",
+    "accepted_answers": [
+      "zanahoria"
+    ],
+    "example": {
+      "text": "Necesito la zanahoria.",
+      "translation": "I need the carrot."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/zanahoria.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0021": {
+    "translation": "perro",
+    "accepted_answers": [
+      "perro"
+    ],
+    "example": {
+      "text": "Veo el perro.",
+      "translation": "I see the dog."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/perro.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0022": {
+    "translation": "gato",
+    "accepted_answers": [
+      "gato"
+    ],
+    "example": {
+      "text": "Veo el gato.",
+      "translation": "I see the cat."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/gato.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0023": {
+    "translation": "pájaro",
+    "accepted_answers": [
+      "pájaro"
+    ],
+    "example": {
+      "text": "Veo el pájaro.",
+      "translation": "I see the bird."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/pajaro.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0024": {
+    "translation": "pez",
+    "accepted_answers": [
+      "pez"
+    ],
+    "example": {
+      "text": "Veo el pez.",
+      "translation": "I see the fish."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/pez.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0025": {
+    "translation": "caballo",
+    "accepted_answers": [
+      "caballo"
+    ],
+    "example": {
+      "text": "Veo el caballo.",
+      "translation": "I see the horse."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/caballo.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0026": {
+    "translation": "vaca",
+    "accepted_answers": [
+      "vaca"
+    ],
+    "example": {
+      "text": "Veo la vaca.",
+      "translation": "I see the cow."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/vaca.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0027": {
+    "translation": "cerdo",
+    "accepted_answers": [
+      "cerdo"
+    ],
+    "example": {
+      "text": "Veo el cerdo.",
+      "translation": "I see the pig."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/cerdo.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0028": {
+    "translation": "gallina",
+    "accepted_answers": [
+      "gallina"
+    ],
+    "example": {
+      "text": "Veo la gallina.",
+      "translation": "I see the hen."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/gallina.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0029": {
+    "translation": "mariposa",
+    "accepted_answers": [
+      "mariposa"
+    ],
+    "example": {
+      "text": "Veo la mariposa.",
+      "translation": "I see the butterfly."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/mariposa.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0030": {
+    "translation": "elefante",
+    "accepted_answers": [
+      "elefante"
+    ],
+    "example": {
+      "text": "Veo el elefante.",
+      "translation": "I see the elephant."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/elefante.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0031": {
+    "translation": "cabeza",
+    "accepted_answers": [
+      "cabeza"
+    ],
+    "example": {
+      "text": "Veo la cabeza.",
+      "translation": "I see the head."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/cabeza.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0032": {
+    "translation": "mano",
+    "accepted_answers": [
+      "mano"
+    ],
+    "example": {
+      "text": "Veo la mano.",
+      "translation": "I see the hand."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/mano.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0033": {
+    "translation": "pie",
+    "accepted_answers": [
+      "pie"
+    ],
+    "example": {
+      "text": "Veo el pie.",
+      "translation": "I see the foot."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/pie.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0034": {
+    "translation": "ojo",
+    "accepted_answers": [
+      "ojo"
+    ],
+    "example": {
+      "text": "Veo el ojo.",
+      "translation": "I see the eye."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/ojo.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0035": {
+    "translation": "nariz",
+    "accepted_answers": [
+      "nariz"
+    ],
+    "example": {
+      "text": "Veo la nariz.",
+      "translation": "I see the nose."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/nariz.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0036": {
+    "translation": "boca",
+    "accepted_answers": [
+      "boca"
+    ],
+    "example": {
+      "text": "Veo la boca.",
+      "translation": "I see the mouth."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/boca.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0037": {
+    "translation": "oreja",
+    "accepted_answers": [
+      "oreja"
+    ],
+    "example": {
+      "text": "Veo la oreja.",
+      "translation": "I see the ear."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/oreja.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0038": {
+    "translation": "brazo",
+    "accepted_answers": [
+      "brazo"
+    ],
+    "example": {
+      "text": "Veo el brazo.",
+      "translation": "I see the arm."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/brazo.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0039": {
+    "translation": "pierna",
+    "accepted_answers": [
+      "pierna"
+    ],
+    "example": {
+      "text": "Veo la pierna.",
+      "translation": "I see the leg."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/pierna.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0040": {
+    "translation": "diente",
+    "accepted_answers": [
+      "diente"
+    ],
+    "example": {
+      "text": "Veo el diente.",
+      "translation": "I see the tooth."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/diente.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0041": {
+    "translation": "sol",
+    "accepted_answers": [
+      "sol"
+    ],
+    "example": {
+      "text": "Veo el sol.",
+      "translation": "I see the sun."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/sol.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0042": {
+    "translation": "luna",
+    "accepted_answers": [
+      "luna"
+    ],
+    "example": {
+      "text": "Veo la luna.",
+      "translation": "I see the moon."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/luna.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0043": {
+    "translation": "árbol",
+    "accepted_answers": [
+      "árbol"
+    ],
+    "example": {
+      "text": "Veo el árbol.",
+      "translation": "I see the tree."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/arbol.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0044": {
+    "translation": "montaña",
+    "accepted_answers": [
+      "montaña"
+    ],
+    "example": {
+      "text": "Veo la montaña.",
+      "translation": "I see the mountain."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/montana.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0045": {
+    "translation": "océano",
+    "accepted_answers": [
+      "océano"
+    ],
+    "example": {
+      "text": "Veo el océano.",
+      "translation": "I see the ocean."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/oceano.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0046": {
+    "translation": "río",
+    "accepted_answers": [
+      "río"
+    ],
+    "example": {
+      "text": "Veo el río.",
+      "translation": "I see the river."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/rio.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0047": {
+    "translation": "flor",
+    "accepted_answers": [
+      "flor"
+    ],
+    "example": {
+      "text": "Veo la flor.",
+      "translation": "I see the flower."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/flor.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0048": {
+    "translation": "roca",
+    "accepted_answers": [
+      "roca"
+    ],
+    "example": {
+      "text": "Veo la roca.",
+      "translation": "I see the rock."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/roca.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0049": {
+    "translation": "nube",
+    "accepted_answers": [
+      "nube"
+    ],
+    "example": {
+      "text": "Veo la nube.",
+      "translation": "I see the cloud."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/nube.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0050": {
+    "translation": "estrella",
+    "accepted_answers": [
+      "estrella"
+    ],
+    "example": {
+      "text": "Veo la estrella.",
+      "translation": "I see the star."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/estrella.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0051": {
+    "translation": "coche",
+    "accepted_answers": [
+      "coche"
+    ],
+    "example": {
+      "text": "Veo el coche.",
+      "translation": "I see the car."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/coche.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0052": {
+    "translation": "autobús",
+    "accepted_answers": [
+      "autobús"
+    ],
+    "example": {
+      "text": "Veo el autobús.",
+      "translation": "I see the bus."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/autobus.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0053": {
+    "translation": "bicicleta",
+    "accepted_answers": [
+      "bicicleta"
+    ],
+    "example": {
+      "text": "Veo la bicicleta.",
+      "translation": "I see the bicycle."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/bicicleta.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0054": {
+    "translation": "avión",
+    "accepted_answers": [
+      "avión"
+    ],
+    "example": {
+      "text": "Veo el avión.",
+      "translation": "I see the airplane."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/avion.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0055": {
+    "translation": "tren",
+    "accepted_answers": [
+      "tren"
+    ],
+    "example": {
+      "text": "Veo el tren.",
+      "translation": "I see the train."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/tren.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0056": {
+    "translation": "barco",
+    "accepted_answers": [
+      "barco"
+    ],
+    "example": {
+      "text": "Veo el barco.",
+      "translation": "I see the boat."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/barco.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0057": {
+    "translation": "motocicleta",
+    "accepted_answers": [
+      "motocicleta"
+    ],
+    "example": {
+      "text": "Veo la motocicleta.",
+      "translation": "I see the motorcycle."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/motocicleta.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0058": {
+    "translation": "camión",
+    "accepted_answers": [
+      "camión"
+    ],
+    "example": {
+      "text": "Veo el camión.",
+      "translation": "I see the truck."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/camion.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0059": {
+    "translation": "helicóptero",
+    "accepted_answers": [
+      "helicóptero"
+    ],
+    "example": {
+      "text": "Veo el helicóptero.",
+      "translation": "I see the helicopter."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/helicoptero.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0060": {
+    "translation": "taxi",
+    "accepted_answers": [
+      "taxi"
+    ],
+    "example": {
+      "text": "Veo el taxi.",
+      "translation": "I see the taxi."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/taxi.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0061": {
+    "translation": "camiseta",
+    "accepted_answers": [
+      "camiseta"
+    ],
+    "example": {
+      "text": "Veo la camiseta.",
+      "translation": "I see the shirt."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/camiseta.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0062": {
+    "translation": "zapatos",
+    "accepted_answers": [
+      "zapatos"
+    ],
+    "example": {
+      "text": "Veo los zapatos.",
+      "translation": "I see the shoes."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/zapatos.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0063": {
+    "translation": "pantalones",
+    "accepted_answers": [
+      "pantalones"
+    ],
+    "example": {
+      "text": "Veo los pantalones.",
+      "translation": "I see the pants."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/pantalones.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0064": {
+    "translation": "sombrero",
+    "accepted_answers": [
+      "sombrero"
+    ],
+    "example": {
+      "text": "Veo el sombrero.",
+      "translation": "I see the hat."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/sombrero.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0065": {
+    "translation": "vestido",
+    "accepted_answers": [
+      "vestido"
+    ],
+    "example": {
+      "text": "Veo el vestido.",
+      "translation": "I see the dress."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/vestido.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0066": {
+    "translation": "chaqueta",
+    "accepted_answers": [
+      "chaqueta"
+    ],
+    "example": {
+      "text": "Veo la chaqueta.",
+      "translation": "I see the jacket."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/chaqueta.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0067": {
+    "translation": "calcetines",
+    "accepted_answers": [
+      "calcetines"
+    ],
+    "example": {
+      "text": "Veo los calcetines.",
+      "translation": "I see the socks."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/calcetines.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0068": {
+    "translation": "falda",
+    "accepted_answers": [
+      "falda"
+    ],
+    "example": {
+      "text": "Veo la falda.",
+      "translation": "I see the skirt."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/falda.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0069": {
+    "translation": "cinturón",
+    "accepted_answers": [
+      "cinturón"
+    ],
+    "example": {
+      "text": "Veo el cinturón.",
+      "translation": "I see the belt."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/cinturon.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0070": {
+    "translation": "guantes",
+    "accepted_answers": [
+      "guantes"
+    ],
+    "example": {
+      "text": "Veo los guantes.",
+      "translation": "I see the gloves."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/guantes.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0071": {
+    "translation": "rojo",
+    "accepted_answers": [
+      "rojo"
+    ],
+    "example": {
+      "text": "Me gusta el color rojo.",
+      "translation": "I like the color red."
+    },
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/rojo.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0072": {
+    "translation": "azul",
+    "accepted_answers": [
+      "azul"
+    ],
+    "example": {
+      "text": "Me gusta el color azul.",
+      "translation": "I like the color blue."
+    },
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/azul.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0073": {
+    "translation": "verde",
+    "accepted_answers": [
+      "verde"
+    ],
+    "example": {
+      "text": "Me gusta el color verde.",
+      "translation": "I like the color green."
+    },
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/verde.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0074": {
+    "translation": "amarillo",
+    "accepted_answers": [
+      "amarillo"
+    ],
+    "example": {
+      "text": "Me gusta el color amarillo.",
+      "translation": "I like the color yellow."
+    },
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/amarillo.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0075": {
+    "translation": "negro",
+    "accepted_answers": [
+      "negro"
+    ],
+    "example": {
+      "text": "Me gusta el color negro.",
+      "translation": "I like the color black."
+    },
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/negro.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0076": {
+    "translation": "blanco",
+    "accepted_answers": [
+      "blanco"
+    ],
+    "example": {
+      "text": "Me gusta el color blanco.",
+      "translation": "I like the color white."
+    },
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/blanco.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0077": {
+    "translation": "naranja",
+    "accepted_answers": [
+      "naranja"
+    ],
+    "example": {
+      "text": "Me gusta el color naranja.",
+      "translation": "I like the color orange."
+    },
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/naranja.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0078": {
+    "translation": "morado",
+    "accepted_answers": [
+      "morado"
+    ],
+    "example": {
+      "text": "Me gusta el color morado.",
+      "translation": "I like the color purple."
+    },
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/morado.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0079": {
+    "translation": "rosa",
+    "accepted_answers": [
+      "rosa"
+    ],
+    "example": {
+      "text": "Me gusta el color rosa.",
+      "translation": "I like the color pink."
+    },
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/rosa.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0080": {
+    "translation": "marrón",
+    "accepted_answers": [
+      "marrón"
+    ],
+    "example": {
+      "text": "Me gusta el color marrón.",
+      "translation": "I like the color brown."
+    },
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/marron.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0081": {
+    "translation": "teléfono",
+    "accepted_answers": [
+      "teléfono"
+    ],
+    "example": {
+      "text": "Necesito el teléfono.",
+      "translation": "I need the phone."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/telefono.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0082": {
+    "translation": "libro",
+    "accepted_answers": [
+      "libro"
+    ],
+    "example": {
+      "text": "Necesito el libro.",
+      "translation": "I need the book."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/libro.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0083": {
+    "translation": "bolígrafo",
+    "accepted_answers": [
+      "bolígrafo"
+    ],
+    "example": {
+      "text": "Necesito el bolígrafo.",
+      "translation": "I need the pen."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/boligrafo.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0084": {
+    "translation": "llave",
+    "accepted_answers": [
+      "llave"
+    ],
+    "example": {
+      "text": "Necesito la llave.",
+      "translation": "I need the key."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/llave.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0085": {
+    "translation": "computadora",
+    "accepted_answers": [
+      "computadora"
+    ],
+    "example": {
+      "text": "Necesito la computadora.",
+      "translation": "I need the computer."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/computadora.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0086": {
+    "translation": "bolsa",
+    "accepted_answers": [
+      "bolsa"
+    ],
+    "example": {
+      "text": "Necesito la bolsa.",
+      "translation": "I need the bag."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/bolsa.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0087": {
+    "translation": "reloj",
+    "accepted_answers": [
+      "reloj"
+    ],
+    "example": {
+      "text": "Necesito el reloj.",
+      "translation": "I need the clock."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/reloj.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0088": {
+    "translation": "botella",
+    "accepted_answers": [
+      "botella"
+    ],
+    "example": {
+      "text": "Necesito la botella.",
+      "translation": "I need the bottle."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/botella.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0089": {
+    "translation": "taza",
+    "accepted_answers": [
+      "taza"
+    ],
+    "example": {
+      "text": "Necesito la taza.",
+      "translation": "I need the cup."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/taza.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0090": {
+    "translation": "paraguas",
+    "accepted_answers": [
+      "paraguas"
+    ],
+    "example": {
+      "text": "Necesito el paraguas.",
+      "translation": "I need the umbrella."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/paraguas.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0091": {
+    "translation": "plato",
+    "accepted_answers": [
+      "plato"
+    ],
+    "example": {
+      "text": "Necesito el plato.",
+      "translation": "I need the plate."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/plato.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0092": {
+    "translation": "cuchara",
+    "accepted_answers": [
+      "cuchara"
+    ],
+    "example": {
+      "text": "Necesito la cuchara.",
+      "translation": "I need the spoon."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/cuchara.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0093": {
+    "translation": "tenedor",
+    "accepted_answers": [
+      "tenedor"
+    ],
+    "example": {
+      "text": "Necesito el tenedor.",
+      "translation": "I need the fork."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/tenedor.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0094": {
+    "translation": "cuchillo",
+    "accepted_answers": [
+      "cuchillo"
+    ],
+    "example": {
+      "text": "Necesito el cuchillo.",
+      "translation": "I need the kitchen knife."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/cuchillo.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0095": {
+    "translation": "tazón",
+    "accepted_answers": [
+      "tazón"
+    ],
+    "example": {
+      "text": "Necesito el tazón.",
+      "translation": "I need the bowl."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/tazon.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0096": {
+    "translation": "olla",
+    "accepted_answers": [
+      "olla"
+    ],
+    "example": {
+      "text": "Necesito la olla.",
+      "translation": "I need the cooking pot."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/olla.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0097": {
+    "translation": "sartén",
+    "accepted_answers": [
+      "sartén"
+    ],
+    "example": {
+      "text": "Necesito la sartén.",
+      "translation": "I need the frying pan."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/sarten.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0098": {
+    "translation": "refrigerador",
+    "accepted_answers": [
+      "refrigerador"
+    ],
+    "example": {
+      "text": "Necesito el refrigerador.",
+      "translation": "I need the refrigerator."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/refrigerador.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0099": {
+    "translation": "estufa",
+    "accepted_answers": [
+      "estufa"
+    ],
+    "example": {
+      "text": "Necesito la estufa.",
+      "translation": "I need the stove."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/estufa.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0100": {
+    "translation": "vaso",
+    "accepted_answers": [
+      "vaso"
+    ],
+    "example": {
+      "text": "Necesito el vaso.",
+      "translation": "I need the drinking glass."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/vaso.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0101": {
+    "translation": "sopa",
+    "accepted_answers": [
+      "sopa"
+    ],
+    "example": {
+      "text": "Necesito la sopa.",
+      "translation": "I need the soup."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/sopa.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0102": {
+    "translation": "carne",
+    "accepted_answers": [
+      "carne"
+    ],
+    "example": {
+      "text": "Necesito la carne.",
+      "translation": "I need the meat."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/carne.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0103": {
+    "translation": "sándwich",
+    "accepted_answers": [
+      "sándwich"
+    ],
+    "example": {
+      "text": "Necesito el sándwich.",
+      "translation": "I need the sandwich."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/sandwich.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0104": {
+    "translation": "ensalada",
+    "accepted_answers": [
+      "ensalada"
+    ],
+    "example": {
+      "text": "Necesito la ensalada.",
+      "translation": "I need the salad."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/ensalada.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0105": {
+    "translation": "pastel",
+    "accepted_answers": [
+      "pastel"
+    ],
+    "example": {
+      "text": "Necesito el pastel.",
+      "translation": "I need the cake."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/pastel.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0106": {
+    "translation": "mantequilla",
+    "accepted_answers": [
+      "mantequilla"
+    ],
+    "example": {
+      "text": "Necesito la mantequilla.",
+      "translation": "I need the butter."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/mantequilla.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0107": {
+    "translation": "sal",
+    "accepted_answers": [
+      "sal"
+    ],
+    "example": {
+      "text": "Necesito la sal.",
+      "translation": "I need the salt."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/sal.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0108": {
+    "translation": "azúcar",
+    "accepted_answers": [
+      "azúcar"
+    ],
+    "example": {
+      "text": "Necesito el azúcar.",
+      "translation": "I need the sugar."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/azucar.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0109": {
+    "translation": "miel",
+    "accepted_answers": [
+      "miel"
+    ],
+    "example": {
+      "text": "Necesito la miel.",
+      "translation": "I need the honey."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/miel.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0110": {
+    "translation": "harina",
+    "accepted_answers": [
+      "harina"
+    ],
+    "example": {
+      "text": "Necesito la harina.",
+      "translation": "I need the flour."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/harina.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0111": {
+    "translation": "mango",
+    "accepted_answers": [
+      "mango"
+    ],
+    "example": {
+      "text": "Necesito el mango.",
+      "translation": "I need the mango."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/mango.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0112": {
+    "translation": "piña",
+    "accepted_answers": [
+      "piña"
+    ],
+    "example": {
+      "text": "Necesito la piña.",
+      "translation": "I need the pineapple."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/pina.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0113": {
+    "translation": "uvas",
+    "accepted_answers": [
+      "uvas"
+    ],
+    "example": {
+      "text": "Necesito las uvas.",
+      "translation": "I need the grapes."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/uvas.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0114": {
+    "translation": "sandía",
+    "accepted_answers": [
+      "sandía"
+    ],
+    "example": {
+      "text": "Necesito la sandía.",
+      "translation": "I need the watermelon."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/sandia.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0115": {
+    "translation": "limón",
+    "accepted_answers": [
+      "limón"
+    ],
+    "example": {
+      "text": "Necesito el limón.",
+      "translation": "I need the lemon."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/limon.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0116": {
+    "translation": "tomate",
+    "accepted_answers": [
+      "tomate"
+    ],
+    "example": {
+      "text": "Necesito el tomate.",
+      "translation": "I need the tomato."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/tomate.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0117": {
+    "translation": "papa",
+    "accepted_answers": [
+      "papa"
+    ],
+    "example": {
+      "text": "Necesito la papa.",
+      "translation": "I need the potato."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/papa.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0118": {
+    "translation": "cebolla",
+    "accepted_answers": [
+      "cebolla"
+    ],
+    "example": {
+      "text": "Necesito la cebolla.",
+      "translation": "I need the onion."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/cebolla.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0119": {
+    "translation": "pepino",
+    "accepted_answers": [
+      "pepino"
+    ],
+    "example": {
+      "text": "Necesito el pepino.",
+      "translation": "I need the cucumber."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/pepino.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0120": {
+    "translation": "repollo",
+    "accepted_answers": [
+      "repollo"
+    ],
+    "example": {
+      "text": "Necesito el repollo.",
+      "translation": "I need the cabbage."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/repollo.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0121": {
+    "translation": "escuela",
+    "accepted_answers": [
+      "escuela"
+    ],
+    "example": {
+      "text": "Veo la escuela.",
+      "translation": "I see the school."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/escuela.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0122": {
+    "translation": "hospital",
+    "accepted_answers": [
+      "hospital"
+    ],
+    "example": {
+      "text": "Veo el hospital.",
+      "translation": "I see the hospital."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/hospital.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0123": {
+    "translation": "restaurante",
+    "accepted_answers": [
+      "restaurante"
+    ],
+    "example": {
+      "text": "Veo el restaurante.",
+      "translation": "I see the restaurant."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/restaurante.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0124": {
+    "translation": "supermercado",
+    "accepted_answers": [
+      "supermercado"
+    ],
+    "example": {
+      "text": "Veo el supermercado.",
+      "translation": "I see the supermarket."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/supermercado.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0125": {
+    "translation": "farmacia",
+    "accepted_answers": [
+      "farmacia"
+    ],
+    "example": {
+      "text": "Veo la farmacia.",
+      "translation": "I see the pharmacy."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/farmacia.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0126": {
+    "translation": "banco",
+    "accepted_answers": [
+      "banco"
+    ],
+    "example": {
+      "text": "Veo el banco.",
+      "translation": "I see the bank."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/banco.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0127": {
+    "translation": "parque",
+    "accepted_answers": [
+      "parque"
+    ],
+    "example": {
+      "text": "Veo el parque.",
+      "translation": "I see the park."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/parque.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0128": {
+    "translation": "playa",
+    "accepted_answers": [
+      "playa"
+    ],
+    "example": {
+      "text": "Veo la playa.",
+      "translation": "I see the beach."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/playa.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0129": {
+    "translation": "biblioteca",
+    "accepted_answers": [
+      "biblioteca"
+    ],
+    "example": {
+      "text": "Veo la biblioteca.",
+      "translation": "I see the library."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/biblioteca.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0130": {
+    "translation": "aeropuerto",
+    "accepted_answers": [
+      "aeropuerto"
+    ],
+    "example": {
+      "text": "Veo el aeropuerto.",
+      "translation": "I see the airport."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/aeropuerto.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0131": {
+    "translation": "madre",
+    "accepted_answers": [
+      "madre"
+    ],
+    "example": {
+      "text": "Veo a la madre.",
+      "translation": "I see the mother."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/madre.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0132": {
+    "translation": "padre",
+    "accepted_answers": [
+      "padre"
+    ],
+    "example": {
+      "text": "Veo a el padre.",
+      "translation": "I see the father."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/padre.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0133": {
+    "translation": "hermana",
+    "accepted_answers": [
+      "hermana"
+    ],
+    "example": {
+      "text": "Veo a la hermana.",
+      "translation": "I see the sister."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/hermana.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0134": {
+    "translation": "hermano",
+    "accepted_answers": [
+      "hermano"
+    ],
+    "example": {
+      "text": "Veo a el hermano.",
+      "translation": "I see the brother."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/hermano.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0135": {
+    "translation": "abuela",
+    "accepted_answers": [
+      "abuela"
+    ],
+    "example": {
+      "text": "Veo a la abuela.",
+      "translation": "I see the grandmother."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/abuela.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0136": {
+    "translation": "abuelo",
+    "accepted_answers": [
+      "abuelo"
+    ],
+    "example": {
+      "text": "Veo a el abuelo.",
+      "translation": "I see the grandfather."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/abuelo.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0137": {
+    "translation": "bebé",
+    "accepted_answers": [
+      "bebé"
+    ],
+    "example": {
+      "text": "Veo a el bebé.",
+      "translation": "I see the baby."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/bebe.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0138": {
+    "translation": "niño",
+    "accepted_answers": [
+      "niño"
+    ],
+    "example": {
+      "text": "Veo a el niño.",
+      "translation": "I see the child."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/nino.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0139": {
+    "translation": "mujer",
+    "accepted_answers": [
+      "mujer"
+    ],
+    "example": {
+      "text": "Veo a la mujer.",
+      "translation": "I see the woman."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/mujer.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0140": {
+    "translation": "hombre",
+    "accepted_answers": [
+      "hombre"
+    ],
+    "example": {
+      "text": "Veo a el hombre.",
+      "translation": "I see the man."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/hombre.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0141": {
+    "translation": "comer",
+    "accepted_answers": [
+      "comer"
+    ],
+    "example": {
+      "text": "Quiero comer.",
+      "translation": "I want to eat."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/comer.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0142": {
+    "translation": "beber",
+    "accepted_answers": [
+      "beber"
+    ],
+    "example": {
+      "text": "Quiero beber.",
+      "translation": "I want to drink."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/beber.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0143": {
+    "translation": "dormir",
+    "accepted_answers": [
+      "dormir"
+    ],
+    "example": {
+      "text": "Quiero dormir.",
+      "translation": "I want to sleep."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/dormir.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0144": {
+    "translation": "caminar",
+    "accepted_answers": [
+      "caminar"
+    ],
+    "example": {
+      "text": "Quiero caminar.",
+      "translation": "I want to walk."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/caminar.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0145": {
+    "translation": "correr",
+    "accepted_answers": [
+      "correr"
+    ],
+    "example": {
+      "text": "Quiero correr.",
+      "translation": "I want to run."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/correr.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0146": {
+    "translation": "sentarse",
+    "accepted_answers": [
+      "sentarse"
+    ],
+    "example": {
+      "text": "Quiero sentarme.",
+      "translation": "I want to sit down."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/sentarse.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0147": {
+    "translation": "estar de pie",
+    "accepted_answers": [
+      "estar de pie"
+    ],
+    "example": {
+      "text": "Quiero estar de pie.",
+      "translation": "I want to be standing."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/estar-de-pie.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0148": {
+    "translation": "leer",
+    "accepted_answers": [
+      "leer"
+    ],
+    "example": {
+      "text": "Quiero leer.",
+      "translation": "I want to read."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/leer.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0149": {
+    "translation": "escribir",
+    "accepted_answers": [
+      "escribir"
+    ],
+    "example": {
+      "text": "Quiero escribir.",
+      "translation": "I want to write."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/escribir.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0150": {
+    "translation": "nadar",
+    "accepted_answers": [
+      "nadar"
+    ],
+    "example": {
+      "text": "Quiero nadar.",
+      "translation": "I want to swim."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/nadar.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0151": {
+    "translation": "saltar",
+    "accepted_answers": [
+      "saltar"
+    ],
+    "example": {
+      "text": "Quiero saltar.",
+      "translation": "I want to jump."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/saltar.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0152": {
+    "translation": "bailar",
+    "accepted_answers": [
+      "bailar"
+    ],
+    "example": {
+      "text": "Quiero bailar.",
+      "translation": "I want to dance."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/bailar.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0153": {
+    "translation": "cantar",
+    "accepted_answers": [
+      "cantar"
+    ],
+    "example": {
+      "text": "Quiero cantar.",
+      "translation": "I want to sing."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/cantar.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0154": {
+    "translation": "cocinar",
+    "accepted_answers": [
+      "cocinar"
+    ],
+    "example": {
+      "text": "Quiero cocinar.",
+      "translation": "I want to cook."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/cocinar.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0155": {
+    "translation": "lavar",
+    "accepted_answers": [
+      "lavar"
+    ],
+    "example": {
+      "text": "Quiero lavar los platos.",
+      "translation": "I want to wash the dishes."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/lavar.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0156": {
+    "translation": "limpiar",
+    "accepted_answers": [
+      "limpiar"
+    ],
+    "example": {
+      "text": "Quiero limpiar la cocina.",
+      "translation": "I want to clean the kitchen."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/limpiar.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0157": {
+    "translation": "abrir",
+    "accepted_answers": [
+      "abrir"
+    ],
+    "example": {
+      "text": "Quiero abrir la puerta.",
+      "translation": "I want to open the door."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/abrir.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0158": {
+    "translation": "cerrar",
+    "accepted_answers": [
+      "cerrar"
+    ],
+    "example": {
+      "text": "Quiero cerrar la puerta.",
+      "translation": "I want to close the door."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/cerrar.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0159": {
+    "translation": "empujar",
+    "accepted_answers": [
+      "empujar"
+    ],
+    "example": {
+      "text": "Quiero empujar el carrito.",
+      "translation": "I want to push the cart."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/empujar.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0160": {
+    "translation": "tirar",
+    "accepted_answers": [
+      "tirar"
+    ],
+    "example": {
+      "text": "Quiero tirar de la cuerda.",
+      "translation": "I want to pull on the rope."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/tirar.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0161": {
+    "translation": "almohada",
+    "accepted_answers": [
+      "almohada"
+    ],
+    "example": {
+      "text": "Necesito la almohada.",
+      "translation": "I need the pillow."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/almohada.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0162": {
+    "translation": "manta",
+    "accepted_answers": [
+      "manta"
+    ],
+    "example": {
+      "text": "Necesito la manta.",
+      "translation": "I need the blanket."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/manta.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0163": {
+    "translation": "espejo",
+    "accepted_answers": [
+      "espejo"
+    ],
+    "example": {
+      "text": "Necesito el espejo.",
+      "translation": "I need the mirror."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/espejo.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0164": {
+    "translation": "toalla",
+    "accepted_answers": [
+      "toalla"
+    ],
+    "example": {
+      "text": "Necesito la toalla.",
+      "translation": "I need the towel."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/toalla.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0165": {
+    "translation": "jabón",
+    "accepted_answers": [
+      "jabón"
+    ],
+    "example": {
+      "text": "Necesito el jabón.",
+      "translation": "I need the soap."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/jabon.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0166": {
+    "translation": "cepillo de dientes",
+    "accepted_answers": [
+      "cepillo de dientes"
+    ],
+    "example": {
+      "text": "Necesito el cepillo de dientes.",
+      "translation": "I need the toothbrush."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/cepillo-de-dientes.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0167": {
+    "translation": "pasta de dientes",
+    "accepted_answers": [
+      "pasta de dientes",
+      "pasta dental"
+    ],
+    "example": {
+      "text": "Necesito la pasta de dientes.",
+      "translation": "I need the toothpaste."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/pasta-de-dientes.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0168": {
+    "translation": "peine",
+    "accepted_answers": [
+      "peine"
+    ],
+    "example": {
+      "text": "Necesito el peine.",
+      "translation": "I need the comb."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/peine.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0169": {
+    "translation": "escoba",
+    "accepted_answers": [
+      "escoba"
+    ],
+    "example": {
+      "text": "Necesito la escoba.",
+      "translation": "I need the broom."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/escoba.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0170": {
+    "translation": "cubo",
+    "accepted_answers": [
+      "cubo"
+    ],
+    "example": {
+      "text": "Necesito el cubo.",
+      "translation": "I need the bucket."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/cubo.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0171": {
+    "translation": "conejo",
+    "accepted_answers": [
+      "conejo"
+    ],
+    "example": {
+      "text": "Veo el conejo.",
+      "translation": "I see the rabbit."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/conejo.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0172": {
+    "translation": "pato",
+    "accepted_answers": [
+      "pato"
+    ],
+    "example": {
+      "text": "Veo el pato.",
+      "translation": "I see the duck."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/pato.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0173": {
+    "translation": "cabra",
+    "accepted_answers": [
+      "cabra"
+    ],
+    "example": {
+      "text": "Veo la cabra.",
+      "translation": "I see the goat."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/cabra.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0174": {
+    "translation": "oveja",
+    "accepted_answers": [
+      "oveja"
+    ],
+    "example": {
+      "text": "Veo la oveja.",
+      "translation": "I see the sheep."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/oveja.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0175": {
+    "translation": "ratón",
+    "accepted_answers": [
+      "ratón"
+    ],
+    "example": {
+      "text": "Veo el ratón.",
+      "translation": "I see the mouse."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/raton.mp3",
+    "usage_notes": [
+      "Refers to the animal, rather than a computer mouse."
+    ],
+    "forms": []
+  },
+  "concept-0176": {
+    "translation": "león",
+    "accepted_answers": [
+      "león"
+    ],
+    "example": {
+      "text": "Veo el león.",
+      "translation": "I see the lion."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/leon.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0177": {
+    "translation": "tigre",
+    "accepted_answers": [
+      "tigre"
+    ],
+    "example": {
+      "text": "Veo el tigre.",
+      "translation": "I see the tiger."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/tigre.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0178": {
+    "translation": "oso",
+    "accepted_answers": [
+      "oso"
+    ],
+    "example": {
+      "text": "Veo el oso.",
+      "translation": "I see the bear."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/oso.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0179": {
+    "translation": "mono",
+    "accepted_answers": [
+      "mono"
+    ],
+    "example": {
+      "text": "Veo el mono.",
+      "translation": "I see the monkey."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/mono.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0180": {
+    "translation": "serpiente",
+    "accepted_answers": [
+      "serpiente"
+    ],
+    "example": {
+      "text": "Veo la serpiente.",
+      "translation": "I see the snake."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/serpiente.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0181": {
+    "translation": "fresa",
+    "accepted_answers": [
+      "fresa"
+    ],
+    "example": {
+      "text": "Necesito la fresa.",
+      "translation": "I need the strawberry."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/fresa.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0182": {
+    "translation": "pera",
+    "accepted_answers": [
+      "pera"
+    ],
+    "example": {
+      "text": "Necesito la pera.",
+      "translation": "I need the pear."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/pera.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0183": {
+    "translation": "melocotón",
+    "accepted_answers": [
+      "melocotón",
+      "durazno"
+    ],
+    "example": {
+      "text": "Necesito el melocotón.",
+      "translation": "I need the peach."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/melocoton.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0184": {
+    "translation": "aguacate",
+    "accepted_answers": [
+      "aguacate"
+    ],
+    "example": {
+      "text": "Necesito el aguacate.",
+      "translation": "I need the avocado."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/aguacate.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0185": {
+    "translation": "coco",
+    "accepted_answers": [
+      "coco"
+    ],
+    "example": {
+      "text": "Necesito el coco.",
+      "translation": "I need the coconut."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/coco.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0186": {
+    "translation": "maíz",
+    "accepted_answers": [
+      "maíz"
+    ],
+    "example": {
+      "text": "Necesito el maíz.",
+      "translation": "I need the corn."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/maiz.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0187": {
+    "translation": "ajo",
+    "accepted_answers": [
+      "ajo"
+    ],
+    "example": {
+      "text": "Necesito el ajo.",
+      "translation": "I need the garlic."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/ajo.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0188": {
+    "translation": "champiñón",
+    "accepted_answers": [
+      "champiñón"
+    ],
+    "example": {
+      "text": "Necesito el champiñón.",
+      "translation": "I need the mushroom."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/champinon.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0189": {
+    "translation": "lechuga",
+    "accepted_answers": [
+      "lechuga"
+    ],
+    "example": {
+      "text": "Necesito la lechuga.",
+      "translation": "I need the lettuce."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/lechuga.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0190": {
+    "translation": "pimiento",
+    "accepted_answers": [
+      "pimiento"
+    ],
+    "example": {
+      "text": "Necesito el pimiento.",
+      "translation": "I need the bell pepper."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/pimiento.mp3",
+    "usage_notes": [
+      "Refers to a bell pepper, rather than black pepper."
+    ],
+    "forms": []
+  },
+  "concept-0191": {
+    "translation": "tijeras",
+    "accepted_answers": [
+      "tijeras"
+    ],
+    "example": {
+      "text": "Necesito las tijeras.",
+      "translation": "I need the scissors."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/tijeras.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0192": {
+    "translation": "lápiz",
+    "accepted_answers": [
+      "lápiz"
+    ],
+    "example": {
+      "text": "Necesito el lápiz.",
+      "translation": "I need the pencil."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/lapiz.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0193": {
+    "translation": "cuaderno",
+    "accepted_answers": [
+      "cuaderno"
+    ],
+    "example": {
+      "text": "Necesito el cuaderno.",
+      "translation": "I need the notebook."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/cuaderno.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0194": {
+    "translation": "sobre",
+    "accepted_answers": [
+      "sobre"
+    ],
+    "example": {
+      "text": "Necesito el sobre.",
+      "translation": "I need the envelope."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/sobre.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0195": {
+    "translation": "cartera",
+    "accepted_answers": [
+      "cartera"
+    ],
+    "example": {
+      "text": "Necesito la cartera.",
+      "translation": "I need the wallet."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/cartera.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0196": {
+    "translation": "cámara",
+    "accepted_answers": [
+      "cámara"
+    ],
+    "example": {
+      "text": "Necesito la cámara.",
+      "translation": "I need the camera."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/camara.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0197": {
+    "translation": "televisión",
+    "accepted_answers": [
+      "televisión"
+    ],
+    "example": {
+      "text": "Necesito la televisión.",
+      "translation": "I need the television."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/television.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0198": {
+    "translation": "radio",
+    "accepted_answers": [
+      "radio"
+    ],
+    "example": {
+      "text": "Necesito la radio.",
+      "translation": "I need the radio."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/radio.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0199": {
+    "translation": "ventilador",
+    "accepted_answers": [
+      "ventilador"
+    ],
+    "example": {
+      "text": "Necesito el ventilador.",
+      "translation": "I need the fan."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/ventilador.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0200": {
+    "translation": "pila",
+    "accepted_answers": [
+      "pila"
+    ],
+    "example": {
+      "text": "Necesito la pila.",
+      "translation": "I need the battery."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/es/pila.mp3",
+    "usage_notes": [
+      "Refers to an individual battery cell."
+    ],
+    "forms": []
+  }
+}

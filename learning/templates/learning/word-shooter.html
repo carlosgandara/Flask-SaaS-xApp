@@ -1,0 +1,183 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Word Shooter — Despacio.ai</title>
+  <link rel="stylesheet"
+        href="{{ url_for('learning.static', filename='word-shooter.css', v='required-practice-2') }}">
+{% if learning_auth_script_url %}<meta id="auth-csrf-token" name="csrf-token" content="{{ auth_csrf() }}"><script src="{{ learning_auth_script_url }}"></script>{% endif %}
+<script src="{{ url_for('learning.static', filename='ui-diagnostics.js') }}" data-report-url="{{ learning_error_report_url }}"></script>
+</head>
+
+<body>
+<div class="game-page {{ 'game-page--menu' if shooter_level is none else 'game-page--playing' }}">
+
+  <header class="game-header">
+    <a href="/menu" class="back-link">← Levels</a>
+    <div class="game-title">WORD SHOOTER</div>
+    <div class="score-box">
+      Score: <span id="score">0</span>
+    </div>
+  </header>
+
+  {% if shooter_level is none %}
+
+  <main class="shooter-levels">
+    <h1>WORD SHOOTER LEVELS</h1>
+    <p>
+      10 words per level. Master each word with
+      3 consecutive correct shots.
+      Completed levels remain available for replay.
+    </p>
+
+    <div class="shooter-level-grid">
+      {% for level in shooter_levels %}
+
+        {% if level.unlocked or level.complete %}
+          <a
+            class="shooter-level-card {{ level.status }}"
+            href="{{ url_for('learning.word_shooter', level=level.number) }}"
+          >
+            <strong>LEVEL {{ level.number }}</strong>
+            <span>{{ level.mastered }}/{{ level.total }} mastered</span>
+
+            {% if level.complete %}
+              <span class="level-status">✓ Completed</span>
+              <span>Replay</span>
+            {% else %}
+              <span class="level-status">▶ Play</span>
+            {% endif %}
+          </a>
+        {% else %}
+          <div class="shooter-level-card locked">
+            <strong>LEVEL {{ level.number }}</strong>
+            <span>🔒 Locked</span>
+          </div>
+        {% endif %}
+
+      {% else %}
+        <p>No levels available.</p>
+      {% endfor %}
+    </div>
+  </main>
+
+  {% else %}
+
+  <div class="shooter-level-progress">
+    LEVEL {{ shooter_level }} —
+    <span id="masteredCount">
+      {{ shooter_levels[shooter_level - 1].mastered }}
+    </span>/{{ shooter_levels[shooter_level - 1].total }}
+    PRACTICED
+    {% if course_return is defined %}<span>Required practice · Daily Dose resumes automatically</span>{% else %}<a href="{{ url_for('learning.word_shooter') }}">All Levels</a>{% endif %}
+  </div>
+
+  <main id="gameArea" class="game-area">
+    <div id="practiceTransition" class="practice-transition hidden" role="status" aria-live="polite">
+      <div class="practice-transition-card">
+        <p class="practice-transition-label">DAILY DOSE · WORD PRACTICE</p>
+        <h1 id="practiceTransitionText">Let’s practice what you missed.</h1>
+        <p>Just the words from your last cycle. Then back to Daily Dose.</p>
+      </div>
+    </div>
+
+    <div class="hud">
+      <div class="prompt-label">
+        SHOOT THE CORRECT {{ language_name | upper }} SPELLING
+      </div>
+
+      <div id="englishPrompt"
+           class="english-prompt"
+           aria-live="polite">
+        LOADING...
+      </div>
+
+      <div class="game-stats">
+        <span {% if course_return is defined %}hidden{% endif %}>❤️ <span id="lives">3</span></span>
+        {% if course_return is defined %}<span>Practice at your pace · 3 correct shots per word</span>{% endif %}
+        <span>Round <span id="round">1</span></span>
+      </div>
+    </div>
+
+    <div id="message" class="message" aria-live="polite"></div>
+    <div id="targets" class="targets"></div>
+
+    <div id="player" class="player">
+      <div class="player-gun">▲</div>
+      <div class="player-body">🙂</div>
+      <div class="player-name">CARLOS</div>
+    </div>
+
+    <div id="gameOver" class="game-over hidden">
+      <div class="game-over-card">
+        <div id="gameOverTitle" class="game-over-title">
+          GAME OVER
+        </div>
+
+        <div class="final-score">
+          Score: <span id="finalScore">0</span>
+        </div>
+
+        <button id="restartButton"
+                class="restart-button"
+                type="button" {% if course_return is defined %}hidden{% endif %}>
+          {{ 'Practice' if course_return is defined else 'PLAY AGAIN' }}
+        </button>
+
+        {% if course_return is not defined %}
+        <a href="{{ url_for('learning.word_shooter') }}" class="menu-button">BACK TO LEVELS</a>
+        {% endif %}
+
+        <a id="nextLevelButton"
+           class="menu-button hidden"
+           href="#">
+          NEXT LEVEL →
+        </a>
+      </div>
+    </div>
+
+  </main>
+
+  <div class="touch-controls" aria-label="Touch game controls">
+    <button id="moveLeft" class="touch-button"
+            type="button" aria-label="Move left">←</button>
+    <button id="shootButton"
+            class="touch-button touch-button--shoot"
+            type="button">SHOOT</button>
+    <button id="moveRight" class="touch-button"
+            type="button" aria-label="Move right">→</button>
+  </div>
+
+  <footer class="controls">
+    <span>← → Move</span>
+    <span>SPACE Shoot</span>
+  </footer>
+
+  <script id="wordShooterData" type="application/json">
+    {{ game_words | tojson }}
+  </script>
+
+  <script id="wordShooterConfig" type="application/json">
+    {{
+      {
+        "level": shooter_level,
+        "mastery": shooter_mastery,
+        "total": game_words | length,
+        "answerUrl": course_answer if course_answer is defined else url_for("learning.word_shooter_answer"),
+        "levelsUrl": course_return if course_return is defined else url_for("learning.word_shooter"),
+        "returnUrl": course_return if course_return is defined else none,
+        "hasNextLevel": shooter_level < (shooter_levels | length)
+      } | tojson
+    }}
+  </script>
+
+  <script src="{{ url_for('learning.static', filename='word-shooter.js', v='required-practice-2') }}"></script>
+  <script src="{{ url_for('learning.static', filename='study-timer.js') }}"></script>
+
+  {% endif %}
+</div>
+</body>
+</html>

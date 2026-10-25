@@ -1,0 +1,156 @@
+
+{% extends "learning/base.html" %}
+
+{% block body %}
+<div class="step" data-step-type="{{ step.type }}">
+
+  {% if step.type == "scene" %}
+    <div class="scene">
+      <img src="{{ step.image }}" alt="">
+      <p class="caption">{{ step.caption }}</p>
+    </div>
+    <div class="actions">
+      <button class="btn primary" data-next>Continue</button>
+    </div>
+
+  {% elif step.type == "preview" %}
+    <div class="preview">
+      <div class="phrase">{{ step.phrase }}</div>
+      <div class="translation">{{ step.translation }}</div>
+      {% if step.note %}
+        <div class="note">{{ step.note }}</div>
+      {% endif %}
+    </div>
+    <div class="actions">
+      <button class="btn primary" data-next>Continue</button>
+    </div>
+
+  {% elif step.type == "word" %}
+    {% set w = vocab.get(step.key, {}) %}
+    {% set meaning = step.get('english') or w.get('english', '') %}
+    {% set image = step.get('image') or w.get('image', '') %}
+    {% set aliases = step.get('aliases', w.get('aliases', [])) %}
+
+    <div class="word-card">
+      {% if image %}
+        <img class="word-image" src="{{ image }}" alt="">
+      {% endif %}
+
+      {% if meaning %}
+        <div class="word-english">{{ meaning }}</div>
+
+        <input
+          class="word-input"
+          type="text"
+          autocomplete="off"
+          spellcheck="false"
+          autocapitalize="off"
+          placeholder="Type the {{ language_name }}…"
+          data-answer="{{ step.key }}"
+          data-aliases='{{ aliases | tojson }}'
+        >
+
+        <div class="feedback"></div>
+      {% else %}
+        <div class="word-english">
+          Missing lesson definition for "{{ step.key }}"
+        </div>
+        <div class="feedback">
+          Add an English definition for this word in the lesson data.
+        </div>
+      {% endif %}
+    </div>
+
+    <div class="actions">
+      {% if meaning %}
+        <button class="btn primary" data-submit>Check</button>
+      {% else %}
+        <button class="btn primary" data-next>Continue</button>
+      {% endif %}
+    </div>
+
+  {% elif step.type == "drill" %}
+    {% set drill_vocab = vocab | default({}, true) %}
+
+    <div
+      class="drill"
+      data-words='{{ step.words | tojson }}'
+      data-vocab='{{ drill_vocab | tojson }}'
+    >
+      <div class="drill-progress">1 / 1</div>
+      <div class="drill-prompt"></div>
+
+      <input
+        class="drill-input"
+        type="text"
+        autocomplete="off"
+        spellcheck="false"
+        autocapitalize="off"
+        placeholder="Type your {{ language_name }} answer…"
+      >
+
+      <div class="feedback"></div>
+    </div>
+
+    <div class="actions">
+      <button class="btn primary" data-drill-check>Check</button>
+    </div>
+
+  {% elif step.type == "dialogue" %}
+    <div class="dialogue" data-lines='{{ step.lines | tojson }}'>
+      {% for line in step.lines %}
+        <div class="line">
+          <span class="speaker">{{ line.speaker }}</span>
+
+          {% if line.answer %}
+            <div class="dialogue-turn">
+              <div class="dialogue-hint">{{ line.hint }}</div>
+
+              <div class="dialogue-answer">
+                Answer: <strong>{{ line.answer }}</strong>
+              </div>
+
+              <input
+                class="dialogue-input"
+                type="text"
+                data-answer="{{ line.answer }}"
+                data-line-idx="{{ loop.index0 }}"
+                data-aliases='{{ line.aliases | default([]) | tojson }}'
+                placeholder="Type the answer above…"
+                autocomplete="off"
+                spellcheck="false"
+                autocapitalize="off"
+              >
+            </div>
+          {% else %}
+            <span class="text">{{ line.text }}</span>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="actions">
+      <button class="btn primary" data-dialogue-check>Check</button>
+    </div>
+
+  {% elif step.type == "win" %}
+    <div class="win">
+      <div class="win-icon">✓</div>
+      <div class="win-message">{{ step.message }}</div>
+    </div>
+
+    <div class="actions">
+      {% if step.next_level %}
+        <a class="btn primary" href="{{ url_for('learning.next_level') }}">
+          Next Level →
+        </a>
+      {% endif %}
+
+      <a class="btn" href="{{ url_for('learning.menu') }}">
+        Back to Levels
+      </a>
+    </div>
+  {% endif %}
+
+</div>
+{% endblock %}

@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Word Match — {{ language_name }}</title><link rel="stylesheet" href="{{ url_for('learning.static', filename='word-match.css') }}">{% if learning_auth_script_url %}<meta id="auth-csrf-token" name="csrf-token" content="{{ auth_csrf() }}"><script src="{{ learning_auth_script_url }}"></script>{% endif %}
+<script src="{{ url_for('learning.static', filename='ui-diagnostics.js') }}" data-report-url="{{ learning_error_report_url }}"></script>
+</head>
+<body data-language="{{ current_language }}"><main class="match-shell">
+<header><a href="{{ url_for('learning.menu') }}">← Levels</a><span>{{ language_name }}</span></header>
+<p class="eyebrow">{{ level.title }} · VOCABULARY PRACTICE</p>
+<h1>Word Match</h1><p class="intro">Turn over two cards. Match a {{ language_name }} word with its English meaning.</p>
+<p class="selection-note">Recently missed words come first. As you improve, a few new words join the board.</p>
+<div class="toolbar"><p id="match-score">0 / 10 pairs · 0 attempts</p><button id="new-round" type="button">{{ 'New round' if initial else 'Start matching' }}</button><button id="resume-round" type="button" hidden>Resume round</button></div>
+<p id="match-feedback" role="status" aria-live="polite">Find all ten pairs. There’s no timer.</p>
+<section id="word-preview" hidden><h2>A quick look at new words</h2><p>Learn these pairs before the cards turn over.</p><div id="preview-words"></div><p id="preview-countdown" role="timer"></p></section>
+<div id="match-board" class="match-board" aria-label="Twenty matching cards"></div>
+<section id="match-complete" hidden><h2>All ten pairs found!</h2><p>Nice practice. Matching builds recognition; Daily Dose checks what you can recall.</p><a href="{{ url_for('learning.course.dose', level_id=level.id) }}">Continue with Daily Dose →</a></section>
+<p id="match-error" role="alert"></p>
+</main>
+<script id="word-match-config" type="application/json">{{ {'initial': initial, 'start': url_for('learning.word_match.start', level=level.id), 'flip': url_for('learning.word_match.flip', level=level.id), 'resume': url_for('learning.word_match.resume', level=level.id)} | tojson }}</script>
+<script src="{{ url_for('learning.static', filename='word-match.js') }}"></script>
+<script src="{{ url_for('learning.static', filename='study-timer.js') }}"></script></body></html>

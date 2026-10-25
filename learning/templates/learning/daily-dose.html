@@ -1,0 +1,660 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daily Dose | Despacio.ai</title>
+
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #171717;
+      --muted: #686868;
+      --line: #e2e2e2;
+      --bg: #f7f7f5;
+      --green: #147a45;
+      --red: #b62f35;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      height: 100%;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100%;
+      background: var(--bg);
+      color: var(--ink);
+      font: 16px/1.4 system-ui, -apple-system,
+            "Segoe UI", sans-serif;
+    }
+
+    .hidden,
+    [hidden] {
+      display: none !important;
+    }
+
+    .wrap {
+      width: min(900px, 100%);
+      margin: 0 auto;
+      padding: 12px 14px 20px;
+    }
+
+    header,
+    .between,
+    .level-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    header {
+      min-height: 30px;
+      margin-bottom: 12px;
+    }
+
+    header strong {
+      font-size: 18px;
+      letter-spacing: -.5px;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    h1 {
+      margin: 0 0 4px;
+      font-size: 28px;
+      letter-spacing: -.8px;
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 19px;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    .small {
+      font-size: 12px;
+    }
+
+    .subtitle {
+      margin: 0 0 16px;
+      color: var(--muted);
+    }
+
+    .card,
+    .stat {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 12px;
+    }
+
+    /* DASHBOARD */
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 8px;
+    }
+
+    .stat {
+      text-align: center;
+      padding: 12px 6px;
+    }
+
+    .stat strong {
+      display: block;
+      font-size: 24px;
+    }
+
+    .stat span {
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .track {
+      height: 7px;
+      background: #ececec;
+      border-radius: 20px;
+      overflow: hidden;
+      margin-top: 8px;
+    }
+
+    .fill {
+      width: 0;
+      height: 100%;
+      background: var(--green);
+      transition: width .2s;
+    }
+
+    .levels {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 8px;
+    }
+
+    .level {
+      min-height: 94px;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 9px 5px;
+      cursor: pointer;
+      color: inherit;
+      font: inherit;
+    }
+
+    .level strong,
+    .level span {
+      display: block;
+    }
+
+    .level span {
+      font-size: 12px;
+      margin-top: 4px;
+    }
+
+    .level:disabled {
+      opacity: .45;
+      cursor: not-allowed;
+    }
+
+    .level.complete {
+      background: #eff9f2;
+      border-color: #b9d9c3;
+    }
+
+    .level.active {
+      border: 2px solid var(--ink);
+    }
+
+    /* BUTTONS */
+
+    button.primary,
+    button.secondary {
+      width: 100%;
+      border: 0;
+      border-radius: 9px;
+      padding: 11px 14px;
+      font-family: inherit;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    button.primary {
+      background: var(--ink);
+      color: #fff;
+    }
+
+    button.secondary {
+      background: #ededed;
+      color: var(--ink);
+    }
+
+    button:disabled {
+      cursor: not-allowed;
+      opacity: .5;
+    }
+
+    /* COMPACT LEVEL HEADER */
+
+    .level-nav {
+      margin-bottom: 8px;
+    }
+
+    .level-nav .secondary {
+      width: auto;
+      padding: 7px 11px;
+      font-size: 13px;
+    }
+
+    .level-nav strong {
+      font-size: 15px;
+    }
+
+    .level-progress {
+      padding: 9px 12px;
+      margin-bottom: 8px;
+    }
+
+    .level-progress .between {
+      font-size: 13px;
+    }
+
+    .level-progress .track {
+      height: 5px;
+      margin-top: 6px;
+    }
+
+    /* ONE-WORD EXERCISE */
+
+    .word-card {
+      width: min(100%, 570px);
+      margin: 0 auto;
+      padding: 12px 14px;
+      text-align: center;
+    }
+
+    #word-position {
+      margin-bottom: 2px;
+    }
+
+    #phase-text {
+      min-height: 17px;
+    }
+
+    .image {
+      display: block;
+      width: min(100%, 280px);
+      height: clamp(110px, 23vh, 170px);
+      object-fit: contain;
+      margin: 5px auto;
+      background: #f4f4f4;
+      border-radius: 9px;
+    }
+
+    .english {
+      font-size: clamp(25px, 5vw, 32px);
+      font-weight: 800;
+      line-height: 1.15;
+      margin: 7px 0 5px;
+    }
+
+    .translation {
+      font-size: clamp(23px, 5vw, 29px);
+      font-weight: 750;
+      color: var(--green);
+      line-height: 1.2;
+      margin: 6px 0;
+    }
+
+    #preview-section p,
+    #recall-section > p {
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .answer {
+      width: 100%;
+      margin: 9px 0 7px;
+      padding: 10px 12px;
+      font-size: 18px;
+      text-align: center;
+      border: 2px solid var(--line);
+      border-radius: 9px;
+    }
+
+    .answer:focus {
+      outline: none;
+      border-color: var(--ink);
+    }
+
+    .feedback {
+      min-height: 0;
+      margin: 7px 0;
+      font-size: 14px;
+      font-weight: 650;
+    }
+
+    .feedback:empty {
+      display: none;
+    }
+
+    .feedback.good {
+      color: var(--green);
+    }
+
+    .feedback.bad {
+      color: var(--red);
+    }
+
+    .error {
+      color: var(--red);
+      margin-top: 10px;
+      font-size: 13px;
+    }
+
+    /* SMALL SCREENS */
+
+    @media (max-width: 600px) {
+      .levels {
+        grid-template-columns:
+          repeat(3, minmax(0, 1fr));
+      }
+
+      .wrap {
+        padding: 8px 10px 12px;
+      }
+
+      header {
+        margin-bottom: 8px;
+      }
+
+      .word-card {
+        padding: 10px 12px;
+      }
+    }
+
+    /* SHORT SCREENS */
+
+    @media (max-height: 650px) {
+      header {
+        margin-bottom: 5px;
+      }
+
+      .level-nav {
+        margin-bottom: 5px;
+      }
+
+      .level-progress {
+        margin-bottom: 5px;
+        padding: 6px 10px;
+      }
+
+      .image {
+        height: clamp(85px, 19vh, 125px);
+        margin: 3px auto;
+      }
+
+      .english {
+        font-size: 25px;
+        margin: 4px 0;
+      }
+
+      .translation {
+        font-size: 23px;
+        margin: 4px 0;
+      }
+
+      .answer {
+        margin: 6px 0;
+        padding: 8px;
+      }
+
+      button.primary {
+        padding: 9px 12px;
+      }
+    }
+  </style>
+{% if learning_auth_script_url %}<meta id="auth-csrf-token" name="csrf-token" content="{{ auth_csrf() }}"><script src="{{ learning_auth_script_url }}"></script>{% endif %}
+<script src="{{ url_for('learning.static', filename='ui-diagnostics.js') }}" data-report-url="{{ learning_error_report_url }}"></script>
+</head>
+
+<body>
+<div class="wrap">
+
+  <header>
+    <strong>despacio.ai</strong>
+
+    <a
+      class="muted small"
+      href="{{ url_for('learning.menu') }}"
+    >
+      ← Main Menu
+    </a>
+  </header>
+
+  <!-- DASHBOARD -->
+
+  <section id="dashboard-screen" class="hidden">
+
+    <h1>Daily Dose</h1>
+
+    <p class="subtitle">
+      10 words per level. Master all 10 to unlock
+      the next level.
+    </p>
+
+    <div class="stats">
+      <div class="stat">
+        <strong id="total-words">0</strong>
+        <span>Total words</span>
+      </div>
+
+      <div class="stat">
+        <strong id="mastered-words">0</strong>
+        <span>Mastered</span>
+      </div>
+
+      <div class="stat">
+        <strong id="completed-levels">0</strong>
+        <span>Levels complete</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="between">
+        <strong>Overall progress</strong>
+        <span id="overall-percent">0%</span>
+      </div>
+
+      <div class="track">
+        <div id="overall-fill" class="fill"></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="between">
+        <h2>Vocabulary levels</h2>
+        <span id="total-levels" class="small muted"></span>
+      </div>
+
+      <div id="levels-grid" class="levels"></div>
+
+      <p id="no-levels" class="muted hidden">
+        No translated vocabulary found.
+      </p>
+    </div>
+
+  </section>
+
+  <!-- LEVEL -->
+
+  <section id="level-screen" class="hidden">
+
+    <div class="level-nav">
+      <button
+        id="back-dashboard"
+        class="secondary"
+        type="button"
+      >
+        ← All levels
+      </button>
+
+      <strong id="level-title">Level 1</strong>
+    </div>
+
+    <!-- COMPACT LEVEL PROGRESS -->
+
+    <div class="card level-progress">
+      <div class="between">
+        <strong id="level-count">0/10 mastered</strong>
+        <span id="level-percent">0%</span>
+      </div>
+
+      <div class="track">
+        <div id="level-fill" class="fill"></div>
+      </div>
+    </div>
+
+    <!-- ONE WORD AT A TIME -->
+
+    <div class="card word-card" id="exercise">
+
+      <p
+        id="word-position"
+        class="small muted"
+      ></p>
+
+      <p
+        id="phase-text"
+        class="small muted"
+        aria-live="polite"
+      ></p>
+
+      <!-- IMAGE STAYS VISIBLE DURING RECALL -->
+
+      <img
+        id="word-image"
+        class="image"
+        alt="Vocabulary illustration"
+        hidden
+      >
+
+      <p
+        id="image-warning"
+        class="muted small hidden"
+      >
+        Image unavailable for this word.
+      </p>
+
+      <!-- ENGLISH STAYS VISIBLE -->
+
+      <div
+        id="english-word"
+        class="english"
+      ></div>
+
+      <!-- THREE-SECOND PREVIEW -->
+
+      <div
+        id="preview-section"
+        class="hidden"
+      >
+        <div
+          id="tagalog-preview"
+          class="translation"
+        ></div>
+
+        <p>
+          Memorize the translation.
+          It disappears after 3 seconds.
+        </p>
+      </div>
+
+      <!-- TYPED RECALL -->
+
+      <div
+        id="recall-section"
+        class="hidden"
+      >
+        <p>
+          Type the Tagalog translation.
+        </p>
+
+        <form id="answer-form">
+          <input
+            id="answer-input"
+            class="answer"
+            type="text"
+            maxlength="120"
+            autocomplete="off"
+            autocapitalize="off"
+            spellcheck="false"
+            placeholder="Type your answer"
+            required
+          >
+
+          <button
+            id="check-button"
+            class="primary"
+            type="submit"
+          >
+            Check answer
+          </button>
+        </form>
+
+        <div
+          id="feedback"
+          class="feedback"
+          aria-live="polite"
+        ></div>
+
+        <button
+          id="continue-button"
+          class="primary hidden"
+          type="button"
+        >
+          Continue →
+        </button>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- COMPLETION -->
+
+  <section id="complete-screen" class="hidden">
+    <div
+      class="card"
+      style="
+        text-align:center;
+        max-width:570px;
+        margin:auto;
+      "
+    >
+      <h1 id="complete-title">
+        Level complete!
+      </h1>
+
+      <p class="subtitle">
+        All words mastered.
+      </p>
+
+      <button
+        id="next-level-button"
+        class="primary"
+        type="button"
+      >
+        Next level →
+      </button>
+
+      <button
+        id="complete-dashboard"
+        class="secondary"
+        style="margin-top:10px"
+        type="button"
+      >
+        View dashboard
+      </button>
+    </div>
+  </section>
+
+  <p
+    id="app-error"
+    class="error hidden"
+    role="alert"
+  ></p>
+
+</div>
+
+<script
+  id="daily-dose-config"
+  type="application/json"
+>
+  {{ daily_dose_config | tojson }}
+</script>
+
+<script src="{{ url_for('learning.static', filename='daily-dose.js') }}"></script>
+
+</body>
+</html>

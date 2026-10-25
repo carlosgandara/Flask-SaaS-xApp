@@ -1,0 +1,3010 @@
+{
+  "concept-0001": {
+    "translation": "maison",
+    "accepted_answers": [
+      "maison"
+    ],
+    "example": {
+      "text": "Ma maison est petite.",
+      "translation": "My house is small."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/maison.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0002": {
+    "translation": "table",
+    "accepted_answers": [
+      "table"
+    ],
+    "example": {
+      "text": "Le livre est sur la table.",
+      "translation": "The book is on the table."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/table.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0003": {
+    "translation": "chaise",
+    "accepted_answers": [
+      "chaise"
+    ],
+    "example": {
+      "text": "La chaise est à côté de la table.",
+      "translation": "The chair is next to the table."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/chaise.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0004": {
+    "translation": "porte",
+    "accepted_answers": [
+      "porte"
+    ],
+    "example": {
+      "text": "La porte est ouverte.",
+      "translation": "The door is open."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/porte.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0005": {
+    "translation": "lit",
+    "accepted_answers": [
+      "lit"
+    ],
+    "example": {
+      "text": "Le lit est dans ma chambre.",
+      "translation": "The bed is in my room."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/lit.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0006": {
+    "translation": "fenêtre",
+    "accepted_answers": [
+      "fenêtre"
+    ],
+    "example": {
+      "text": "Ouvre la fenêtre, s’il te plaît.",
+      "translation": "Open the window, please."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/fenetre.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0007": {
+    "translation": "cuisine",
+    "accepted_answers": [
+      "cuisine"
+    ],
+    "example": {
+      "text": "Je suis dans la cuisine.",
+      "translation": "I am in the kitchen."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/cuisine.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0008": {
+    "translation": "salle de bains",
+    "accepted_answers": [
+      "salle de bains"
+    ],
+    "example": {
+      "text": "Où est la salle de bains ?",
+      "translation": "Where is the bathroom?"
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/salle-de-bains.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0009": {
+    "translation": "canapé",
+    "accepted_answers": [
+      "canapé"
+    ],
+    "example": {
+      "text": "Le chat est sur le canapé.",
+      "translation": "The cat is on the sofa."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/canape.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0010": {
+    "translation": "lampe",
+    "accepted_answers": [
+      "lampe"
+    ],
+    "example": {
+      "text": "Allume la lampe, s’il te plaît.",
+      "translation": "Turn on the lamp, please."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/lampe.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0011": {
+    "translation": "café",
+    "accepted_answers": [
+      "café"
+    ],
+    "example": {
+      "text": "Je veux du café.",
+      "translation": "I want coffee."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/cafe.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0012": {
+    "translation": "eau",
+    "accepted_answers": [
+      "eau"
+    ],
+    "example": {
+      "text": "Il me faut l’eau.",
+      "translation": "I need the water."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/eau.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0013": {
+    "translation": "pain",
+    "accepted_answers": [
+      "pain"
+    ],
+    "example": {
+      "text": "Il me faut le pain.",
+      "translation": "I need the bread."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/pain.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0014": {
+    "translation": "riz cuit",
+    "accepted_answers": [
+      "riz cuit"
+    ],
+    "example": {
+      "text": "Il me faut le riz cuit.",
+      "translation": "I need the cooked rice."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/riz-cuit.mp3",
+    "usage_notes": [
+      "Refers to rice that has been cooked."
+    ],
+    "forms": []
+  },
+  "concept-0015": {
+    "translation": "pomme",
+    "accepted_answers": [
+      "pomme"
+    ],
+    "example": {
+      "text": "Il me faut la pomme.",
+      "translation": "I need the apple."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/pomme.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0016": {
+    "translation": "banane",
+    "accepted_answers": [
+      "banane"
+    ],
+    "example": {
+      "text": "Il me faut la banane.",
+      "translation": "I need the banana."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/banane.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0017": {
+    "translation": "œuf",
+    "accepted_answers": [
+      "œuf"
+    ],
+    "example": {
+      "text": "Il me faut l’œuf.",
+      "translation": "I need the egg."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/oeuf.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0018": {
+    "translation": "lait",
+    "accepted_answers": [
+      "lait"
+    ],
+    "example": {
+      "text": "Il me faut le lait.",
+      "translation": "I need the milk."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/lait.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0019": {
+    "translation": "fromage",
+    "accepted_answers": [
+      "fromage"
+    ],
+    "example": {
+      "text": "Il me faut le fromage.",
+      "translation": "I need the cheese."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/fromage.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0020": {
+    "translation": "carotte",
+    "accepted_answers": [
+      "carotte"
+    ],
+    "example": {
+      "text": "Il me faut la carotte.",
+      "translation": "I need the carrot."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/carotte.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0021": {
+    "translation": "chien",
+    "accepted_answers": [
+      "chien"
+    ],
+    "example": {
+      "text": "Je vois le chien.",
+      "translation": "I see the dog."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/chien.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0022": {
+    "translation": "chat",
+    "accepted_answers": [
+      "chat"
+    ],
+    "example": {
+      "text": "Je vois le chat.",
+      "translation": "I see the cat."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/chat.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0023": {
+    "translation": "oiseau",
+    "accepted_answers": [
+      "oiseau"
+    ],
+    "example": {
+      "text": "Je vois l’oiseau.",
+      "translation": "I see the bird."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/oiseau.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0024": {
+    "translation": "poisson",
+    "accepted_answers": [
+      "poisson"
+    ],
+    "example": {
+      "text": "Je vois le poisson.",
+      "translation": "I see the fish."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/poisson.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0025": {
+    "translation": "cheval",
+    "accepted_answers": [
+      "cheval"
+    ],
+    "example": {
+      "text": "Je vois le cheval.",
+      "translation": "I see the horse."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/cheval.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0026": {
+    "translation": "vache",
+    "accepted_answers": [
+      "vache"
+    ],
+    "example": {
+      "text": "Je vois la vache.",
+      "translation": "I see the cow."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/vache.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0027": {
+    "translation": "cochon",
+    "accepted_answers": [
+      "cochon"
+    ],
+    "example": {
+      "text": "Je vois le cochon.",
+      "translation": "I see the pig."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/cochon.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0028": {
+    "translation": "poule",
+    "accepted_answers": [
+      "poule"
+    ],
+    "example": {
+      "text": "Je vois la poule.",
+      "translation": "I see the hen."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/poule.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0029": {
+    "translation": "papillon",
+    "accepted_answers": [
+      "papillon"
+    ],
+    "example": {
+      "text": "Je vois le papillon.",
+      "translation": "I see the butterfly."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/papillon.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0030": {
+    "translation": "éléphant",
+    "accepted_answers": [
+      "éléphant"
+    ],
+    "example": {
+      "text": "Je vois l’éléphant.",
+      "translation": "I see the elephant."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/elephant.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0031": {
+    "translation": "tête",
+    "accepted_answers": [
+      "tête"
+    ],
+    "example": {
+      "text": "Je vois la tête.",
+      "translation": "I see the head."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/tete.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0032": {
+    "translation": "main",
+    "accepted_answers": [
+      "main"
+    ],
+    "example": {
+      "text": "Je vois la main.",
+      "translation": "I see the hand."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/main.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0033": {
+    "translation": "pied",
+    "accepted_answers": [
+      "pied"
+    ],
+    "example": {
+      "text": "Je vois le pied.",
+      "translation": "I see the foot."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/pied.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0034": {
+    "translation": "œil",
+    "accepted_answers": [
+      "œil"
+    ],
+    "example": {
+      "text": "Je vois l’œil.",
+      "translation": "I see the eye."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/oeil.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0035": {
+    "translation": "nez",
+    "accepted_answers": [
+      "nez"
+    ],
+    "example": {
+      "text": "Je vois le nez.",
+      "translation": "I see the nose."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/nez.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0036": {
+    "translation": "bouche",
+    "accepted_answers": [
+      "bouche"
+    ],
+    "example": {
+      "text": "Je vois la bouche.",
+      "translation": "I see the mouth."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/bouche.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0037": {
+    "translation": "oreille",
+    "accepted_answers": [
+      "oreille"
+    ],
+    "example": {
+      "text": "Je vois l’oreille.",
+      "translation": "I see the ear."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/oreille.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0038": {
+    "translation": "bras",
+    "accepted_answers": [
+      "bras"
+    ],
+    "example": {
+      "text": "Je vois le bras.",
+      "translation": "I see the arm."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/bras.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0039": {
+    "translation": "jambe",
+    "accepted_answers": [
+      "jambe"
+    ],
+    "example": {
+      "text": "Je vois la jambe.",
+      "translation": "I see the leg."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/jambe.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0040": {
+    "translation": "dent",
+    "accepted_answers": [
+      "dent"
+    ],
+    "example": {
+      "text": "Je vois la dent.",
+      "translation": "I see the tooth."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/dent.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0041": {
+    "translation": "soleil",
+    "accepted_answers": [
+      "soleil"
+    ],
+    "example": {
+      "text": "Je vois le soleil.",
+      "translation": "I see the sun."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/soleil.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0042": {
+    "translation": "lune",
+    "accepted_answers": [
+      "lune"
+    ],
+    "example": {
+      "text": "Je vois la lune.",
+      "translation": "I see the moon."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/lune.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0043": {
+    "translation": "arbre",
+    "accepted_answers": [
+      "arbre"
+    ],
+    "example": {
+      "text": "Je vois l’arbre.",
+      "translation": "I see the tree."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/arbre.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0044": {
+    "translation": "montagne",
+    "accepted_answers": [
+      "montagne"
+    ],
+    "example": {
+      "text": "Je vois la montagne.",
+      "translation": "I see the mountain."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/montagne.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0045": {
+    "translation": "océan",
+    "accepted_answers": [
+      "océan"
+    ],
+    "example": {
+      "text": "Je vois l’océan.",
+      "translation": "I see the ocean."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/ocean.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0046": {
+    "translation": "rivière",
+    "accepted_answers": [
+      "rivière"
+    ],
+    "example": {
+      "text": "Je vois la rivière.",
+      "translation": "I see the river."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/riviere.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0047": {
+    "translation": "fleur",
+    "accepted_answers": [
+      "fleur"
+    ],
+    "example": {
+      "text": "Je vois la fleur.",
+      "translation": "I see the flower."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/fleur.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0048": {
+    "translation": "rocher",
+    "accepted_answers": [
+      "rocher"
+    ],
+    "example": {
+      "text": "Je vois le rocher.",
+      "translation": "I see the rock."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/rocher.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0049": {
+    "translation": "nuage",
+    "accepted_answers": [
+      "nuage"
+    ],
+    "example": {
+      "text": "Je vois le nuage.",
+      "translation": "I see the cloud."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/nuage.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0050": {
+    "translation": "étoile",
+    "accepted_answers": [
+      "étoile"
+    ],
+    "example": {
+      "text": "Je vois l’étoile.",
+      "translation": "I see the star."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/etoile.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0051": {
+    "translation": "voiture",
+    "accepted_answers": [
+      "voiture"
+    ],
+    "example": {
+      "text": "Je vois la voiture.",
+      "translation": "I see the car."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/voiture.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0052": {
+    "translation": "bus",
+    "accepted_answers": [
+      "bus"
+    ],
+    "example": {
+      "text": "Je vois le bus.",
+      "translation": "I see the bus."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/bus.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0053": {
+    "translation": "vélo",
+    "accepted_answers": [
+      "vélo"
+    ],
+    "example": {
+      "text": "Je vois le vélo.",
+      "translation": "I see the bicycle."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/velo.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0054": {
+    "translation": "avion",
+    "accepted_answers": [
+      "avion"
+    ],
+    "example": {
+      "text": "Je vois l’avion.",
+      "translation": "I see the airplane."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/avion.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0055": {
+    "translation": "train",
+    "accepted_answers": [
+      "train"
+    ],
+    "example": {
+      "text": "Je vois le train.",
+      "translation": "I see the train."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/train.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0056": {
+    "translation": "bateau",
+    "accepted_answers": [
+      "bateau"
+    ],
+    "example": {
+      "text": "Je vois le bateau.",
+      "translation": "I see the boat."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/bateau.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0057": {
+    "translation": "moto",
+    "accepted_answers": [
+      "moto"
+    ],
+    "example": {
+      "text": "Je vois la moto.",
+      "translation": "I see the motorcycle."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/moto.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0058": {
+    "translation": "camion",
+    "accepted_answers": [
+      "camion"
+    ],
+    "example": {
+      "text": "Je vois le camion.",
+      "translation": "I see the truck."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/camion.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0059": {
+    "translation": "hélicoptère",
+    "accepted_answers": [
+      "hélicoptère"
+    ],
+    "example": {
+      "text": "Je vois l’hélicoptère.",
+      "translation": "I see the helicopter."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/helicoptere.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0060": {
+    "translation": "taxi",
+    "accepted_answers": [
+      "taxi"
+    ],
+    "example": {
+      "text": "Je vois le taxi.",
+      "translation": "I see the taxi."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/taxi.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0061": {
+    "translation": "chemise",
+    "accepted_answers": [
+      "chemise"
+    ],
+    "example": {
+      "text": "Je vois la chemise.",
+      "translation": "I see the shirt."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/chemise.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0062": {
+    "translation": "chaussures",
+    "accepted_answers": [
+      "chaussures"
+    ],
+    "example": {
+      "text": "Je vois les chaussures.",
+      "translation": "I see the shoes."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/chaussures.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0063": {
+    "translation": "pantalon",
+    "accepted_answers": [
+      "pantalon"
+    ],
+    "example": {
+      "text": "Je vois le pantalon.",
+      "translation": "I see the pants."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/pantalon.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0064": {
+    "translation": "chapeau",
+    "accepted_answers": [
+      "chapeau"
+    ],
+    "example": {
+      "text": "Je vois le chapeau.",
+      "translation": "I see the hat."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/chapeau.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0065": {
+    "translation": "robe",
+    "accepted_answers": [
+      "robe"
+    ],
+    "example": {
+      "text": "Je vois la robe.",
+      "translation": "I see the dress."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/robe.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0066": {
+    "translation": "veste",
+    "accepted_answers": [
+      "veste"
+    ],
+    "example": {
+      "text": "Je vois la veste.",
+      "translation": "I see the jacket."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/veste.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0067": {
+    "translation": "chaussettes",
+    "accepted_answers": [
+      "chaussettes"
+    ],
+    "example": {
+      "text": "Je vois les chaussettes.",
+      "translation": "I see the socks."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/chaussettes.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0068": {
+    "translation": "jupe",
+    "accepted_answers": [
+      "jupe"
+    ],
+    "example": {
+      "text": "Je vois la jupe.",
+      "translation": "I see the skirt."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/jupe.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0069": {
+    "translation": "ceinture",
+    "accepted_answers": [
+      "ceinture"
+    ],
+    "example": {
+      "text": "Je vois la ceinture.",
+      "translation": "I see the belt."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/ceinture.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0070": {
+    "translation": "gants",
+    "accepted_answers": [
+      "gants"
+    ],
+    "example": {
+      "text": "Je vois les gants.",
+      "translation": "I see the gloves."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/gants.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0071": {
+    "translation": "rouge",
+    "accepted_answers": [
+      "rouge"
+    ],
+    "example": {
+      "text": "J’aime la couleur rouge.",
+      "translation": "I like the color red."
+    },
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/rouge.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0072": {
+    "translation": "bleu",
+    "accepted_answers": [
+      "bleu"
+    ],
+    "example": {
+      "text": "J’aime la couleur bleu.",
+      "translation": "I like the color blue."
+    },
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/bleu.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0073": {
+    "translation": "vert",
+    "accepted_answers": [
+      "vert"
+    ],
+    "example": {
+      "text": "J’aime la couleur vert.",
+      "translation": "I like the color green."
+    },
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/vert.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0074": {
+    "translation": "jaune",
+    "accepted_answers": [
+      "jaune"
+    ],
+    "example": {
+      "text": "J’aime la couleur jaune.",
+      "translation": "I like the color yellow."
+    },
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/jaune.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0075": {
+    "translation": "noir",
+    "accepted_answers": [
+      "noir"
+    ],
+    "example": {
+      "text": "J’aime la couleur noir.",
+      "translation": "I like the color black."
+    },
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/noir.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0076": {
+    "translation": "blanc",
+    "accepted_answers": [
+      "blanc"
+    ],
+    "example": {
+      "text": "J’aime la couleur blanc.",
+      "translation": "I like the color white."
+    },
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/blanc.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0077": {
+    "translation": "orange",
+    "accepted_answers": [
+      "orange"
+    ],
+    "example": {
+      "text": "J’aime la couleur orange.",
+      "translation": "I like the color orange."
+    },
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/orange.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0078": {
+    "translation": "violet",
+    "accepted_answers": [
+      "violet"
+    ],
+    "example": {
+      "text": "J’aime la couleur violet.",
+      "translation": "I like the color purple."
+    },
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/violet.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0079": {
+    "translation": "rose",
+    "accepted_answers": [
+      "rose"
+    ],
+    "example": {
+      "text": "J’aime la couleur rose.",
+      "translation": "I like the color pink."
+    },
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/rose.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0080": {
+    "translation": "marron",
+    "accepted_answers": [
+      "marron"
+    ],
+    "example": {
+      "text": "J’aime la couleur marron.",
+      "translation": "I like the color brown."
+    },
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/marron.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0081": {
+    "translation": "téléphone",
+    "accepted_answers": [
+      "téléphone"
+    ],
+    "example": {
+      "text": "Il me faut le téléphone.",
+      "translation": "I need the phone."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/telephone.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0082": {
+    "translation": "livre",
+    "accepted_answers": [
+      "livre"
+    ],
+    "example": {
+      "text": "Il me faut le livre.",
+      "translation": "I need the book."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/livre.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0083": {
+    "translation": "stylo",
+    "accepted_answers": [
+      "stylo"
+    ],
+    "example": {
+      "text": "Il me faut le stylo.",
+      "translation": "I need the pen."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/stylo.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0084": {
+    "translation": "clé",
+    "accepted_answers": [
+      "clé"
+    ],
+    "example": {
+      "text": "Il me faut la clé.",
+      "translation": "I need the key."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/cle.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0085": {
+    "translation": "ordinateur",
+    "accepted_answers": [
+      "ordinateur"
+    ],
+    "example": {
+      "text": "Il me faut l’ordinateur.",
+      "translation": "I need the computer."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/ordinateur.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0086": {
+    "translation": "sac",
+    "accepted_answers": [
+      "sac"
+    ],
+    "example": {
+      "text": "Il me faut le sac.",
+      "translation": "I need the bag."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/sac.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0087": {
+    "translation": "horloge",
+    "accepted_answers": [
+      "horloge"
+    ],
+    "example": {
+      "text": "Il me faut l’horloge.",
+      "translation": "I need the clock."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/horloge.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0088": {
+    "translation": "bouteille",
+    "accepted_answers": [
+      "bouteille"
+    ],
+    "example": {
+      "text": "Il me faut la bouteille.",
+      "translation": "I need the bottle."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/bouteille.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0089": {
+    "translation": "tasse",
+    "accepted_answers": [
+      "tasse"
+    ],
+    "example": {
+      "text": "Il me faut la tasse.",
+      "translation": "I need the cup."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/tasse.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0090": {
+    "translation": "parapluie",
+    "accepted_answers": [
+      "parapluie"
+    ],
+    "example": {
+      "text": "Il me faut le parapluie.",
+      "translation": "I need the umbrella."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/parapluie.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0091": {
+    "translation": "assiette",
+    "accepted_answers": [
+      "assiette"
+    ],
+    "example": {
+      "text": "Il me faut l’assiette.",
+      "translation": "I need the plate."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/assiette.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0092": {
+    "translation": "cuillère",
+    "accepted_answers": [
+      "cuillère"
+    ],
+    "example": {
+      "text": "Il me faut la cuillère.",
+      "translation": "I need the spoon."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/cuillere.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0093": {
+    "translation": "fourchette",
+    "accepted_answers": [
+      "fourchette"
+    ],
+    "example": {
+      "text": "Il me faut la fourchette.",
+      "translation": "I need the fork."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/fourchette.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0094": {
+    "translation": "couteau",
+    "accepted_answers": [
+      "couteau"
+    ],
+    "example": {
+      "text": "Il me faut le couteau.",
+      "translation": "I need the kitchen knife."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/couteau.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0095": {
+    "translation": "bol",
+    "accepted_answers": [
+      "bol"
+    ],
+    "example": {
+      "text": "Il me faut le bol.",
+      "translation": "I need the bowl."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/bol.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0096": {
+    "translation": "marmite",
+    "accepted_answers": [
+      "marmite"
+    ],
+    "example": {
+      "text": "Il me faut la marmite.",
+      "translation": "I need the cooking pot."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/marmite.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0097": {
+    "translation": "poêle",
+    "accepted_answers": [
+      "poêle"
+    ],
+    "example": {
+      "text": "Il me faut la poêle.",
+      "translation": "I need the frying pan."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/poele.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0098": {
+    "translation": "réfrigérateur",
+    "accepted_answers": [
+      "réfrigérateur"
+    ],
+    "example": {
+      "text": "Il me faut le réfrigérateur.",
+      "translation": "I need the refrigerator."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/refrigerateur.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0099": {
+    "translation": "cuisinière",
+    "accepted_answers": [
+      "cuisinière"
+    ],
+    "example": {
+      "text": "Il me faut la cuisinière.",
+      "translation": "I need the stove."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/cuisiniere.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0100": {
+    "translation": "verre",
+    "accepted_answers": [
+      "verre"
+    ],
+    "example": {
+      "text": "Il me faut le verre.",
+      "translation": "I need the drinking glass."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/verre.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0101": {
+    "translation": "soupe",
+    "accepted_answers": [
+      "soupe"
+    ],
+    "example": {
+      "text": "Il me faut la soupe.",
+      "translation": "I need the soup."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/soupe.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0102": {
+    "translation": "viande",
+    "accepted_answers": [
+      "viande"
+    ],
+    "example": {
+      "text": "Il me faut la viande.",
+      "translation": "I need the meat."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/viande.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0103": {
+    "translation": "sandwich",
+    "accepted_answers": [
+      "sandwich"
+    ],
+    "example": {
+      "text": "Il me faut le sandwich.",
+      "translation": "I need the sandwich."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/sandwich.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0104": {
+    "translation": "salade",
+    "accepted_answers": [
+      "salade"
+    ],
+    "example": {
+      "text": "Il me faut la salade.",
+      "translation": "I need the salad."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/salade.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0105": {
+    "translation": "gâteau",
+    "accepted_answers": [
+      "gâteau"
+    ],
+    "example": {
+      "text": "Il me faut le gâteau.",
+      "translation": "I need the cake."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/gateau.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0106": {
+    "translation": "beurre",
+    "accepted_answers": [
+      "beurre"
+    ],
+    "example": {
+      "text": "Il me faut le beurre.",
+      "translation": "I need the butter."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/beurre.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0107": {
+    "translation": "sel",
+    "accepted_answers": [
+      "sel"
+    ],
+    "example": {
+      "text": "Il me faut le sel.",
+      "translation": "I need the salt."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/sel.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0108": {
+    "translation": "sucre",
+    "accepted_answers": [
+      "sucre"
+    ],
+    "example": {
+      "text": "Il me faut le sucre.",
+      "translation": "I need the sugar."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/sucre.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0109": {
+    "translation": "miel",
+    "accepted_answers": [
+      "miel"
+    ],
+    "example": {
+      "text": "Il me faut le miel.",
+      "translation": "I need the honey."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/miel.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0110": {
+    "translation": "farine",
+    "accepted_answers": [
+      "farine"
+    ],
+    "example": {
+      "text": "Il me faut la farine.",
+      "translation": "I need the flour."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/farine.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0111": {
+    "translation": "mangue",
+    "accepted_answers": [
+      "mangue"
+    ],
+    "example": {
+      "text": "Il me faut la mangue.",
+      "translation": "I need the mango."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/mangue.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0112": {
+    "translation": "ananas",
+    "accepted_answers": [
+      "ananas"
+    ],
+    "example": {
+      "text": "Il me faut l’ananas.",
+      "translation": "I need the pineapple."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/ananas.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0113": {
+    "translation": "raisins",
+    "accepted_answers": [
+      "raisins"
+    ],
+    "example": {
+      "text": "Il me faut les raisins.",
+      "translation": "I need the grapes."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/raisins.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0114": {
+    "translation": "pastèque",
+    "accepted_answers": [
+      "pastèque"
+    ],
+    "example": {
+      "text": "Il me faut la pastèque.",
+      "translation": "I need the watermelon."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/pasteque.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0115": {
+    "translation": "citron",
+    "accepted_answers": [
+      "citron"
+    ],
+    "example": {
+      "text": "Il me faut le citron.",
+      "translation": "I need the lemon."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/citron.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0116": {
+    "translation": "tomate",
+    "accepted_answers": [
+      "tomate"
+    ],
+    "example": {
+      "text": "Il me faut la tomate.",
+      "translation": "I need the tomato."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/tomate.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0117": {
+    "translation": "pomme de terre",
+    "accepted_answers": [
+      "pomme de terre"
+    ],
+    "example": {
+      "text": "Il me faut la pomme de terre.",
+      "translation": "I need the potato."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/pomme-de-terre.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0118": {
+    "translation": "oignon",
+    "accepted_answers": [
+      "oignon"
+    ],
+    "example": {
+      "text": "Il me faut l’oignon.",
+      "translation": "I need the onion."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/oignon.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0119": {
+    "translation": "concombre",
+    "accepted_answers": [
+      "concombre"
+    ],
+    "example": {
+      "text": "Il me faut le concombre.",
+      "translation": "I need the cucumber."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/concombre.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0120": {
+    "translation": "chou",
+    "accepted_answers": [
+      "chou"
+    ],
+    "example": {
+      "text": "Il me faut le chou.",
+      "translation": "I need the cabbage."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/chou.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0121": {
+    "translation": "école",
+    "accepted_answers": [
+      "école"
+    ],
+    "example": {
+      "text": "Je vois l’école.",
+      "translation": "I see the school."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/ecole.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0122": {
+    "translation": "hôpital",
+    "accepted_answers": [
+      "hôpital"
+    ],
+    "example": {
+      "text": "Je vois l’hôpital.",
+      "translation": "I see the hospital."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/hopital.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0123": {
+    "translation": "restaurant",
+    "accepted_answers": [
+      "restaurant"
+    ],
+    "example": {
+      "text": "Je vois le restaurant.",
+      "translation": "I see the restaurant."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/restaurant.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0124": {
+    "translation": "supermarché",
+    "accepted_answers": [
+      "supermarché"
+    ],
+    "example": {
+      "text": "Je vois le supermarché.",
+      "translation": "I see the supermarket."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/supermarche.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0125": {
+    "translation": "pharmacie",
+    "accepted_answers": [
+      "pharmacie"
+    ],
+    "example": {
+      "text": "Je vois la pharmacie.",
+      "translation": "I see the pharmacy."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/pharmacie.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0126": {
+    "translation": "banque",
+    "accepted_answers": [
+      "banque"
+    ],
+    "example": {
+      "text": "Je vois la banque.",
+      "translation": "I see the bank."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/banque.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0127": {
+    "translation": "parc",
+    "accepted_answers": [
+      "parc"
+    ],
+    "example": {
+      "text": "Je vois le parc.",
+      "translation": "I see the park."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/parc.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0128": {
+    "translation": "plage",
+    "accepted_answers": [
+      "plage"
+    ],
+    "example": {
+      "text": "Je vois la plage.",
+      "translation": "I see the beach."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/plage.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0129": {
+    "translation": "bibliothèque",
+    "accepted_answers": [
+      "bibliothèque"
+    ],
+    "example": {
+      "text": "Je vois la bibliothèque.",
+      "translation": "I see the library."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/bibliotheque.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0130": {
+    "translation": "aéroport",
+    "accepted_answers": [
+      "aéroport"
+    ],
+    "example": {
+      "text": "Je vois l’aéroport.",
+      "translation": "I see the airport."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/aeroport.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0131": {
+    "translation": "mère",
+    "accepted_answers": [
+      "mère"
+    ],
+    "example": {
+      "text": "Je vois la mère.",
+      "translation": "I see the mother."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/mere.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0132": {
+    "translation": "père",
+    "accepted_answers": [
+      "père"
+    ],
+    "example": {
+      "text": "Je vois le père.",
+      "translation": "I see the father."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/pere.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0133": {
+    "translation": "sœur",
+    "accepted_answers": [
+      "sœur"
+    ],
+    "example": {
+      "text": "Je vois la sœur.",
+      "translation": "I see the sister."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/soeur.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0134": {
+    "translation": "frère",
+    "accepted_answers": [
+      "frère"
+    ],
+    "example": {
+      "text": "Je vois le frère.",
+      "translation": "I see the brother."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/frere.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0135": {
+    "translation": "grand-mère",
+    "accepted_answers": [
+      "grand-mère"
+    ],
+    "example": {
+      "text": "Je vois la grand-mère.",
+      "translation": "I see the grandmother."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/grand-mere.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0136": {
+    "translation": "grand-père",
+    "accepted_answers": [
+      "grand-père"
+    ],
+    "example": {
+      "text": "Je vois le grand-père.",
+      "translation": "I see the grandfather."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/grand-pere.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0137": {
+    "translation": "bébé",
+    "accepted_answers": [
+      "bébé"
+    ],
+    "example": {
+      "text": "Je vois le bébé.",
+      "translation": "I see the baby."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/bebe.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0138": {
+    "translation": "enfant",
+    "accepted_answers": [
+      "enfant"
+    ],
+    "example": {
+      "text": "Je vois l’enfant.",
+      "translation": "I see the child."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/enfant.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0139": {
+    "translation": "femme",
+    "accepted_answers": [
+      "femme"
+    ],
+    "example": {
+      "text": "Je vois la femme.",
+      "translation": "I see the woman."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/femme.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0140": {
+    "translation": "homme",
+    "accepted_answers": [
+      "homme"
+    ],
+    "example": {
+      "text": "Je vois l’homme.",
+      "translation": "I see the man."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/homme.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0141": {
+    "translation": "manger",
+    "accepted_answers": [
+      "manger"
+    ],
+    "example": {
+      "text": "Je veux manger.",
+      "translation": "I want to eat."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/manger.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0142": {
+    "translation": "boire",
+    "accepted_answers": [
+      "boire"
+    ],
+    "example": {
+      "text": "Je veux boire.",
+      "translation": "I want to drink."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/boire.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0143": {
+    "translation": "dormir",
+    "accepted_answers": [
+      "dormir"
+    ],
+    "example": {
+      "text": "Je veux dormir.",
+      "translation": "I want to sleep."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/dormir.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0144": {
+    "translation": "marcher",
+    "accepted_answers": [
+      "marcher"
+    ],
+    "example": {
+      "text": "Je veux marcher.",
+      "translation": "I want to walk."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/marcher.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0145": {
+    "translation": "courir",
+    "accepted_answers": [
+      "courir"
+    ],
+    "example": {
+      "text": "Je veux courir.",
+      "translation": "I want to run."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/courir.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0146": {
+    "translation": "s’asseoir",
+    "accepted_answers": [
+      "s’asseoir"
+    ],
+    "example": {
+      "text": "Je veux m’asseoir.",
+      "translation": "I want to sit down."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/sasseoir.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0147": {
+    "translation": "se tenir debout",
+    "accepted_answers": [
+      "se tenir debout"
+    ],
+    "example": {
+      "text": "Je veux me tenir debout.",
+      "translation": "I want to be standing."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/se-tenir-debout.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0148": {
+    "translation": "lire",
+    "accepted_answers": [
+      "lire"
+    ],
+    "example": {
+      "text": "Je veux lire.",
+      "translation": "I want to read."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/lire.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0149": {
+    "translation": "écrire",
+    "accepted_answers": [
+      "écrire"
+    ],
+    "example": {
+      "text": "Je veux écrire.",
+      "translation": "I want to write."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/ecrire.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0150": {
+    "translation": "nager",
+    "accepted_answers": [
+      "nager"
+    ],
+    "example": {
+      "text": "Je veux nager.",
+      "translation": "I want to swim."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/nager.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0151": {
+    "translation": "sauter",
+    "accepted_answers": [
+      "sauter"
+    ],
+    "example": {
+      "text": "Je veux sauter.",
+      "translation": "I want to jump."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/sauter.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0152": {
+    "translation": "danser",
+    "accepted_answers": [
+      "danser"
+    ],
+    "example": {
+      "text": "Je veux danser.",
+      "translation": "I want to dance."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/danser.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0153": {
+    "translation": "chanter",
+    "accepted_answers": [
+      "chanter"
+    ],
+    "example": {
+      "text": "Je veux chanter.",
+      "translation": "I want to sing."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/chanter.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0154": {
+    "translation": "cuisiner",
+    "accepted_answers": [
+      "cuisiner"
+    ],
+    "example": {
+      "text": "Je veux cuisiner.",
+      "translation": "I want to cook."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/cuisiner.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0155": {
+    "translation": "laver",
+    "accepted_answers": [
+      "laver"
+    ],
+    "example": {
+      "text": "Je veux laver les assiettes.",
+      "translation": "I want to wash the dishes."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/laver.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0156": {
+    "translation": "nettoyer",
+    "accepted_answers": [
+      "nettoyer"
+    ],
+    "example": {
+      "text": "Je veux nettoyer la cuisine.",
+      "translation": "I want to clean the kitchen."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/nettoyer.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0157": {
+    "translation": "ouvrir",
+    "accepted_answers": [
+      "ouvrir"
+    ],
+    "example": {
+      "text": "Je veux ouvrir la porte.",
+      "translation": "I want to open the door."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/ouvrir.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0158": {
+    "translation": "fermer",
+    "accepted_answers": [
+      "fermer"
+    ],
+    "example": {
+      "text": "Je veux fermer la porte.",
+      "translation": "I want to close the door."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/fermer.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0159": {
+    "translation": "pousser",
+    "accepted_answers": [
+      "pousser"
+    ],
+    "example": {
+      "text": "Je veux pousser le chariot.",
+      "translation": "I want to push the cart."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/pousser.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0160": {
+    "translation": "tirer",
+    "accepted_answers": [
+      "tirer"
+    ],
+    "example": {
+      "text": "Je veux tirer sur la corde.",
+      "translation": "I want to pull on the rope."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/tirer.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0161": {
+    "translation": "oreiller",
+    "accepted_answers": [
+      "oreiller"
+    ],
+    "example": {
+      "text": "Il me faut l’oreiller.",
+      "translation": "I need the pillow."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/oreiller.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0162": {
+    "translation": "couverture",
+    "accepted_answers": [
+      "couverture"
+    ],
+    "example": {
+      "text": "Il me faut la couverture.",
+      "translation": "I need the blanket."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/couverture.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0163": {
+    "translation": "miroir",
+    "accepted_answers": [
+      "miroir"
+    ],
+    "example": {
+      "text": "Il me faut le miroir.",
+      "translation": "I need the mirror."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/miroir.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0164": {
+    "translation": "serviette",
+    "accepted_answers": [
+      "serviette"
+    ],
+    "example": {
+      "text": "Il me faut la serviette.",
+      "translation": "I need the towel."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/serviette.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0165": {
+    "translation": "savon",
+    "accepted_answers": [
+      "savon"
+    ],
+    "example": {
+      "text": "Il me faut le savon.",
+      "translation": "I need the soap."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/savon.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0166": {
+    "translation": "brosse à dents",
+    "accepted_answers": [
+      "brosse à dents"
+    ],
+    "example": {
+      "text": "Il me faut la brosse à dents.",
+      "translation": "I need the toothbrush."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/brosse-a-dents.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0167": {
+    "translation": "dentifrice",
+    "accepted_answers": [
+      "dentifrice"
+    ],
+    "example": {
+      "text": "Il me faut le dentifrice.",
+      "translation": "I need the toothpaste."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/dentifrice.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0168": {
+    "translation": "peigne",
+    "accepted_answers": [
+      "peigne"
+    ],
+    "example": {
+      "text": "Il me faut le peigne.",
+      "translation": "I need the comb."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/peigne.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0169": {
+    "translation": "balai",
+    "accepted_answers": [
+      "balai"
+    ],
+    "example": {
+      "text": "Il me faut le balai.",
+      "translation": "I need the broom."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/balai.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0170": {
+    "translation": "seau",
+    "accepted_answers": [
+      "seau"
+    ],
+    "example": {
+      "text": "Il me faut le seau.",
+      "translation": "I need the bucket."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/seau.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0171": {
+    "translation": "lapin",
+    "accepted_answers": [
+      "lapin"
+    ],
+    "example": {
+      "text": "Je vois le lapin.",
+      "translation": "I see the rabbit."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/lapin.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0172": {
+    "translation": "canard",
+    "accepted_answers": [
+      "canard"
+    ],
+    "example": {
+      "text": "Je vois le canard.",
+      "translation": "I see the duck."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/canard.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0173": {
+    "translation": "chèvre",
+    "accepted_answers": [
+      "chèvre"
+    ],
+    "example": {
+      "text": "Je vois la chèvre.",
+      "translation": "I see the goat."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/chevre.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0174": {
+    "translation": "mouton",
+    "accepted_answers": [
+      "mouton"
+    ],
+    "example": {
+      "text": "Je vois le mouton.",
+      "translation": "I see the sheep."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/mouton.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0175": {
+    "translation": "souris",
+    "accepted_answers": [
+      "souris"
+    ],
+    "example": {
+      "text": "Je vois la souris.",
+      "translation": "I see the mouse."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/souris.mp3",
+    "usage_notes": [
+      "Refers to the animal, rather than a computer mouse."
+    ],
+    "forms": []
+  },
+  "concept-0176": {
+    "translation": "lion",
+    "accepted_answers": [
+      "lion"
+    ],
+    "example": {
+      "text": "Je vois le lion.",
+      "translation": "I see the lion."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/lion.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0177": {
+    "translation": "tigre",
+    "accepted_answers": [
+      "tigre"
+    ],
+    "example": {
+      "text": "Je vois le tigre.",
+      "translation": "I see the tiger."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/tigre.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0178": {
+    "translation": "ours",
+    "accepted_answers": [
+      "ours"
+    ],
+    "example": {
+      "text": "Je vois l’ours.",
+      "translation": "I see the bear."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/ours.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0179": {
+    "translation": "singe",
+    "accepted_answers": [
+      "singe"
+    ],
+    "example": {
+      "text": "Je vois le singe.",
+      "translation": "I see the monkey."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/singe.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0180": {
+    "translation": "serpent",
+    "accepted_answers": [
+      "serpent"
+    ],
+    "example": {
+      "text": "Je vois le serpent.",
+      "translation": "I see the snake."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/serpent.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0181": {
+    "translation": "fraise",
+    "accepted_answers": [
+      "fraise"
+    ],
+    "example": {
+      "text": "Il me faut la fraise.",
+      "translation": "I need the strawberry."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/fraise.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0182": {
+    "translation": "poire",
+    "accepted_answers": [
+      "poire"
+    ],
+    "example": {
+      "text": "Il me faut la poire.",
+      "translation": "I need the pear."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/poire.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0183": {
+    "translation": "pêche",
+    "accepted_answers": [
+      "pêche"
+    ],
+    "example": {
+      "text": "Il me faut la pêche.",
+      "translation": "I need the peach."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/peche.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0184": {
+    "translation": "avocat",
+    "accepted_answers": [
+      "avocat"
+    ],
+    "example": {
+      "text": "Il me faut l’avocat.",
+      "translation": "I need the avocado."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/avocat.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0185": {
+    "translation": "noix de coco",
+    "accepted_answers": [
+      "noix de coco"
+    ],
+    "example": {
+      "text": "Il me faut la noix de coco.",
+      "translation": "I need the coconut."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/noix-de-coco.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0186": {
+    "translation": "maïs",
+    "accepted_answers": [
+      "maïs"
+    ],
+    "example": {
+      "text": "Il me faut le maïs.",
+      "translation": "I need the corn."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/mais.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0187": {
+    "translation": "ail",
+    "accepted_answers": [
+      "ail"
+    ],
+    "example": {
+      "text": "Il me faut l’ail.",
+      "translation": "I need the garlic."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/ail.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0188": {
+    "translation": "champignon",
+    "accepted_answers": [
+      "champignon"
+    ],
+    "example": {
+      "text": "Il me faut le champignon.",
+      "translation": "I need the mushroom."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/champignon.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0189": {
+    "translation": "laitue",
+    "accepted_answers": [
+      "laitue"
+    ],
+    "example": {
+      "text": "Il me faut la laitue.",
+      "translation": "I need the lettuce."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/laitue.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0190": {
+    "translation": "poivron",
+    "accepted_answers": [
+      "poivron"
+    ],
+    "example": {
+      "text": "Il me faut le poivron.",
+      "translation": "I need the bell pepper."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/poivron.mp3",
+    "usage_notes": [
+      "Refers to a bell pepper, rather than black pepper."
+    ],
+    "forms": []
+  },
+  "concept-0191": {
+    "translation": "ciseaux",
+    "accepted_answers": [
+      "ciseaux"
+    ],
+    "example": {
+      "text": "Il me faut les ciseaux.",
+      "translation": "I need the scissors."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/ciseaux.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0192": {
+    "translation": "crayon",
+    "accepted_answers": [
+      "crayon"
+    ],
+    "example": {
+      "text": "Il me faut le crayon.",
+      "translation": "I need the pencil."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/crayon.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0193": {
+    "translation": "cahier",
+    "accepted_answers": [
+      "cahier"
+    ],
+    "example": {
+      "text": "Il me faut le cahier.",
+      "translation": "I need the notebook."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/cahier.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0194": {
+    "translation": "enveloppe",
+    "accepted_answers": [
+      "enveloppe"
+    ],
+    "example": {
+      "text": "Il me faut l’enveloppe.",
+      "translation": "I need the envelope."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/enveloppe.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0195": {
+    "translation": "portefeuille",
+    "accepted_answers": [
+      "portefeuille"
+    ],
+    "example": {
+      "text": "Il me faut le portefeuille.",
+      "translation": "I need the wallet."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/portefeuille.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0196": {
+    "translation": "appareil photo",
+    "accepted_answers": [
+      "appareil photo"
+    ],
+    "example": {
+      "text": "Il me faut l’appareil photo.",
+      "translation": "I need the camera."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/appareil-photo.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0197": {
+    "translation": "télévision",
+    "accepted_answers": [
+      "télévision"
+    ],
+    "example": {
+      "text": "Il me faut la télévision.",
+      "translation": "I need the television."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/television.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0198": {
+    "translation": "radio",
+    "accepted_answers": [
+      "radio"
+    ],
+    "example": {
+      "text": "Il me faut la radio.",
+      "translation": "I need the radio."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/radio.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0199": {
+    "translation": "ventilateur",
+    "accepted_answers": [
+      "ventilateur"
+    ],
+    "example": {
+      "text": "Il me faut le ventilateur.",
+      "translation": "I need the fan."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/ventilateur.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0200": {
+    "translation": "pile",
+    "accepted_answers": [
+      "pile"
+    ],
+    "example": {
+      "text": "Il me faut la pile.",
+      "translation": "I need the battery."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/fr/pile.mp3",
+    "usage_notes": [
+      "Refers to an individual battery cell."
+    ],
+    "forms": []
+  }
+}

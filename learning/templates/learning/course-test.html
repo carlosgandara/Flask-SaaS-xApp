@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ level.title }} — Test</title><link rel="stylesheet" href="{{ url_for('learning.static', filename='course.css') }}">{% if learning_auth_script_url %}<meta id="auth-csrf-token" name="csrf-token" content="{{ auth_csrf() }}"><script src="{{ learning_auth_script_url }}"></script>{% endif %}
+<script src="{{ url_for('learning.static', filename='ui-diagnostics.js') }}" data-report-url="{{ learning_error_report_url }}"></script>
+</head>
+<body><main class="course-shell" id="test-app" data-api="{{ api }}">
+<a href="{{ return_url }}">← Learning path</a><p class="eyebrow">{{ level.title }}</p>
+<h1>Put it into practice</h1><p>Practice first with no timer. Then try 20 questions with four seconds each. Pass with 16/20.</p>
+<div id="test-actions"><button id="practice" class="button">Untimed practice</button><button id="final" class="button secondary" {% if not practice_done %}disabled{% endif %}>Final test</button><button id="resume" class="button secondary" {% if not has_attempt %}hidden{% endif %}>Resume test</button></div>
+<section id="question-panel" hidden><p id="question-count"></p><p id="timer" role="timer"></p><h2 id="question"></h2><div id="choices" class="choices"></div></section>
+<p id="feedback" aria-live="polite"></p><button id="continue" class="button" hidden>Continue →</button>
+<section id="result" hidden><h2 id="result-title"></h2><div id="review"></div><a id="next-level" class="button" hidden>Start next level →</a></section>
+<p id="test-error" role="alert"></p>
+</main><script src="{{ url_for('learning.static', filename='course-test.js') }}"></script></body></html>

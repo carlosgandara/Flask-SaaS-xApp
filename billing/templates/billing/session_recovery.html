@@ -1,0 +1,8 @@
+{% extends "billing/base.html" %}
+{% block title %}Opening your membership{% endblock %}
+{% block billing_content %}
+<h1>Your membership</h1>
+<p id="billing-session-recovery">Restoring your session. Your payment is separate from your login session.</p>
+<button type="button" id="billing-retry-session" hidden>Try again</button>
+<noscript><p>Please <a href="{{ url_for('auth.login_page') }}">log in</a>, then return to Membership. You do not need to pay again.</p></noscript>
+{% endblock %}

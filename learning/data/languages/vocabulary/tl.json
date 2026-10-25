@@ -1,0 +1,3010 @@
+{
+  "concept-0001": {
+    "translation": "bahay",
+    "accepted_answers": [
+      "bahay"
+    ],
+    "example": {
+      "text": "Maliit ang bahay ko.",
+      "translation": "My house is small."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/bahay.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0002": {
+    "translation": "mesa",
+    "accepted_answers": [
+      "mesa"
+    ],
+    "example": {
+      "text": "Nasa mesa ang libro.",
+      "translation": "The book is on the table."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/mesa.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0003": {
+    "translation": "upuan",
+    "accepted_answers": [
+      "upuan"
+    ],
+    "example": {
+      "text": "Nasa tabi ng mesa ang upuan.",
+      "translation": "The chair is next to the table."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/upuan.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0004": {
+    "translation": "pinto",
+    "accepted_answers": [
+      "pinto"
+    ],
+    "example": {
+      "text": "Bukas ang pinto.",
+      "translation": "The door is open."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/pinto.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0005": {
+    "translation": "kama",
+    "accepted_answers": [
+      "kama"
+    ],
+    "example": {
+      "text": "Nasa kuwarto ko ang kama.",
+      "translation": "The bed is in my room."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/kama.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0006": {
+    "translation": "bintana",
+    "accepted_answers": [
+      "bintana"
+    ],
+    "example": {
+      "text": "Pakibuksan ang bintana.",
+      "translation": "Please open the window."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/bintana.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0007": {
+    "translation": "kusina",
+    "accepted_answers": [
+      "kusina"
+    ],
+    "example": {
+      "text": "Nasa kusina ako.",
+      "translation": "I am in the kitchen."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/kusina.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0008": {
+    "translation": "banyo",
+    "accepted_answers": [
+      "banyo"
+    ],
+    "example": {
+      "text": "Nasaan ang banyo?",
+      "translation": "Where is the bathroom?"
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/banyo.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0009": {
+    "translation": "sopa",
+    "accepted_answers": [
+      "sopa"
+    ],
+    "example": {
+      "text": "Nasa sopa ang pusa.",
+      "translation": "The cat is on the sofa."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/sopa.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0010": {
+    "translation": "lampara",
+    "accepted_answers": [
+      "lampara"
+    ],
+    "example": {
+      "text": "Pakibuksan ang lampara.",
+      "translation": "Please turn on the lamp."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/lampara.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0011": {
+    "translation": "kape",
+    "accepted_answers": [
+      "kape"
+    ],
+    "example": {
+      "text": "Gusto ko ng kape.",
+      "translation": "I want coffee."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/kape.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0012": {
+    "translation": "tubig",
+    "accepted_answers": [
+      "tubig"
+    ],
+    "example": {
+      "text": "Kailangan ko ng tubig.",
+      "translation": "I need the water."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/tubig.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0013": {
+    "translation": "tinapay",
+    "accepted_answers": [
+      "tinapay"
+    ],
+    "example": {
+      "text": "Kailangan ko ng tinapay.",
+      "translation": "I need the bread."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/tinapay.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0014": {
+    "translation": "kanin",
+    "accepted_answers": [
+      "kanin"
+    ],
+    "example": {
+      "text": "Kailangan ko ng kanin.",
+      "translation": "I need the cooked rice."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/kanin.mp3",
+    "usage_notes": [
+      "Refers to rice that has been cooked."
+    ],
+    "forms": []
+  },
+  "concept-0015": {
+    "translation": "mansanas",
+    "accepted_answers": [
+      "mansanas"
+    ],
+    "example": {
+      "text": "Kailangan ko ng mansanas.",
+      "translation": "I need the apple."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/mansanas.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0016": {
+    "translation": "saging",
+    "accepted_answers": [
+      "saging"
+    ],
+    "example": {
+      "text": "Kailangan ko ng saging.",
+      "translation": "I need the banana."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/saging.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0017": {
+    "translation": "itlog",
+    "accepted_answers": [
+      "itlog"
+    ],
+    "example": {
+      "text": "Kailangan ko ng itlog.",
+      "translation": "I need the egg."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/itlog.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0018": {
+    "translation": "gatas",
+    "accepted_answers": [
+      "gatas"
+    ],
+    "example": {
+      "text": "Kailangan ko ng gatas.",
+      "translation": "I need the milk."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/gatas.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0019": {
+    "translation": "keso",
+    "accepted_answers": [
+      "keso"
+    ],
+    "example": {
+      "text": "Kailangan ko ng keso.",
+      "translation": "I need the cheese."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/keso.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0020": {
+    "translation": "karot",
+    "accepted_answers": [
+      "karot"
+    ],
+    "example": {
+      "text": "Kailangan ko ng karot.",
+      "translation": "I need the carrot."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/karot.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0021": {
+    "translation": "aso",
+    "accepted_answers": [
+      "aso"
+    ],
+    "example": {
+      "text": "Nakikita ko ang aso.",
+      "translation": "I see the dog."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/aso.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0022": {
+    "translation": "pusa",
+    "accepted_answers": [
+      "pusa"
+    ],
+    "example": {
+      "text": "Nakikita ko ang pusa.",
+      "translation": "I see the cat."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/pusa.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0023": {
+    "translation": "ibon",
+    "accepted_answers": [
+      "ibon"
+    ],
+    "example": {
+      "text": "Nakikita ko ang ibon.",
+      "translation": "I see the bird."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/ibon.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0024": {
+    "translation": "isda",
+    "accepted_answers": [
+      "isda"
+    ],
+    "example": {
+      "text": "Nakikita ko ang isda.",
+      "translation": "I see the fish."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/isda.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0025": {
+    "translation": "kabayo",
+    "accepted_answers": [
+      "kabayo"
+    ],
+    "example": {
+      "text": "Nakikita ko ang kabayo.",
+      "translation": "I see the horse."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/kabayo.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0026": {
+    "translation": "baka",
+    "accepted_answers": [
+      "baka"
+    ],
+    "example": {
+      "text": "Nakikita ko ang baka.",
+      "translation": "I see the cow."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/baka.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0027": {
+    "translation": "baboy",
+    "accepted_answers": [
+      "baboy"
+    ],
+    "example": {
+      "text": "Nakikita ko ang baboy.",
+      "translation": "I see the pig."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/baboy.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0028": {
+    "translation": "manok",
+    "accepted_answers": [
+      "manok"
+    ],
+    "example": {
+      "text": "Nakikita ko ang manok.",
+      "translation": "I see the hen."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/manok.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0029": {
+    "translation": "paru-paro",
+    "accepted_answers": [
+      "paru-paro"
+    ],
+    "example": {
+      "text": "Nakikita ko ang paru-paro.",
+      "translation": "I see the butterfly."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/paru-paro.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0030": {
+    "translation": "elepante",
+    "accepted_answers": [
+      "elepante"
+    ],
+    "example": {
+      "text": "Nakikita ko ang elepante.",
+      "translation": "I see the elephant."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/elepante.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0031": {
+    "translation": "ulo",
+    "accepted_answers": [
+      "ulo"
+    ],
+    "example": {
+      "text": "Nakikita ko ang ulo.",
+      "translation": "I see the head."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/ulo.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0032": {
+    "translation": "kamay",
+    "accepted_answers": [
+      "kamay"
+    ],
+    "example": {
+      "text": "Nakikita ko ang kamay.",
+      "translation": "I see the hand."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/kamay.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0033": {
+    "translation": "paa",
+    "accepted_answers": [
+      "paa"
+    ],
+    "example": {
+      "text": "Nakikita ko ang paa.",
+      "translation": "I see the foot."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/paa.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0034": {
+    "translation": "mata",
+    "accepted_answers": [
+      "mata"
+    ],
+    "example": {
+      "text": "Nakikita ko ang mata.",
+      "translation": "I see the eye."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/mata.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0035": {
+    "translation": "ilong",
+    "accepted_answers": [
+      "ilong"
+    ],
+    "example": {
+      "text": "Nakikita ko ang ilong.",
+      "translation": "I see the nose."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/ilong.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0036": {
+    "translation": "bibig",
+    "accepted_answers": [
+      "bibig"
+    ],
+    "example": {
+      "text": "Nakikita ko ang bibig.",
+      "translation": "I see the mouth."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/bibig.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0037": {
+    "translation": "tainga",
+    "accepted_answers": [
+      "tainga"
+    ],
+    "example": {
+      "text": "Nakikita ko ang tainga.",
+      "translation": "I see the ear."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/tainga.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0038": {
+    "translation": "braso",
+    "accepted_answers": [
+      "braso"
+    ],
+    "example": {
+      "text": "Nakikita ko ang braso.",
+      "translation": "I see the arm."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/braso.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0039": {
+    "translation": "binti",
+    "accepted_answers": [
+      "binti"
+    ],
+    "example": {
+      "text": "Nakikita ko ang binti.",
+      "translation": "I see the leg."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/binti.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0040": {
+    "translation": "ngipin",
+    "accepted_answers": [
+      "ngipin"
+    ],
+    "example": {
+      "text": "Nakikita ko ang ngipin.",
+      "translation": "I see the tooth."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/ngipin.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0041": {
+    "translation": "araw",
+    "accepted_answers": [
+      "araw"
+    ],
+    "example": {
+      "text": "Nakikita ko ang araw.",
+      "translation": "I see the sun."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/araw.mp3",
+    "usage_notes": [
+      "In this entry, araw means sun; it can also mean day in other contexts."
+    ],
+    "forms": []
+  },
+  "concept-0042": {
+    "translation": "buwan",
+    "accepted_answers": [
+      "buwan"
+    ],
+    "example": {
+      "text": "Nakikita ko ang buwan.",
+      "translation": "I see the moon."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/buwan.mp3",
+    "usage_notes": [
+      "In this entry, buwan means moon; it can also mean month in other contexts."
+    ],
+    "forms": []
+  },
+  "concept-0043": {
+    "translation": "puno",
+    "accepted_answers": [
+      "puno"
+    ],
+    "example": {
+      "text": "Nakikita ko ang puno.",
+      "translation": "I see the tree."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/puno.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0044": {
+    "translation": "bundok",
+    "accepted_answers": [
+      "bundok"
+    ],
+    "example": {
+      "text": "Nakikita ko ang bundok.",
+      "translation": "I see the mountain."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/bundok.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0045": {
+    "translation": "karagatan",
+    "accepted_answers": [
+      "karagatan"
+    ],
+    "example": {
+      "text": "Nakikita ko ang karagatan.",
+      "translation": "I see the ocean."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/karagatan.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0046": {
+    "translation": "ilog",
+    "accepted_answers": [
+      "ilog"
+    ],
+    "example": {
+      "text": "Nakikita ko ang ilog.",
+      "translation": "I see the river."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/ilog.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0047": {
+    "translation": "bulaklak",
+    "accepted_answers": [
+      "bulaklak"
+    ],
+    "example": {
+      "text": "Nakikita ko ang bulaklak.",
+      "translation": "I see the flower."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/bulaklak.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0048": {
+    "translation": "bato",
+    "accepted_answers": [
+      "bato"
+    ],
+    "example": {
+      "text": "Nakikita ko ang bato.",
+      "translation": "I see the rock."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/bato.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0049": {
+    "translation": "ulap",
+    "accepted_answers": [
+      "ulap"
+    ],
+    "example": {
+      "text": "Nakikita ko ang ulap.",
+      "translation": "I see the cloud."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/ulap.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0050": {
+    "translation": "bituin",
+    "accepted_answers": [
+      "bituin"
+    ],
+    "example": {
+      "text": "Nakikita ko ang bituin.",
+      "translation": "I see the star."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/bituin.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0051": {
+    "translation": "kotse",
+    "accepted_answers": [
+      "kotse"
+    ],
+    "example": {
+      "text": "Nakikita ko ang kotse.",
+      "translation": "I see the car."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/kotse.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0052": {
+    "translation": "bus",
+    "accepted_answers": [
+      "bus"
+    ],
+    "example": {
+      "text": "Nakikita ko ang bus.",
+      "translation": "I see the bus."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/bus.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0053": {
+    "translation": "bisikleta",
+    "accepted_answers": [
+      "bisikleta"
+    ],
+    "example": {
+      "text": "Nakikita ko ang bisikleta.",
+      "translation": "I see the bicycle."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/bisikleta.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0054": {
+    "translation": "eroplano",
+    "accepted_answers": [
+      "eroplano"
+    ],
+    "example": {
+      "text": "Nakikita ko ang eroplano.",
+      "translation": "I see the airplane."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/eroplano.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0055": {
+    "translation": "tren",
+    "accepted_answers": [
+      "tren"
+    ],
+    "example": {
+      "text": "Nakikita ko ang tren.",
+      "translation": "I see the train."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/tren.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0056": {
+    "translation": "bangka",
+    "accepted_answers": [
+      "bangka"
+    ],
+    "example": {
+      "text": "Nakikita ko ang bangka.",
+      "translation": "I see the boat."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/bangka.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0057": {
+    "translation": "motorsiklo",
+    "accepted_answers": [
+      "motorsiklo"
+    ],
+    "example": {
+      "text": "Nakikita ko ang motorsiklo.",
+      "translation": "I see the motorcycle."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/motorsiklo.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0058": {
+    "translation": "trak",
+    "accepted_answers": [
+      "trak"
+    ],
+    "example": {
+      "text": "Nakikita ko ang trak.",
+      "translation": "I see the truck."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/trak.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0059": {
+    "translation": "helikopter",
+    "accepted_answers": [
+      "helikopter"
+    ],
+    "example": {
+      "text": "Nakikita ko ang helikopter.",
+      "translation": "I see the helicopter."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/helikopter.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0060": {
+    "translation": "taksi",
+    "accepted_answers": [
+      "taksi"
+    ],
+    "example": {
+      "text": "Nakikita ko ang taksi.",
+      "translation": "I see the taxi."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/taksi.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0061": {
+    "translation": "kamiseta",
+    "accepted_answers": [
+      "kamiseta"
+    ],
+    "example": {
+      "text": "Nakikita ko ang kamiseta.",
+      "translation": "I see the shirt."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/kamiseta.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0062": {
+    "translation": "sapatos",
+    "accepted_answers": [
+      "sapatos"
+    ],
+    "example": {
+      "text": "Nakikita ko ang sapatos.",
+      "translation": "I see the shoes."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/sapatos.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0063": {
+    "translation": "pantalon",
+    "accepted_answers": [
+      "pantalon"
+    ],
+    "example": {
+      "text": "Nakikita ko ang pantalon.",
+      "translation": "I see the pants."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/pantalon.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0064": {
+    "translation": "sumbrero",
+    "accepted_answers": [
+      "sumbrero"
+    ],
+    "example": {
+      "text": "Nakikita ko ang sumbrero.",
+      "translation": "I see the hat."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/sumbrero.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0065": {
+    "translation": "bestida",
+    "accepted_answers": [
+      "bestida"
+    ],
+    "example": {
+      "text": "Nakikita ko ang bestida.",
+      "translation": "I see the dress."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/bestida.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0066": {
+    "translation": "dyaket",
+    "accepted_answers": [
+      "dyaket"
+    ],
+    "example": {
+      "text": "Nakikita ko ang dyaket.",
+      "translation": "I see the jacket."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/dyaket.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0067": {
+    "translation": "medyas",
+    "accepted_answers": [
+      "medyas"
+    ],
+    "example": {
+      "text": "Nakikita ko ang medyas.",
+      "translation": "I see the socks."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/medyas.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0068": {
+    "translation": "palda",
+    "accepted_answers": [
+      "palda"
+    ],
+    "example": {
+      "text": "Nakikita ko ang palda.",
+      "translation": "I see the skirt."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/palda.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0069": {
+    "translation": "sinturon",
+    "accepted_answers": [
+      "sinturon"
+    ],
+    "example": {
+      "text": "Nakikita ko ang sinturon.",
+      "translation": "I see the belt."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/sinturon.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0070": {
+    "translation": "guwantes",
+    "accepted_answers": [
+      "guwantes"
+    ],
+    "example": {
+      "text": "Nakikita ko ang guwantes.",
+      "translation": "I see the gloves."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/guwantes.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0071": {
+    "translation": "pula",
+    "accepted_answers": [
+      "pula"
+    ],
+    "example": {
+      "text": "Gusto ko ang kulay pula.",
+      "translation": "I like the color red."
+    },
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/pula.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0072": {
+    "translation": "asul",
+    "accepted_answers": [
+      "asul"
+    ],
+    "example": {
+      "text": "Gusto ko ang kulay asul.",
+      "translation": "I like the color blue."
+    },
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/asul.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0073": {
+    "translation": "berde",
+    "accepted_answers": [
+      "berde"
+    ],
+    "example": {
+      "text": "Gusto ko ang kulay berde.",
+      "translation": "I like the color green."
+    },
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/berde.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0074": {
+    "translation": "dilaw",
+    "accepted_answers": [
+      "dilaw"
+    ],
+    "example": {
+      "text": "Gusto ko ang kulay dilaw.",
+      "translation": "I like the color yellow."
+    },
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/dilaw.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0075": {
+    "translation": "itim",
+    "accepted_answers": [
+      "itim"
+    ],
+    "example": {
+      "text": "Gusto ko ang kulay itim.",
+      "translation": "I like the color black."
+    },
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/itim.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0076": {
+    "translation": "puti",
+    "accepted_answers": [
+      "puti"
+    ],
+    "example": {
+      "text": "Gusto ko ang kulay puti.",
+      "translation": "I like the color white."
+    },
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/puti.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0077": {
+    "translation": "kahel",
+    "accepted_answers": [
+      "kahel"
+    ],
+    "example": {
+      "text": "Gusto ko ang kulay kahel.",
+      "translation": "I like the color orange."
+    },
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/kahel.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0078": {
+    "translation": "lila",
+    "accepted_answers": [
+      "lila"
+    ],
+    "example": {
+      "text": "Gusto ko ang kulay lila.",
+      "translation": "I like the color purple."
+    },
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/lila.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0079": {
+    "translation": "rosas",
+    "accepted_answers": [
+      "rosas"
+    ],
+    "example": {
+      "text": "Gusto ko ang kulay rosas.",
+      "translation": "I like the color pink."
+    },
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/rosas.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0080": {
+    "translation": "kayumanggi",
+    "accepted_answers": [
+      "kayumanggi"
+    ],
+    "example": {
+      "text": "Gusto ko ang kulay kayumanggi.",
+      "translation": "I like the color brown."
+    },
+    "part_of_speech": "adjective",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/kayumanggi.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0081": {
+    "translation": "telepono",
+    "accepted_answers": [
+      "telepono"
+    ],
+    "example": {
+      "text": "Kailangan ko ng telepono.",
+      "translation": "I need the phone."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/telepono.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0082": {
+    "translation": "libro",
+    "accepted_answers": [
+      "libro"
+    ],
+    "example": {
+      "text": "Kailangan ko ng libro.",
+      "translation": "I need the book."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/libro.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0083": {
+    "translation": "bolpen",
+    "accepted_answers": [
+      "bolpen"
+    ],
+    "example": {
+      "text": "Kailangan ko ng bolpen.",
+      "translation": "I need the pen."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/bolpen.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0084": {
+    "translation": "susi",
+    "accepted_answers": [
+      "susi"
+    ],
+    "example": {
+      "text": "Kailangan ko ng susi.",
+      "translation": "I need the key."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/susi.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0085": {
+    "translation": "kompyuter",
+    "accepted_answers": [
+      "kompyuter"
+    ],
+    "example": {
+      "text": "Kailangan ko ng kompyuter.",
+      "translation": "I need the computer."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/kompyuter.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0086": {
+    "translation": "bag",
+    "accepted_answers": [
+      "bag"
+    ],
+    "example": {
+      "text": "Kailangan ko ng bag.",
+      "translation": "I need the bag."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/bag.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0087": {
+    "translation": "orasan",
+    "accepted_answers": [
+      "orasan"
+    ],
+    "example": {
+      "text": "Kailangan ko ng orasan.",
+      "translation": "I need the clock."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/orasan.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0088": {
+    "translation": "bote",
+    "accepted_answers": [
+      "bote"
+    ],
+    "example": {
+      "text": "Kailangan ko ng bote.",
+      "translation": "I need the bottle."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/bote.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0089": {
+    "translation": "tasa",
+    "accepted_answers": [
+      "tasa"
+    ],
+    "example": {
+      "text": "Kailangan ko ng tasa.",
+      "translation": "I need the cup."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/tasa.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0090": {
+    "translation": "payong",
+    "accepted_answers": [
+      "payong"
+    ],
+    "example": {
+      "text": "Kailangan ko ng payong.",
+      "translation": "I need the umbrella."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/payong.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0091": {
+    "translation": "plato",
+    "accepted_answers": [
+      "plato"
+    ],
+    "example": {
+      "text": "Kailangan ko ng plato.",
+      "translation": "I need the plate."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/plato.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0092": {
+    "translation": "kutsara",
+    "accepted_answers": [
+      "kutsara"
+    ],
+    "example": {
+      "text": "Kailangan ko ng kutsara.",
+      "translation": "I need the spoon."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/kutsara.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0093": {
+    "translation": "tinidor",
+    "accepted_answers": [
+      "tinidor"
+    ],
+    "example": {
+      "text": "Kailangan ko ng tinidor.",
+      "translation": "I need the fork."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/tinidor.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0094": {
+    "translation": "kutsilyo",
+    "accepted_answers": [
+      "kutsilyo"
+    ],
+    "example": {
+      "text": "Kailangan ko ng kutsilyo.",
+      "translation": "I need the kitchen knife."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/kutsilyo.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0095": {
+    "translation": "mangkok",
+    "accepted_answers": [
+      "mangkok"
+    ],
+    "example": {
+      "text": "Kailangan ko ng mangkok.",
+      "translation": "I need the bowl."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/mangkok.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0096": {
+    "translation": "kaldero",
+    "accepted_answers": [
+      "kaldero"
+    ],
+    "example": {
+      "text": "Kailangan ko ng kaldero.",
+      "translation": "I need the cooking pot."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/kaldero.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0097": {
+    "translation": "kawali",
+    "accepted_answers": [
+      "kawali"
+    ],
+    "example": {
+      "text": "Kailangan ko ng kawali.",
+      "translation": "I need the frying pan."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/kawali.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0098": {
+    "translation": "pridyider",
+    "accepted_answers": [
+      "pridyider"
+    ],
+    "example": {
+      "text": "Kailangan ko ng pridyider.",
+      "translation": "I need the refrigerator."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/pridyider.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0099": {
+    "translation": "kalan",
+    "accepted_answers": [
+      "kalan"
+    ],
+    "example": {
+      "text": "Kailangan ko ng kalan.",
+      "translation": "I need the stove."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/kalan.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0100": {
+    "translation": "baso",
+    "accepted_answers": [
+      "baso"
+    ],
+    "example": {
+      "text": "Kailangan ko ng baso.",
+      "translation": "I need the drinking glass."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/baso.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0101": {
+    "translation": "sopas",
+    "accepted_answers": [
+      "sopas"
+    ],
+    "example": {
+      "text": "Kailangan ko ng sopas.",
+      "translation": "I need the soup."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/sopas.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0102": {
+    "translation": "karne",
+    "accepted_answers": [
+      "karne"
+    ],
+    "example": {
+      "text": "Kailangan ko ng karne.",
+      "translation": "I need the meat."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/karne.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0103": {
+    "translation": "sandwich",
+    "accepted_answers": [
+      "sandwich"
+    ],
+    "example": {
+      "text": "Kailangan ko ng sandwich.",
+      "translation": "I need the sandwich."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/sandwich.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0104": {
+    "translation": "salad",
+    "accepted_answers": [
+      "salad"
+    ],
+    "example": {
+      "text": "Kailangan ko ng salad.",
+      "translation": "I need the salad."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/salad.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0105": {
+    "translation": "keyk",
+    "accepted_answers": [
+      "keyk"
+    ],
+    "example": {
+      "text": "Kailangan ko ng keyk.",
+      "translation": "I need the cake."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/keyk.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0106": {
+    "translation": "mantikilya",
+    "accepted_answers": [
+      "mantikilya"
+    ],
+    "example": {
+      "text": "Kailangan ko ng mantikilya.",
+      "translation": "I need the butter."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/mantikilya.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0107": {
+    "translation": "asin",
+    "accepted_answers": [
+      "asin"
+    ],
+    "example": {
+      "text": "Kailangan ko ng asin.",
+      "translation": "I need the salt."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/asin.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0108": {
+    "translation": "asukal",
+    "accepted_answers": [
+      "asukal"
+    ],
+    "example": {
+      "text": "Kailangan ko ng asukal.",
+      "translation": "I need the sugar."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/asukal.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0109": {
+    "translation": "pulot",
+    "accepted_answers": [
+      "pulot"
+    ],
+    "example": {
+      "text": "Kailangan ko ng pulot.",
+      "translation": "I need the honey."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/pulot.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0110": {
+    "translation": "harina",
+    "accepted_answers": [
+      "harina"
+    ],
+    "example": {
+      "text": "Kailangan ko ng harina.",
+      "translation": "I need the flour."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/harina.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0111": {
+    "translation": "mangga",
+    "accepted_answers": [
+      "mangga"
+    ],
+    "example": {
+      "text": "Kailangan ko ng mangga.",
+      "translation": "I need the mango."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/mangga.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0112": {
+    "translation": "pinya",
+    "accepted_answers": [
+      "pinya"
+    ],
+    "example": {
+      "text": "Kailangan ko ng pinya.",
+      "translation": "I need the pineapple."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/pinya.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0113": {
+    "translation": "ubas",
+    "accepted_answers": [
+      "ubas"
+    ],
+    "example": {
+      "text": "Kailangan ko ng ubas.",
+      "translation": "I need the grapes."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/ubas.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0114": {
+    "translation": "pakwan",
+    "accepted_answers": [
+      "pakwan"
+    ],
+    "example": {
+      "text": "Kailangan ko ng pakwan.",
+      "translation": "I need the watermelon."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/pakwan.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0115": {
+    "translation": "limon",
+    "accepted_answers": [
+      "limon"
+    ],
+    "example": {
+      "text": "Kailangan ko ng limon.",
+      "translation": "I need the lemon."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/limon.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0116": {
+    "translation": "kamatis",
+    "accepted_answers": [
+      "kamatis"
+    ],
+    "example": {
+      "text": "Kailangan ko ng kamatis.",
+      "translation": "I need the tomato."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/kamatis.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0117": {
+    "translation": "patatas",
+    "accepted_answers": [
+      "patatas"
+    ],
+    "example": {
+      "text": "Kailangan ko ng patatas.",
+      "translation": "I need the potato."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/patatas.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0118": {
+    "translation": "sibuyas",
+    "accepted_answers": [
+      "sibuyas"
+    ],
+    "example": {
+      "text": "Kailangan ko ng sibuyas.",
+      "translation": "I need the onion."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/sibuyas.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0119": {
+    "translation": "pipino",
+    "accepted_answers": [
+      "pipino"
+    ],
+    "example": {
+      "text": "Kailangan ko ng pipino.",
+      "translation": "I need the cucumber."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/pipino.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0120": {
+    "translation": "repolyo",
+    "accepted_answers": [
+      "repolyo"
+    ],
+    "example": {
+      "text": "Kailangan ko ng repolyo.",
+      "translation": "I need the cabbage."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/repolyo.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0121": {
+    "translation": "paaralan",
+    "accepted_answers": [
+      "paaralan"
+    ],
+    "example": {
+      "text": "Nakikita ko ang paaralan.",
+      "translation": "I see the school."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/paaralan.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0122": {
+    "translation": "ospital",
+    "accepted_answers": [
+      "ospital"
+    ],
+    "example": {
+      "text": "Nakikita ko ang ospital.",
+      "translation": "I see the hospital."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/ospital.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0123": {
+    "translation": "restawran",
+    "accepted_answers": [
+      "restawran"
+    ],
+    "example": {
+      "text": "Nakikita ko ang restawran.",
+      "translation": "I see the restaurant."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/restawran.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0124": {
+    "translation": "supermarket",
+    "accepted_answers": [
+      "supermarket"
+    ],
+    "example": {
+      "text": "Nakikita ko ang supermarket.",
+      "translation": "I see the supermarket."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/supermarket.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0125": {
+    "translation": "botika",
+    "accepted_answers": [
+      "botika"
+    ],
+    "example": {
+      "text": "Nakikita ko ang botika.",
+      "translation": "I see the pharmacy."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/botika.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0126": {
+    "translation": "bangko",
+    "accepted_answers": [
+      "bangko"
+    ],
+    "example": {
+      "text": "Nakikita ko ang bangko.",
+      "translation": "I see the bank."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/bangko.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0127": {
+    "translation": "parke",
+    "accepted_answers": [
+      "parke"
+    ],
+    "example": {
+      "text": "Nakikita ko ang parke.",
+      "translation": "I see the park."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/parke.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0128": {
+    "translation": "dalampasigan",
+    "accepted_answers": [
+      "dalampasigan"
+    ],
+    "example": {
+      "text": "Nakikita ko ang dalampasigan.",
+      "translation": "I see the beach."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/dalampasigan.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0129": {
+    "translation": "aklatan",
+    "accepted_answers": [
+      "aklatan"
+    ],
+    "example": {
+      "text": "Nakikita ko ang aklatan.",
+      "translation": "I see the library."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/aklatan.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0130": {
+    "translation": "paliparan",
+    "accepted_answers": [
+      "paliparan"
+    ],
+    "example": {
+      "text": "Nakikita ko ang paliparan.",
+      "translation": "I see the airport."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/paliparan.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0131": {
+    "translation": "nanay",
+    "accepted_answers": [
+      "nanay"
+    ],
+    "example": {
+      "text": "Nakikita ko ang nanay.",
+      "translation": "I see the mother."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/nanay.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0132": {
+    "translation": "tatay",
+    "accepted_answers": [
+      "tatay"
+    ],
+    "example": {
+      "text": "Nakikita ko ang tatay.",
+      "translation": "I see the father."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/tatay.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0133": {
+    "translation": "kapatid na babae",
+    "accepted_answers": [
+      "kapatid na babae"
+    ],
+    "example": {
+      "text": "Nakikita ko ang kapatid na babae.",
+      "translation": "I see the sister."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/kapatid-na-babae.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0134": {
+    "translation": "kapatid na lalaki",
+    "accepted_answers": [
+      "kapatid na lalaki"
+    ],
+    "example": {
+      "text": "Nakikita ko ang kapatid na lalaki.",
+      "translation": "I see the brother."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/kapatid-na-lalaki.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0135": {
+    "translation": "lola",
+    "accepted_answers": [
+      "lola"
+    ],
+    "example": {
+      "text": "Nakikita ko ang lola.",
+      "translation": "I see the grandmother."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/lola.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0136": {
+    "translation": "lolo",
+    "accepted_answers": [
+      "lolo"
+    ],
+    "example": {
+      "text": "Nakikita ko ang lolo.",
+      "translation": "I see the grandfather."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/lolo.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0137": {
+    "translation": "sanggol",
+    "accepted_answers": [
+      "sanggol"
+    ],
+    "example": {
+      "text": "Nakikita ko ang sanggol.",
+      "translation": "I see the baby."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/sanggol.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0138": {
+    "translation": "bata",
+    "accepted_answers": [
+      "bata"
+    ],
+    "example": {
+      "text": "Nakikita ko ang bata.",
+      "translation": "I see the child."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/bata.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0139": {
+    "translation": "babae",
+    "accepted_answers": [
+      "babae"
+    ],
+    "example": {
+      "text": "Nakikita ko ang babae.",
+      "translation": "I see the woman."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/babae.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0140": {
+    "translation": "lalaki",
+    "accepted_answers": [
+      "lalaki"
+    ],
+    "example": {
+      "text": "Nakikita ko ang lalaki.",
+      "translation": "I see the man."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/lalaki.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0141": {
+    "translation": "kumain",
+    "accepted_answers": [
+      "kumain"
+    ],
+    "example": {
+      "text": "Gusto kong kumain.",
+      "translation": "I want to eat."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/kumain.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0142": {
+    "translation": "uminom",
+    "accepted_answers": [
+      "uminom"
+    ],
+    "example": {
+      "text": "Gusto kong uminom.",
+      "translation": "I want to drink."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/uminom.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0143": {
+    "translation": "matulog",
+    "accepted_answers": [
+      "matulog"
+    ],
+    "example": {
+      "text": "Gusto kong matulog.",
+      "translation": "I want to sleep."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/matulog.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0144": {
+    "translation": "maglakad",
+    "accepted_answers": [
+      "maglakad"
+    ],
+    "example": {
+      "text": "Gusto kong maglakad.",
+      "translation": "I want to walk."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/maglakad.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0145": {
+    "translation": "tumakbo",
+    "accepted_answers": [
+      "tumakbo"
+    ],
+    "example": {
+      "text": "Gusto kong tumakbo.",
+      "translation": "I want to run."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/tumakbo.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0146": {
+    "translation": "umupo",
+    "accepted_answers": [
+      "umupo"
+    ],
+    "example": {
+      "text": "Gusto kong umupo.",
+      "translation": "I want to sit down."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/umupo.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0147": {
+    "translation": "tumayo",
+    "accepted_answers": [
+      "tumayo"
+    ],
+    "example": {
+      "text": "Gusto kong tumayo.",
+      "translation": "I want to stand up."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/tumayo.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0148": {
+    "translation": "magbasa",
+    "accepted_answers": [
+      "magbasa"
+    ],
+    "example": {
+      "text": "Gusto kong magbasa.",
+      "translation": "I want to read."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/magbasa.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0149": {
+    "translation": "magsulat",
+    "accepted_answers": [
+      "magsulat"
+    ],
+    "example": {
+      "text": "Gusto kong magsulat.",
+      "translation": "I want to write."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/magsulat.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0150": {
+    "translation": "lumangoy",
+    "accepted_answers": [
+      "lumangoy"
+    ],
+    "example": {
+      "text": "Gusto kong lumangoy.",
+      "translation": "I want to swim."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/lumangoy.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0151": {
+    "translation": "tumalon",
+    "accepted_answers": [
+      "tumalon"
+    ],
+    "example": {
+      "text": "Gusto kong tumalon.",
+      "translation": "I want to jump."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/tumalon.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0152": {
+    "translation": "sumayaw",
+    "accepted_answers": [
+      "sumayaw"
+    ],
+    "example": {
+      "text": "Gusto kong sumayaw.",
+      "translation": "I want to dance."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/sumayaw.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0153": {
+    "translation": "kumanta",
+    "accepted_answers": [
+      "kumanta"
+    ],
+    "example": {
+      "text": "Gusto kong kumanta.",
+      "translation": "I want to sing."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/kumanta.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0154": {
+    "translation": "magluto",
+    "accepted_answers": [
+      "magluto"
+    ],
+    "example": {
+      "text": "Gusto kong magluto.",
+      "translation": "I want to cook."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/magluto.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0155": {
+    "translation": "maghugas",
+    "accepted_answers": [
+      "maghugas"
+    ],
+    "example": {
+      "text": "Gusto kong maghugas ng mga plato.",
+      "translation": "I want to wash the dishes."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/maghugas.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0156": {
+    "translation": "maglinis",
+    "accepted_answers": [
+      "maglinis"
+    ],
+    "example": {
+      "text": "Gusto kong maglinis.",
+      "translation": "I want to clean."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/maglinis.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0157": {
+    "translation": "magbukas",
+    "accepted_answers": [
+      "magbukas"
+    ],
+    "example": {
+      "text": "Gusto kong magbukas ng pinto.",
+      "translation": "I want to open the door."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/magbukas.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0158": {
+    "translation": "magsara",
+    "accepted_answers": [
+      "magsara"
+    ],
+    "example": {
+      "text": "Gusto kong magsara ng pinto.",
+      "translation": "I want to close the door."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/magsara.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0159": {
+    "translation": "magtulak",
+    "accepted_answers": [
+      "magtulak"
+    ],
+    "example": {
+      "text": "Gusto kong magtulak ng kariton.",
+      "translation": "I want to push the cart."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/magtulak.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0160": {
+    "translation": "humila",
+    "accepted_answers": [
+      "humila"
+    ],
+    "example": {
+      "text": "Gusto kong humila ng lubid.",
+      "translation": "I want to pull the rope."
+    },
+    "part_of_speech": "verb",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/humila.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0161": {
+    "translation": "unan",
+    "accepted_answers": [
+      "unan"
+    ],
+    "example": {
+      "text": "Kailangan ko ng unan.",
+      "translation": "I need the pillow."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/unan.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0162": {
+    "translation": "kumot",
+    "accepted_answers": [
+      "kumot"
+    ],
+    "example": {
+      "text": "Kailangan ko ng kumot.",
+      "translation": "I need the blanket."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/kumot.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0163": {
+    "translation": "salamin",
+    "accepted_answers": [
+      "salamin"
+    ],
+    "example": {
+      "text": "Kailangan ko ng salamin.",
+      "translation": "I need the mirror."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/salamin.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0164": {
+    "translation": "tuwalya",
+    "accepted_answers": [
+      "tuwalya"
+    ],
+    "example": {
+      "text": "Kailangan ko ng tuwalya.",
+      "translation": "I need the towel."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/tuwalya.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0165": {
+    "translation": "sabon",
+    "accepted_answers": [
+      "sabon"
+    ],
+    "example": {
+      "text": "Kailangan ko ng sabon.",
+      "translation": "I need the soap."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/sabon.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0166": {
+    "translation": "sipilyo",
+    "accepted_answers": [
+      "sipilyo"
+    ],
+    "example": {
+      "text": "Kailangan ko ng sipilyo.",
+      "translation": "I need the toothbrush."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/sipilyo.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0167": {
+    "translation": "tutpeyst",
+    "accepted_answers": [
+      "tutpeyst"
+    ],
+    "example": {
+      "text": "Kailangan ko ng tutpeyst.",
+      "translation": "I need the toothpaste."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/tutpeyst.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0168": {
+    "translation": "suklay",
+    "accepted_answers": [
+      "suklay"
+    ],
+    "example": {
+      "text": "Kailangan ko ng suklay.",
+      "translation": "I need the comb."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/suklay.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0169": {
+    "translation": "walis",
+    "accepted_answers": [
+      "walis"
+    ],
+    "example": {
+      "text": "Kailangan ko ng walis.",
+      "translation": "I need the broom."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/walis.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0170": {
+    "translation": "timba",
+    "accepted_answers": [
+      "timba"
+    ],
+    "example": {
+      "text": "Kailangan ko ng timba.",
+      "translation": "I need the bucket."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/timba.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0171": {
+    "translation": "kuneho",
+    "accepted_answers": [
+      "kuneho"
+    ],
+    "example": {
+      "text": "Nakikita ko ang kuneho.",
+      "translation": "I see the rabbit."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/kuneho.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0172": {
+    "translation": "pato",
+    "accepted_answers": [
+      "pato"
+    ],
+    "example": {
+      "text": "Nakikita ko ang pato.",
+      "translation": "I see the duck."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/pato.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0173": {
+    "translation": "kambing",
+    "accepted_answers": [
+      "kambing"
+    ],
+    "example": {
+      "text": "Nakikita ko ang kambing.",
+      "translation": "I see the goat."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/kambing.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0174": {
+    "translation": "tupa",
+    "accepted_answers": [
+      "tupa"
+    ],
+    "example": {
+      "text": "Nakikita ko ang tupa.",
+      "translation": "I see the sheep."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/tupa.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0175": {
+    "translation": "daga",
+    "accepted_answers": [
+      "daga"
+    ],
+    "example": {
+      "text": "Nakikita ko ang daga.",
+      "translation": "I see the mouse."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/daga.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0176": {
+    "translation": "leon",
+    "accepted_answers": [
+      "leon"
+    ],
+    "example": {
+      "text": "Nakikita ko ang leon.",
+      "translation": "I see the lion."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/leon.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0177": {
+    "translation": "tigre",
+    "accepted_answers": [
+      "tigre"
+    ],
+    "example": {
+      "text": "Nakikita ko ang tigre.",
+      "translation": "I see the tiger."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/tigre.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0178": {
+    "translation": "oso",
+    "accepted_answers": [
+      "oso"
+    ],
+    "example": {
+      "text": "Nakikita ko ang oso.",
+      "translation": "I see the bear."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/oso.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0179": {
+    "translation": "unggoy",
+    "accepted_answers": [
+      "unggoy"
+    ],
+    "example": {
+      "text": "Nakikita ko ang unggoy.",
+      "translation": "I see the monkey."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/unggoy.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0180": {
+    "translation": "ahas",
+    "accepted_answers": [
+      "ahas"
+    ],
+    "example": {
+      "text": "Nakikita ko ang ahas.",
+      "translation": "I see the snake."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/ahas.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0181": {
+    "translation": "presa",
+    "accepted_answers": [
+      "presa"
+    ],
+    "example": {
+      "text": "Kailangan ko ng presa.",
+      "translation": "I need the strawberry."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/presa.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0182": {
+    "translation": "peras",
+    "accepted_answers": [
+      "peras"
+    ],
+    "example": {
+      "text": "Kailangan ko ng peras.",
+      "translation": "I need the pear."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/peras.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0183": {
+    "translation": "milokoton",
+    "accepted_answers": [
+      "milokoton"
+    ],
+    "example": {
+      "text": "Kailangan ko ng milokoton.",
+      "translation": "I need the peach."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/milokoton.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0184": {
+    "translation": "abokado",
+    "accepted_answers": [
+      "abokado"
+    ],
+    "example": {
+      "text": "Kailangan ko ng abokado.",
+      "translation": "I need the avocado."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/abokado.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0185": {
+    "translation": "niyog",
+    "accepted_answers": [
+      "niyog"
+    ],
+    "example": {
+      "text": "Kailangan ko ng niyog.",
+      "translation": "I need the coconut."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/niyog.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0186": {
+    "translation": "mais",
+    "accepted_answers": [
+      "mais"
+    ],
+    "example": {
+      "text": "Kailangan ko ng mais.",
+      "translation": "I need the corn."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/mais.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0187": {
+    "translation": "bawang",
+    "accepted_answers": [
+      "bawang"
+    ],
+    "example": {
+      "text": "Kailangan ko ng bawang.",
+      "translation": "I need the garlic."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/bawang.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0188": {
+    "translation": "kabute",
+    "accepted_answers": [
+      "kabute"
+    ],
+    "example": {
+      "text": "Kailangan ko ng kabute.",
+      "translation": "I need the mushroom."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/kabute.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0189": {
+    "translation": "letsugas",
+    "accepted_answers": [
+      "letsugas"
+    ],
+    "example": {
+      "text": "Kailangan ko ng letsugas.",
+      "translation": "I need the lettuce."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/letsugas.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0190": {
+    "translation": "siling kampana",
+    "accepted_answers": [
+      "siling kampana"
+    ],
+    "example": {
+      "text": "Kailangan ko ng siling kampana.",
+      "translation": "I need the bell pepper."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/siling-kampana.mp3",
+    "usage_notes": [
+      "Siling kampana means bell pepper, rather than black pepper."
+    ],
+    "forms": []
+  },
+  "concept-0191": {
+    "translation": "gunting",
+    "accepted_answers": [
+      "gunting"
+    ],
+    "example": {
+      "text": "Kailangan ko ng gunting.",
+      "translation": "I need the scissors."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/gunting.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0192": {
+    "translation": "lapis",
+    "accepted_answers": [
+      "lapis"
+    ],
+    "example": {
+      "text": "Kailangan ko ng lapis.",
+      "translation": "I need the pencil."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/lapis.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0193": {
+    "translation": "kuwaderno",
+    "accepted_answers": [
+      "kuwaderno"
+    ],
+    "example": {
+      "text": "Kailangan ko ng kuwaderno.",
+      "translation": "I need the notebook."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/kuwaderno.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0194": {
+    "translation": "sobre",
+    "accepted_answers": [
+      "sobre"
+    ],
+    "example": {
+      "text": "Kailangan ko ng sobre.",
+      "translation": "I need the envelope."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/sobre.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0195": {
+    "translation": "pitaka",
+    "accepted_answers": [
+      "pitaka"
+    ],
+    "example": {
+      "text": "Kailangan ko ng pitaka.",
+      "translation": "I need the wallet."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/pitaka.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0196": {
+    "translation": "kamera",
+    "accepted_answers": [
+      "kamera"
+    ],
+    "example": {
+      "text": "Kailangan ko ng kamera.",
+      "translation": "I need the camera."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/kamera.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0197": {
+    "translation": "telebisyon",
+    "accepted_answers": [
+      "telebisyon"
+    ],
+    "example": {
+      "text": "Kailangan ko ng telebisyon.",
+      "translation": "I need the television."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/telebisyon.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0198": {
+    "translation": "radyo",
+    "accepted_answers": [
+      "radyo"
+    ],
+    "example": {
+      "text": "Kailangan ko ng radyo.",
+      "translation": "I need the radio."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/radyo.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0199": {
+    "translation": "bentilador",
+    "accepted_answers": [
+      "bentilador"
+    ],
+    "example": {
+      "text": "Kailangan ko ng bentilador.",
+      "translation": "I need the fan."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/bentilador.mp3",
+    "usage_notes": [],
+    "forms": []
+  },
+  "concept-0200": {
+    "translation": "baterya",
+    "accepted_answers": [
+      "baterya"
+    ],
+    "example": {
+      "text": "Kailangan ko ng baterya.",
+      "translation": "I need the battery."
+    },
+    "part_of_speech": "noun",
+    "pronunciation": null,
+    "audio": "audio/vocabulary/tl/baterya.mp3",
+    "usage_notes": [],
+    "forms": []
+  }
+}

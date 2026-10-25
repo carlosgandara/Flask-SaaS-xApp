@@ -1,0 +1,7 @@
+{% extends "auth/base.html" %}
+{% block title %}Restoring your session{% endblock %}
+{% block content %}
+<h1>Restoring your session</h1>
+<p id="auth-session-recovery" role="status">Please wait while we securely restore your session.</p>
+<p><a href="{{ url_for('auth.login_page') }}">Sign in again</a></p>
+{% endblock %}

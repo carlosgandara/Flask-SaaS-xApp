@@ -1,0 +1,4336 @@
+{
+  "levels": [
+    {
+      "id": "level-1-cafe",
+      "title": "Level 1 — Café",
+      "description": "Order a coffee in Spanish",
+      "win_message": "You can now order coffee in Spanish.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/cafe.png",
+          "caption": "Entras en una cafetería."
+        },
+        {
+          "type": "teach",
+          "phrase": "Quiero café.",
+          "translation": "I want coffee.",
+          "new_words": [
+            "quiero",
+            "café"
+          ],
+          "word_definitions": {
+            "quiero": "I want",
+            "café": "coffee"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Un café, por favor.",
+          "translation": "One coffee, please.",
+          "new_words": [
+            "café",
+            "favor"
+          ],
+          "word_definitions": {
+            "café": "coffee",
+            "favor": "please"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "¿Tiene azúcar?",
+          "translation": "Do you have sugar?",
+          "new_words": [
+            "tiene",
+            "azúcar"
+          ],
+          "word_definitions": {
+            "tiene": "you have",
+            "azúcar": "sugar"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿Qué desea?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Quiero café.",
+              "hint": "I want coffee."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Un café, por favor.",
+              "hint": "One coffee, please."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "¿Tiene azúcar?",
+              "hint": "Do you have sugar?"
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now order coffee in Spanish.",
+          "next_level": "level-2-restaurant"
+        }
+      ]
+    },
+    {
+      "id": "level-2-restaurant",
+      "title": "Level 2 — Restaurant",
+      "description": "Order a meal in Spanish",
+      "win_message": "You can now order food in Spanish.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/restaurant.png",
+          "caption": "Te sientas en un restaurante."
+        },
+        {
+          "type": "teach",
+          "phrase": "Quiero arroz.",
+          "translation": "I want rice.",
+          "new_words": [
+            "quiero",
+            "arroz"
+          ],
+          "word_definitions": {
+            "quiero": "I want",
+            "arroz": "rice"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Quiero agua.",
+          "translation": "I want water.",
+          "new_words": [
+            "quiero",
+            "agua"
+          ],
+          "word_definitions": {
+            "quiero": "I want",
+            "agua": "water"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "¿Me trae el menú, por favor?",
+          "translation": "Can you bring me the menu, please?",
+          "new_words": [
+            "trae",
+            "menú",
+            "favor"
+          ],
+          "word_definitions": {
+            "trae": "bring",
+            "menú": "menu",
+            "favor": "please"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "¿Hay una mesa disponible?",
+          "translation": "Is there a table available?",
+          "new_words": [
+            "hay",
+            "mesa",
+            "disponible"
+          ],
+          "word_definitions": {
+            "hay": "there is",
+            "mesa": "table",
+            "disponible": "available"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿Qué le traigo?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Quiero arroz.",
+              "hint": "I want rice."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Quiero agua.",
+              "hint": "I want water."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "¿Me trae el menú, por favor?",
+              "hint": "Can you bring me the menu, please?"
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now order food in Spanish.",
+          "next_level": "level-3-market"
+        }
+      ]
+    },
+    {
+      "id": "level-3-market",
+      "title": "Level 3 — Market",
+      "description": "Buy food at the market",
+      "win_message": "You can now buy food in Spanish.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/market.png",
+          "caption": "Caminas por un mercado."
+        },
+        {
+          "type": "teach",
+          "phrase": "¿Cuánto cuesta la fruta?",
+          "translation": "How much is the fruit?",
+          "new_words": [
+            "cuánto",
+            "cuesta",
+            "fruta"
+          ],
+          "word_definitions": {
+            "cuánto": "how much",
+            "cuesta": "costs",
+            "fruta": "fruit"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "¿Cuánto cuesta el pescado?",
+          "translation": "How much is the fish?",
+          "new_words": [
+            "cuánto",
+            "cuesta",
+            "pescado"
+          ],
+          "word_definitions": {
+            "cuánto": "how much",
+            "cuesta": "costs",
+            "pescado": "fish"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Quiero verduras.",
+          "translation": "I want vegetables.",
+          "new_words": [
+            "quiero",
+            "verduras"
+          ],
+          "word_definitions": {
+            "quiero": "I want",
+            "verduras": "vegetables"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Tengo dinero.",
+          "translation": "I have money.",
+          "new_words": [
+            "tengo",
+            "dinero"
+          ],
+          "word_definitions": {
+            "tengo": "I have",
+            "dinero": "money"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿Qué va a comprar?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "¿Cuánto cuesta la fruta?",
+              "hint": "How much is the fruit?"
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "¿Cuánto cuesta el pescado?",
+              "hint": "How much is the fish?"
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Quiero verduras.",
+              "hint": "I want vegetables."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now buy food in Spanish.",
+          "next_level": "level-4-meeting"
+        }
+      ]
+    },
+    {
+      "id": "level-4-meeting",
+      "title": "Level 4 — Meeting Someone",
+      "description": "Introduce yourself in Spanish",
+      "win_message": "You can now introduce yourself in Spanish.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/meeting.png",
+          "caption": "Conoces a una persona nueva."
+        },
+        {
+          "type": "teach",
+          "phrase": "Me llamo María.",
+          "translation": "My name is María.",
+          "new_words": [
+            "llamo",
+            "maría"
+          ],
+          "word_definitions": {
+            "llamo": "my name is",
+            "maría": "Maria"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "¿Cómo estás?",
+          "translation": "How are you?",
+          "new_words": [
+            "cómo",
+            "estás"
+          ],
+          "word_definitions": {
+            "cómo": "how",
+            "estás": "you are"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Estoy bien.",
+          "translation": "I am fine.",
+          "new_words": [
+            "bien"
+          ],
+          "word_definitions": {
+            "bien": "well"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Soy de la Ciudad de México.",
+          "translation": "I am from Mexico City.",
+          "new_words": [
+            "soy",
+            "ciudad",
+            "méxico"
+          ],
+          "word_definitions": {
+            "soy": "I am",
+            "ciudad": "city",
+            "méxico": "Mexico"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿Cómo te llamas?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Me llamo María.",
+              "hint": "My name is María."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "¿Cómo estás?",
+              "hint": "How are you?"
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Estoy bien.",
+              "hint": "I am fine."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now introduce yourself in Spanish.",
+          "next_level": "level-5-family"
+        }
+      ]
+    },
+    {
+      "id": "level-5-family",
+      "title": "Level 5 — Family",
+      "description": "Talk about your family in Spanish",
+      "win_message": "You can now talk about your family in Spanish.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/family.png",
+          "caption": "Miras fotos familiares."
+        },
+        {
+          "type": "teach",
+          "phrase": "Este es mi papá.",
+          "translation": "This is my father.",
+          "new_words": [
+            "este",
+            "papá"
+          ],
+          "word_definitions": {
+            "este": "this",
+            "papá": "dad"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Esta es mi mamá.",
+          "translation": "This is my mother.",
+          "new_words": [
+            "esta",
+            "mamá"
+          ],
+          "word_definitions": {
+            "esta": "this",
+            "mamá": "mom"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Tengo un hermano mayor.",
+          "translation": "I have an older brother.",
+          "new_words": [
+            "tengo",
+            "hermano",
+            "mayor"
+          ],
+          "word_definitions": {
+            "tengo": "I have",
+            "hermano": "brother",
+            "mayor": "older"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Tengo una hermana mayor.",
+          "translation": "I have an older sister.",
+          "new_words": [
+            "tengo",
+            "hermana",
+            "mayor"
+          ],
+          "word_definitions": {
+            "tengo": "I have",
+            "hermana": "sister",
+            "mayor": "older"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿Quién es?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Este es mi papá.",
+              "hint": "This is my father."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Esta es mi mamá.",
+              "hint": "This is my mother."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Tengo un hermano mayor.",
+              "hint": "I have an older brother."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about your family in Spanish.",
+          "next_level": "level-6-numbers"
+        }
+      ]
+    },
+    {
+      "id": "level-6-numbers",
+      "title": "Level 6 — Numbers",
+      "description": "Count and order multiple items",
+      "win_message": "You can now count in Spanish.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/numbers.png",
+          "caption": "Pides café para tus amigos."
+        },
+        {
+          "type": "teach",
+          "phrase": "¿Cuántos cafés?",
+          "translation": "How many coffees?",
+          "new_words": [
+            "cuántos",
+            "cafés"
+          ],
+          "word_definitions": {
+            "cuántos": "how many",
+            "cafés": "coffees"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Dos cafés.",
+          "translation": "Two coffees.",
+          "new_words": [
+            "dos",
+            "cafés"
+          ],
+          "word_definitions": {
+            "dos": "two",
+            "cafés": "coffees"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Tres cafés.",
+          "translation": "Three coffees.",
+          "new_words": [
+            "tres",
+            "cafés"
+          ],
+          "word_definitions": {
+            "tres": "three",
+            "cafés": "coffees"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Cuatro cafés.",
+          "translation": "Four coffees.",
+          "new_words": [
+            "cuatro",
+            "cafés"
+          ],
+          "word_definitions": {
+            "cuatro": "four",
+            "cafés": "coffees"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Cinco cafés.",
+          "translation": "Five coffees.",
+          "new_words": [
+            "cinco",
+            "cafés"
+          ],
+          "word_definitions": {
+            "cinco": "five",
+            "cafés": "coffees"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿Cuántos quiere?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "¿Cuántos cafés?",
+              "hint": "How many coffees?"
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Dos cafés.",
+              "hint": "Two coffees."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Tres cafés.",
+              "hint": "Three coffees."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now count in Spanish.",
+          "next_level": "level-7-directions"
+        }
+      ]
+    },
+    {
+      "id": "level-7-directions",
+      "title": "Level 7 — Getting Around",
+      "description": "Ask for and understand directions",
+      "win_message": "You can now ask for directions in Spanish.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/directions.png",
+          "caption": "Buscas una dirección."
+        },
+        {
+          "type": "teach",
+          "phrase": "¿Dónde está el baño?",
+          "translation": "Where is the bathroom?",
+          "new_words": [
+            "dónde",
+            "baño"
+          ],
+          "word_definitions": {
+            "dónde": "where",
+            "baño": "bathroom"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "A la izquierda.",
+          "translation": "To the left.",
+          "new_words": [
+            "izquierda"
+          ],
+          "word_definitions": {
+            "izquierda": "left"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "A la derecha.",
+          "translation": "To the right.",
+          "new_words": [
+            "derecha"
+          ],
+          "word_definitions": {
+            "derecha": "right"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Sigue derecho.",
+          "translation": "Go straight.",
+          "new_words": [
+            "sigue",
+            "derecho"
+          ],
+          "word_definitions": {
+            "sigue": "continue",
+            "derecho": "straight"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "¿Está lejos?",
+          "translation": "Is it far?",
+          "new_words": [
+            "lejos"
+          ],
+          "word_definitions": {
+            "lejos": "far"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿Qué necesitas saber?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "¿Dónde está el baño?",
+              "hint": "Where is the bathroom?"
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "A la izquierda.",
+              "hint": "To the left."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "A la derecha.",
+              "hint": "To the right."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now ask for directions in Spanish.",
+          "next_level": "level-8-colors"
+        }
+      ]
+    },
+    {
+      "id": "level-8-colors",
+      "title": "Level 8 — Colors & Clothes",
+      "description": "Shop for clothes by color",
+      "win_message": "You can now shop for clothes in Spanish.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/colors.png",
+          "caption": "Buscas ropa en una tienda."
+        },
+        {
+          "type": "teach",
+          "phrase": "Ropa blanca.",
+          "translation": "White clothes.",
+          "new_words": [
+            "ropa",
+            "blanca"
+          ],
+          "word_definitions": {
+            "ropa": "clothes",
+            "blanca": "white"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Ropa negra.",
+          "translation": "Black clothes.",
+          "new_words": [
+            "ropa",
+            "negra"
+          ],
+          "word_definitions": {
+            "ropa": "clothes",
+            "negra": "black"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Ropa roja.",
+          "translation": "Red clothes.",
+          "new_words": [
+            "ropa",
+            "roja"
+          ],
+          "word_definitions": {
+            "ropa": "clothes",
+            "roja": "red"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Ropa azul.",
+          "translation": "Blue clothes.",
+          "new_words": [
+            "ropa",
+            "azul"
+          ],
+          "word_definitions": {
+            "ropa": "clothes",
+            "azul": "blue"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿Qué color buscas?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Ropa blanca.",
+              "hint": "White clothes."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Ropa negra.",
+              "hint": "Black clothes."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Ropa roja.",
+              "hint": "Red clothes."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now shop for clothes in Spanish.",
+          "next_level": "level-9-doctor"
+        }
+      ]
+    },
+    {
+      "id": "level-9-doctor",
+      "title": "Level 9 — At the Doctor",
+      "description": "Describe how you feel when sick",
+      "win_message": "You can now describe symptoms in Spanish.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/doctor.png",
+          "caption": "Hablas con un médico."
+        },
+        {
+          "type": "teach",
+          "phrase": "Me duele la cabeza.",
+          "translation": "My head hurts.",
+          "new_words": [
+            "duele",
+            "cabeza"
+          ],
+          "word_definitions": {
+            "duele": "hurts",
+            "cabeza": "head"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Me duele el estómago.",
+          "translation": "My stomach hurts.",
+          "new_words": [
+            "duele",
+            "estómago"
+          ],
+          "word_definitions": {
+            "duele": "hurts",
+            "estómago": "stomach"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Tengo fiebre.",
+          "translation": "I have a fever.",
+          "new_words": [
+            "tengo",
+            "fiebre"
+          ],
+          "word_definitions": {
+            "tengo": "I have",
+            "fiebre": "fever"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Necesito medicina.",
+          "translation": "I need medicine.",
+          "new_words": [
+            "necesito",
+            "medicina"
+          ],
+          "word_definitions": {
+            "necesito": "I need",
+            "medicina": "medicine"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿Qué te pasa?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Me duele la cabeza.",
+              "hint": "My head hurts."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Me duele el estómago.",
+              "hint": "My stomach hurts."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Tengo fiebre.",
+              "hint": "I have a fever."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now describe symptoms in Spanish.",
+          "next_level": "level-10-plans"
+        }
+      ]
+    },
+    {
+      "id": "level-10-plans",
+      "title": "Level 10 — Making Plans",
+      "description": "Talk about what you'll do and when",
+      "win_message": "You can now make plans in Spanish.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/plans.png",
+          "caption": "Haces planes con un amigo."
+        },
+        {
+          "type": "teach",
+          "phrase": "Vamos.",
+          "translation": "Let’s go.",
+          "new_words": [
+            "vamos"
+          ],
+          "word_definitions": {
+            "vamos": "let's go"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Ahora mismo.",
+          "translation": "Right now.",
+          "new_words": [
+            "ahora",
+            "mismo"
+          ],
+          "word_definitions": {
+            "ahora": "now",
+            "mismo": "same"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Mejor mañana.",
+          "translation": "Tomorrow instead.",
+          "new_words": [
+            "mejor",
+            "mañana"
+          ],
+          "word_definitions": {
+            "mejor": "better",
+            "mañana": "tomorrow"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Más tarde.",
+          "translation": "Later.",
+          "new_words": [
+            "tarde"
+          ],
+          "word_definitions": {
+            "tarde": "late"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿Cuándo vamos?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Vamos.",
+              "hint": "Let’s go."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Ahora mismo.",
+              "hint": "Right now."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Mejor mañana.",
+              "hint": "Tomorrow instead."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now make plans in Spanish.",
+          "next_level": "level-11-transportation"
+        }
+      ]
+    },
+    {
+      "id": "level-11-transportation",
+      "title": "Level 11 — Transportation",
+      "description": "Use Spanish when taking transportation",
+      "win_message": "You can now talk about transportation in Spanish.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/transportation.png",
+          "caption": "Practicas una conversación cotidiana en español."
+        },
+        {
+          "type": "teach",
+          "phrase": "¿Dónde está la parada?",
+          "translation": "Where is the stop?",
+          "new_words": [
+            "dónde",
+            "parada"
+          ],
+          "word_definitions": {
+            "dónde": "where",
+            "parada": "stop"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Voy en autobús.",
+          "translation": "I am taking the bus.",
+          "new_words": [
+            "voy",
+            "autobús"
+          ],
+          "word_definitions": {
+            "voy": "I go",
+            "autobús": "bus"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "¿Cuánto cuesta el pasaje?",
+          "translation": "How much is the fare?",
+          "new_words": [
+            "cuánto",
+            "cuesta",
+            "pasaje"
+          ],
+          "word_definitions": {
+            "cuánto": "how much",
+            "cuesta": "costs",
+            "pasaje": "fare"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Aquí está bien.",
+          "translation": "Here is fine.",
+          "new_words": [
+            "bien"
+          ],
+          "word_definitions": {
+            "bien": "well"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿Adónde va?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "¿Dónde está la parada?",
+              "hint": "Where is the stop?"
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Voy en autobús.",
+              "hint": "I am taking the bus."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "¿Cuánto cuesta el pasaje?",
+              "hint": "How much is the fare?"
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about transportation in Spanish.",
+          "next_level": "level-12-shopping"
+        }
+      ]
+    },
+    {
+      "id": "level-12-shopping",
+      "title": "Level 12 — Shopping",
+      "description": "Buy things and ask about prices",
+      "win_message": "You can now shop in Spanish.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/shopping.png",
+          "caption": "Practicas una conversación cotidiana en español."
+        },
+        {
+          "type": "teach",
+          "phrase": "¿Cuánto cuesta esto?",
+          "translation": "How much does this cost?",
+          "new_words": [
+            "cuánto",
+            "cuesta"
+          ],
+          "word_definitions": {
+            "cuánto": "how much",
+            "cuesta": "costs"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Esto es caro.",
+          "translation": "This is expensive.",
+          "new_words": [
+            "caro"
+          ],
+          "word_definitions": {
+            "caro": "expensive"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Esto es barato.",
+          "translation": "This is cheap.",
+          "new_words": [
+            "barato"
+          ],
+          "word_definitions": {
+            "barato": "cheap"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Me gusta esto.",
+          "translation": "I like this.",
+          "new_words": [
+            "gusta"
+          ],
+          "word_definitions": {
+            "gusta": "like"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "¿Tiene otro?",
+          "translation": "Do you have another one?",
+          "new_words": [
+            "tiene",
+            "otro"
+          ],
+          "word_definitions": {
+            "tiene": "you have",
+            "otro": "another"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿En qué puedo ayudarle?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "¿Cuánto cuesta esto?",
+              "hint": "How much does this cost?"
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Esto es caro.",
+              "hint": "This is expensive."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Esto es barato.",
+              "hint": "This is cheap."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now shop in Spanish.",
+          "next_level": "level-13-home"
+        }
+      ]
+    },
+    {
+      "id": "level-13-home",
+      "title": "Level 13 — Home",
+      "description": "Talk about your home and things around you",
+      "win_message": "You can now talk about your home in Spanish.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/home.png",
+          "caption": "Practicas una conversación cotidiana en español."
+        },
+        {
+          "type": "teach",
+          "phrase": "Esta es mi casa.",
+          "translation": "This is my house.",
+          "new_words": [
+            "esta",
+            "casa"
+          ],
+          "word_definitions": {
+            "esta": "this",
+            "casa": "house"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Estoy en casa.",
+          "translation": "I am at home.",
+          "new_words": [
+            "casa"
+          ],
+          "word_definitions": {
+            "casa": "house"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Aquí hay una cocina.",
+          "translation": "There is a kitchen here.",
+          "new_words": [
+            "hay",
+            "cocina"
+          ],
+          "word_definitions": {
+            "hay": "there is",
+            "cocina": "kitchen"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Aquí hay una habitación.",
+          "translation": "There is a room here.",
+          "new_words": [
+            "hay",
+            "habitación"
+          ],
+          "word_definitions": {
+            "hay": "there is",
+            "habitación": "room"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "La casa es grande.",
+          "translation": "The house is big.",
+          "new_words": [
+            "casa",
+            "grande"
+          ],
+          "word_definitions": {
+            "casa": "house",
+            "grande": "big"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿Dónde estás?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Esta es mi casa.",
+              "hint": "This is my house."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Estoy en casa.",
+              "hint": "I am at home."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Aquí hay una cocina.",
+              "hint": "There is a kitchen here."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about your home in Spanish.",
+          "next_level": "level-14-weather"
+        }
+      ]
+    },
+    {
+      "id": "level-14-weather",
+      "title": "Level 14 — Weather",
+      "description": "Talk about the weather",
+      "win_message": "You can now talk about the weather in Spanish.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/weather.png",
+          "caption": "Practicas una conversación cotidiana en español."
+        },
+        {
+          "type": "teach",
+          "phrase": "Hoy hace calor.",
+          "translation": "It is hot today.",
+          "new_words": [
+            "hoy",
+            "hace",
+            "calor"
+          ],
+          "word_definitions": {
+            "hoy": "today",
+            "hace": "makes",
+            "calor": "heat"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Hoy hace frío.",
+          "translation": "It is cold today.",
+          "new_words": [
+            "hoy",
+            "hace",
+            "frío"
+          ],
+          "word_definitions": {
+            "hoy": "today",
+            "hace": "makes",
+            "frío": "cold"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Está lloviendo.",
+          "translation": "It is raining.",
+          "new_words": [
+            "lloviendo"
+          ],
+          "word_definitions": {
+            "lloviendo": "raining"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Hoy hace sol.",
+          "translation": "It is sunny today.",
+          "new_words": [
+            "hoy",
+            "hace",
+            "sol"
+          ],
+          "word_definitions": {
+            "hoy": "today",
+            "hace": "makes",
+            "sol": "sun"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Hace mal tiempo.",
+          "translation": "The weather is bad.",
+          "new_words": [
+            "hace",
+            "mal",
+            "tiempo"
+          ],
+          "word_definitions": {
+            "hace": "makes",
+            "mal": "bad",
+            "tiempo": "time"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿Qué tiempo hace?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Hoy hace calor.",
+              "hint": "It is hot today."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Hoy hace frío.",
+              "hint": "It is cold today."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Está lloviendo.",
+              "hint": "It is raining."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about the weather in Spanish.",
+          "next_level": "level-15-daily-routine"
+        }
+      ]
+    },
+    {
+      "id": "level-15-daily-routine",
+      "title": "Level 15 — Daily Routine",
+      "description": "Talk about what you do every day",
+      "win_message": "You can now talk about your daily routine in Spanish.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/daily-routine.png",
+          "caption": "Practicas una conversación cotidiana en español."
+        },
+        {
+          "type": "teach",
+          "phrase": "Me despierto por la mañana.",
+          "translation": "I wake up in the morning.",
+          "new_words": [
+            "despierto",
+            "mañana"
+          ],
+          "word_definitions": {
+            "despierto": "wake up",
+            "mañana": "tomorrow"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Estoy comiendo.",
+          "translation": "I am eating.",
+          "new_words": [
+            "comiendo"
+          ],
+          "word_definitions": {
+            "comiendo": "eating"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Estoy trabajando.",
+          "translation": "I am working.",
+          "new_words": [
+            "trabajando"
+          ],
+          "word_definitions": {
+            "trabajando": "working"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Volví a casa por la noche.",
+          "translation": "I went home at night.",
+          "new_words": [
+            "volví",
+            "casa",
+            "noche"
+          ],
+          "word_definitions": {
+            "volví": "I returned",
+            "casa": "house",
+            "noche": "night"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Estoy durmiendo.",
+          "translation": "I am sleeping.",
+          "new_words": [
+            "durmiendo"
+          ],
+          "word_definitions": {
+            "durmiendo": "sleeping"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿Qué haces hoy?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Me despierto por la mañana.",
+              "hint": "I wake up in the morning."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Estoy comiendo.",
+              "hint": "I am eating."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Estoy trabajando.",
+              "hint": "I am working."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about your daily routine in Spanish.",
+          "next_level": "level-16-work"
+        }
+      ]
+    },
+    {
+      "id": "level-16-work",
+      "title": "Level 16 — Work",
+      "description": "Talk about work and your job",
+      "win_message": "You can now talk about work in Spanish.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/work.png",
+          "caption": "Practicas una conversación cotidiana en español."
+        },
+        {
+          "type": "teach",
+          "phrase": "Trabajo aquí.",
+          "translation": "I work here.",
+          "new_words": [
+            "trabajo"
+          ],
+          "word_definitions": {
+            "trabajo": "work"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "¿A qué te dedicas?",
+          "translation": "What do you do for work?",
+          "new_words": [
+            "qué",
+            "dedicas"
+          ],
+          "word_definitions": {
+            "qué": "what",
+            "dedicas": "do for work"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Soy enfermero.",
+          "translation": "I am a nurse.",
+          "new_words": [
+            "soy",
+            "enfermero"
+          ],
+          "word_definitions": {
+            "soy": "I am",
+            "enfermero": "nurse"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "El trabajo es difícil.",
+          "translation": "The work is difficult.",
+          "new_words": [
+            "trabajo",
+            "difícil"
+          ],
+          "word_definitions": {
+            "trabajo": "work",
+            "difícil": "difficult"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Estoy cansado.",
+          "translation": "I am tired.",
+          "new_words": [
+            "cansado"
+          ],
+          "word_definitions": {
+            "cansado": "tired"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿A qué te dedicas?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Trabajo aquí.",
+              "hint": "I work here."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "¿A qué te dedicas?",
+              "hint": "What do you do for work?"
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Soy enfermero.",
+              "hint": "I am a nurse."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about work in Spanish.",
+          "next_level": "level-17-hobbies"
+        }
+      ]
+    },
+    {
+      "id": "level-17-hobbies",
+      "title": "Level 17 — Hobbies",
+      "description": "Talk about things you enjoy doing",
+      "win_message": "You can now talk about your hobbies in Spanish.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/hobbies.png",
+          "caption": "Practicas una conversación cotidiana en español."
+        },
+        {
+          "type": "teach",
+          "phrase": "Me gusta la música.",
+          "translation": "I like music.",
+          "new_words": [
+            "gusta",
+            "música"
+          ],
+          "word_definitions": {
+            "gusta": "like",
+            "música": "music"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Me gusta bailar.",
+          "translation": "I like dancing.",
+          "new_words": [
+            "gusta",
+            "bailar"
+          ],
+          "word_definitions": {
+            "gusta": "like",
+            "bailar": "dance"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Me gustan las películas.",
+          "translation": "I like movies.",
+          "new_words": [
+            "gustan",
+            "películas"
+          ],
+          "word_definitions": {
+            "gustan": "like",
+            "películas": "movies"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Me gusta caminar.",
+          "translation": "I like walking.",
+          "new_words": [
+            "gusta",
+            "caminar"
+          ],
+          "word_definitions": {
+            "gusta": "like",
+            "caminar": "walk"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "¿Qué te gusta hacer?",
+          "translation": "What do you like to do?",
+          "new_words": [
+            "qué",
+            "gusta",
+            "hacer"
+          ],
+          "word_definitions": {
+            "qué": "what",
+            "gusta": "like",
+            "hacer": "do"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿Qué te gusta hacer?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Me gusta la música.",
+              "hint": "I like music."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Me gusta bailar.",
+              "hint": "I like dancing."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Me gustan las películas.",
+              "hint": "I like movies."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about your hobbies in Spanish.",
+          "next_level": "level-18-feelings"
+        }
+      ]
+    },
+    {
+      "id": "level-18-feelings",
+      "title": "Level 18 — Feelings",
+      "description": "Describe how you feel",
+      "win_message": "You can now describe your feelings in Spanish.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/feelings.png",
+          "caption": "Practicas una conversación cotidiana en español."
+        },
+        {
+          "type": "teach",
+          "phrase": "Estoy feliz.",
+          "translation": "I am happy.",
+          "new_words": [
+            "feliz"
+          ],
+          "word_definitions": {
+            "feliz": "happy"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Estoy triste.",
+          "translation": "I am sad.",
+          "new_words": [
+            "triste"
+          ],
+          "word_definitions": {
+            "triste": "sad"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Estoy cansado.",
+          "translation": "I am tired.",
+          "new_words": [
+            "cansado"
+          ],
+          "word_definitions": {
+            "cansado": "tired"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Estoy enojado.",
+          "translation": "I am angry.",
+          "new_words": [
+            "enojado"
+          ],
+          "word_definitions": {
+            "enojado": "angry"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Estoy nervioso.",
+          "translation": "I am nervous.",
+          "new_words": [
+            "nervioso"
+          ],
+          "word_definitions": {
+            "nervioso": "nervous"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿Cómo te sientes?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Estoy feliz.",
+              "hint": "I am happy."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Estoy triste.",
+              "hint": "I am sad."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Estoy cansado.",
+              "hint": "I am tired."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now describe your feelings in Spanish.",
+          "next_level": "level-19-communication"
+        }
+      ]
+    },
+    {
+      "id": "level-19-communication",
+      "title": "Level 19 — Communication",
+      "description": "Ask someone to repeat, explain, or speak slowly",
+      "win_message": "You can now handle simple communication problems in Spanish.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/communication.png",
+          "caption": "Practicas una conversación cotidiana en español."
+        },
+        {
+          "type": "teach",
+          "phrase": "¿Me escuchas?",
+          "translation": "Can you hear me?",
+          "new_words": [
+            "escuchas"
+          ],
+          "word_definitions": {
+            "escuchas": "you hear"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "No entiendo.",
+          "translation": "I do not understand.",
+          "new_words": [
+            "entiendo"
+          ],
+          "word_definitions": {
+            "entiendo": "I understand"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Habla más despacio, por favor.",
+          "translation": "Speak more slowly, please.",
+          "new_words": [
+            "habla",
+            "despacio",
+            "favor"
+          ],
+          "word_definitions": {
+            "habla": "speak",
+            "despacio": "slowly",
+            "favor": "please"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "¿Puedes repetirlo?",
+          "translation": "Can you repeat that?",
+          "new_words": [
+            "puedes",
+            "repetirlo"
+          ],
+          "word_definitions": {
+            "puedes": "you can",
+            "repetirlo": "repeat it"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Ahora entiendo.",
+          "translation": "Now I understand.",
+          "new_words": [
+            "ahora",
+            "entiendo"
+          ],
+          "word_definitions": {
+            "ahora": "now",
+            "entiendo": "I understand"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿Entiendes?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "¿Me escuchas?",
+              "hint": "Can you hear me?"
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "No entiendo.",
+              "hint": "I do not understand."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Habla más despacio, por favor.",
+              "hint": "Speak more slowly, please."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now handle simple communication problems in Spanish.",
+          "next_level": "level-20-social"
+        }
+      ]
+    },
+    {
+      "id": "level-20-social",
+      "title": "Level 20 — Social Conversation",
+      "description": "Have a simple conversation with someone new",
+      "win_message": "You can now have a basic social conversation in Spanish.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/social.png",
+          "caption": "Practicas una conversación cotidiana en español."
+        },
+        {
+          "type": "teach",
+          "phrase": "¿Quieres venir conmigo?",
+          "translation": "Do you want to come with me?",
+          "new_words": [
+            "quieres",
+            "venir",
+            "conmigo"
+          ],
+          "word_definitions": {
+            "quieres": "you want",
+            "venir": "come",
+            "conmigo": "with me"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Vamos a comer juntos.",
+          "translation": "Let’s eat together.",
+          "new_words": [
+            "vamos",
+            "comer",
+            "juntos"
+          ],
+          "word_definitions": {
+            "vamos": "let's go",
+            "comer": "eat",
+            "juntos": "together"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "¿Estás libre mañana?",
+          "translation": "Are you free tomorrow?",
+          "new_words": [
+            "estás",
+            "libre",
+            "mañana"
+          ],
+          "word_definitions": {
+            "estás": "you are",
+            "libre": "free",
+            "mañana": "tomorrow"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Nos vemos luego.",
+          "translation": "See you later.",
+          "new_words": [
+            "nos",
+            "vemos",
+            "luego"
+          ],
+          "word_definitions": {
+            "nos": "us",
+            "vemos": "we see",
+            "luego": "later"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Gracias por venir.",
+          "translation": "Thanks for coming.",
+          "new_words": [
+            "gracias",
+            "venir"
+          ],
+          "word_definitions": {
+            "gracias": "thank you",
+            "venir": "come"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿Qué hacemos?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "¿Quieres venir conmigo?",
+              "hint": "Do you want to come with me?"
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Vamos a comer juntos.",
+              "hint": "Let’s eat together."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "¿Estás libre mañana?",
+              "hint": "Are you free tomorrow?"
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now have a basic social conversation in Spanish.",
+          "next_level": "level-21-needs"
+        }
+      ]
+    },
+    {
+      "id": "level-21-needs",
+      "title": "Level 21 — Needs & Wants",
+      "description": "Express what you need and don't want",
+      "win_message": "You can now say what you need and don't want.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/needs.png",
+          "caption": "Practicas una conversación cotidiana en español."
+        },
+        {
+          "type": "teach",
+          "phrase": "Necesito agua.",
+          "translation": "I need water.",
+          "new_words": [
+            "necesito",
+            "agua"
+          ],
+          "word_definitions": {
+            "necesito": "I need",
+            "agua": "water"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Necesito café.",
+          "translation": "I need coffee.",
+          "new_words": [
+            "necesito",
+            "café"
+          ],
+          "word_definitions": {
+            "necesito": "I need",
+            "café": "coffee"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "No quiero azúcar.",
+          "translation": "I do not want sugar.",
+          "new_words": [
+            "quiero",
+            "azúcar"
+          ],
+          "word_definitions": {
+            "quiero": "I want",
+            "azúcar": "sugar"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "¿Qué necesitas?",
+          "translation": "What do you need?",
+          "new_words": [
+            "qué",
+            "necesitas"
+          ],
+          "word_definitions": {
+            "qué": "what",
+            "necesitas": "you need"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿Qué necesitas?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Necesito agua.",
+              "hint": "I need water."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Necesito café.",
+              "hint": "I need coffee."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "No quiero azúcar.",
+              "hint": "I do not want sugar."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now say what you need and don't want.",
+          "next_level": "level-22-ability"
+        }
+      ]
+    },
+    {
+      "id": "level-22-ability",
+      "title": "Level 22 — Can & Can't",
+      "description": "Talk about what you can and cannot do",
+      "win_message": "You can now talk about what you can and cannot do.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/ability.png",
+          "caption": "Practicas una conversación cotidiana en español."
+        },
+        {
+          "type": "teach",
+          "phrase": "Puedo hacerlo.",
+          "translation": "I can do it.",
+          "new_words": [
+            "puedo",
+            "hacerlo"
+          ],
+          "word_definitions": {
+            "puedo": "I can",
+            "hacerlo": "do it"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "No puedo hacerlo.",
+          "translation": "I cannot do it.",
+          "new_words": [
+            "puedo",
+            "hacerlo"
+          ],
+          "word_definitions": {
+            "puedo": "I can",
+            "hacerlo": "do it"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "¿Puedes hacerlo?",
+          "translation": "Can you do it?",
+          "new_words": [
+            "puedes",
+            "hacerlo"
+          ],
+          "word_definitions": {
+            "puedes": "you can",
+            "hacerlo": "do it"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Puedo caminar.",
+          "translation": "I can walk.",
+          "new_words": [
+            "puedo",
+            "caminar"
+          ],
+          "word_definitions": {
+            "puedo": "I can",
+            "caminar": "walk"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿Puedes hacerlo?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Puedo hacerlo.",
+              "hint": "I can do it."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "No puedo hacerlo.",
+              "hint": "I cannot do it."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "¿Puedes hacerlo?",
+              "hint": "Can you do it?"
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about what you can and cannot do.",
+          "next_level": "level-23-going-places"
+        }
+      ]
+    },
+    {
+      "id": "level-23-going-places",
+      "title": "Level 23 — Going Places",
+      "description": "Say where you are going",
+      "win_message": "You can now say where you are going.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/going-places.png",
+          "caption": "Practicas una conversación cotidiana en español."
+        },
+        {
+          "type": "teach",
+          "phrase": "Voy a casa.",
+          "translation": "I am going home.",
+          "new_words": [
+            "voy",
+            "casa"
+          ],
+          "word_definitions": {
+            "voy": "I go",
+            "casa": "house"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Voy al trabajo.",
+          "translation": "I am going to work.",
+          "new_words": [
+            "voy",
+            "trabajo"
+          ],
+          "word_definitions": {
+            "voy": "I go",
+            "trabajo": "work"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Voy allí.",
+          "translation": "I am going there.",
+          "new_words": [
+            "voy",
+            "allí"
+          ],
+          "word_definitions": {
+            "voy": "I go",
+            "allí": "there"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "¿Adónde vas?",
+          "translation": "Where are you going?",
+          "new_words": [
+            "adónde",
+            "vas"
+          ],
+          "word_definitions": {
+            "adónde": "where to",
+            "vas": "you go"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿Adónde vas?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Voy a casa.",
+              "hint": "I am going home."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Voy al trabajo.",
+              "hint": "I am going to work."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Voy allí.",
+              "hint": "I am going there."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now say where you are going.",
+          "next_level": "level-24-coming-leaving"
+        }
+      ]
+    },
+    {
+      "id": "level-24-coming-leaving",
+      "title": "Level 24 — Coming & Leaving",
+      "description": "Talk about arriving and leaving",
+      "win_message": "You can now talk about arriving and leaving.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/coming-leaving.png",
+          "caption": "Practicas una conversación cotidiana en español."
+        },
+        {
+          "type": "teach",
+          "phrase": "Me voy más tarde.",
+          "translation": "I am leaving later.",
+          "new_words": [
+            "voy",
+            "tarde"
+          ],
+          "word_definitions": {
+            "voy": "I go",
+            "tarde": "late"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Llegaré más tarde.",
+          "translation": "I will arrive later.",
+          "new_words": [
+            "llegaré",
+            "tarde"
+          ],
+          "word_definitions": {
+            "llegaré": "I will arrive",
+            "tarde": "late"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "¿Cuándo te vas?",
+          "translation": "When are you leaving?",
+          "new_words": [
+            "cuándo",
+            "vas"
+          ],
+          "word_definitions": {
+            "cuándo": "when",
+            "vas": "you go"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "¿Cuándo llegarás?",
+          "translation": "When will you arrive?",
+          "new_words": [
+            "cuándo",
+            "llegarás"
+          ],
+          "word_definitions": {
+            "cuándo": "when",
+            "llegarás": "you will arrive"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿Cuándo llegarás?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Me voy más tarde.",
+              "hint": "I am leaving later."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Llegaré más tarde.",
+              "hint": "I will arrive later."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "¿Cuándo te vas?",
+              "hint": "When are you leaving?"
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about arriving and leaving.",
+          "next_level": "level-25-past-actions"
+        }
+      ]
+    },
+    {
+      "id": "level-25-past-actions",
+      "title": "Level 25 — Past Actions",
+      "description": "Talk about things you already did",
+      "win_message": "You can now talk about simple past actions.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/past-actions.png",
+          "caption": "Practicas una conversación cotidiana en español."
+        },
+        {
+          "type": "teach",
+          "phrase": "Comí arroz.",
+          "translation": "I ate rice.",
+          "new_words": [
+            "comí",
+            "arroz"
+          ],
+          "word_definitions": {
+            "comí": "I ate",
+            "arroz": "rice"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Bebí agua.",
+          "translation": "I drank water.",
+          "new_words": [
+            "bebí",
+            "agua"
+          ],
+          "word_definitions": {
+            "bebí": "I drank",
+            "agua": "water"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Fui a casa.",
+          "translation": "I went home.",
+          "new_words": [
+            "fui",
+            "casa"
+          ],
+          "word_definitions": {
+            "fui": "I went",
+            "casa": "house"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "¿Qué hiciste?",
+          "translation": "What did you do?",
+          "new_words": [
+            "qué",
+            "hiciste"
+          ],
+          "word_definitions": {
+            "qué": "what",
+            "hiciste": "you did"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿Qué hiciste ayer?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Comí arroz.",
+              "hint": "I ate rice."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Bebí agua.",
+              "hint": "I drank water."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Fui a casa.",
+              "hint": "I went home."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about simple past actions.",
+          "next_level": "level-26-future-actions"
+        }
+      ]
+    },
+    {
+      "id": "level-26-future-actions",
+      "title": "Level 26 — Future Actions",
+      "description": "Talk about things you will do",
+      "win_message": "You can now talk about simple future actions.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/future-actions.png",
+          "caption": "Practicas una conversación cotidiana en español."
+        },
+        {
+          "type": "teach",
+          "phrase": "Comeré más tarde.",
+          "translation": "I will eat later.",
+          "new_words": [
+            "comeré",
+            "tarde"
+          ],
+          "word_definitions": {
+            "comeré": "I will eat",
+            "tarde": "late"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Beberé agua.",
+          "translation": "I will drink water.",
+          "new_words": [
+            "beberé",
+            "agua"
+          ],
+          "word_definitions": {
+            "beberé": "I will drink",
+            "agua": "water"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Lo haré mañana.",
+          "translation": "I will do it tomorrow.",
+          "new_words": [
+            "haré",
+            "mañana"
+          ],
+          "word_definitions": {
+            "haré": "I will do",
+            "mañana": "tomorrow"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "¿Qué vas a hacer?",
+          "translation": "What will you do?",
+          "new_words": [
+            "qué",
+            "vas",
+            "hacer"
+          ],
+          "word_definitions": {
+            "qué": "what",
+            "vas": "you go",
+            "hacer": "do"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿Qué harás mañana?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Comeré más tarde.",
+              "hint": "I will eat later."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Beberé agua.",
+              "hint": "I will drink water."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Lo haré mañana.",
+              "hint": "I will do it tomorrow."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about simple future actions.",
+          "next_level": "level-27-what-happened"
+        }
+      ]
+    },
+    {
+      "id": "level-27-what-happened",
+      "title": "Level 27 — What Happened?",
+      "description": "Ask what happened and give a reason",
+      "win_message": "You can now ask what happened and give a reason.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/what-happened.png",
+          "caption": "Practicas una conversación cotidiana en español."
+        },
+        {
+          "type": "teach",
+          "phrase": "¿Qué pasó?",
+          "translation": "What happened?",
+          "new_words": [
+            "qué",
+            "pasó"
+          ],
+          "word_definitions": {
+            "qué": "what",
+            "pasó": "happened"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "¿Por qué?",
+          "translation": "Why?",
+          "new_words": [
+            "qué"
+          ],
+          "word_definitions": {
+            "qué": "what"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Porque estoy cansado.",
+          "translation": "Because I am tired.",
+          "new_words": [
+            "porque",
+            "cansado"
+          ],
+          "word_definitions": {
+            "porque": "because",
+            "cansado": "tired"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "¿Por qué te fuiste a casa?",
+          "translation": "Why did you go home?",
+          "new_words": [
+            "qué",
+            "fuiste",
+            "casa"
+          ],
+          "word_definitions": {
+            "qué": "what",
+            "fuiste": "you went",
+            "casa": "house"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿Qué pasó?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "¿Qué pasó?",
+              "hint": "What happened?"
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "¿Por qué?",
+              "hint": "Why?"
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Porque estoy cansado.",
+              "hint": "Because I am tired."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now ask what happened and give a reason.",
+          "next_level": "level-28-opinions"
+        }
+      ]
+    },
+    {
+      "id": "level-28-opinions",
+      "title": "Level 28 — Opinions",
+      "description": "Give simple opinions",
+      "win_message": "You can now give a simple opinion.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/opinions.png",
+          "caption": "Practicas una conversación cotidiana en español."
+        },
+        {
+          "type": "teach",
+          "phrase": "Creo que esto es caro.",
+          "translation": "I think this is expensive.",
+          "new_words": [
+            "creo",
+            "caro"
+          ],
+          "word_definitions": {
+            "creo": "I think",
+            "caro": "expensive"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Creo que esto es bueno.",
+          "translation": "I think this is good.",
+          "new_words": [
+            "creo",
+            "bueno"
+          ],
+          "word_definitions": {
+            "creo": "I think",
+            "bueno": "good"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "¿Qué opinas?",
+          "translation": "What do you think?",
+          "new_words": [
+            "qué",
+            "opinas"
+          ],
+          "word_definitions": {
+            "qué": "what",
+            "opinas": "you think"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Tienes razón.",
+          "translation": "You are right.",
+          "new_words": [
+            "tienes",
+            "razón"
+          ],
+          "word_definitions": {
+            "tienes": "you have",
+            "razón": "reason"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿Qué opinas?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Creo que esto es caro.",
+              "hint": "I think this is expensive."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Creo que esto es bueno.",
+              "hint": "I think this is good."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "¿Qué opinas?",
+              "hint": "What do you think?"
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now give a simple opinion.",
+          "next_level": "level-29-preferences"
+        }
+      ]
+    },
+    {
+      "id": "level-29-preferences",
+      "title": "Level 29 — Preferences",
+      "description": "Compare what you prefer",
+      "win_message": "You can now express preferences.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/preferences.png",
+          "caption": "Practicas una conversación cotidiana en español."
+        },
+        {
+          "type": "teach",
+          "phrase": "Prefiero el café.",
+          "translation": "I prefer coffee.",
+          "new_words": [
+            "prefiero",
+            "café"
+          ],
+          "word_definitions": {
+            "prefiero": "I prefer",
+            "café": "coffee"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Prefiero el agua.",
+          "translation": "I prefer water.",
+          "new_words": [
+            "prefiero",
+            "agua"
+          ],
+          "word_definitions": {
+            "prefiero": "I prefer",
+            "agua": "water"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "¿Café o agua?",
+          "translation": "Coffee or water?",
+          "new_words": [
+            "café",
+            "agua"
+          ],
+          "word_definitions": {
+            "café": "coffee",
+            "agua": "water"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Prefiero el café al agua.",
+          "translation": "I prefer coffee to water.",
+          "new_words": [
+            "prefiero",
+            "café",
+            "agua"
+          ],
+          "word_definitions": {
+            "prefiero": "I prefer",
+            "café": "coffee",
+            "agua": "water"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿Qué prefieres?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Prefiero el café.",
+              "hint": "I prefer coffee."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Prefiero el agua.",
+              "hint": "I prefer water."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "¿Café o agua?",
+              "hint": "Coffee or water?"
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now express preferences.",
+          "next_level": "level-30-know-how"
+        }
+      ]
+    },
+    {
+      "id": "level-30-know-how",
+      "title": "Level 30 — Knowing How",
+      "description": "Say what you know how to do",
+      "win_message": "You can now say what you know how to do.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/know-how.png",
+          "caption": "Practicas una conversación cotidiana en español."
+        },
+        {
+          "type": "teach",
+          "phrase": "Sé bailar.",
+          "translation": "I know how to dance.",
+          "new_words": [
+            "bailar"
+          ],
+          "word_definitions": {
+            "bailar": "dance"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Sé cocinar.",
+          "translation": "I know how to cook.",
+          "new_words": [
+            "cocinar"
+          ],
+          "word_definitions": {
+            "cocinar": "cook"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "¿Sabes bailar?",
+          "translation": "Do you know how to dance?",
+          "new_words": [
+            "sabes",
+            "bailar"
+          ],
+          "word_definitions": {
+            "sabes": "you know",
+            "bailar": "dance"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "No sé cocinar.",
+          "translation": "I do not know how to cook.",
+          "new_words": [
+            "cocinar"
+          ],
+          "word_definitions": {
+            "cocinar": "cook"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿Qué sabes hacer?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Sé bailar.",
+              "hint": "I know how to dance."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Sé cocinar.",
+              "hint": "I know how to cook."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "¿Sabes bailar?",
+              "hint": "Do you know how to dance?"
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now say what you know how to do.",
+          "next_level": "level-31-requests"
+        }
+      ]
+    },
+    {
+      "id": "level-31-requests",
+      "title": "Level 31 — Requests",
+      "description": "Make useful everyday requests",
+      "win_message": "You can now make everyday requests.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/requests.png",
+          "caption": "Practicas una conversación cotidiana en español."
+        },
+        {
+          "type": "teach",
+          "phrase": "Dame el agua, por favor.",
+          "translation": "Please give me the water.",
+          "new_words": [
+            "dame",
+            "agua",
+            "favor"
+          ],
+          "word_definitions": {
+            "dame": "give me",
+            "agua": "water",
+            "favor": "please"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Ayúdame.",
+          "translation": "Help me.",
+          "new_words": [
+            "ayúdame"
+          ],
+          "word_definitions": {
+            "ayúdame": "help me"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "¿Puedes ayudarme?",
+          "translation": "Can you help me?",
+          "new_words": [
+            "puedes",
+            "ayudarme"
+          ],
+          "word_definitions": {
+            "puedes": "you can",
+            "ayudarme": "help me"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Repite, por favor.",
+          "translation": "Please repeat.",
+          "new_words": [
+            "repite",
+            "favor"
+          ],
+          "word_definitions": {
+            "repite": "repeat",
+            "favor": "please"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿Qué necesitas?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Dame el agua, por favor.",
+              "hint": "Please give me the water."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Ayúdame.",
+              "hint": "Help me."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "¿Puedes ayudarme?",
+              "hint": "Can you help me?"
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now make everyday requests.",
+          "next_level": "level-32-permission"
+        }
+      ]
+    },
+    {
+      "id": "level-32-permission",
+      "title": "Level 32 — Permission & Rules",
+      "description": "Ask permission and understand restrictions",
+      "win_message": "You can now ask permission and understand simple rules.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/permission.png",
+          "caption": "Practicas una conversación cotidiana en español."
+        },
+        {
+          "type": "teach",
+          "phrase": "¿Puedo entrar?",
+          "translation": "May I enter?",
+          "new_words": [
+            "puedo",
+            "entrar"
+          ],
+          "word_definitions": {
+            "puedo": "I can",
+            "entrar": "enter"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "¿Puedo sentarme?",
+          "translation": "May I sit down?",
+          "new_words": [
+            "puedo",
+            "sentarme"
+          ],
+          "word_definitions": {
+            "puedo": "I can",
+            "sentarme": "sit down"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Aquí no está permitido.",
+          "translation": "It is not allowed here.",
+          "new_words": [
+            "permitido"
+          ],
+          "word_definitions": {
+            "permitido": "allowed"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Aquí sí está permitido.",
+          "translation": "It is allowed here.",
+          "new_words": [
+            "permitido"
+          ],
+          "word_definitions": {
+            "permitido": "allowed"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿Puedo pasar?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "¿Puedo entrar?",
+              "hint": "May I enter?"
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "¿Puedo sentarme?",
+              "hint": "May I sit down?"
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Aquí no está permitido.",
+              "hint": "It is not allowed here."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now ask permission and understand simple rules.",
+          "next_level": "level-33-possession"
+        }
+      ]
+    },
+    {
+      "id": "level-33-possession",
+      "title": "Level 33 — Mine, Yours & Theirs",
+      "description": "Talk about ownership",
+      "win_message": "You can now talk about who owns something.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/possession.png",
+          "caption": "Practicas una conversación cotidiana en español."
+        },
+        {
+          "type": "teach",
+          "phrase": "Esto es mío.",
+          "translation": "This is mine.",
+          "new_words": [
+            "mío"
+          ],
+          "word_definitions": {
+            "mío": "mine"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Esto es tuyo.",
+          "translation": "This is yours.",
+          "new_words": [
+            "tuyo"
+          ],
+          "word_definitions": {
+            "tuyo": "yours"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Esto es suyo.",
+          "translation": "This is his or hers.",
+          "new_words": [
+            "suyo"
+          ],
+          "word_definitions": {
+            "suyo": "yours"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "¿De quién es esto?",
+          "translation": "Whose is this?",
+          "new_words": [
+            "quién"
+          ],
+          "word_definitions": {
+            "quién": "who"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿De quién es?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Esto es mío.",
+              "hint": "This is mine."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Esto es tuyo.",
+              "hint": "This is yours."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Esto es suyo.",
+              "hint": "This is his or hers."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about who owns something.",
+          "next_level": "level-34-location"
+        }
+      ]
+    },
+    {
+      "id": "level-34-location",
+      "title": "Level 34 — Location Relationships",
+      "description": "Describe where things are",
+      "win_message": "You can now describe locations more precisely.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/location.png",
+          "caption": "Practicas una conversación cotidiana en español."
+        },
+        {
+          "type": "teach",
+          "phrase": "Cerca de la casa.",
+          "translation": "Near the house.",
+          "new_words": [
+            "cerca",
+            "casa"
+          ],
+          "word_definitions": {
+            "cerca": "near",
+            "casa": "house"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Está al lado de la casa.",
+          "translation": "It is beside the house.",
+          "new_words": [
+            "lado",
+            "casa"
+          ],
+          "word_definitions": {
+            "lado": "side",
+            "casa": "house"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Está enfrente de la casa.",
+          "translation": "It is in front of the house.",
+          "new_words": [
+            "enfrente",
+            "casa"
+          ],
+          "word_definitions": {
+            "enfrente": "in front",
+            "casa": "house"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Está detrás de la casa.",
+          "translation": "It is behind the house.",
+          "new_words": [
+            "detrás",
+            "casa"
+          ],
+          "word_definitions": {
+            "detrás": "behind",
+            "casa": "house"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿Dónde está?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Cerca de la casa.",
+              "hint": "Near the house."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Está al lado de la casa.",
+              "hint": "It is beside the house."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Está enfrente de la casa.",
+              "hint": "It is in front of the house."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now describe locations more precisely.",
+          "next_level": "level-35-time"
+        }
+      ]
+    },
+    {
+      "id": "level-35-time",
+      "title": "Level 35 — Time & Sequence",
+      "description": "Ask when and talk about sequence",
+      "win_message": "You can now talk about time and sequence.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/time.png",
+          "caption": "Practicas una conversación cotidiana en español."
+        },
+        {
+          "type": "teach",
+          "phrase": "¿Qué hora es?",
+          "translation": "What time is it?",
+          "new_words": [
+            "qué",
+            "hora"
+          ],
+          "word_definitions": {
+            "qué": "what",
+            "hora": "hour"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "¿A qué hora te vas?",
+          "translation": "What time are you leaving?",
+          "new_words": [
+            "qué",
+            "hora",
+            "vas"
+          ],
+          "word_definitions": {
+            "qué": "what",
+            "hora": "hour",
+            "vas": "you go"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Antes de trabajar.",
+          "translation": "Before working.",
+          "new_words": [
+            "antes",
+            "trabajar"
+          ],
+          "word_definitions": {
+            "antes": "before",
+            "trabajar": "work"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Después del trabajo.",
+          "translation": "After work.",
+          "new_words": [
+            "después",
+            "trabajo"
+          ],
+          "word_definitions": {
+            "después": "after",
+            "trabajo": "work"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿Cuándo?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "¿Qué hora es?",
+              "hint": "What time is it?"
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "¿A qué hora te vas?",
+              "hint": "What time are you leaving?"
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Antes de trabajar.",
+              "hint": "Before working."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about time and sequence.",
+          "next_level": "level-36-frequency"
+        }
+      ]
+    },
+    {
+      "id": "level-36-frequency",
+      "title": "Level 36 — Frequency",
+      "description": "Say how often you do things",
+      "win_message": "You can now say how often you do things.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/frequency.png",
+          "caption": "Practicas una conversación cotidiana en español."
+        },
+        {
+          "type": "teach",
+          "phrase": "Siempre bebo agua.",
+          "translation": "I always drink water.",
+          "new_words": [
+            "siempre",
+            "bebo",
+            "agua"
+          ],
+          "word_definitions": {
+            "siempre": "always",
+            "bebo": "I drink",
+            "agua": "water"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "A menudo tomo café.",
+          "translation": "I often drink coffee.",
+          "new_words": [
+            "menudo",
+            "tomo",
+            "café"
+          ],
+          "word_definitions": {
+            "menudo": "often",
+            "tomo": "I drink",
+            "café": "coffee"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "A veces camino.",
+          "translation": "Sometimes I walk.",
+          "new_words": [
+            "veces",
+            "camino"
+          ],
+          "word_definitions": {
+            "veces": "times",
+            "camino": "path"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Casi nunca tomo café.",
+          "translation": "I rarely drink coffee.",
+          "new_words": [
+            "casi",
+            "nunca",
+            "tomo"
+          ],
+          "word_definitions": {
+            "casi": "almost",
+            "nunca": "never",
+            "tomo": "I drink"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿Con qué frecuencia?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Siempre bebo agua.",
+              "hint": "I always drink water."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "A menudo tomo café.",
+              "hint": "I often drink coffee."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "A veces camino.",
+              "hint": "Sometimes I walk."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now say how often you do things.",
+          "next_level": "level-37-comparisons"
+        }
+      ]
+    },
+    {
+      "id": "level-37-comparisons",
+      "title": "Level 37 — Comparisons",
+      "description": "Compare people and things",
+      "win_message": "You can now make simple comparisons.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/comparisons.png",
+          "caption": "Practicas una conversación cotidiana en español."
+        },
+        {
+          "type": "teach",
+          "phrase": "Esto es más caro.",
+          "translation": "This is more expensive.",
+          "new_words": [
+            "caro"
+          ],
+          "word_definitions": {
+            "caro": "expensive"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Esto es más barato.",
+          "translation": "This is cheaper.",
+          "new_words": [
+            "barato"
+          ],
+          "word_definitions": {
+            "barato": "cheap"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "La casa es más grande.",
+          "translation": "The house is bigger.",
+          "new_words": [
+            "casa",
+            "grande"
+          ],
+          "word_definitions": {
+            "casa": "house",
+            "grande": "big"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Esto es más caro que aquello.",
+          "translation": "This is more expensive than that one.",
+          "new_words": [
+            "caro",
+            "aquello"
+          ],
+          "word_definitions": {
+            "caro": "expensive",
+            "aquello": "that over there"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿Cuál prefieres?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Esto es más caro.",
+              "hint": "This is more expensive."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Esto es más barato.",
+              "hint": "This is cheaper."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "La casa es más grande.",
+              "hint": "The house is bigger."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now make simple comparisons.",
+          "next_level": "level-38-connectors"
+        }
+      ]
+    },
+    {
+      "id": "level-38-connectors",
+      "title": "Level 38 — Connecting Ideas",
+      "description": "Connect thoughts with because, but, and so",
+      "win_message": "You can now connect ideas into longer sentences.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/connectors.png",
+          "caption": "Practicas una conversación cotidiana en español."
+        },
+        {
+          "type": "teach",
+          "phrase": "Estoy cansado porque trabajo.",
+          "translation": "I am tired because I work.",
+          "new_words": [
+            "cansado",
+            "porque",
+            "trabajo"
+          ],
+          "word_definitions": {
+            "cansado": "tired",
+            "porque": "because",
+            "trabajo": "work"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Quiero café, pero está frío.",
+          "translation": "I want coffee, but it is cold.",
+          "new_words": [
+            "quiero",
+            "café",
+            "pero"
+          ],
+          "word_definitions": {
+            "quiero": "I want",
+            "café": "coffee",
+            "pero": "but"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Está lloviendo, así que estoy en casa.",
+          "translation": "It is raining, so I am at home.",
+          "new_words": [
+            "lloviendo",
+            "así",
+            "casa"
+          ],
+          "word_definitions": {
+            "lloviendo": "raining",
+            "así": "like this",
+            "casa": "house"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Estoy feliz porque estás aquí.",
+          "translation": "I am happy because you are here.",
+          "new_words": [
+            "feliz",
+            "porque",
+            "estás"
+          ],
+          "word_definitions": {
+            "feliz": "happy",
+            "porque": "because",
+            "estás": "you are"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿Por qué?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Estoy cansado porque trabajo.",
+              "hint": "I am tired because I work."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Quiero café, pero está frío.",
+              "hint": "I want coffee, but it is cold."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Está lloviendo, así que estoy en casa.",
+              "hint": "It is raining, so I am at home."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now connect ideas into longer sentences.",
+          "next_level": "level-39-conversation-tools"
+        }
+      ]
+    },
+    {
+      "id": "level-39-conversation-tools",
+      "title": "Level 39 — Natural Conversation",
+      "description": "Use common words that keep conversation moving",
+      "win_message": "You can now keep a basic conversation moving naturally.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/conversation-tools.png",
+          "caption": "Practicas una conversación cotidiana en español."
+        },
+        {
+          "type": "teach",
+          "phrase": "¿De verdad?",
+          "translation": "Really?",
+          "new_words": [
+            "verdad"
+          ],
+          "word_definitions": {
+            "verdad": "truth"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Quizás mañana.",
+          "translation": "Maybe tomorrow.",
+          "new_words": [
+            "quizás",
+            "mañana"
+          ],
+          "word_definitions": {
+            "quizás": "perhaps",
+            "mañana": "tomorrow"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Depende.",
+          "translation": "It depends.",
+          "new_words": [
+            "depende"
+          ],
+          "word_definitions": {
+            "depende": "depends"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Así es.",
+          "translation": "That is right.",
+          "new_words": [
+            "así"
+          ],
+          "word_definitions": {
+            "así": "like this"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Está bien, adelante.",
+          "translation": "Okay, go ahead.",
+          "new_words": [
+            "bien",
+            "adelante"
+          ],
+          "word_definitions": {
+            "bien": "well",
+            "adelante": "ahead"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿En serio?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "¿De verdad?",
+              "hint": "Really?"
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Quizás mañana.",
+              "hint": "Maybe tomorrow."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Depende.",
+              "hint": "It depends."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now keep a basic conversation moving naturally.",
+          "next_level": "level-40-real-conversation"
+        }
+      ]
+    },
+    {
+      "id": "level-40-real-conversation",
+      "title": "Level 40 — Real Conversation",
+      "description": "Combine what you know in a longer conversation",
+      "win_message": "You can now combine your Spanish into a longer real-world conversation.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/real-conversation.png",
+          "caption": "Practicas una conversación cotidiana en español."
+        },
+        {
+          "type": "teach",
+          "phrase": "¿Cómo estás? ¿Qué haces?",
+          "translation": "How are you? What are you doing?",
+          "new_words": [
+            "cómo",
+            "estás",
+            "qué"
+          ],
+          "word_definitions": {
+            "cómo": "how",
+            "estás": "you are",
+            "qué": "what"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Estoy trabajando, pero volveré a casa más tarde.",
+          "translation": "I am working, but I will go home later.",
+          "new_words": [
+            "trabajando",
+            "pero",
+            "volveré"
+          ],
+          "word_definitions": {
+            "trabajando": "working",
+            "pero": "but",
+            "volveré": "I will return"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "¿Qué harás mañana?",
+          "translation": "What will you do tomorrow?",
+          "new_words": [
+            "qué",
+            "harás",
+            "mañana"
+          ],
+          "word_definitions": {
+            "qué": "what",
+            "harás": "you will do",
+            "mañana": "tomorrow"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Quizás vaya a la Ciudad de México.",
+          "translation": "Maybe I will go to Mexico City.",
+          "new_words": [
+            "quizás",
+            "vaya",
+            "ciudad"
+          ],
+          "word_definitions": {
+            "quizás": "perhaps",
+            "vaya": "go",
+            "ciudad": "city"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Persona",
+              "text": "¿Qué planes tienes?"
+            },
+            {
+              "speaker": "Tú",
+              "answer": "¿Cómo estás? ¿Qué haces?",
+              "hint": "How are you? What are you doing?"
+            },
+            {
+              "speaker": "Persona",
+              "text": "Entiendo."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "Estoy trabajando, pero volveré a casa más tarde.",
+              "hint": "I am working, but I will go home later."
+            },
+            {
+              "speaker": "Persona",
+              "text": "Muy bien."
+            },
+            {
+              "speaker": "Tú",
+              "answer": "¿Qué harás mañana?",
+              "hint": "What will you do tomorrow?"
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now combine your Spanish into a longer real-world conversation."
+        }
+      ]
+    }
+  ]
+}

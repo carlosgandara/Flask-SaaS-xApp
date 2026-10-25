@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ level.title }} — Despacio</title><link rel="stylesheet" href="{{ url_for('learning.static', filename='course.css') }}">{% if learning_auth_script_url %}<meta id="auth-csrf-token" name="csrf-token" content="{{ auth_csrf() }}"><script src="{{ learning_auth_script_url }}"></script>{% endif %}
+<script src="{{ url_for('learning.static', filename='ui-diagnostics.js') }}" data-report-url="{{ learning_error_report_url }}"></script>
+</head>
+<body><main class="course-shell">
+<a href="{{ url_for('learning.menu') }}">← All levels</a>
+<p class="eyebrow">{{ language_name }} · YOUR LEARNING PATH</p>
+<h1>{{ level.title }}</h1><p>{{ level.description }}</p>
+<ol class="path">
+<li><h2>1. Lesson</h2>
+<p>Learn the phrases, then practice your ten vocabulary words.</p>
+<a class="button" href="{{ url_for('learning.level_view', level_id=level.id, restart='1' if state.lesson_done else '0') }}">{{ 'Review lesson' if state.lesson_done else 'Start / continue lesson' }}</a>
+{% if state.lesson_done %}<span>✓ Lesson finished</span>{% endif %}</li>
+<li><h2>2. Daily Dose</h2><p>{{ mastered }}/10 words learned · three consecutive correct recalls per word. After each cycle, missed words automatically go to required Word Shooter practice, then back here for recall.</p>
+{% if not configured %}<p>Vocabulary for this lesson is being prepared.</p>{% elif state.lesson_done %}<a class="button" href="{{ url_for('learning.course.dose', level_id=level.id) }}">{{ 'Review vocabulary' if mastered == 10 else 'Learn vocabulary' }}</a>{% else %}<p>Finish the lesson to begin.</p>{% endif %}
+</li>
+<li><h2>3. Practice and final test</h2><p>20 questions · three choices · 10 vocabulary and 10 lesson questions.</p><p>Practice is untimed with feedback. The final test allows four seconds per question. Pass with 16/20.</p>
+{% if ready %}<a class="button" href="{{ url_for('learning.course.test', level_id=level.id) }}">Practice / take test</a>{% else %}<p>Learn all ten words to unlock the test.</p>{% endif %}
+{% if state.passed %}<p>✓ Final test passed. The next level is unlocked.</p><a class="button secondary" href="{{ url_for('learning.course.next_course', level_id=level.id) }}">Continue to next level →</a>{% endif %}
+</li></ol>
+</main></body></html>

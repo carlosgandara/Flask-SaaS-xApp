@@ -1,0 +1,45 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ level.title }} — {{ language_name }}</title>
+
+  <link
+    rel="stylesheet"
+    href="{{ url_for('learning.static', filename='style.css') }}"
+  >
+{% if learning_auth_script_url %}<meta id="auth-csrf-token" name="csrf-token" content="{{ auth_csrf() }}"><script src="{{ learning_auth_script_url }}"></script>{% endif %}
+<script src="{{ url_for('learning.static', filename='ui-diagnostics.js') }}" data-report-url="{{ learning_error_report_url }}"></script>
+</head>
+
+<body
+  data-language="{{ current_language }}"
+  data-language-name="{{ language_name }}"
+>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a href="{{ url_for('learning.menu') }}" class="brand">
+        ← Levels
+      </a>
+
+      <div class="topbar-center">
+        {{ level.title }}
+      </div>
+
+      <div class="step-counter">
+        {{ step_index + 1 }} / {{ total_steps }}
+      </div>
+    </div>
+  </header>
+
+  <main class="stage">
+    {% block body %}{% endblock %}
+  </main>
+
+  <script src="{{ url_for('learning.static', filename='level.js') }}"></script>
+  <script src="{{ url_for('learning.static', filename='study-timer.js') }}"></script>
+</body>
+</html>

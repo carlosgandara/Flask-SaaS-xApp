@@ -1,0 +1,14 @@
+{% extends "auth/base.html" %}
+{% block content %}
+<nav class="nav" aria-label="Billing navigation">
+    <a href="{{ url_for('auth.dashboard_page') }}">Dashboard</a>
+    <a href="{{ url_for('billing.pricing') }}">Plans</a>
+    <a href="{{ url_for('billing.membership') }}">Membership</a>
+</nav>
+<section id="billing-root" data-csrf="{{ csrf }}">
+    {% block billing_content %}{% endblock %}
+    <p id="billing-message" role="status" aria-live="polite"></p>
+</section>
+{% block payment_assets %}{% endblock %}
+<script src="{{ url_for('billing.static', filename='js/billing.js') }}" defer></script>
+{% endblock %}

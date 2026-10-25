@@ -1,0 +1,4 @@
+# Development/audit tooling requires Python 3.11+. Runtime supports Python 3.10.
+-r requirements.txt
+pip-audit==2.10.1
+filelock==4.2.4

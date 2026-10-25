@@ -1,0 +1,9 @@
+{% extends "auth/base.html" %}
+{% block title %}My learning — Despacio{% endblock %}
+{% block content %}
+<div class="nav"><strong>Despacio</strong><a href="/menu">Learn</a><a href="/profile">Profile</a>{% if config.BILLING_ENABLED %}<a href="{{ url_for('billing.membership') }}">Membership</a>{% endif %}<button type="button" data-action="logout">Sign out</button></div>
+<h1>Your language journey</h1>
+<p>Build your vocabulary, practice with games, and continue your lessons. Your progress is saved to your account.</p>
+<div class="card"><h2>Continue learning</h2><p>Choose Spanish, French, or Tagalog and pick up where you left off.</p><a href="/menu">Open my lessons →</a></div>
+{% if config.BILLING_ENABLED %}<div class="card"><h2>Your membership</h2><p>View your subscription or choose a plan to access lessons.</p><a href="{{ url_for('billing.membership') }}">Manage membership</a> · <a href="{{ url_for('billing.pricing') }}">View plans</a></div>{% endif %}
+{% endblock %}

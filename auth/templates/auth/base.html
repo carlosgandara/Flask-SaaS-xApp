@@ -1,0 +1,21 @@
+<!-- /auth/templates/auth/base.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta id="auth-csrf-token" name="csrf-token" content="{{ auth_csrf() }}">
+
+    <title>{% block title %}Auth{% endblock %}</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('auth.static', filename='css/app.css') }}">
+
+    <script src="{{ url_for('auth.static', filename='js/app.js', v='session-recovery-2') }}"
+            defer></script>
+</head>
+<body>
+    <p id="auth-message" role="status" aria-live="polite"></p>
+    {% block content %}{% endblock %}
+</body>
+</html>

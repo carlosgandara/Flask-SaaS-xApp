@@ -1,0 +1,4344 @@
+{
+  "levels": [
+    {
+      "id": "level-1-cafe",
+      "title": "Level 1 — Café",
+      "description": "Order a coffee in French",
+      "win_message": "You can now order coffee in French.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/cafe.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "Je veux du café.",
+          "translation": "I want coffee.",
+          "new_words": [
+            "veux",
+            "café"
+          ],
+          "word_definitions": {
+            "veux": "want",
+            "café": "coffee"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Un café, s’il vous plaît.",
+          "translation": "One coffee, please.",
+          "new_words": [
+            "café",
+            "plaît"
+          ],
+          "word_definitions": {
+            "café": "coffee",
+            "plaît": "please (in expression)"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Vous avez du sucre ?",
+          "translation": "Do you have sugar?",
+          "new_words": [
+            "avez",
+            "sucre"
+          ],
+          "word_definitions": {
+            "avez": "have (formal)",
+            "sucre": "sugar"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "Bonjour, que désirez-vous ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je veux du café.",
+              "hint": "I want coffee."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Un café, s’il vous plaît.",
+              "hint": "One coffee, please."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Vous avez du sucre ?",
+              "hint": "Do you have sugar?"
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now order coffee in French.",
+          "next_level": "level-2-restaurant"
+        }
+      ]
+    },
+    {
+      "id": "level-2-restaurant",
+      "title": "Level 2 — Restaurant",
+      "description": "Order a meal in French",
+      "win_message": "You can now order food in French.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/restaurant.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "Je veux du riz.",
+          "translation": "I want rice.",
+          "new_words": [
+            "veux",
+            "riz"
+          ],
+          "word_definitions": {
+            "veux": "want",
+            "riz": "rice"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Je veux de l’eau.",
+          "translation": "I want water.",
+          "new_words": [
+            "veux",
+            "l’eau"
+          ],
+          "word_definitions": {
+            "veux": "want",
+            "l’eau": "water"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Pouvez-vous m’apporter le menu, s’il vous plaît ?",
+          "translation": "Can you bring me the menu, please?",
+          "new_words": [
+            "pouvez-vous",
+            "m’apporter",
+            "menu",
+            "plaît"
+          ],
+          "word_definitions": {
+            "pouvez-vous": "can you (formal)",
+            "m’apporter": "bring me",
+            "menu": "menu",
+            "plaît": "please (in expression)"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Est-ce qu’une table est disponible ?",
+          "translation": "Is there a table available?",
+          "new_words": [
+            "table",
+            "disponible"
+          ],
+          "word_definitions": {
+            "table": "table",
+            "disponible": "available"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "Que souhaitez-vous commander ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je veux du riz.",
+              "hint": "I want rice."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je veux de l’eau.",
+              "hint": "I want water."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Pouvez-vous m’apporter le menu, s’il vous plaît ?",
+              "hint": "Can you bring me the menu, please?"
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now order food in French.",
+          "next_level": "level-3-market"
+        }
+      ]
+    },
+    {
+      "id": "level-3-market",
+      "title": "Level 3 — Market",
+      "description": "Buy food at the market",
+      "win_message": "You can now buy food in French.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/market.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "Combien coûtent les fruits ?",
+          "translation": "How much is the fruit?",
+          "new_words": [
+            "combien",
+            "coûtent",
+            "fruits"
+          ],
+          "word_definitions": {
+            "combien": "how much / how many",
+            "coûtent": "cost",
+            "fruits": "fruit"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Combien coûte le poisson ?",
+          "translation": "How much is the fish?",
+          "new_words": [
+            "combien",
+            "coûte",
+            "poisson"
+          ],
+          "word_definitions": {
+            "combien": "how much / how many",
+            "coûte": "costs",
+            "poisson": "fish"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Je veux des légumes.",
+          "translation": "I want vegetables.",
+          "new_words": [
+            "veux",
+            "légumes"
+          ],
+          "word_definitions": {
+            "veux": "want",
+            "légumes": "vegetables"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "J’ai de l’argent.",
+          "translation": "I have money.",
+          "new_words": [
+            "l’argent"
+          ],
+          "word_definitions": {
+            "l’argent": "money"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "Que cherchez-vous ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Combien coûtent les fruits ?",
+              "hint": "How much is the fruit?"
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Combien coûte le poisson ?",
+              "hint": "How much is the fish?"
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je veux des légumes.",
+              "hint": "I want vegetables."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now buy food in French.",
+          "next_level": "level-4-meeting"
+        }
+      ]
+    },
+    {
+      "id": "level-4-meeting",
+      "title": "Level 4 — Meeting Someone",
+      "description": "Introduce yourself in French",
+      "win_message": "You can now introduce yourself in French.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/meeting.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "Je m’appelle Marie.",
+          "translation": "My name is María.",
+          "new_words": [
+            "m’appelle",
+            "marie"
+          ],
+          "word_definitions": {
+            "m’appelle": "am called",
+            "marie": "Marie"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Comment vas-tu ?",
+          "translation": "How are you?",
+          "new_words": [
+            "comment"
+          ],
+          "word_definitions": {
+            "comment": "how"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Je vais bien.",
+          "translation": "I am fine.",
+          "new_words": [
+            "vais",
+            "bien"
+          ],
+          "word_definitions": {
+            "vais": "go",
+            "bien": "well / fine"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Je viens de Mexico.",
+          "translation": "I am from Mexico City.",
+          "new_words": [
+            "viens",
+            "mexico"
+          ],
+          "word_definitions": {
+            "viens": "come / am from",
+            "mexico": "Mexico City"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "Comment vous appelez-vous ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je m’appelle Marie.",
+              "hint": "My name is María."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Comment vas-tu ?",
+              "hint": "How are you?"
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je vais bien.",
+              "hint": "I am fine."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now introduce yourself in French.",
+          "next_level": "level-5-family"
+        }
+      ]
+    },
+    {
+      "id": "level-5-family",
+      "title": "Level 5 — Family",
+      "description": "Talk about your family in French",
+      "win_message": "You can now talk about your family in French.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/family.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "Voici mon père.",
+          "translation": "This is my father.",
+          "new_words": [
+            "voici",
+            "père"
+          ],
+          "word_definitions": {
+            "voici": "here is / this is",
+            "père": "father"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Voici ma mère.",
+          "translation": "This is my mother.",
+          "new_words": [
+            "voici",
+            "mère"
+          ],
+          "word_definitions": {
+            "voici": "here is / this is",
+            "mère": "mother"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "J’ai un grand frère.",
+          "translation": "I have an older brother.",
+          "new_words": [
+            "grand",
+            "frère"
+          ],
+          "word_definitions": {
+            "grand": "older / big",
+            "frère": "brother"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "J’ai une grande sœur.",
+          "translation": "I have an older sister.",
+          "new_words": [
+            "grande",
+            "sœur"
+          ],
+          "word_definitions": {
+            "grande": "big / older",
+            "sœur": "sister"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "Qui est-ce ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Voici mon père.",
+              "hint": "This is my father."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Voici ma mère.",
+              "hint": "This is my mother."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "J’ai un grand frère.",
+              "hint": "I have an older brother."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about your family in French.",
+          "next_level": "level-6-numbers"
+        }
+      ]
+    },
+    {
+      "id": "level-6-numbers",
+      "title": "Level 6 — Numbers",
+      "description": "Count and order multiple items",
+      "win_message": "You can now count in French.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/numbers.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "Combien de cafés ?",
+          "translation": "How many coffees?",
+          "new_words": [
+            "combien",
+            "cafés"
+          ],
+          "word_definitions": {
+            "combien": "how much / how many",
+            "cafés": "coffees"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Deux cafés.",
+          "translation": "Two coffees.",
+          "new_words": [
+            "deux",
+            "cafés"
+          ],
+          "word_definitions": {
+            "deux": "two",
+            "cafés": "coffees"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Trois cafés.",
+          "translation": "Three coffees.",
+          "new_words": [
+            "trois",
+            "cafés"
+          ],
+          "word_definitions": {
+            "trois": "three",
+            "cafés": "coffees"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Quatre cafés.",
+          "translation": "Four coffees.",
+          "new_words": [
+            "quatre",
+            "cafés"
+          ],
+          "word_definitions": {
+            "quatre": "four",
+            "cafés": "coffees"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Cinq cafés.",
+          "translation": "Five coffees.",
+          "new_words": [
+            "cinq",
+            "cafés"
+          ],
+          "word_definitions": {
+            "cinq": "five",
+            "cafés": "coffees"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "Combien en voulez-vous ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Combien de cafés ?",
+              "hint": "How many coffees?"
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Deux cafés.",
+              "hint": "Two coffees."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Trois cafés.",
+              "hint": "Three coffees."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now count in French.",
+          "next_level": "level-7-directions"
+        }
+      ]
+    },
+    {
+      "id": "level-7-directions",
+      "title": "Level 7 — Getting Around",
+      "description": "Ask for and understand directions",
+      "win_message": "You can now ask for directions in French.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/directions.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "Où sont les toilettes ?",
+          "translation": "Where is the bathroom?",
+          "new_words": [
+            "où",
+            "toilettes"
+          ],
+          "word_definitions": {
+            "où": "where",
+            "toilettes": "bathroom / toilets"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "À gauche.",
+          "translation": "To the left.",
+          "new_words": [
+            "gauche"
+          ],
+          "word_definitions": {
+            "gauche": "left"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "À droite.",
+          "translation": "To the right.",
+          "new_words": [
+            "droite"
+          ],
+          "word_definitions": {
+            "droite": "right"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Allez tout droit.",
+          "translation": "Go straight.",
+          "new_words": [
+            "allez",
+            "tout",
+            "droit"
+          ],
+          "word_definitions": {
+            "allez": "go (formal)",
+            "tout": "all / right",
+            "droit": "straight"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "C’est loin ?",
+          "translation": "Is it far?",
+          "new_words": [
+            "loin"
+          ],
+          "word_definitions": {
+            "loin": "far"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "Vous cherchez quelque chose ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Où sont les toilettes ?",
+              "hint": "Where is the bathroom?"
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "À gauche.",
+              "hint": "To the left."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "À droite.",
+              "hint": "To the right."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now ask for directions in French.",
+          "next_level": "level-8-colors"
+        }
+      ]
+    },
+    {
+      "id": "level-8-colors",
+      "title": "Level 8 — Colors & Clothes",
+      "description": "Shop for clothes by color",
+      "win_message": "You can now shop for clothes in French.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/colors.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "Des vêtements blancs.",
+          "translation": "White clothes.",
+          "new_words": [
+            "vêtements",
+            "blancs"
+          ],
+          "word_definitions": {
+            "vêtements": "clothes",
+            "blancs": "white"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Des vêtements noirs.",
+          "translation": "Black clothes.",
+          "new_words": [
+            "vêtements",
+            "noirs"
+          ],
+          "word_definitions": {
+            "vêtements": "clothes",
+            "noirs": "black"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Des vêtements rouges.",
+          "translation": "Red clothes.",
+          "new_words": [
+            "vêtements",
+            "rouges"
+          ],
+          "word_definitions": {
+            "vêtements": "clothes",
+            "rouges": "red"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Des vêtements bleus.",
+          "translation": "Blue clothes.",
+          "new_words": [
+            "vêtements",
+            "bleus"
+          ],
+          "word_definitions": {
+            "vêtements": "clothes",
+            "bleus": "blue"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "Quelle couleur cherchez-vous ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Des vêtements blancs.",
+              "hint": "White clothes."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Des vêtements noirs.",
+              "hint": "Black clothes."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Des vêtements rouges.",
+              "hint": "Red clothes."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now shop for clothes in French.",
+          "next_level": "level-9-doctor"
+        }
+      ]
+    },
+    {
+      "id": "level-9-doctor",
+      "title": "Level 9 — At the Doctor",
+      "description": "Describe how you feel when sick",
+      "win_message": "You can now describe symptoms in French.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/doctor.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "J’ai mal à la tête.",
+          "translation": "My head hurts.",
+          "new_words": [
+            "mal",
+            "tête"
+          ],
+          "word_definitions": {
+            "mal": "pain / hurt",
+            "tête": "head"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "J’ai mal au ventre.",
+          "translation": "My stomach hurts.",
+          "new_words": [
+            "mal",
+            "ventre"
+          ],
+          "word_definitions": {
+            "mal": "pain / hurt",
+            "ventre": "stomach"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "J’ai de la fièvre.",
+          "translation": "I have a fever.",
+          "new_words": [
+            "fièvre"
+          ],
+          "word_definitions": {
+            "fièvre": "fever"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "J’ai besoin de médicaments.",
+          "translation": "I need medicine.",
+          "new_words": [
+            "besoin",
+            "médicaments"
+          ],
+          "word_definitions": {
+            "besoin": "need",
+            "médicaments": "medicine"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "Qu’est-ce qui ne va pas ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "J’ai mal à la tête.",
+              "hint": "My head hurts."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "J’ai mal au ventre.",
+              "hint": "My stomach hurts."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "J’ai de la fièvre.",
+              "hint": "I have a fever."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now describe symptoms in French.",
+          "next_level": "level-10-plans"
+        }
+      ]
+    },
+    {
+      "id": "level-10-plans",
+      "title": "Level 10 — Making Plans",
+      "description": "Talk about what you'll do and when",
+      "win_message": "You can now make plans in French.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/plans.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "Allons-y.",
+          "translation": "Let’s go.",
+          "new_words": [
+            "allons-y"
+          ],
+          "word_definitions": {
+            "allons-y": "let's go"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Tout de suite.",
+          "translation": "Right now.",
+          "new_words": [
+            "tout",
+            "suite"
+          ],
+          "word_definitions": {
+            "tout": "all / right",
+            "suite": "immediately"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Plutôt demain.",
+          "translation": "Tomorrow instead.",
+          "new_words": [
+            "plutôt",
+            "demain"
+          ],
+          "word_definitions": {
+            "plutôt": "instead / rather",
+            "demain": "tomorrow"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Plus tard.",
+          "translation": "Later.",
+          "new_words": [
+            "plus",
+            "tard"
+          ],
+          "word_definitions": {
+            "plus": "more",
+            "tard": "later"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "On y va quand ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Allons-y.",
+              "hint": "Let’s go."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Tout de suite.",
+              "hint": "Right now."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Plutôt demain.",
+              "hint": "Tomorrow instead."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now make plans in French.",
+          "next_level": "level-11-transportation"
+        }
+      ]
+    },
+    {
+      "id": "level-11-transportation",
+      "title": "Level 11 — Transportation",
+      "description": "Use French when taking transportation",
+      "win_message": "You can now talk about transportation in French.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/transportation.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "Où est l’arrêt ?",
+          "translation": "Where is the stop?",
+          "new_words": [
+            "où",
+            "l’arrêt"
+          ],
+          "word_definitions": {
+            "où": "where",
+            "l’arrêt": "stop"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Je prends le bus.",
+          "translation": "I am taking the bus.",
+          "new_words": [
+            "prends",
+            "bus"
+          ],
+          "word_definitions": {
+            "prends": "take",
+            "bus": "bus"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Combien coûte le billet ?",
+          "translation": "How much is the fare?",
+          "new_words": [
+            "combien",
+            "coûte",
+            "billet"
+          ],
+          "word_definitions": {
+            "combien": "how much / how many",
+            "coûte": "costs",
+            "billet": "ticket / fare"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Ici, c’est bien.",
+          "translation": "Here is fine.",
+          "new_words": [
+            "ici",
+            "bien"
+          ],
+          "word_definitions": {
+            "ici": "here",
+            "bien": "well / fine"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "Où allez-vous ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Où est l’arrêt ?",
+              "hint": "Where is the stop?"
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je prends le bus.",
+              "hint": "I am taking the bus."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Combien coûte le billet ?",
+              "hint": "How much is the fare?"
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about transportation in French.",
+          "next_level": "level-12-shopping"
+        }
+      ]
+    },
+    {
+      "id": "level-12-shopping",
+      "title": "Level 12 — Shopping",
+      "description": "Buy things and ask about prices",
+      "win_message": "You can now shop in French.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/shopping.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "Combien ça coûte ?",
+          "translation": "How much does this cost?",
+          "new_words": [
+            "combien",
+            "coûte"
+          ],
+          "word_definitions": {
+            "combien": "how much / how many",
+            "coûte": "costs"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "C’est cher.",
+          "translation": "This is expensive.",
+          "new_words": [
+            "cher"
+          ],
+          "word_definitions": {
+            "cher": "expensive"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "C’est bon marché.",
+          "translation": "This is cheap.",
+          "new_words": [
+            "bon",
+            "marché"
+          ],
+          "word_definitions": {
+            "bon": "good",
+            "marché": "cheap / market"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "J’aime ça.",
+          "translation": "I like this.",
+          "new_words": [
+            "j’aime"
+          ],
+          "word_definitions": {
+            "j’aime": "I like"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Vous en avez un autre ?",
+          "translation": "Do you have another one?",
+          "new_words": [
+            "avez",
+            "autre"
+          ],
+          "word_definitions": {
+            "avez": "have (formal)",
+            "autre": "another"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "Puis-je vous aider ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Combien ça coûte ?",
+              "hint": "How much does this cost?"
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "C’est cher.",
+              "hint": "This is expensive."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "C’est bon marché.",
+              "hint": "This is cheap."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now shop in French.",
+          "next_level": "level-13-home"
+        }
+      ]
+    },
+    {
+      "id": "level-13-home",
+      "title": "Level 13 — Home",
+      "description": "Talk about your home and things around you",
+      "win_message": "You can now talk about your home in French.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/home.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "Voici ma maison.",
+          "translation": "This is my house.",
+          "new_words": [
+            "voici",
+            "maison"
+          ],
+          "word_definitions": {
+            "voici": "here is / this is",
+            "maison": "house / home"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Je suis à la maison.",
+          "translation": "I am at home.",
+          "new_words": [
+            "maison"
+          ],
+          "word_definitions": {
+            "maison": "house / home"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Il y a une cuisine ici.",
+          "translation": "There is a kitchen here.",
+          "new_words": [
+            "cuisine",
+            "ici"
+          ],
+          "word_definitions": {
+            "cuisine": "kitchen",
+            "ici": "here"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Il y a une chambre ici.",
+          "translation": "There is a room here.",
+          "new_words": [
+            "chambre",
+            "ici"
+          ],
+          "word_definitions": {
+            "chambre": "room / bedroom",
+            "ici": "here"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "La maison est grande.",
+          "translation": "The house is big.",
+          "new_words": [
+            "maison",
+            "grande"
+          ],
+          "word_definitions": {
+            "maison": "house / home",
+            "grande": "big / older"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "Où êtes-vous ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Voici ma maison.",
+              "hint": "This is my house."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je suis à la maison.",
+              "hint": "I am at home."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Il y a une cuisine ici.",
+              "hint": "There is a kitchen here."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about your home in French.",
+          "next_level": "level-14-weather"
+        }
+      ]
+    },
+    {
+      "id": "level-14-weather",
+      "title": "Level 14 — Weather",
+      "description": "Talk about the weather",
+      "win_message": "You can now talk about the weather in French.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/weather.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "Il fait chaud aujourd’hui.",
+          "translation": "It is hot today.",
+          "new_words": [
+            "fait",
+            "chaud",
+            "aujourd’hui"
+          ],
+          "word_definitions": {
+            "fait": "does / done",
+            "chaud": "hot",
+            "aujourd’hui": "today"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Il fait froid aujourd’hui.",
+          "translation": "It is cold today.",
+          "new_words": [
+            "fait",
+            "froid",
+            "aujourd’hui"
+          ],
+          "word_definitions": {
+            "fait": "does / done",
+            "froid": "cold",
+            "aujourd’hui": "today"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Il pleut.",
+          "translation": "It is raining.",
+          "new_words": [
+            "pleut"
+          ],
+          "word_definitions": {
+            "pleut": "rains"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Il y a du soleil aujourd’hui.",
+          "translation": "It is sunny today.",
+          "new_words": [
+            "soleil",
+            "aujourd’hui"
+          ],
+          "word_definitions": {
+            "soleil": "sun",
+            "aujourd’hui": "today"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Il fait mauvais temps.",
+          "translation": "The weather is bad.",
+          "new_words": [
+            "fait",
+            "mauvais",
+            "temps"
+          ],
+          "word_definitions": {
+            "fait": "does / done",
+            "mauvais": "bad",
+            "temps": "weather / time"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "Quel temps fait-il ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Il fait chaud aujourd’hui.",
+              "hint": "It is hot today."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Il fait froid aujourd’hui.",
+              "hint": "It is cold today."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Il pleut.",
+              "hint": "It is raining."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about the weather in French.",
+          "next_level": "level-15-daily-routine"
+        }
+      ]
+    },
+    {
+      "id": "level-15-daily-routine",
+      "title": "Level 15 — Daily Routine",
+      "description": "Talk about what you do every day",
+      "win_message": "You can now talk about your daily routine in French.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/daily-routine.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "Je me réveille le matin.",
+          "translation": "I wake up in the morning.",
+          "new_words": [
+            "réveille",
+            "matin"
+          ],
+          "word_definitions": {
+            "réveille": "wake up",
+            "matin": "morning"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Je mange.",
+          "translation": "I am eating.",
+          "new_words": [
+            "mange"
+          ],
+          "word_definitions": {
+            "mange": "eat"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Je travaille.",
+          "translation": "I am working.",
+          "new_words": [
+            "travaille"
+          ],
+          "word_definitions": {
+            "travaille": "work"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Je suis rentré chez moi le soir.",
+          "translation": "I went home at night.",
+          "new_words": [
+            "rentré",
+            "chez",
+            "moi",
+            "soir"
+          ],
+          "word_definitions": {
+            "rentré": "returned",
+            "chez": "at / home of",
+            "moi": "me / mine",
+            "soir": "evening"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Je dors.",
+          "translation": "I am sleeping.",
+          "new_words": [
+            "dors"
+          ],
+          "word_definitions": {
+            "dors": "sleep"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "Que faites-vous aujourd’hui ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je me réveille le matin.",
+              "hint": "I wake up in the morning."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je mange.",
+              "hint": "I am eating."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je travaille.",
+              "hint": "I am working."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about your daily routine in French.",
+          "next_level": "level-16-work"
+        }
+      ]
+    },
+    {
+      "id": "level-16-work",
+      "title": "Level 16 — Work",
+      "description": "Talk about work and your job",
+      "win_message": "You can now talk about work in French.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/work.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "Je travaille ici.",
+          "translation": "I work here.",
+          "new_words": [
+            "travaille",
+            "ici"
+          ],
+          "word_definitions": {
+            "travaille": "work",
+            "ici": "here"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Quel est ton métier ?",
+          "translation": "What do you do for work?",
+          "new_words": [
+            "métier"
+          ],
+          "word_definitions": {
+            "métier": "job / profession"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Je suis infirmier.",
+          "translation": "I am a nurse.",
+          "new_words": [
+            "infirmier"
+          ],
+          "word_definitions": {
+            "infirmier": "nurse"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Le travail est difficile.",
+          "translation": "The work is difficult.",
+          "new_words": [
+            "travail",
+            "difficile"
+          ],
+          "word_definitions": {
+            "travail": "work",
+            "difficile": "difficult"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Je suis fatigué.",
+          "translation": "I am tired.",
+          "new_words": [
+            "fatigué"
+          ],
+          "word_definitions": {
+            "fatigué": "tired"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "Quel est votre métier ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je travaille ici.",
+              "hint": "I work here."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Quel est ton métier ?",
+              "hint": "What do you do for work?"
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je suis infirmier.",
+              "hint": "I am a nurse."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about work in French.",
+          "next_level": "level-17-hobbies"
+        }
+      ]
+    },
+    {
+      "id": "level-17-hobbies",
+      "title": "Level 17 — Hobbies",
+      "description": "Talk about things you enjoy doing",
+      "win_message": "You can now talk about your hobbies in French.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/hobbies.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "J’aime la musique.",
+          "translation": "I like music.",
+          "new_words": [
+            "musique"
+          ],
+          "word_definitions": {
+            "musique": "music"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "J’aime danser.",
+          "translation": "I like dancing.",
+          "new_words": [
+            "danser"
+          ],
+          "word_definitions": {
+            "danser": "dance"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "J’aime les films.",
+          "translation": "I like movies.",
+          "new_words": [
+            "films"
+          ],
+          "word_definitions": {
+            "films": "movies"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "J’aime marcher.",
+          "translation": "I like walking.",
+          "new_words": [
+            "marcher"
+          ],
+          "word_definitions": {
+            "marcher": "walk"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Qu’est-ce que tu aimes faire ?",
+          "translation": "What do you like to do?",
+          "new_words": [
+            "aimes",
+            "faire"
+          ],
+          "word_definitions": {
+            "aimes": "like",
+            "faire": "do / make"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "Qu’aimez-vous faire ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "J’aime la musique.",
+              "hint": "I like music."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "J’aime danser.",
+              "hint": "I like dancing."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "J’aime les films.",
+              "hint": "I like movies."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about your hobbies in French.",
+          "next_level": "level-18-feelings"
+        }
+      ]
+    },
+    {
+      "id": "level-18-feelings",
+      "title": "Level 18 — Feelings",
+      "description": "Describe how you feel",
+      "win_message": "You can now describe your feelings in French.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/feelings.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "Je suis heureux.",
+          "translation": "I am happy.",
+          "new_words": [
+            "heureux"
+          ],
+          "word_definitions": {
+            "heureux": "happy"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Je suis triste.",
+          "translation": "I am sad.",
+          "new_words": [
+            "triste"
+          ],
+          "word_definitions": {
+            "triste": "sad"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Je suis fatigué.",
+          "translation": "I am tired.",
+          "new_words": [
+            "fatigué"
+          ],
+          "word_definitions": {
+            "fatigué": "tired"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Je suis en colère.",
+          "translation": "I am angry.",
+          "new_words": [
+            "colère"
+          ],
+          "word_definitions": {
+            "colère": "anger"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Je suis nerveux.",
+          "translation": "I am nervous.",
+          "new_words": [
+            "nerveux"
+          ],
+          "word_definitions": {
+            "nerveux": "nervous"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "Comment vous sentez-vous ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je suis heureux.",
+              "hint": "I am happy."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je suis triste.",
+              "hint": "I am sad."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je suis fatigué.",
+              "hint": "I am tired."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now describe your feelings in French.",
+          "next_level": "level-19-communication"
+        }
+      ]
+    },
+    {
+      "id": "level-19-communication",
+      "title": "Level 19 — Communication",
+      "description": "Ask someone to repeat, explain, or speak slowly",
+      "win_message": "You can now handle simple communication problems in French.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/communication.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "Tu m’entends ?",
+          "translation": "Can you hear me?",
+          "new_words": [
+            "m’entends"
+          ],
+          "word_definitions": {
+            "m’entends": "hear me"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Je ne comprends pas.",
+          "translation": "I do not understand.",
+          "new_words": [
+            "comprends"
+          ],
+          "word_definitions": {
+            "comprends": "understand"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Parle plus lentement, s’il te plaît.",
+          "translation": "Speak more slowly, please.",
+          "new_words": [
+            "parle",
+            "plus",
+            "lentement",
+            "plaît"
+          ],
+          "word_definitions": {
+            "parle": "speak",
+            "plus": "more",
+            "lentement": "slowly",
+            "plaît": "please (in expression)"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Peux-tu répéter ?",
+          "translation": "Can you repeat that?",
+          "new_words": [
+            "peux-tu",
+            "répéter"
+          ],
+          "word_definitions": {
+            "peux-tu": "can you",
+            "répéter": "repeat"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Maintenant, je comprends.",
+          "translation": "Now I understand.",
+          "new_words": [
+            "maintenant",
+            "comprends"
+          ],
+          "word_definitions": {
+            "maintenant": "now",
+            "comprends": "understand"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "Vous comprenez ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Tu m’entends ?",
+              "hint": "Can you hear me?"
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je ne comprends pas.",
+              "hint": "I do not understand."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Parle plus lentement, s’il te plaît.",
+              "hint": "Speak more slowly, please."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now handle simple communication problems in French.",
+          "next_level": "level-20-social"
+        }
+      ]
+    },
+    {
+      "id": "level-20-social",
+      "title": "Level 20 — Social Conversation",
+      "description": "Have a simple conversation with someone new",
+      "win_message": "You can now have a basic social conversation in French.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/social.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "Tu veux venir avec moi ?",
+          "translation": "Do you want to come with me?",
+          "new_words": [
+            "veux",
+            "venir",
+            "moi"
+          ],
+          "word_definitions": {
+            "veux": "want",
+            "venir": "come",
+            "moi": "me / mine"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Mangeons ensemble.",
+          "translation": "Let’s eat together.",
+          "new_words": [
+            "mangeons",
+            "ensemble"
+          ],
+          "word_definitions": {
+            "mangeons": "let’s eat",
+            "ensemble": "together"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Tu es libre demain ?",
+          "translation": "Are you free tomorrow?",
+          "new_words": [
+            "es",
+            "libre",
+            "demain"
+          ],
+          "word_definitions": {
+            "es": "are",
+            "libre": "free / available",
+            "demain": "tomorrow"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "À plus tard.",
+          "translation": "See you later.",
+          "new_words": [
+            "plus",
+            "tard"
+          ],
+          "word_definitions": {
+            "plus": "more",
+            "tard": "later"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Merci d’être venu.",
+          "translation": "Thanks for coming.",
+          "new_words": [
+            "merci",
+            "venu"
+          ],
+          "word_definitions": {
+            "merci": "thank you",
+            "venu": "came"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "Qu’est-ce qu’on fait ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Tu veux venir avec moi ?",
+              "hint": "Do you want to come with me?"
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Mangeons ensemble.",
+              "hint": "Let’s eat together."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Tu es libre demain ?",
+              "hint": "Are you free tomorrow?"
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now have a basic social conversation in French.",
+          "next_level": "level-21-needs"
+        }
+      ]
+    },
+    {
+      "id": "level-21-needs",
+      "title": "Level 21 — Needs & Wants",
+      "description": "Express what you need and don't want",
+      "win_message": "You can now say what you need and don't want.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/needs.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "J’ai besoin d’eau.",
+          "translation": "I need water.",
+          "new_words": [
+            "besoin",
+            "d’eau"
+          ],
+          "word_definitions": {
+            "besoin": "need",
+            "d’eau": "water"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "J’ai besoin de café.",
+          "translation": "I need coffee.",
+          "new_words": [
+            "besoin",
+            "café"
+          ],
+          "word_definitions": {
+            "besoin": "need",
+            "café": "coffee"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Je ne veux pas de sucre.",
+          "translation": "I do not want sugar.",
+          "new_words": [
+            "veux",
+            "sucre"
+          ],
+          "word_definitions": {
+            "veux": "want",
+            "sucre": "sugar"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "De quoi as-tu besoin ?",
+          "translation": "What do you need?",
+          "new_words": [
+            "besoin"
+          ],
+          "word_definitions": {
+            "besoin": "need"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "De quoi avez-vous besoin ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "J’ai besoin d’eau.",
+              "hint": "I need water."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "J’ai besoin de café.",
+              "hint": "I need coffee."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je ne veux pas de sucre.",
+              "hint": "I do not want sugar."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now say what you need and don't want.",
+          "next_level": "level-22-ability"
+        }
+      ]
+    },
+    {
+      "id": "level-22-ability",
+      "title": "Level 22 — Can & Can't",
+      "description": "Talk about what you can and cannot do",
+      "win_message": "You can now talk about what you can and cannot do.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/ability.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "Je peux le faire.",
+          "translation": "I can do it.",
+          "new_words": [
+            "peux",
+            "faire"
+          ],
+          "word_definitions": {
+            "peux": "can",
+            "faire": "do / make"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Je ne peux pas le faire.",
+          "translation": "I cannot do it.",
+          "new_words": [
+            "peux",
+            "faire"
+          ],
+          "word_definitions": {
+            "peux": "can",
+            "faire": "do / make"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Peux-tu le faire ?",
+          "translation": "Can you do it?",
+          "new_words": [
+            "peux-tu",
+            "faire"
+          ],
+          "word_definitions": {
+            "peux-tu": "can you",
+            "faire": "do / make"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Je peux marcher.",
+          "translation": "I can walk.",
+          "new_words": [
+            "peux",
+            "marcher"
+          ],
+          "word_definitions": {
+            "peux": "can",
+            "marcher": "walk"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "Vous pouvez le faire ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je peux le faire.",
+              "hint": "I can do it."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je ne peux pas le faire.",
+              "hint": "I cannot do it."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Peux-tu le faire ?",
+              "hint": "Can you do it?"
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about what you can and cannot do.",
+          "next_level": "level-23-going-places"
+        }
+      ]
+    },
+    {
+      "id": "level-23-going-places",
+      "title": "Level 23 — Going Places",
+      "description": "Say where you are going",
+      "win_message": "You can now say where you are going.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/going-places.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "Je rentre à la maison.",
+          "translation": "I am going home.",
+          "new_words": [
+            "rentre",
+            "maison"
+          ],
+          "word_definitions": {
+            "rentre": "go home",
+            "maison": "house / home"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Je vais au travail.",
+          "translation": "I am going to work.",
+          "new_words": [
+            "vais",
+            "travail"
+          ],
+          "word_definitions": {
+            "vais": "go",
+            "travail": "work"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Je vais là-bas.",
+          "translation": "I am going there.",
+          "new_words": [
+            "vais",
+            "là-bas"
+          ],
+          "word_definitions": {
+            "vais": "go",
+            "là-bas": "there"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Où vas-tu ?",
+          "translation": "Where are you going?",
+          "new_words": [
+            "où"
+          ],
+          "word_definitions": {
+            "où": "where"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "Où allez-vous ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je rentre à la maison.",
+              "hint": "I am going home."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je vais au travail.",
+              "hint": "I am going to work."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je vais là-bas.",
+              "hint": "I am going there."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now say where you are going.",
+          "next_level": "level-24-coming-leaving"
+        }
+      ]
+    },
+    {
+      "id": "level-24-coming-leaving",
+      "title": "Level 24 — Coming & Leaving",
+      "description": "Talk about arriving and leaving",
+      "win_message": "You can now talk about arriving and leaving.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/coming-leaving.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "Je pars plus tard.",
+          "translation": "I am leaving later.",
+          "new_words": [
+            "pars",
+            "plus",
+            "tard"
+          ],
+          "word_definitions": {
+            "pars": "leave",
+            "plus": "more",
+            "tard": "later"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "J’arriverai plus tard.",
+          "translation": "I will arrive later.",
+          "new_words": [
+            "j’arriverai",
+            "plus",
+            "tard"
+          ],
+          "word_definitions": {
+            "j’arriverai": "I will arrive",
+            "plus": "more",
+            "tard": "later"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Quand pars-tu ?",
+          "translation": "When are you leaving?",
+          "new_words": [
+            "quand",
+            "pars-tu"
+          ],
+          "word_definitions": {
+            "quand": "when",
+            "pars-tu": "are you leaving"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Quand arriveras-tu ?",
+          "translation": "When will you arrive?",
+          "new_words": [
+            "quand",
+            "arriveras-tu"
+          ],
+          "word_definitions": {
+            "quand": "when",
+            "arriveras-tu": "will you arrive"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "Quand partez-vous ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je pars plus tard.",
+              "hint": "I am leaving later."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "J’arriverai plus tard.",
+              "hint": "I will arrive later."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Quand pars-tu ?",
+              "hint": "When are you leaving?"
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about arriving and leaving.",
+          "next_level": "level-25-past-actions"
+        }
+      ]
+    },
+    {
+      "id": "level-25-past-actions",
+      "title": "Level 25 — Past Actions",
+      "description": "Talk about things you already did",
+      "win_message": "You can now talk about simple past actions.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/past-actions.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "J’ai mangé du riz.",
+          "translation": "I ate rice.",
+          "new_words": [
+            "mangé",
+            "riz"
+          ],
+          "word_definitions": {
+            "mangé": "ate",
+            "riz": "rice"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "J’ai bu de l’eau.",
+          "translation": "I drank water.",
+          "new_words": [
+            "bu",
+            "l’eau"
+          ],
+          "word_definitions": {
+            "bu": "drank",
+            "l’eau": "water"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Je suis rentré à la maison.",
+          "translation": "I went home.",
+          "new_words": [
+            "rentré",
+            "maison"
+          ],
+          "word_definitions": {
+            "rentré": "returned",
+            "maison": "house / home"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Qu’as-tu fait ?",
+          "translation": "What did you do?",
+          "new_words": [
+            "qu’as-tu",
+            "fait"
+          ],
+          "word_definitions": {
+            "qu’as-tu": "what have you",
+            "fait": "does / done"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "Qu’avez-vous fait ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "J’ai mangé du riz.",
+              "hint": "I ate rice."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "J’ai bu de l’eau.",
+              "hint": "I drank water."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je suis rentré à la maison.",
+              "hint": "I went home."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about simple past actions.",
+          "next_level": "level-26-future-actions"
+        }
+      ]
+    },
+    {
+      "id": "level-26-future-actions",
+      "title": "Level 26 — Future Actions",
+      "description": "Talk about things you will do",
+      "win_message": "You can now talk about simple future actions.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/future-actions.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "Je mangerai plus tard.",
+          "translation": "I will eat later.",
+          "new_words": [
+            "mangerai",
+            "plus",
+            "tard"
+          ],
+          "word_definitions": {
+            "mangerai": "will eat",
+            "plus": "more",
+            "tard": "later"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Je boirai de l’eau.",
+          "translation": "I will drink water.",
+          "new_words": [
+            "boirai",
+            "l’eau"
+          ],
+          "word_definitions": {
+            "boirai": "will drink",
+            "l’eau": "water"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Je le ferai demain.",
+          "translation": "I will do it tomorrow.",
+          "new_words": [
+            "ferai",
+            "demain"
+          ],
+          "word_definitions": {
+            "ferai": "will do",
+            "demain": "tomorrow"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Que vas-tu faire ?",
+          "translation": "What will you do?",
+          "new_words": [
+            "faire"
+          ],
+          "word_definitions": {
+            "faire": "do / make"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "Que ferez-vous ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je mangerai plus tard.",
+              "hint": "I will eat later."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je boirai de l’eau.",
+              "hint": "I will drink water."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je le ferai demain.",
+              "hint": "I will do it tomorrow."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about simple future actions.",
+          "next_level": "level-27-what-happened"
+        }
+      ]
+    },
+    {
+      "id": "level-27-what-happened",
+      "title": "Level 27 — What Happened?",
+      "description": "Ask what happened and give a reason",
+      "win_message": "You can now ask what happened and give a reason.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/what-happened.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "Qu’est-ce qui s’est passé ?",
+          "translation": "What happened?",
+          "new_words": [
+            "s’est",
+            "passé"
+          ],
+          "word_definitions": {
+            "s’est": "has (reflexive)",
+            "passé": "happened"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Pourquoi ?",
+          "translation": "Why?",
+          "new_words": [
+            "pourquoi"
+          ],
+          "word_definitions": {
+            "pourquoi": "why"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Parce que je suis fatigué.",
+          "translation": "Because I am tired.",
+          "new_words": [
+            "parce",
+            "fatigué"
+          ],
+          "word_definitions": {
+            "parce": "because",
+            "fatigué": "tired"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Pourquoi es-tu rentré à la maison ?",
+          "translation": "Why did you go home?",
+          "new_words": [
+            "pourquoi",
+            "rentré",
+            "maison"
+          ],
+          "word_definitions": {
+            "pourquoi": "why",
+            "rentré": "returned",
+            "maison": "house / home"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "Que s’est-il passé ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Qu’est-ce qui s’est passé ?",
+              "hint": "What happened?"
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Pourquoi ?",
+              "hint": "Why?"
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Parce que je suis fatigué.",
+              "hint": "Because I am tired."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now ask what happened and give a reason.",
+          "next_level": "level-28-opinions"
+        }
+      ]
+    },
+    {
+      "id": "level-28-opinions",
+      "title": "Level 28 — Opinions",
+      "description": "Give simple opinions",
+      "win_message": "You can now give a simple opinion.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/opinions.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "Je pense que c’est cher.",
+          "translation": "I think this is expensive.",
+          "new_words": [
+            "pense",
+            "cher"
+          ],
+          "word_definitions": {
+            "pense": "think",
+            "cher": "expensive"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Je pense que c’est bien.",
+          "translation": "I think this is good.",
+          "new_words": [
+            "pense",
+            "bien"
+          ],
+          "word_definitions": {
+            "pense": "think",
+            "bien": "well / fine"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Qu’en penses-tu ?",
+          "translation": "What do you think?",
+          "new_words": [
+            "qu’en",
+            "penses-tu"
+          ],
+          "word_definitions": {
+            "qu’en": "what about it",
+            "penses-tu": "do you think"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Tu as raison.",
+          "translation": "You are right.",
+          "new_words": [
+            "as",
+            "raison"
+          ],
+          "word_definitions": {
+            "as": "have",
+            "raison": "right / reason"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "Qu’en pensez-vous ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je pense que c’est cher.",
+              "hint": "I think this is expensive."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je pense que c’est bien.",
+              "hint": "I think this is good."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Qu’en penses-tu ?",
+              "hint": "What do you think?"
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now give a simple opinion.",
+          "next_level": "level-29-preferences"
+        }
+      ]
+    },
+    {
+      "id": "level-29-preferences",
+      "title": "Level 29 — Preferences",
+      "description": "Compare what you prefer",
+      "win_message": "You can now express preferences.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/preferences.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "Je préfère le café.",
+          "translation": "I prefer coffee.",
+          "new_words": [
+            "préfère",
+            "café"
+          ],
+          "word_definitions": {
+            "préfère": "prefer",
+            "café": "coffee"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Je préfère l’eau.",
+          "translation": "I prefer water.",
+          "new_words": [
+            "préfère",
+            "l’eau"
+          ],
+          "word_definitions": {
+            "préfère": "prefer",
+            "l’eau": "water"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Du café ou de l’eau ?",
+          "translation": "Coffee or water?",
+          "new_words": [
+            "café",
+            "l’eau"
+          ],
+          "word_definitions": {
+            "café": "coffee",
+            "l’eau": "water"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Je préfère le café à l’eau.",
+          "translation": "I prefer coffee to water.",
+          "new_words": [
+            "préfère",
+            "café",
+            "l’eau"
+          ],
+          "word_definitions": {
+            "préfère": "prefer",
+            "café": "coffee",
+            "l’eau": "water"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "Vous préférez quoi ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je préfère le café.",
+              "hint": "I prefer coffee."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je préfère l’eau.",
+              "hint": "I prefer water."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Du café ou de l’eau ?",
+              "hint": "Coffee or water?"
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now express preferences.",
+          "next_level": "level-30-know-how"
+        }
+      ]
+    },
+    {
+      "id": "level-30-know-how",
+      "title": "Level 30 — Knowing How",
+      "description": "Say what you know how to do",
+      "win_message": "You can now say what you know how to do.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/know-how.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "Je sais danser.",
+          "translation": "I know how to dance.",
+          "new_words": [
+            "sais",
+            "danser"
+          ],
+          "word_definitions": {
+            "sais": "know how",
+            "danser": "dance"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Je sais cuisiner.",
+          "translation": "I know how to cook.",
+          "new_words": [
+            "sais",
+            "cuisiner"
+          ],
+          "word_definitions": {
+            "sais": "know how",
+            "cuisiner": "cook"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Tu sais danser ?",
+          "translation": "Do you know how to dance?",
+          "new_words": [
+            "sais",
+            "danser"
+          ],
+          "word_definitions": {
+            "sais": "know how",
+            "danser": "dance"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Je ne sais pas cuisiner.",
+          "translation": "I do not know how to cook.",
+          "new_words": [
+            "sais",
+            "cuisiner"
+          ],
+          "word_definitions": {
+            "sais": "know how",
+            "cuisiner": "cook"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "Vous savez faire ça ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je sais danser.",
+              "hint": "I know how to dance."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je sais cuisiner.",
+              "hint": "I know how to cook."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Tu sais danser ?",
+              "hint": "Do you know how to dance?"
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now say what you know how to do.",
+          "next_level": "level-31-requests"
+        }
+      ]
+    },
+    {
+      "id": "level-31-requests",
+      "title": "Level 31 — Requests",
+      "description": "Make useful everyday requests",
+      "win_message": "You can now make everyday requests.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/requests.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "Donne-moi de l’eau, s’il te plaît.",
+          "translation": "Please give me the water.",
+          "new_words": [
+            "donne-moi",
+            "l’eau",
+            "plaît"
+          ],
+          "word_definitions": {
+            "donne-moi": "give me",
+            "l’eau": "water",
+            "plaît": "please (in expression)"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Aide-moi.",
+          "translation": "Help me.",
+          "new_words": [
+            "aide-moi"
+          ],
+          "word_definitions": {
+            "aide-moi": "help me"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Peux-tu m’aider ?",
+          "translation": "Can you help me?",
+          "new_words": [
+            "peux-tu",
+            "m’aider"
+          ],
+          "word_definitions": {
+            "peux-tu": "can you",
+            "m’aider": "help me"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Répète, s’il te plaît.",
+          "translation": "Please repeat.",
+          "new_words": [
+            "répète",
+            "plaît"
+          ],
+          "word_definitions": {
+            "répète": "repeat",
+            "plaît": "please (in expression)"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "Comment puis-je vous aider ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Donne-moi de l’eau, s’il te plaît.",
+              "hint": "Please give me the water."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Aide-moi.",
+              "hint": "Help me."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Peux-tu m’aider ?",
+              "hint": "Can you help me?"
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now make everyday requests.",
+          "next_level": "level-32-permission"
+        }
+      ]
+    },
+    {
+      "id": "level-32-permission",
+      "title": "Level 32 — Permission & Rules",
+      "description": "Ask permission and understand restrictions",
+      "win_message": "You can now ask permission and understand simple rules.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/permission.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "Je peux entrer ?",
+          "translation": "May I enter?",
+          "new_words": [
+            "peux",
+            "entrer"
+          ],
+          "word_definitions": {
+            "peux": "can",
+            "entrer": "enter"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Je peux m’asseoir ?",
+          "translation": "May I sit down?",
+          "new_words": [
+            "peux",
+            "m’asseoir"
+          ],
+          "word_definitions": {
+            "peux": "can",
+            "m’asseoir": "sit down"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Ce n’est pas autorisé ici.",
+          "translation": "It is not allowed here.",
+          "new_words": [
+            "ce",
+            "n’est",
+            "autorisé",
+            "ici"
+          ],
+          "word_definitions": {
+            "ce": "this",
+            "n’est": "is not",
+            "autorisé": "allowed",
+            "ici": "here"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "C’est autorisé ici.",
+          "translation": "It is allowed here.",
+          "new_words": [
+            "autorisé",
+            "ici"
+          ],
+          "word_definitions": {
+            "autorisé": "allowed",
+            "ici": "here"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "Vous voulez entrer ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je peux entrer ?",
+              "hint": "May I enter?"
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je peux m’asseoir ?",
+              "hint": "May I sit down?"
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Ce n’est pas autorisé ici.",
+              "hint": "It is not allowed here."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now ask permission and understand simple rules.",
+          "next_level": "level-33-possession"
+        }
+      ]
+    },
+    {
+      "id": "level-33-possession",
+      "title": "Level 33 — Mine, Yours & Theirs",
+      "description": "Talk about ownership",
+      "win_message": "You can now talk about who owns something.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/possession.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "C’est à moi.",
+          "translation": "This is mine.",
+          "new_words": [
+            "moi"
+          ],
+          "word_definitions": {
+            "moi": "me / mine"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "C’est à toi.",
+          "translation": "This is yours.",
+          "new_words": [
+            "toi"
+          ],
+          "word_definitions": {
+            "toi": "you / yours"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "C’est à lui ou à elle.",
+          "translation": "This is his or hers.",
+          "new_words": [
+            "lui",
+            "elle"
+          ],
+          "word_definitions": {
+            "lui": "him / his",
+            "elle": "her / hers"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "À qui est-ce ?",
+          "translation": "Whose is this?",
+          "new_words": [
+            "à"
+          ],
+          "word_definitions": {
+            "à": "to / at"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "À qui est-ce ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "C’est à moi.",
+              "hint": "This is mine."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "C’est à toi.",
+              "hint": "This is yours."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "C’est à lui ou à elle.",
+              "hint": "This is his or hers."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about who owns something.",
+          "next_level": "level-34-location"
+        }
+      ]
+    },
+    {
+      "id": "level-34-location",
+      "title": "Level 34 — Location Relationships",
+      "description": "Describe where things are",
+      "win_message": "You can now describe locations more precisely.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/location.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "Près de la maison.",
+          "translation": "Near the house.",
+          "new_words": [
+            "près",
+            "maison"
+          ],
+          "word_definitions": {
+            "près": "near",
+            "maison": "house / home"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "C’est à côté de la maison.",
+          "translation": "It is beside the house.",
+          "new_words": [
+            "côté",
+            "maison"
+          ],
+          "word_definitions": {
+            "côté": "side / beside",
+            "maison": "house / home"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "C’est devant la maison.",
+          "translation": "It is in front of the house.",
+          "new_words": [
+            "devant",
+            "maison"
+          ],
+          "word_definitions": {
+            "devant": "in front of",
+            "maison": "house / home"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "C’est derrière la maison.",
+          "translation": "It is behind the house.",
+          "new_words": [
+            "derrière",
+            "maison"
+          ],
+          "word_definitions": {
+            "derrière": "behind",
+            "maison": "house / home"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "Où est-ce ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Près de la maison.",
+              "hint": "Near the house."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "C’est à côté de la maison.",
+              "hint": "It is beside the house."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "C’est devant la maison.",
+              "hint": "It is in front of the house."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now describe locations more precisely.",
+          "next_level": "level-35-time"
+        }
+      ]
+    },
+    {
+      "id": "level-35-time",
+      "title": "Level 35 — Time & Sequence",
+      "description": "Ask when and talk about sequence",
+      "win_message": "You can now talk about time and sequence.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/time.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "Quelle heure est-il ?",
+          "translation": "What time is it?",
+          "new_words": [
+            "heure",
+            "est-il"
+          ],
+          "word_definitions": {
+            "heure": "hour / time",
+            "est-il": "is it"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "À quelle heure pars-tu ?",
+          "translation": "What time are you leaving?",
+          "new_words": [
+            "heure",
+            "pars-tu"
+          ],
+          "word_definitions": {
+            "heure": "hour / time",
+            "pars-tu": "are you leaving"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Avant de travailler.",
+          "translation": "Before working.",
+          "new_words": [
+            "avant",
+            "travailler"
+          ],
+          "word_definitions": {
+            "avant": "before",
+            "travailler": "work"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Après le travail.",
+          "translation": "After work.",
+          "new_words": [
+            "après",
+            "travail"
+          ],
+          "word_definitions": {
+            "après": "after",
+            "travail": "work"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "Quelle heure est-il ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Quelle heure est-il ?",
+              "hint": "What time is it?"
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "À quelle heure pars-tu ?",
+              "hint": "What time are you leaving?"
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Avant de travailler.",
+              "hint": "Before working."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now talk about time and sequence.",
+          "next_level": "level-36-frequency"
+        }
+      ]
+    },
+    {
+      "id": "level-36-frequency",
+      "title": "Level 36 — Frequency",
+      "description": "Say how often you do things",
+      "win_message": "You can now say how often you do things.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/frequency.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "Je bois toujours de l’eau.",
+          "translation": "I always drink water.",
+          "new_words": [
+            "bois",
+            "toujours",
+            "l’eau"
+          ],
+          "word_definitions": {
+            "bois": "drink",
+            "toujours": "always",
+            "l’eau": "water"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Je bois souvent du café.",
+          "translation": "I often drink coffee.",
+          "new_words": [
+            "bois",
+            "souvent",
+            "café"
+          ],
+          "word_definitions": {
+            "bois": "drink",
+            "souvent": "often",
+            "café": "coffee"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Parfois, je marche.",
+          "translation": "Sometimes I walk.",
+          "new_words": [
+            "parfois",
+            "marche"
+          ],
+          "word_definitions": {
+            "parfois": "sometimes",
+            "marche": "walk"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Je bois rarement du café.",
+          "translation": "I rarely drink coffee.",
+          "new_words": [
+            "bois",
+            "rarement",
+            "café"
+          ],
+          "word_definitions": {
+            "bois": "drink",
+            "rarement": "rarely",
+            "café": "coffee"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "Vous faites ça souvent ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je bois toujours de l’eau.",
+              "hint": "I always drink water."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je bois souvent du café.",
+              "hint": "I often drink coffee."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Parfois, je marche.",
+              "hint": "Sometimes I walk."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now say how often you do things.",
+          "next_level": "level-37-comparisons"
+        }
+      ]
+    },
+    {
+      "id": "level-37-comparisons",
+      "title": "Level 37 — Comparisons",
+      "description": "Compare people and things",
+      "win_message": "You can now make simple comparisons.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/comparisons.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "C’est plus cher.",
+          "translation": "This is more expensive.",
+          "new_words": [
+            "plus",
+            "cher"
+          ],
+          "word_definitions": {
+            "plus": "more",
+            "cher": "expensive"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "C’est moins cher.",
+          "translation": "This is cheaper.",
+          "new_words": [
+            "moins",
+            "cher"
+          ],
+          "word_definitions": {
+            "moins": "less",
+            "cher": "expensive"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "La maison est plus grande.",
+          "translation": "The house is bigger.",
+          "new_words": [
+            "maison",
+            "plus",
+            "grande"
+          ],
+          "word_definitions": {
+            "maison": "house / home",
+            "plus": "more",
+            "grande": "big / older"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "C’est plus cher que celui-là.",
+          "translation": "This is more expensive than that one.",
+          "new_words": [
+            "plus",
+            "cher",
+            "celui-là"
+          ],
+          "word_definitions": {
+            "plus": "more",
+            "cher": "expensive",
+            "celui-là": "that one"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "Lequel est le plus cher ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "C’est plus cher.",
+              "hint": "This is more expensive."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "C’est moins cher.",
+              "hint": "This is cheaper."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "La maison est plus grande.",
+              "hint": "The house is bigger."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now make simple comparisons.",
+          "next_level": "level-38-connectors"
+        }
+      ]
+    },
+    {
+      "id": "level-38-connectors",
+      "title": "Level 38 — Connecting Ideas",
+      "description": "Connect thoughts with because, but, and so",
+      "win_message": "You can now connect ideas into longer sentences.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/connectors.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "Je suis fatigué parce que je travaille.",
+          "translation": "I am tired because I work.",
+          "new_words": [
+            "fatigué",
+            "parce",
+            "travaille"
+          ],
+          "word_definitions": {
+            "fatigué": "tired",
+            "parce": "because",
+            "travaille": "work"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Je veux du café, mais il est froid.",
+          "translation": "I want coffee, but it is cold.",
+          "new_words": [
+            "veux",
+            "café",
+            "mais",
+            "froid"
+          ],
+          "word_definitions": {
+            "veux": "want",
+            "café": "coffee",
+            "mais": "but",
+            "froid": "cold"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Il pleut, donc je reste à la maison.",
+          "translation": "It is raining, so I am at home.",
+          "new_words": [
+            "pleut",
+            "donc",
+            "reste",
+            "maison"
+          ],
+          "word_definitions": {
+            "pleut": "rains",
+            "donc": "so / therefore",
+            "reste": "stay",
+            "maison": "house / home"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Je suis heureux parce que tu es ici.",
+          "translation": "I am happy because you are here.",
+          "new_words": [
+            "heureux",
+            "parce",
+            "es",
+            "ici"
+          ],
+          "word_definitions": {
+            "heureux": "happy",
+            "parce": "because",
+            "es": "are",
+            "ici": "here"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "Pourquoi ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je suis fatigué parce que je travaille.",
+              "hint": "I am tired because I work."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je veux du café, mais il est froid.",
+              "hint": "I want coffee, but it is cold."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Il pleut, donc je reste à la maison.",
+              "hint": "It is raining, so I am at home."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now connect ideas into longer sentences.",
+          "next_level": "level-39-conversation-tools"
+        }
+      ]
+    },
+    {
+      "id": "level-39-conversation-tools",
+      "title": "Level 39 — Natural Conversation",
+      "description": "Use common words that keep conversation moving",
+      "win_message": "You can now keep a basic conversation moving naturally.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/conversation-tools.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "Vraiment ?",
+          "translation": "Really?",
+          "new_words": [
+            "vraiment"
+          ],
+          "word_definitions": {
+            "vraiment": "really"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Peut-être demain.",
+          "translation": "Maybe tomorrow.",
+          "new_words": [
+            "peut-être",
+            "demain"
+          ],
+          "word_definitions": {
+            "peut-être": "maybe",
+            "demain": "tomorrow"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Ça dépend.",
+          "translation": "It depends.",
+          "new_words": [
+            "dépend"
+          ],
+          "word_definitions": {
+            "dépend": "depends"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "C’est ça.",
+          "translation": "That is right.",
+          "new_words": [
+            "c’est"
+          ],
+          "word_definitions": {
+            "c’est": "it is / this is"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "D’accord, vas-y.",
+          "translation": "Okay, go ahead.",
+          "new_words": [
+            "d’accord",
+            "vas-y"
+          ],
+          "word_definitions": {
+            "d’accord": "okay",
+            "vas-y": "go ahead"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "Ah bon ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Vraiment ?",
+              "hint": "Really?"
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Peut-être demain.",
+              "hint": "Maybe tomorrow."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Ça dépend.",
+              "hint": "It depends."
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now keep a basic conversation moving naturally.",
+          "next_level": "level-40-real-conversation"
+        }
+      ]
+    },
+    {
+      "id": "level-40-real-conversation",
+      "title": "Level 40 — Real Conversation",
+      "description": "Combine what you know in a longer conversation",
+      "win_message": "You can now combine your French into a longer real-world conversation.",
+      "steps": [
+        {
+          "type": "scene",
+          "image": "/learning/static/images/scenes/real-conversation.png",
+          "caption": "Vous pratiquez une conversation en français."
+        },
+        {
+          "type": "teach",
+          "phrase": "Comment vas-tu ? Qu’est-ce que tu fais ?",
+          "translation": "How are you? What are you doing?",
+          "new_words": [
+            "comment",
+            "fais"
+          ],
+          "word_definitions": {
+            "comment": "how",
+            "fais": "do"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Je travaille, mais je rentrerai plus tard.",
+          "translation": "I am working, but I will go home later.",
+          "new_words": [
+            "travaille",
+            "mais",
+            "rentrerai",
+            "plus"
+          ],
+          "word_definitions": {
+            "travaille": "work",
+            "mais": "but",
+            "rentrerai": "will go home",
+            "plus": "more"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Que feras-tu demain ?",
+          "translation": "What will you do tomorrow?",
+          "new_words": [
+            "feras-tu",
+            "demain"
+          ],
+          "word_definitions": {
+            "feras-tu": "will you do",
+            "demain": "tomorrow"
+          }
+        },
+        {
+          "type": "teach",
+          "phrase": "Peut-être que j’irai à Mexico.",
+          "translation": "Maybe I will go to Mexico City.",
+          "new_words": [
+            "peut-être",
+            "j’irai",
+            "mexico"
+          ],
+          "word_definitions": {
+            "peut-être": "maybe",
+            "j’irai": "I will go",
+            "mexico": "Mexico City"
+          }
+        },
+        {
+          "type": "drill"
+        },
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "speaker": "Personne",
+              "text": "Comment allez-vous ?"
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Comment vas-tu ? Qu’est-ce que tu fais ?",
+              "hint": "How are you? What are you doing?"
+            },
+            {
+              "speaker": "Personne",
+              "text": "Je comprends."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Je travaille, mais je rentrerai plus tard.",
+              "hint": "I am working, but I will go home later."
+            },
+            {
+              "speaker": "Personne",
+              "text": "Très bien."
+            },
+            {
+              "speaker": "Vous",
+              "answer": "Que feras-tu demain ?",
+              "hint": "What will you do tomorrow?"
+            }
+          ]
+        },
+        {
+          "type": "win",
+          "message": "You can now combine your French into a longer real-world conversation."
+        }
+      ]
+    }
+  ]
+}
