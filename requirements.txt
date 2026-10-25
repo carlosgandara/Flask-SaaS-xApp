@@ -5,7 +5,7 @@ python-dotenv==1.2.4
 flask-limiter==4.1.1
 requests==2.34.2
 psycopg2-binary==2.9.13
-SQLAlchemy==2.0.55
+SQLAlchemy==2.1.6
 flask-talisman==1.1.0
 redis==8.1.0
 alembic==1.20.1
