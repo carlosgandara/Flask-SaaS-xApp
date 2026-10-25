@@ -13,3 +13,4 @@ email-validator==2.3.0
 waitress==3.0.2
 langcodes==3.5.1
 language_data==1.4.0
+gunicorn
