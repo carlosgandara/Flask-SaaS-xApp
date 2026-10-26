@@ -10,11 +10,12 @@ from learning import init_learning
 from learning.storage.contracts import StorageAccessError
 from learning.storage.json_progress import ProgressStorageError
 from learning.storage.sqlalchemy_store import SqlAlchemyProgressStore, define_tables
-from learning.storage.guest_progress import GuestProgressStore
+from learning.storage.guest_progress import GuestProgressStore, DatabaseGuestProgressStore, define_guest_table
 from learning.storage.contracts import StorageConflictError
 from redis.exceptions import RedisError
 
 content_table, progress_table = define_tables(Base.metadata)
+guest_table = define_guest_table(Base.metadata)
 
 
 def gate_level(level_id):
@@ -102,7 +103,7 @@ def init_language_app(app):
         LEARNING_ACCESS_SUMMARY=access_summary,
     )
     redis_url = app.config['RATELIMIT_STORAGE_URI']
-    guests = GuestProgressStore(redis_url if redis_url.startswith(('redis://', 'rediss://')) else None)
+    guests = GuestProgressStore(redis_url) if redis_url.startswith(('redis://', 'rediss://')) else DatabaseGuestProgressStore(engine, guest_table)
     app.config.setdefault("LEARNING_PROGRESS_STORE", AccountAndGuestProgress(SqlAlchemyProgressStore(engine, progress_table), guests))
     init_learning(app)
 

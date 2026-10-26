@@ -25,7 +25,7 @@ def schema_problems():
     else:
         with engine.connect() as connection:
             revision = connection.execute(text('SELECT version_num FROM alembic_version')).scalar()
-        if revision != '0002_learning':
+        if revision != '0003_guest_progress':
             missing.append('migration revision')
     return missing
 

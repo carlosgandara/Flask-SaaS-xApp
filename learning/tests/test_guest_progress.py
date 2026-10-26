@@ -3,6 +3,38 @@ import unittest
 from unittest.mock import patch
 from learning.storage.guest_progress import GuestProgressStore
 from learning.storage.contracts import StorageConflictError
+from datetime import datetime, timedelta
+from sqlalchemy import MetaData, create_engine
+from learning.storage.guest_progress import DatabaseGuestProgressStore, define_guest_table
+
+
+class DatabaseGuestProgressTests(unittest.TestCase):
+    def test_shared_rounds_conflicts_and_expiry(self):
+        engine = create_engine('sqlite:///:memory:')
+        self.addCleanup(engine.dispose)
+        metadata = MetaData()
+        table = define_guest_table(metadata)
+        metadata.create_all(engine)
+        first = DatabaseGuestProgressStore(engine, table)
+        second = DatabaseGuestProgressStore(engine, table)
+        progress = first.load('guest-a', 'es', {'score': 0})
+        stale = dict(progress)
+        progress['score'] = 8
+        first.save('guest-a', 'es', progress)
+        self.assertEqual(second.load('guest-a', 'es', {})['score'], 8)
+        with self.assertRaises(StorageConflictError):
+            second.save('guest-a', 'es', stale)
+        stale = second.load('guest-a', 'es', {})
+        first.save('guest-a', 'es', progress)
+        with self.assertRaises(StorageConflictError):
+            second.save('guest-a', 'es', stale)
+        self.assertEqual(second.load('guest-b', 'es', {'score': 0})['score'], 0)
+        self.assertEqual(second.load('guest-a', 'fr', {'score': 0})['score'], 0)
+        with engine.begin() as db:
+            db.execute(table.update().values(expires_at=datetime.utcnow() - timedelta(seconds=1)))
+        self.assertEqual(second.load('guest-a', 'es', {'score': 0})['score'], 0)
+        with self.assertRaises(ValueError):
+            first.load('account-1', 'es', {})
 
 
 class GuestProgressTests(unittest.TestCase):

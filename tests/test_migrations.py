@@ -18,7 +18,7 @@ class MigrationTests(unittest.TestCase):
         upgrade_database(self.engine)
         upgrade_database(self.engine)
         with self.engine.connect() as connection:
-            self.assertEqual(connection.execute(text('SELECT version_num FROM alembic_version')).scalar(),'0002_learning')
+            self.assertEqual(connection.execute(text('SELECT version_num FROM alembic_version')).scalar(),'0003_guest_progress')
         for name in ('auth_sessions','auth_action_tokens','billing_webhook_inbox','billing_sync_leases','learning_content','learning_progress'):
             self.assertTrue(inspect(self.engine).has_table(name))
 

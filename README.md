@@ -15,8 +15,8 @@ The supplied hero image is stored at `static/site/indexmainpage.png`.
 - Verified free accounts can complete levels 1–6 and save progress in Neon.
 - Active membership unlocks levels 7–40; passing each final still unlocks the next level.
 - Both arcade games remain free independently of lesson access and completion.
-- Guest progress is temporary (rolling six-hour expiry). Production uses the configured
-  shared Redis service; local memory storage is bounded and resets with the server.
+- Guest progress is temporary (rolling six-hour expiry). The integrated app uses the
+  configured shared Redis service, or the database when Redis is not configured.
 - On a new account's first progress load, trial history in that browser can be imported
   for that language. Existing account progress is never replaced.
 
@@ -28,6 +28,12 @@ Disabling billing leaves the first six account levels free but keeps paid levels
 Run `db-upgrade` after updating: revision `0002_learning` adds learning tables without
 changing existing accounts or subscriptions. Historical local JSON profiles are not imported. Current temporary trial progress
 can carry into a new account as described above.
+
+Revision `0003_guest_progress` adds shared temporary guest storage. Before restarting
+an updated deployment, run `python -m flask --app app db-upgrade` in that service's
+environment, then `python -m flask --app app app-check`. For Railway, configure the
+upgrade command as the service's pre-deploy command so future deployments apply
+pending migrations before serving traffic.
 
 ## Boundaries
 
