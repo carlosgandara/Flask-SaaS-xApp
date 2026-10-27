@@ -1,0 +1,11 @@
+{
+  "$schema": "https://railway.com/railway.schema.json",
+  "deploy": {
+    "preDeployCommand": ["python -m flask --app app db-upgrade"],
+    "sleepApplication": false,
+    "drainingSeconds": 20,
+    "startCommand": "python scripts/start_service.py",
+    "restartPolicyType": "ON_FAILURE",
+    "restartPolicyMaxRetries": 10
+  }
+}

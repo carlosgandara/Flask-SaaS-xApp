@@ -195,6 +195,32 @@ not automatically redeliver previously failed payment notifications.
 
 ## Production deployment
 
+### Railway: website and billing in the same service
+
+The repository's `railway.json` selects `python scripts/start_service.py`.
+It applies database migrations before deployment and runs `app-check` at startup. The
+startup script runs Gunicorn on Railway's `PORT` and one billing worker using
+the same service variables. No second service or SSH worker is required.
+
+Set `BILLING_ENABLED=true` and configure the provider, database, email and
+rate-limit settings before deploying. Keep `BASE_URL` equal to your public
+domain. In Railway's deployment details, confirm the start command comes from
+`railway.json`; if a custom config path is selected, use `/railway.json`.
+
+If either child exits, the supervisor stops the other and exits nonzero so
+Railway's failure restart policy can restart both (up to ten retries). Shutdown
+signals stop both children; pending payment events remain in the database for
+recovery. Monitor failed deployments and exhausted restart attempts. This
+supervision detects process exits, not every possible hung process.
+
+After deployment, logs must show both Gunicorn listening and `Billing worker
+online`. Stop any old manually launched worker. Confirm `billing-status` reports
+an online worker, then complete one test-mode checkout and verify Membership
+becomes active without a shell worker. Previously rejected review jobs are not
+automatically retried or relinked by this change.
+
+### Other hosting environments
+
 Set `APP_ENV=production`, HTTPS `BASE_URL`, `COOKIE_SECURE=True`, an explicit
 PostgreSQL URL and shared Redis storage. Startup rejects unsafe production settings.
 Use separate test/live databases and provider credentials. Provision backups,
