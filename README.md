@@ -52,7 +52,7 @@ pending migrations before serving traffic.
 | `auth/service.py` | Account, password, session and token transactions |
 | `auth/security.py`, `auth/validation.py` | Authentication, CSRF and input validation |
 | `auth/db.py` | Shared database connection and auth models |
-| `auth/mail_service.py` | Bounded SMTP delivery over verified TLS |
+| `auth/mail_service.py` | Brevo HTTPS API delivery with bounded timeouts |
 | `billing/routes.py`, `billing/service.py` | Checkout and membership rules |
 | `billing/providers/` | Separate Lemon Squeezy and Stripe integrations |
 | `billing/inbox.py`, `billing/worker.py`, `billing/leases.py` | Durable deliveries, retries and reconciliation |
@@ -71,7 +71,7 @@ Copy-Item .env.example .env
 ```
 
 Copy the example only for a new installation; preserve an existing private `.env`.
-Set a random `JWT_SECRET_KEY`, SMTP credentials and `DATABASE_URL`. The example
+Set a random `JWT_SECRET_KEY`, `BREVO_API_KEY`, `EMAIL_FROM` and `DATABASE_URL`. The example
 explains every setting. Neon/PostgreSQL is required for production; SQLite is
 available for development. Generate a secret with:
 
@@ -126,7 +126,7 @@ downgrade is intentionally unavailable. Restore a reviewed backup if rollback is
   cookies and send `X-CSRF-Token` and `Origin` headers.
 - Expired HTML sessions recover through a data-free page. Browser refresh calls
   share one promise; Web Locks coordinate supported browsers across tabs.
-- SMTP delivery has a timeout and verified TLS. Delivery failures have a safe
+- Brevo HTTPS delivery has bounded timeouts and verified TLS. Delivery failures have a safe
   reference; users can request a replacement link. Email is not a background queue. Verification/reset emails include an HTML action
   button, expiry information and a plain-text fallback.
 

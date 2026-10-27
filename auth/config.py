@@ -13,10 +13,7 @@ load_dotenv()
 # EMAIL SETTINGS
 # ================================================================
 
-EMAIL_HOST = os.getenv("EMAIL_HOST")
-EMAIL_PORT = int(os.getenv("EMAIL_PORT", "587"))
-EMAIL_USER = os.getenv("EMAIL_USER")
-EMAIL_PASS = os.getenv("EMAIL_PASS")
+BREVO_API_KEY = os.getenv("BREVO_API_KEY")
 EMAIL_FROM = os.getenv("EMAIL_FROM")
 
 EMAIL_DISPLAY_NAME = os.getenv(
@@ -65,10 +62,7 @@ VERIFICATION_EXPIRATION = datetime.timedelta(days=1)
 # ================================================================
 
 REQUIRED_ENV = [
-    "EMAIL_HOST",
-    "EMAIL_PORT",
-    "EMAIL_USER",
-    "EMAIL_PASS",
+    "BREVO_API_KEY",
     "EMAIL_FROM",
 ]
 

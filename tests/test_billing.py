@@ -10,6 +10,7 @@ os.environ["BILLING_ENABLED"] = "false"
 for name in ("EMAIL_HOST", "EMAIL_USER", "EMAIL_PASS", "EMAIL_FROM"):
     os.environ[name] = "test"
 os.environ["EMAIL_PORT"] = "587"
+os.environ['BREVO_API_KEY'] = 'test-api-key-not-real'
 
 from dataclasses import replace
 from datetime import datetime, timedelta, timezone
