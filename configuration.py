@@ -2,17 +2,40 @@
 
 import os
 from urllib.parse import urlsplit
+from dotenv import load_dotenv
+from pathlib import Path
+
+
+def configure_base_url(app):
+    """Resolve one public origin; deployed environment wins over local .env."""
+    load_dotenv(Path(__file__).resolve().parent / '.env', override=False)
+    deployed = bool(os.getenv('RAILWAY_ENVIRONMENT_ID') or os.getenv('RAILWAY_PROJECT_ID'))
+    production = app.config.get('APP_ENV', os.getenv('APP_ENV', 'development')) == 'production'
+    value = app.config.get('BASE_URL')
+    if value is None:
+        # Compatibility for applications supplying explicit Flask config.
+        value = app.config.get('APP_BASE_URL') or app.config.get('BILLING_BASE_URL')
+    if value is None:
+        value = os.getenv('BASE_URL')
+    if not value:
+        if deployed or production:
+            raise ValueError('BASE_URL must be explicitly configured for deployment')
+        value = 'http://localhost:5000'
+    origin = value.strip().rstrip('/')
+    url = urlsplit(origin)
+    if (url.scheme not in {'http', 'https'} or not url.hostname or url.path or url.query
+            or url.fragment or url.username or url.password):
+        raise ValueError('BASE_URL must be an HTTP(S) origin without a path or credentials')
+    if (deployed or production) and (url.scheme != 'https' or url.hostname in {'localhost', '127.0.0.1', '::1'}):
+        raise ValueError('Deployment requires an HTTPS BASE_URL with a public hostname')
+    app.config.update(BASE_URL=origin, APP_BASE_URL=origin, BILLING_BASE_URL=origin)
+    return origin
 
 
 def configure_app(app):
     app.config.setdefault("APP_ENV", os.getenv("APP_ENV", "development"))
-    app.config.setdefault("APP_BASE_URL", app.config.get("BILLING_BASE_URL") or os.getenv("BASE_URL", "http://localhost:5000"))
-    origin = app.config["APP_BASE_URL"].rstrip("/")
+    origin = configure_base_url(app)
     url = urlsplit(origin)
-    if (url.scheme not in {"http", "https"} or not url.hostname or url.path or url.query
-            or url.fragment or url.username or url.password):
-        raise ValueError("BASE_URL must be an HTTP(S) origin without a path or credentials")
-    app.config["APP_BASE_URL"] = origin
     app.config.setdefault("SCHEMA_CHECK", not app.testing)
     app.config["MAX_CONTENT_LENGTH"] = 262144
     app.config.setdefault("BILLING_POLL_SECONDS", int(os.getenv("BILLING_POLL_SECONDS", "2")))

@@ -69,7 +69,7 @@ def notify(email, raw, purpose):
         return
     endpoint = "/verify-email" if purpose == "verify" else "/reset-password"
     label = "Verify your email" if purpose == "verify" else "Reset your password"
-    link = current_app.config["APP_BASE_URL"] + endpoint + "?token=" + raw
+    link = current_app.config["BASE_URL"] + endpoint + "?token=" + raw
     try:
         send_email(email, label, label + ": " + link,
                    html=render_template("auth/emails/action.html", label=label, link=link,

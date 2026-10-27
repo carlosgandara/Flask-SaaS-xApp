@@ -39,10 +39,7 @@ COOKIE_SECURE = (
 # Used in verification and password reset emails.
 # ================================================================
 
-BASE_URL = os.getenv(
-    "BASE_URL",
-    "http://localhost:5000",
-).rstrip("/")
+# Public URLs are resolved once by configuration.configure_base_url.
 
 
 # ================================================================

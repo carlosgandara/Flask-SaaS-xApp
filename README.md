@@ -7,6 +7,14 @@ content remains versioned in `learning/data`. All 40 levels have shared ten-word
 vocabulary sets in Spanish, French and Tagalog (260 concepts per language).
 Account progress never uses local-user JSON files in the integrated app.
 
+`BASE_URL` is the single public address setting. Use
+`BASE_URL=http://localhost:5000` in your local `.env` and
+`BASE_URL=https://despacio.ai` in Railway Variables. Environment variables override
+the local `.env`. Email links, browser origin checks, and checkout return links
+all use this resolved address. Railway rejects missing or localhost addresses.
+`APP_BASE_URL` and `BILLING_BASE_URL` are internal compatibility aliases; they do
+not need separate environment variables.
+
 Open `/` for the public landing page, `/menu` for the learning map, `/games` for
 the free arcade, `/pricing` for the access overview, or `/about` for the project story.
 The supplied hero image is stored at `static/site/indexmainpage.png`.

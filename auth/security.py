@@ -65,7 +65,7 @@ def check_browser_request():
     expected = session.get("csrf_token")
     supplied = request.headers.get("X-CSRF-Token", "")
     if (not expected or not secrets.compare_digest(expected.encode(), supplied.encode())
-            or request.headers.get("Origin") != current_app.config["APP_BASE_URL"]
+            or request.headers.get("Origin") != current_app.config["BASE_URL"]
             or request.headers.get("Sec-Fetch-Site") == "cross-site"):
         raise AuthError("Invalid request. Reload the page and try again.", 403)
 

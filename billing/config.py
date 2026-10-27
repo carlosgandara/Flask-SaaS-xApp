@@ -9,7 +9,10 @@ from urllib.parse import urlsplit
 def load_config(app):
     app.config.setdefault("BILLING_ENABLED", os.getenv("BILLING_ENABLED", "false").lower() == "true")
     app.config.setdefault("BILLING_MODE", os.getenv("BILLING_MODE", "test"))
-    app.config.setdefault("BILLING_BASE_URL", os.getenv("BASE_URL", "http://localhost:5000").rstrip("/"))
+    if 'BASE_URL' not in app.config:
+        from configuration import configure_base_url
+        configure_base_url(app)
+    app.config['BILLING_BASE_URL'] = app.config['BASE_URL']
     app.config.setdefault("BILLING_PLANS", json.loads(os.getenv("BILLING_PLANS", "{}")))
     for key in ("STRIPE_SECRET_KEY", "STRIPE_WEBHOOK_SECRET", "LEMONSQUEEZY_API_KEY",
                 "LEMONSQUEEZY_WEBHOOK_SECRET", "LEMONSQUEEZY_STORE_ID"):

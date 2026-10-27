@@ -406,7 +406,7 @@ class BillingTests(unittest.TestCase):
 
     def test_live_mode_requires_production_guards(self):
         config = dict(self.app.config)
-        config.update(TESTING=False, BILLING_MODE="live", BILLING_BASE_URL="https://example.com",
+        config.update(TESTING=False, BILLING_MODE="live", BASE_URL="https://example.com", BILLING_BASE_URL="https://example.com",
                       STRIPE_SECRET_KEY="sk_live_" + "s" * 32)
         with self.assertRaisesRegex(ValueError, "secure session cookies"):
             create_app(config)
