@@ -9,7 +9,7 @@ SQLAlchemy==2.0.55
 flask-talisman==1.1.0
 redis==8.1.0
 alembic==1.20.1
-email-validator==2.3.0
+email-validator==2.4.0
 waitress==3.0.2
 langcodes==3.5.1
 language_data==1.4.0
